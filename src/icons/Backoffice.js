@@ -1,0 +1,17 @@
+import * as React from 'react';
+const Backoffice = React.forwardRef(function Backoffice(props, ref) {
+  const {
+    size = 24,
+    color = 'currentColor',
+    strokeWidth = 2,
+    absoluteStrokeWidth = false,
+    className,
+    ...rest
+  } = props;
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="none" viewBox="0 0 24 24" role="img" stroke={color} strokeWidth={computedStrokeWidth} className={className} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M12 6.1a.9.9 0 0 1 .9.9v.743a2.9 2.9 0 0 1 1.027.591l.62-.361a.9.9 0 0 1 .906 1.554l-.619.36a2.9 2.9 0 0 1 0 1.224l.62.362.076.05a.9.9 0 0 1-.902 1.546l-.081-.042-.62-.362a2.9 2.9 0 0 1-1.027.59V14a.901.901 0 0 1-1.8 0v-.744a2.9 2.9 0 0 1-1.028-.591l-.619.362a.9.9 0 0 1-.906-1.554l.618-.362a2.9 2.9 0 0 1 0-1.223l-.618-.36-.077-.051a.9.9 0 0 1 .902-1.546l.081.042.62.361a2.9 2.9 0 0 1 1.027-.59V7a.9.9 0 0 1 .9-.9m0 3.3a1.1 1.1 0 0 0-.871.428l-.08.118c-.095.162-.149.35-.149.554s.054.392.149.554l.08.118a1.1 1.1 0 0 0 1.822-.118l.063-.126a1.1 1.1 0 0 0 0-.856l-.063-.126A1.1 1.1 0 0 0 12 9.4" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M13.9 1c2.98 0 4.62 0 5.76 1.15s1.14 2.8 1.14 5.8v10.59c0 1.72 0 2.76-.88 3.32-1.125.737-2.398-.151-3.16-.682l-.01-.008q-.165-.12-.3-.21l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.105.067-.237.15-.343.214l-1.925 1.22c-.591.374-.98.62-1.525.62s-.934-.246-1.525-.62L8.45 20.96l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.106.067-.237.15-.343.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.409-3.15.675C3 21.3 3 20.26 3 18.54V7.95c0-2.99 0-4.65 1.14-5.8S6.92 1 9.9 1zm-4 1.8c-2.75 0-3.89.02-4.48.62-.6.6-.62 1.75-.62 4.53v10.6c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.088-.062.168-.114c.55-.35.96-.61 1.51-.61h.06c.506.02.87.247 1.404.582l.046.028 1.91 1.21.2.122c.18.112.343.213.41.228.03-.02.29-.19.55-.35l1.91-1.21c.58-.37 1.01-.63 1.57-.61.506.02.87.247 1.404.582l.046.028q.064.045.14.095.108.069.23.155c.24.17.85.6 1.14.64.08-.29.08-1.05.08-1.79V7.95c0-2.78-.03-3.93-.62-4.53s-1.73-.62-4.48-.62z" clipRule="evenodd" /></svg>;
+});
+Backoffice.displayName = "Backoffice";
+export { Backoffice };
+export default Backoffice;

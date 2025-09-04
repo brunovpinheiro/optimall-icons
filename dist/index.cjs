@@ -1,2 +1,4565 @@
-"use strict";var uo=Object.create;var A0=Object.defineProperty;var po=Object.getOwnPropertyDescriptor;var fo=Object.getOwnPropertyNames;var go=Object.getPrototypeOf,bo=Object.prototype.hasOwnProperty;var vo=(e,r)=>{for(var o in r)A0(e,o,{get:r[o],enumerable:!0})},m5=(e,r,o,c)=>{if(r&&typeof r=="object"||typeof r=="function")for(let l of fo(r))!bo.call(e,l)&&l!==o&&A0(e,l,{get:()=>r[l],enumerable:!(c=po(r,l))||c.enumerable});return e};var i=(e,r,o)=>(o=e!=null?uo(go(e)):{},m5(r||!e||!e.__esModule?A0(o,"default",{value:e,enumerable:!0}):o,e)),wo=e=>m5(A0({},"__esModule",{value:!0}),e);var xo={};vo(xo,{Activity:()=>E0,Add:()=>z0,AddCircle:()=>I0,AddInvoice:()=>y0,AddMoneyCircle:()=>B0,AddPi:()=>H0,Alert:()=>T0,AlertCircle:()=>L0,AlertFill:()=>D0,AlertInfo:()=>U0,AnalisarNotas:()=>O0,Android:()=>Q0,Apple:()=>Z0,Apps:()=>Y0,Apps2:()=>K0,ArrowDown:()=>$0,ArrowGoBack:()=>e2,ArrowGoForward:()=>r2,ArrowLeft:()=>n2,ArrowLeftDouble:()=>o2,ArrowLeftDown:()=>c2,ArrowMoveUpRight:()=>i2,ArrowRight:()=>g2,ArrowRightDouble:()=>d2,ArrowRightDown:()=>h2,ArrowRightUp:()=>p2,ArrowTurnDown:()=>v2,ArrowUp:()=>k2,ArrowUpSFill:()=>x2,Attachment:()=>N2,Backoffice:()=>W2,BirthdayCake:()=>C2,Briefcase:()=>G2,Calendar2:()=>P2,CalendarEvent:()=>M2,CalendarSchedule2:()=>A2,Call02:()=>I2,Camera:()=>y2,Champion:()=>H2,Change:()=>z2,Chart:()=>F2,ChartUp:()=>L2,Chat:()=>T2,ChatSquare:()=>U2,ChatSquareCheck:()=>D2,Check:()=>Y2,CheckDouble:()=>Q2,CheckInvoice:()=>Z2,CheckList:()=>K2,Checkbox:()=>e4,CheckboxFill:()=>$2,CheckboxIndeterminate:()=>j2,CheckmarkBadge:()=>t4,CheckmarkCircle:()=>r4,CircleArrowMoveDownRight:()=>o4,Close:()=>s4,CloseCircle:()=>l4,Clover:()=>d4,CloverFill:()=>a4,ClubePodi:()=>h4,ClubePodiFill:()=>m4,CodeSSlash:()=>p4,Coffee:()=>f4,Color:()=>b4,Computer:()=>v4,Contract:()=>w4,Copy:()=>x4,CourtLaw:()=>S4,CreditCardAccept:()=>k4,Credits:()=>N4,CreditsSwap:()=>R4,Crmall:()=>V4,Crown03:()=>C4,Cursor:()=>P4,DarkmodeOff:()=>M4,DarkmodeOn:()=>E4,Delete:()=>y4,Descontos:()=>B4,DocumentValidation:()=>H4,Dot:()=>z4,Download:()=>L4,Drag:()=>U4,DragDropVertical:()=>D4,Edit:()=>T4,Emoji:()=>Z4,EmojiEmpty:()=>Q4,ExpandUpDownFill:()=>K4,ExternalLinkFill:()=>X4,Eye:()=>_4,EyeOff:()=>Y4,Female1:()=>j4,FileAdd:()=>e9,FileAttachment:()=>t9,FileDownload:()=>r9,FileExcel:()=>o9,FileSend:()=>l9,FileSync:()=>c9,FileText:()=>s9,FileValidation:()=>n9,Files:()=>a9,Filter:()=>d9,Flash:()=>h9,Folder:()=>g9,FolderFill:()=>p9,FullScreen:()=>v9,Gift:()=>S9,GiftCheck:()=>w9,HandCredit:()=>k9,HelpCircle:()=>R9,Home:()=>W9,Image:()=>C9,ImageAdd:()=>V9,Information:()=>M9,InformationFill:()=>P9,Invoice:()=>A9,Left:()=>I9,Link:()=>y9,Loader:()=>H9,Lock:()=>z9,LockUnlock:()=>q9,Login:()=>L9,Logout:()=>F9,Mail:()=>O9,MailOpen:()=>D9,MailSend:()=>U9,Manager:()=>Z9,Map:()=>K9,MapPin:()=>J9,Medal01:()=>Y9,Medal02:()=>_9,Meet:()=>$9,Megaphone:()=>ee,Menu:()=>re,Minus:()=>le,Mission:()=>ce,Money:()=>ue,MoneyAdd:()=>ne,MoneyReceiveCircle:()=>ae,MoneyReceiveSquare:()=>de,MoneySecurity:()=>me,MoneySendSquare:()=>he,More:()=>be,MoreH:()=>fe,News:()=>ve,NotaMoney:()=>we,Notification:()=>Ne,NotificationFill:()=>Se,NotificationOff:()=>ke,NumberList:()=>Ve,PaintBoard:()=>Ce,Pcd:()=>Ge,PieChart:()=>Pe,PlugSocket:()=>Me,PriceTag:()=>Ae,Printer:()=>Ee,QrCode:()=>Ie,Question:()=>ye,ReceiptPrint:()=>Be,ReceiptSearch:()=>He,ReceiptWait:()=>qe,ReceiveMoney:()=>Le,Refresh:()=>De,RemoveCircle:()=>Te,Repeat:()=>Qe,Restaurant:()=>Ze,Right:()=>Ke,RotateLeft:()=>Ye,RotateLock:()=>_e,RotateRight:()=>je,SaveMoneyDollar:()=>e3,Search:()=>r3,Settings:()=>o3,ShakeHands:()=>c3,Share:()=>n3,Shield:()=>i3,Shopping:()=>p3,ShoppingBag02:()=>d3,ShoppingBasket:()=>m3,ShoppingCart02:()=>u3,SidebarFold:()=>f3,Signature:()=>b3,Smartphone:()=>w3,SmartphoneLands:()=>v3,Star:()=>S3,Store:()=>R3,StoreFill:()=>k3,TShirt:()=>C3,TShirtFill:()=>W3,Table:()=>P3,Tablet:()=>M3,Target:()=>A3,Team:()=>E3,ThumbsDown:()=>y3,ThumbsUp:()=>H3,Ticket02:()=>z3,TicketStar:()=>L3,Time:()=>F3,Tools:()=>T3,Tools2:()=>D3,Trash:()=>O3,Turnos:()=>Q3,University:()=>Z3,Unlink:()=>K3,Upload:()=>X3,User:()=>c5,UserAccount:()=>Y3,UserAdd:()=>_3,UserBlock:()=>$3,UserLock:()=>j3,UserMinus:()=>e5,UserMultiple:()=>t5,UserRemove:()=>r5,UserSearch:()=>o5,Wallet:()=>n5,Whatsapp:()=>i5,ZoomIn:()=>d5});module.exports=wo(xo);var h5=i(require("react"),1),U=require("react/jsx-runtime"),E0=h5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,U.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,U.jsx)("path",{fill:"currentColor",d:"M13.35 16.8h.05c.34 0 .65-.19.8-.5l1.75-3.5h1.94c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.5c-.34 0-.65.2-.8.5l-1.08 2.15-2.28-6.07a.92.92 0 0 0-.8-.58.9.9 0 0 0-.85.5L7.83 11H5.89c-.5 0-.9.4-.9.9s.4.9.9.9h2.5c.34 0 .65-.2.8-.5l1.08-2.15 2.28 6.07c.13.33.44.56.8.58"}),(0,U.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M3.58 20.22c1.58 1.58 3.83 1.58 8.32 1.58s6.74 0 8.32-1.58 1.58-3.83 1.58-8.32 0-6.74-1.58-8.32S16.38 2 11.9 2 5.16 2 3.58 3.58 2 7.41 2 11.9s0 6.74 1.58 8.32M4.86 4.85C5.91 3.8 7.91 3.8 11.9 3.8v-.01h.11c3.907 0 5.89 0 6.93 1.05 1.05 1.06 1.05 3.06 1.05 7.05s0 5.99-1.05 7.05c-1.05 1.05-3.06 1.05-7.04 1.05s-5.99 0-7.04-1.05-1.05-3.05-1.05-7.04 0-6 1.05-7.05",clipRule:"evenodd"})]})});E0.displayName="Activity";var u5=i(require("react"),1),T=require("react/jsx-runtime"),I0=u5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,T.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,T.jsx)("path",{fill:"currentColor",d:"M12 7c.55 0 1 .45 1 1v3h3c.55 0 1 .45 1 1s-.45 1-1 1h-3v3c0 .55-.45 1-1 1s-1-.45-1-1v-3H8c-.55 0-1-.45-1-1s.45-1 1-1h3V8c0-.55.45-1 1-1"}),(0,T.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 12C1 5.93 5.92 1 12 1s11 4.93 11 11-4.92 11-11 11S1 18.07 1 12m11-9a9 9 0 1 0 .001 18.001A9 9 0 0 0 12 3",clipRule:"evenodd"})]})});I0.displayName="AddCircle";var p5=i(require("react"),1),O=require("react/jsx-runtime"),y0=p5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,O.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,O.jsx)("path",{fill:"currentColor",d:"M10.9 22.8c-.55 0-.94-.25-1.54-.63l-1.91-1.2c-.24-.15-.49-.31-.57-.33l-.52.33c-.09.05-.19.13-.3.21-.76.53-2.04 1.42-3.17.69-.87-.56-.87-1.6-.87-3.32V7.9C2 4.93 2 3.3 3.07 2.16 4.17 1 5.72 1 8.55 1h4.71c2.83 0 4.38 0 5.47 1.16C19.8 3.3 19.8 4.93 19.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.51 0-3.89-.58-4.5-.54-.57-1.6-.6-4.16-.6H8.55c-2.56 0-3.63.02-4.17.6-.58.62-.58 2-.58 4.5v10.65c0 .74 0 1.5.08 1.79.29-.04.9-.47 1.14-.64.14-.1.26-.19.37-.25.58-.36.98-.64 1.57-.61.51.02.88.25 1.44.6l1.91 1.21c.24.16.52.33.61.35.03-.02.31-.2.55-.35.42-.26.98-.14 1.24.28s.14.98-.28 1.24c-.6.38-.99.63-1.54.63z"}),(0,O.jsx)("path",{fill:"currentColor",d:"M10.9 11.8h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m6 11c-.5 0-.9-.4-.9-.9v-3.1h-3.1c-.5 0-.9-.4-.9-.9s.4-.9.9-.9H16v-3.1c0-.5.4-.9.9-.9s.9.4.9.9V17h3.1c.5 0 .9.4.9.9s-.4.9-.9.9h-3.1v3.1c0 .5-.4.9-.9.9m-2-15h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9"})]})});y0.displayName="AddInvoice";var f5=i(require("react"),1),u=require("react/jsx-runtime"),B0=f5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,u.jsx)("path",{fill:"currentColor",d:"M10.9 18.8c-.5 0-.9-.4-.9-.9v-.6h-.6c-1.32 0-2.4-1.08-2.4-2.4 0-.5.4-.9.9-.9s.9.4.9.9c0 .33.27.6.6.6h3c.33 0 .6-.27.6-.6v-.5c0-.33-.27-.6-.6-.6h-3c-1.32 0-2.4-1.08-2.4-2.4v-.5c0-1.32 1.08-2.4 2.4-2.4h.6v-.6c0-.5.4-.9.9-.9s.9.4.9.9v.6h.6c1.32 0 2.4 1.08 2.4 2.4 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.33-.27-.6-.6-.6h-3c-.33 0-.6.27-.6.6v.5c0 .33.27.6.6.6h3c1.32 0 2.4 1.08 2.4 2.4v.5c0 1.32-1.08 2.4-2.4 2.4h-.6v.6c0 .5-.4.9-.9.9"}),(0,u.jsx)("path",{fill:"currentColor",d:"M10.9 22.8c-5.46 0-9.9-4.44-9.9-9.9S5.44 3 10.9 3a10 10 0 0 1 1.1.06c.49.06.85.5.79.99s-.49.85-.99.79c-.3-.03-.6-.05-.9-.05-4.47.01-8.1 3.64-8.1 8.11S6.43 21 10.9 21a8.104 8.104 0 0 0 8.05-9c-.05-.49.3-.94.8-.99.48-.06.94.3.99.8.04.36.06.73.06 1.1 0 5.46-4.44 9.9-9.9 9.9z"}),(0,u.jsx)("path",{fill:"currentColor",d:"M18.4 9.8c-.5 0-.9-.4-.9-.9V6.3h-2.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.6V1.9c0-.5.4-.9.9-.9s.9.4.9.9v2.6h2.6c.5 0 .9.4.9.9s-.4.9-.9.9h-2.6v2.6c0 .5-.4.9-.9.9"})]})});B0.displayName="AddMoneyCircle";var g5=i(require("react"),1),Q=require("react/jsx-runtime"),H0=g5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Q.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Q.jsx)("path",{fill:"currentColor",d:"M5 3.4a2.1 2.1 0 0 0-2.1 2.1v10c0 1.16.94 2.1 2.1 2.1h14a2.1 2.1 0 0 0 2.1-2.1v-3a.9.9 0 0 1 1.8 0v3a3.9 3.9 0 0 1-3.9 3.9h-6.1v2.1a.9.9 0 1 1-1.8 0v-2.1H5a3.9 3.9 0 0 1-3.9-3.9v-10A3.9 3.9 0 0 1 5 1.6h6a.9.9 0 1 1 0 1.8z"}),(0,Q.jsx)("path",{fill:"currentColor",d:"M18.9 2.5a.9.9 0 1 0-1.8 0v3.1H14a.9.9 0 0 0 0 1.8h3.1v3.1a.9.9 0 0 0 1.8 0V7.4H22a.9.9 0 1 0 0-1.8h-3.1z"})]})});H0.displayName="AddPi";var b5=i(require("react"),1),q0=require("react/jsx-runtime"),z0=b5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,q0.jsx)("path",{fill:"currentColor",d:"M13 4c0-.55-.45-1-1-1s-1 .45-1 1v7H4c-.55 0-1 .45-1 1s.45 1 1 1h7v7c0 .55.45 1 1 1s1-.45 1-1v-7h7c.55 0 1-.45 1-1s-.45-1-1-1h-7z"})})});z0.displayName="Add";var v5=i(require("react"),1),Z=require("react/jsx-runtime"),L0=v5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Z.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Z.jsx)("path",{fill:"currentColor",d:"M11.9 22.8C5.89 22.8 1 17.91 1 11.9S5.89 1 11.9 1s10.9 4.89 10.9 10.9-4.89 10.9-10.9 10.9m0-20c-5.02 0-9.1 4.08-9.1 9.1S6.88 21 11.9 21s9.1-4.08 9.1-9.1-4.08-9.1-9.1-9.1"}),(0,Z.jsx)("path",{fill:"currentColor",d:"M11.9 15.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9m0-3c-.5 0-.9-.4-.9-.9v-4c0-.5.4-.9.9-.9s.9.4.9.9v4c0 .5-.4.9-.9.9"})]})});L0.displayName="AlertCircle";var w5=i(require("react"),1),F0=require("react/jsx-runtime"),D0=w5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,F0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,F0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.324 3.803c1.198-2.07 4.153-2.07 5.351 0l7.645 13.218c1.2 2.075-.258 4.729-2.675 4.729H4.355c-2.419 0-3.877-2.654-2.677-4.73zM10.5 12.5a1 1 0 0 1 1-1h.5a1.5 1.5 0 0 1 1.5 1.5v4.5a1 1 0 1 1-2 0v-4a1 1 0 0 1-1-1m1.5-4a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2z",clipRule:"evenodd"})})});D0.displayName="AlertFill";var x5=i(require("react"),1),J=require("react/jsx-runtime"),U0=x5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,J.jsx)("path",{fill:"currentColor",d:"M11.242 11.1c.21 0 .46-.002.67.026.205.028.474.096.718.292l.102.092.092.102c.196.244.264.512.292.719.028.21.027.459.027.669v4a.9.9 0 0 1-1.801 0v-4l-.001-.1h-.099a.9.9 0 0 1 0-1.8m.758-3a.9.9 0 0 1 0 1.8h-.008a.9.9 0 0 1 0-1.8z"}),(0,J.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.314 1.873a5.35 5.35 0 0 1 3.371 0c1.107.367 1.962 1.234 2.803 2.414.845 1.184 1.777 2.836 2.974 4.953s2.13 3.768 2.712 5.107c.58 1.336.883 2.518.644 3.665l-.049.212a5.55 5.55 0 0 1-1.624 2.747c-.863.794-2.029 1.12-3.456 1.275S14.392 22.4 12 22.4s-4.26.001-5.69-.154c-1.426-.155-2.592-.481-3.455-1.274a5.56 5.56 0 0 1-1.673-2.96c-.24-1.147.064-2.33.644-3.665.582-1.34 1.515-2.99 2.712-5.107s2.13-3.769 2.974-4.953c.84-1.18 1.696-2.047 2.802-2.414m2.804 1.708a3.54 3.54 0 0 0-1.96-.08l-.276.08c-.55.182-1.126.658-1.905 1.75-.777 1.09-1.655 2.641-2.872 4.795s-2.093 3.706-2.628 4.937c-.535 1.234-.656 1.991-.533 2.583a3.76 3.76 0 0 0 1.13 2.001c.432.397 1.12.666 2.43.809 1.31.142 3.061.143 5.496.143s4.187 0 5.495-.143c1.31-.143 2-.412 2.43-.809a3.76 3.76 0 0 0 1.13-2.002c.124-.592.003-1.348-.533-2.582-.534-1.231-1.41-2.784-2.627-4.937-1.218-2.154-2.095-3.706-2.872-4.794-.681-.956-1.208-1.44-1.697-1.668z",clipRule:"evenodd"})]})});U0.displayName="AlertInfo";var S5=i(require("react"),1),K=require("react/jsx-runtime"),T0=S5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,K.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,K.jsx)("path",{fill:"currentColor",d:"M11.9 17.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9m-.9-3.9c0 .5.4.9.9.9s.9-.4.9-.9v-4c0-.5-.4-.9-.9-.9s-.9.4-.9.9z"}),(0,K.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 22.8c-5.05 0-7.59 0-9.14-1.43a5.44 5.44 0 0 1-1.67-2.96c-.43-2.07.83-4.31 3.36-8.77 2.51-4.46 3.78-6.71 5.77-7.37 1.1-.37 2.27-.37 3.37 0 1.98.657 3.238 2.879 5.743 7.306l.057.1c2.507 4.436 3.769 6.67 3.34 8.734a5.57 5.57 0 0 1-1.67 2.96c-1.55 1.43-4.09 1.43-9.14 1.43zm0-19c-.38 0-.75.06-1.12.18-1.316.435-2.525 2.565-4.712 6.419L6 10.52c-2.23 3.94-3.45 6.11-3.16 7.52.16.78.55 1.47 1.13 2 1.04.95 3.48.95 7.93.95s6.89 0 7.93-.95c.58-.53.97-1.22 1.13-2 .29-1.41-.93-3.58-3.16-7.52-2.22-3.94-3.45-6.11-4.78-6.55-.37-.12-.74-.18-1.12-.18z",clipRule:"evenodd"})]})});T0.displayName="Alert";var k5=i(require("react"),1),p=require("react/jsx-runtime"),O0=k5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,p.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,p.jsx)("path",{fill:"currentColor",d:"M11.91 9.9c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1"}),(0,p.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.52 9.99c.71-1.01 2.67-3.34 5.38-3.34s4.66 2.34 5.38 3.34l.005.007c.179.248.365.507.365.903s-.186.655-.365.903l-.005.007c-.71 1.01-2.68 3.34-5.38 3.34s-4.66-2.34-5.38-3.34l-.005-.007c-.179-.248-.365-.507-.365-.903s.186-.655.365-.903zm5.38 3.66c2.01 0 3.58-1.9 4.16-2.71.01-.01.03-.03.03-.04-.01-.01-.03-.04-.03-.04-.58-.82-2.15-2.71-4.16-2.71s-3.58 1.9-4.16 2.71c-.01.01-.03.03-.03.04l.015.02.015.02c.58.82 2.15 2.71 4.16 2.71",clipRule:"evenodd"}),(0,p.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.66 2.15C18.52 1 16.88 1 13.9 1h-4C6.92 1 5.28 1 4.14 2.15S3 4.96 3 7.95v10.59c0 1.72 0 2.76.88 3.32 1.13.73 2.41-.16 3.17-.69a9 9 0 0 1 .83-.54c.062.015.23.12.41.231l.16.099 1.92 1.21c.6.38.99.62 1.54.62.545 0 .933-.246 1.525-.62l1.925-1.22c.18-.12.49-.31.53-.33.062.015.23.12.41.231l.16.099q.135.09.3.21c.76.53 2.04 1.42 3.17.69.88-.56.88-1.6.88-3.32V7.95c0-3 0-4.65-1.14-5.8zM19 18.55c0 .74 0 1.5-.08 1.79-.29-.04-.9-.47-1.14-.64-.14-.1-.27-.19-.37-.25l-.046-.028c-.534-.335-.898-.562-1.404-.582-.553-.036-.942.207-1.42.506l-.15.094-1.92 1.21-.388.247-.162.103c-.073-.016-.26-.132-.467-.261l-.143-.089-1.91-1.21-.044-.028c-.536-.335-.9-.562-1.406-.572h-.06c-.55 0-.98.27-1.51.61q-.08.052-.168.114a7 7 0 0 1-.202.136c-.24.17-.85.59-1.14.64-.08-.29-.08-1.05-.08-1.79V7.95c0-2.78.02-3.93.62-4.53.59-.6 1.73-.62 4.48-.62h4c2.75 0 3.89.02 4.48.62s.62 1.75.62 4.53v10.59z",clipRule:"evenodd"})]})});O0.displayName="AnalisarNotas";var R5=i(require("react"),1),X=require("react/jsx-runtime"),Q0=R5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,X.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,X.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.22 1.46a.9.9 0 1 0-1.44 1.08l1.05 1.4A6.4 6.4 0 0 0 5.6 9.5V18c0 1.05.85 1.9 1.9 1.9h.6V22a.9.9 0 1 0 1.8 0v-2.1h4.2V22a.9.9 0 0 0 1.8 0v-2.1h.6a1.9 1.9 0 0 0 1.9-1.9V9.5c0-2.381-1.3-4.458-3.23-5.56l1.05-1.4a.9.9 0 0 0-1.44-1.08l-1.35 1.8a6.4 6.4 0 0 0-2.86 0zM16.5 18.1a.1.1 0 0 0 .1-.1v-7.1H7.4V18a.1.1 0 0 0 .1.1zm-9.083-9h9.166a4.6 4.6 0 0 0-9.166 0",clipRule:"evenodd"}),(0,X.jsx)("path",{fill:"currentColor",d:"M4 10.1a.9.9 0 0 1 .9.9v6a.9.9 0 1 1-1.8 0v-6a.9.9 0 0 1 .9-.9m16 0a.9.9 0 0 1 .9.9v6a.9.9 0 1 1-1.8 0v-6a.9.9 0 0 1 .9-.9"})]})});Q0.displayName="Android";var N5=i(require("react"),1),Y=require("react/jsx-runtime"),Z0=N5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Y.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Y.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M16.3 1.9c0 2.37-1.77 4.9-4.4 4.9-.5 0-.9-.4-.9-.9C11 3.53 12.77 1 15.4 1c.5 0 .9.4.9.9m-2.04 1.23c-.25.64-.67 1.21-1.23 1.55.25-.64.67-1.21 1.23-1.55",clipRule:"evenodd"}),(0,Y.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.14 12.9c0 1.5.81 2.77 2.11 3.32l.02.01c.44.19.66.68.5 1.13-1.01 2.87-2.83 5.95-4.96 5.95-.86 0-1.58-.31-2.21-.59-.45-.2-.86-.38-1.19-.38-.312 0-.705.17-1.119.35l-.071.03c-.63.28-1.35.59-2.21.59-2.8 0-6-5.74-6-10.4s3.55-6.4 5.79-6.4c1.22 0 1.98.31 2.59.56l.063.025c.367.147.635.255.957.255.22 0 .32-.04.58-.16l.27-.12c.61-.25 1.37-.56 2.59-.56.63 0 2.81.17 4.3 2.4.13.2.18.45.13.69s-.2.44-.41.57c-1.2.73-1.73 1.57-1.73 2.73m-2.357 8.6c-.478-.002-.966-.211-1.483-.44-.59-.26-1.2-.52-1.9-.52-.666 0-1.25.244-1.822.483l-.088.037c-.52.23-1.01.44-1.49.44-1.18 0-4.2-4.09-4.2-8.6 0-3.35 2.45-4.6 3.99-4.6.855 0 1.353.203 1.882.419l.028.011.01.004c.486.199.994.406 1.68.406.58 0 .955-.16 1.278-.296l.032-.014.23-.1c.53-.22 1.04-.43 1.9-.43.34 0 1.35.08 2.25.93-1.17.97-1.75 2.21-1.75 3.67 0 1.9.94 3.61 2.44 4.58-1.048 2.625-2.366 4.015-2.987 4.02",clipRule:"evenodd"})]})});Z0.displayName="Apple";var W5=i(require("react"),1),J0=require("react/jsx-runtime"),K0=W5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,J0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.25 1.48C8.47 1 7.56 1 5.9 1s-2.56 0-3.35.48c-.44.27-.81.64-1.07 1.07C1 3.33 1 4.24 1 5.9s0 2.56.48 3.35c.27.43.64.81 1.07 1.08.78.48 1.69.48 3.35.48s2.56 0 3.35-.48c.44-.27.81-.64 1.07-1.07.48-.78.48-1.69.48-3.35s0-2.56-.48-3.35a3.2 3.2 0 0 0-1.07-1.07zm-.46 6.83c-.12.19-.29.36-.48.48C7.96 9 7.23 9 5.9 9s-2.06 0-2.41-.21a1.6 1.6 0 0 1-.48-.48C2.8 7.96 2.8 7.23 2.8 5.9s0-2.06.21-2.41c.12-.19.28-.36.48-.48.35-.21 1.08-.21 2.41-.21s2.06 0 2.41.21c.19.12.36.29.48.48C9 3.84 9 4.57 9 5.9s0 2.06-.21 2.41M5.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08C1 20.46 1 19.56 1 17.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C3.34 13 4.24 13 5.9 13m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08-.48-.79-.48-1.69-.48-3.35s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07.79-.48 1.69-.48 3.35-.48m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 10.8c-1.66 0-2.57 0-3.35-.48v.01c-.43-.27-.8-.65-1.07-1.08C13 8.46 13 7.56 13 5.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C15.34 1 16.24 1 17.9 1s2.57 0 3.35.48c.43.26.8.63 1.07 1.07.48.79.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48m-2.41-7.79c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21",clipRule:"evenodd"})})});K0.displayName="Apps2";var V5=i(require("react"),1),X0=require("react/jsx-runtime"),Y0=V5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,X0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,X0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6 1.1a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M2.9 6a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0M6 13.1a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M2.9 18a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0M13.1 6a4.9 4.9 0 1 1 9.8 0 4.9 4.9 0 0 1-9.8 0M18 2.9a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2m0 10.2a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M14.9 18a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0",clipRule:"evenodd"})})});Y0.displayName="Apps";var C5=i(require("react"),1),_0=require("react/jsx-runtime"),$0=C5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,_0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,_0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m6.805 8.407.003.003.008.012.036.048.139.185a54 54 0 0 0 2.171 2.69c.64.737 1.308 1.449 1.896 1.968q.444.39.747.573c.095.057.159.087.195.101.036-.014.1-.044.195-.101q.302-.18.748-.573c.587-.52 1.255-1.231 1.895-1.969a51 51 0 0 0 2.31-2.874l.036-.048.008-.012.003-.002m-10.39-.001a1 1 0 0 0-1.61 1.186L6 9l-.805.593.004.005.01.014.04.053q.05.07.146.196a55 55 0 0 0 2.257 2.795c.662.762 1.396 1.55 2.081 2.156.342.302.695.58 1.039.787.317.19.752.401 1.228.401s.911-.21 1.228-.401a7.4 7.4 0 0 0 1.039-.787c.685-.606 1.419-1.394 2.081-2.156a53 53 0 0 0 2.404-2.991l.039-.052.01-.014.004-.005L18 9l.805.594a1 1 0 1 0-1.61-1.186",clipRule:"evenodd"})})});$0.displayName="ArrowDown";var G5=i(require("react"),1),j0=require("react/jsx-runtime"),e2=G5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,j0.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,j0.jsx)("path",{fill:"currentColor",d:"M5.738 15.8H15.4c2.98 0 5.4-2.42 5.4-5.4S18.38 5 15.4 5h-4.5c-.5 0-.9.4-.9.9s.4.9.9.9h4.5c1.99 0 3.6 1.62 3.6 3.6S17.39 14 15.4 14H5.76a23 23 0 0 1 1.68-1.37c.4-.3.48-.86.19-1.26-.3-.4-.86-.48-1.26-.19C3 13.65 3 14.6 3 14.9s0 1.24 3.37 3.72c.16.12.34.18.53.18v.02c.28 0 .55-.13.73-.37.3-.4.21-.97-.19-1.26a23 23 0 0 1-1.702-1.39"})})});e2.displayName="ArrowGoBack";var P5=i(require("react"),1),t2=require("react/jsx-runtime"),r2=P5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,t2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,t2.jsx)("path",{fill:"currentColor",d:"M20.8 14.922c-.006.343-.145 1.314-3.37 3.678-.16.12-.35.18-.53.18v.02a.91.91 0 0 1-.73-.37c-.29-.4-.21-.96.19-1.26a23 23 0 0 0 1.68-1.37H8.4c-2.98 0-5.4-2.42-5.4-5.4S5.42 5 8.4 5h4.5c.5 0 .9.4.9.9s-.4.9-.9.9H8.4c-1.99 0-3.6 1.62-3.6 3.6S6.41 14 8.4 14h9.662a23 23 0 0 0-1.702-1.39.897.897 0 0 1-.19-1.26c.29-.4.86-.49 1.26-.19 3.37 2.48 3.37 3.42 3.37 3.72z"})})});r2.displayName="ArrowGoForward";var M5=i(require("react"),1),_=require("react/jsx-runtime"),o2=M5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,_.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,_.jsx)("path",{fill:"currentColor",d:"M11.043 5.225a.9.9 0 0 1 1.063 1.441l-.072.059-.004.003-.011.008-.048.035-.187.14A55 55 0 0 0 9.09 9.087c-.739.641-1.454 1.312-1.978 1.904a5.6 5.6 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.011.032.041.112.122.247.125.207.322.464.584.762.524.592 1.24 1.263 1.978 1.904a51 51 0 0 0 2.694 2.176l.187.14.048.035.011.009.003.001.001.001.071.059a.9.9 0 0 1-1.062 1.441l-.077-.05-.001-.001-.004-.003-.014-.01-.052-.04q-.069-.05-.195-.146a56 56 0 0 1-2.79-2.252c-.76-.663-1.546-1.393-2.147-2.073a7.3 7.3 0 0 1-.776-1.023c-.164-.274-.337-.627-.378-1.011L4.6 12l.01-.166c.04-.384.214-.737.378-1.01A7 7 0 0 1 5.764 9.8c.6-.68 1.386-1.412 2.147-2.072a53 53 0 0 1 2.79-2.253l.195-.147.052-.039.014-.01q.003 0 .004-.003z"}),(0,_.jsx)("path",{fill:"currentColor",d:"M18.043 5.225a.9.9 0 0 1 1.063 1.441l-.072.059-.004.003-.011.008-.048.035-.187.14a55 55 0 0 0-2.694 2.176c-.739.641-1.454 1.312-1.978 1.904a5.6 5.6 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.011.032.041.112.122.247.125.207.322.464.584.762.524.592 1.24 1.263 1.978 1.904a51 51 0 0 0 2.694 2.176l.187.14.048.035.011.009.003.001.001.001.072.059a.9.9 0 0 1-1.063 1.441l-.077-.05-.001-.001-.004-.003-.014-.01-.052-.04q-.069-.05-.195-.146a56 56 0 0 1-2.79-2.252c-.761-.662-1.546-1.392-2.147-2.073a7.3 7.3 0 0 1-.776-1.023c-.165-.274-.337-.627-.378-1.011L11.6 12l.01-.166c.04-.384.213-.737.378-1.01a7 7 0 0 1 .776-1.024c.6-.68 1.386-1.412 2.147-2.072a53 53 0 0 1 2.79-2.253l.195-.147.052-.039.014-.01q.003 0 .004-.003z"})]})});o2.displayName="ArrowLeftDouble";var A5=i(require("react"),1),l2=require("react/jsx-runtime"),c2=A5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,l2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,l2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.636 6.636a.9.9 0 1 0-1.273-1.272L6.96 15.767a20 20 0 0 1-.06-1.836 41 41 0 0 1 .123-2.797l.004-.045v-.01l.001-.004a.9.9 0 1 0-1.794-.15v.005l-.001.013-.004.05a30 30 0 0 0-.057.849c-.032.55-.065 1.297-.071 2.075-.006.771.014 1.599.096 2.301.041.35.1.695.188.998.081.277.219.638.49.909.27.27.632.409.908.49.303.088.648.147.998.187.703.082 1.53.103 2.302.097a43 43 0 0 0 2.924-.128l.05-.004.013-.001h.005L13 17.867l.075.897a.9.9 0 1 0-.151-1.793h-.014l-.045.004a30 30 0 0 1-.81.055 41 41 0 0 1-1.986.068 20 20 0 0 1-1.836-.06M6.13 11l-.897-.075z",clipRule:"evenodd"})})});c2.displayName="ArrowLeftDown";var E5=i(require("react"),1),s2=require("react/jsx-runtime"),n2=E5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,s2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,s2.jsx)("path",{fill:"currentColor",d:"M8.37 17.62c.16.12.34.18.53.18v.02c.28 0 .55-.13.73-.37.3-.4.21-.97-.19-1.26-1.58-1.173-3.092-2.485-3.942-3.39H19.9c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H5.515c.853-.907 2.355-2.211 3.925-3.37.4-.3.48-.86.19-1.26-.3-.4-.86-.48-1.26-.19C5.92 7.98 3 10.44 3 11.9s2.92 3.92 5.37 5.72"})})});n2.displayName="ArrowLeft";var I5=i(require("react"),1),a2=require("react/jsx-runtime"),i2=I5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,a2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,a2.jsx)("path",{fill:"currentColor",d:"m18.9 18.155.008-.01c.253-.298.5-.613.732-.908l.053-.068c.231-.294.474-.602.662-.796a.9.9 0 0 1 1.29 1.254 11 11 0 0 0-.536.654l-.057.072c-.228.29-.495.631-.77.956a9 9 0 0 1-.958.993c-.165.14-.352.28-.553.387-.194.104-.46.211-.77.211s-.577-.107-.771-.21a3.2 3.2 0 0 1-.553-.388 9 9 0 0 1-.957-.993c-.276-.325-.543-.666-.771-.956l-.057-.072a10 10 0 0 0-.537-.654.9.9 0 0 1 1.29-1.254c.19.194.432.502.663.796l.053.068c.232.295.48.61.732.909l.007.008c-.002-1.85-.018-3.34-.123-4.068-.68-4.713-4.036-8.328-8.215-9.054-.741-.129-1.646-.132-3.685-.132H3.001a.9.9 0 1 1 0-1.8h2.193c1.89 0 2.962 0 3.876.159 5.037.874 8.91 5.18 9.689 10.57.125.867.14 2.504.141 4.325"})})});i2.displayName="ArrowMoveUpRight";var y5=i(require("react"),1),$=require("react/jsx-runtime"),d2=y5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,$.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,$.jsx)("path",{fill:"currentColor",d:"M11.775 5.466a.9.9 0 0 1 1.182-.241l.077.05v.001l.005.003.013.01.053.04.194.146a56 56 0 0 1 2.79 2.253c.762.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.189.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.147 2.073a53 53 0 0 1-2.79 2.252l-.195.147-.053.039-.013.01q-.003 0-.004.003h-.001a.9.9 0 0 1-1.069-1.449h.001l.003-.002.012-.01.048-.035.187-.14a56 56 0 0 0 2.694-2.175c.738-.641 1.454-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762c-.523-.592-1.239-1.263-1.977-1.904a51 51 0 0 0-2.694-2.176l-.187-.14-.048-.035-.012-.008-.003-.002v-.001l-.072-.059a.9.9 0 0 1-.119-1.2"}),(0,$.jsx)("path",{fill:"currentColor",d:"M4.775 5.466a.9.9 0 0 1 1.182-.241l.077.05v.001l.005.003.013.01.053.04.194.146a56 56 0 0 1 2.79 2.253c.762.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.189.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.148 2.073A53 53 0 0 1 6.3 18.525l-.195.147-.053.039-.013.01q-.003 0-.004.003h-.001l-.077.051a.9.9 0 0 1-.99-1.5l.002-.002.012-.01.048-.035.186-.14a56 56 0 0 0 2.695-2.175c.738-.641 1.454-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762C9.364 10.4 8.648 9.728 7.91 9.087A51 51 0 0 0 5.215 6.91l-.186-.14-.048-.035-.012-.008-.003-.002v-.001l-.072-.059a.9.9 0 0 1-.119-1.2"})]})});d2.displayName="ArrowRightDouble";var B5=i(require("react"),1),m2=require("react/jsx-runtime"),h2=B5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,m2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,m2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.53 5.47a.75.75 0 0 0-1.06 1.06l10.625 10.625-.068.009c-.603.07-1.352.09-2.097.085a41 41 0 0 1-2.807-.123l-.046-.004h-.014a.75.75 0 1 0-.126 1.494h.005l.013.001.05.004a30 30 0 0 0 .846.057c.549.032 1.293.065 2.067.071.77.006 1.59-.014 2.283-.095.346-.04.682-.099.973-.184.27-.078.601-.208.845-.451.243-.244.373-.575.451-.845.085-.291.143-.627.184-.973.08-.694.101-1.514.095-2.283a43 43 0 0 0-.128-2.913l-.004-.05v-.013l-.001-.005-.747.063.747-.063a.75.75 0 1 0-1.495.127l.001.013.004.045.013.176a42 42 0 0 1 .11 2.632c.006.745-.015 1.494-.085 2.097l-.009.068M11 17.869l-.062.747z",clipRule:"evenodd"})})});h2.displayName="ArrowRightDown";var H5=i(require("react"),1),u2=require("react/jsx-runtime"),p2=H5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,u2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.616 13.063v-.005l.001-.013.004-.05a30 30 0 0 0 .057-.845c.032-.55.065-1.294.071-2.068.006-.77-.014-1.59-.095-2.283a6 6 0 0 0-.184-.973c-.078-.27-.208-.601-.451-.845-.244-.243-.575-.373-.845-.451a6 6 0 0 0-.973-.183c-.694-.081-1.514-.102-2.283-.096a43 43 0 0 0-2.913.128l-.05.004h-.013l-.005.001a.75.75 0 0 0 .126 1.495h.003l.011-.001.046-.004a29 29 0 0 1 .814-.055c.534-.03 1.251-.062 1.993-.068.745-.006 1.494.015 2.097.085l.068.009L5.47 17.47a.75.75 0 1 0 1.06 1.06L17.155 7.905l.009.068c.07.603.091 1.352.085 2.097a41 41 0 0 1-.11 2.632l-.013.176-.004.045v.013a.75.75 0 0 0 1.494.127M11 6.132l-.063-.748zM17.868 13l.748.063z",clipRule:"evenodd"})})});p2.displayName="ArrowRightUp";var q5=i(require("react"),1),f2=require("react/jsx-runtime"),g2=q5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,f2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,f2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15.533 6.275a.9.9 0 1 0-1.067 1.45l.003.002.01.007.039.03.154.115a45 45 0 0 1 2.238 1.806A20 20 0 0 1 18.4 11.1H4a.9.9 0 1 0 0 1.8h14.4c-.413.446-.942.939-1.49 1.415a43 43 0 0 1-2.392 1.922l-.04.03-.01.006-.002.002a.9.9 0 1 0 1.068 1.45v-.001l.016-.011.044-.033a32 32 0 0 0 .74-.566 44 44 0 0 0 1.756-1.44c.636-.553 1.295-1.167 1.803-1.741a6 6 0 0 0 .662-.875c.16-.265.342-.637.345-1.049v-.02c-.004-.41-.185-.782-.344-1.047a6 6 0 0 0-.663-.875c-.508-.574-1.167-1.188-1.803-1.74a44 44 0 0 0-2.496-2.007l-.044-.033-.012-.008zM15 7l.533-.725zm0 10 .534.724z",clipRule:"evenodd"})})});g2.displayName="ArrowRight";var z5=i(require("react"),1),b2=require("react/jsx-runtime"),v2=z5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,b2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,b2.jsx)("path",{fill:"currentColor",d:"M10.5 3.1a5.4 5.4 0 0 1 5.4 5.4v9.654l.217-.244a25 25 0 0 0 1.069-1.323l.067-.09.017-.024.004-.005.001-.001.059-.072a.9.9 0 0 1 1.441 1.062l-.05.077-.001.001-.001.002-.006.007-.02.027-.075.1a30 30 0 0 1-1.146 1.419 12 12 0 0 1-1.078 1.116c-.18.16-.377.314-.578.436a1.7 1.7 0 0 1-.82.258l-.129-.006a1.7 1.7 0 0 1-.691-.252 4 4 0 0 1-.578-.436 12 12 0 0 1-1.078-1.116 27 27 0 0 1-1.146-1.42q-.048-.062-.074-.099l-.02-.027-.007-.007v-.002h-.002l-.05-.078a.9.9 0 0 1 1.441-1.062l.059.07v.003l.005.005.017.023.068.09a28 28 0 0 0 1.285 1.57V8.5a3.6 3.6 0 1 0-7.2 0V20a.9.9 0 0 1-1.8 0V8.5a5.4 5.4 0 0 1 5.4-5.4"})})});v2.displayName="ArrowTurnDown";var L5=i(require("react"),1),w2=require("react/jsx-runtime"),x2=L5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,w2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,w2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.47 8.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1-.53 1.28H6a.75.75 0 0 1-.53-1.28z",clipRule:"evenodd"})})});x2.displayName="ArrowUpSFill";var F5=i(require("react"),1),S2=require("react/jsx-runtime"),k2=F5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,S2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,S2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 3.1c-.416 0-.791.183-1.058.344-.292.176-.59.41-.875.663-.575.507-1.189 1.167-1.741 1.803A44 44 0 0 0 6.32 8.406l-.033.044-.009.012-.003.004a.9.9 0 1 0 1.45 1.067l.001-.002.007-.01.03-.04a31 31 0 0 1 .542-.709c.36-.46.851-1.073 1.38-1.682.476-.548.968-1.077 1.415-1.49V20a.9.9 0 0 0 1.8 0V5.6c.446.413.938.942 1.414 1.49a43 43 0 0 1 1.922 2.392l.03.04.009.012a.9.9 0 1 0 1.449-1.068l-.003-.004-.009-.012-.032-.044a32 32 0 0 0-.567-.741 44 44 0 0 0-1.44-1.755c-.552-.636-1.166-1.296-1.74-1.803a6 6 0 0 0-.876-.663C12.79 3.284 12.415 3.1 12 3.1M17 9l.724-.534zM7 9l-.725-.534z",clipRule:"evenodd"})})});k2.displayName="ArrowUp";var D5=i(require("react"),1),R2=require("react/jsx-runtime"),N2=D5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,R2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,R2.jsx)("path",{fill:"currentColor",d:"M12.4 21.8c-4.63 0-8.4-3.77-8.4-8.4V7.9C4 4.65 6.65 2 9.9 2s5.9 2.65 5.9 5.9v5.5c0 1.88-1.52 3.4-3.4 3.4S9 15.27 9 13.4v-4c0-.5.4-.9.9-.9s.9.4.9.9v4c0 .88.72 1.6 1.6 1.6s1.6-.72 1.6-1.6V7.9c0-2.26-1.84-4.1-4.1-4.1S5.8 5.64 5.8 7.9v5.5c0 3.64 2.96 6.6 6.6 6.6s6.6-2.96 6.6-6.6v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 4.63-3.77 8.4-8.4 8.4"})})});N2.displayName="Attachment";var U5=i(require("react"),1),j=require("react/jsx-runtime"),W2=U5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,j.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,j.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 6.1a.9.9 0 0 1 .9.9v.743a2.9 2.9 0 0 1 1.027.591l.62-.361a.9.9 0 0 1 .906 1.554l-.619.36a2.9 2.9 0 0 1 0 1.224l.62.362.076.05a.9.9 0 0 1-.902 1.546l-.081-.042-.62-.362a2.9 2.9 0 0 1-1.027.59V14a.901.901 0 0 1-1.8 0v-.744a2.9 2.9 0 0 1-1.028-.591l-.619.362a.9.9 0 0 1-.906-1.554l.618-.362a2.9 2.9 0 0 1 0-1.223l-.618-.36-.077-.051a.9.9 0 0 1 .902-1.546l.081.042.62.361a2.9 2.9 0 0 1 1.027-.59V7a.9.9 0 0 1 .9-.9m0 3.3a1.1 1.1 0 0 0-.871.428l-.08.118c-.095.162-.149.35-.149.554s.054.392.149.554l.08.118a1.1 1.1 0 0 0 1.822-.118l.063-.126a1.1 1.1 0 0 0 0-.856l-.063-.126A1.1 1.1 0 0 0 12 9.4",clipRule:"evenodd"}),(0,j.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.9 1c2.98 0 4.62 0 5.76 1.15s1.14 2.8 1.14 5.8v10.59c0 1.72 0 2.76-.88 3.32-1.125.737-2.398-.151-3.16-.682l-.01-.008q-.165-.12-.3-.21l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.105.067-.237.15-.343.214l-1.925 1.22c-.591.374-.98.62-1.525.62s-.934-.246-1.525-.62L8.45 20.96l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.106.067-.237.15-.343.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.409-3.15.675C3 21.3 3 20.26 3 18.54V7.95c0-2.99 0-4.65 1.14-5.8S6.92 1 9.9 1zm-4 1.8c-2.75 0-3.89.02-4.48.62-.6.6-.62 1.75-.62 4.53v10.6c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.088-.062.168-.114c.55-.35.96-.61 1.51-.61h.06c.506.02.87.247 1.404.582l.046.028 1.91 1.21.2.122c.18.112.343.213.41.228.03-.02.29-.19.55-.35l1.91-1.21c.58-.37 1.01-.63 1.57-.61.506.02.87.247 1.404.582l.046.028q.064.045.14.095.108.069.23.155c.24.17.85.6 1.14.64.08-.29.08-1.05.08-1.79V7.95c0-2.78-.03-3.93-.62-4.53s-1.73-.62-4.48-.62z",clipRule:"evenodd"})]})});W2.displayName="Backoffice";var T5=i(require("react"),1),V2=require("react/jsx-runtime"),C2=T5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,V2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,V2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.3 6.614a2.41 2.41 0 0 0 1.5-2.224c0-1.06-1.21-2.52-1.73-3.1-.34-.38-1-.38-1.34 0-.52.58-1.73 2.04-1.73 3.1 0 1.002.622 1.866 1.5 2.224V7.99H6.75c-2.06 0-3.73 1.52-3.73 3.4 0 1.121.594 2.115 1.51 2.734l.51 2.526.01.048c.543 2.67.846 4.158 1.96 5.112 1.14.98 2.59.98 5.23.98h.32c2.64 0 4.09 0 5.23-.98 1.117-.957 1.418-2.442 1.965-5.139l.005-.021.504-2.503c.936-.617 1.546-1.622 1.546-2.757 0-1.88-1.67-3.4-3.73-3.4H13.3zm5.003 8.17a4 4 0 0 1-.224.006h-.01c-1.11 0-2.13-.44-2.83-1.14-.7.7-1.72 1.14-2.83 1.14s-2.13-.44-2.83-1.14c-.7.7-1.72 1.14-2.83 1.14q-.128 0-.253-.008L6.8 16.29c.48 2.39.73 3.59 1.38 4.15.61.52 1.62.55 4.06.55h.32c2.43 0 3.45-.02 4.06-.55.65-.56.9-1.76 1.38-4.15zM6.73 9.79h11.34c1.06 0 1.93.72 1.93 1.6s-.86 1.6-1.93 1.6c-.95 0-1.79-.56-1.96-1.3a.91.91 0 0 0-.87-.7h.01-.02.01a.9.9 0 0 0-.87.7c-.17.74-1.01 1.3-1.96 1.3s-1.79-.56-1.96-1.3c-.1-.41-.46-.7-.88-.7a.9.9 0 0 0-.88.7c-.17.74-1.02 1.3-1.96 1.3-1.06 0-1.93-.72-1.93-1.6s.86-1.6 1.93-1.6m5.67-4.8a.6.6 0 0 1-.6-.59c.02-.19.26-.61.6-1.08v.01c.33.46.58.88.6 1.07 0 .33-.27.59-.6.59",clipRule:"evenodd"})})});C2.displayName="BirthdayCake";var O5=i(require("react"),1),e1=require("react/jsx-runtime"),G2=O5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,e1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,e1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.868 1.6a1.9 1.9 0 0 0-1.881 1.631L7.72 5.1H3.5A1.9 1.9 0 0 0 1.6 7v3a.9.9 0 0 0 .095.402c1.573 3.148 5.417 5.234 9.405 5.475v.623a.9.9 0 0 0 1.8 0v-.623c3.987-.24 7.83-2.327 9.405-5.475A.9.9 0 0 0 22.4 10V7a1.9 1.9 0 0 0-1.9-1.9h-4.22l-.266-1.869A1.9 1.9 0 0 0 14.133 1.6zm4.595 3.5-.23-1.614a.1.1 0 0 0-.1-.086H9.868a.1.1 0 0 0-.1.086L9.539 5.1zm-2.453 9c3.718.04 7.211-1.8 8.59-4.32V7a.1.1 0 0 0-.1-.1h-17a.1.1 0 0 0-.1.1v2.78c1.378 2.52 4.87 4.36 8.589 4.32z",clipRule:"evenodd"}),(0,e1.jsx)("path",{fill:"currentColor",d:"M21.897 15.069a.9.9 0 1 0-1.795-.138l-.358 4.653a1.1 1.1 0 0 1-1.096 1.016H5.352a1.1 1.1 0 0 1-1.097-1.016l-.358-4.653a.9.9 0 1 0-1.795.138l.358 4.653A2.9 2.9 0 0 0 5.352 22.4h13.296a2.9 2.9 0 0 0 2.891-2.678z"})]})});G2.displayName="Briefcase";var Q5=i(require("react"),1),t1=require("react/jsx-runtime"),P2=Q5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,t1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,t1.jsx)("path",{fill:"currentColor",d:"M7.51 12.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9m0 4c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9M16.4 12c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9m-4.9.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9m.9 3.1c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9"}),(0,t1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.3 2.43c.8.24 1.46.62 2.01 1.21 1.49 1.61 1.49 3.91 1.49 8.5v.51c0 4.59 0 6.89-1.49 8.5-1.52 1.64-3.81 1.64-7.96 1.64h-1.9c-4.15 0-6.44 0-7.96-1.64C2 19.54 2 17.24 2 12.65v-.51c0-4.59 0-6.89 1.49-8.5.55-.59 1.21-.97 2.01-1.21V1.9c0-.5.4-.9.9-.9s.9.4.9.9v.21C8.43 2 9.79 2 11.45 2h1.9c1.66 0 3.02 0 4.15.11V1.9c0-.5.4-.9.9-.9s.9.4.9.9zM6.4 4.8c-.35 0-.64-.2-.79-.49-.32.15-.58.32-.8.56-.45.49-.69 1.18-.83 2.14h16.84c-.14-.96-.38-1.66-.83-2.14-.22-.24-.49-.42-.8-.56-.15.29-.44.49-.79.49-.49 0-.89-.39-.9-.88-1-.11-2.33-.12-4.15-.12h-1.9c-1.82 0-3.14.02-4.15.12-.01.49-.41.88-.9.88m13.59 15.14C21 18.84 21 16.78 21 12.66h.01v-.51c0-1.32-.01-2.41-.04-3.34H3.84c-.04.93-.04 2.02-.04 3.34v.51c0 4.12 0 6.19 1.01 7.28.95 1.02 2.62 1.06 6.64 1.06h1.9c4.02 0 5.69-.04 6.64-1.06",clipRule:"evenodd"})]})});P2.displayName="Calendar2";var Z5=i(require("react"),1),r1=require("react/jsx-runtime"),M2=Z5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,r1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,r1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.74 20.82c1 .16 2.31.18 4.16.18l-.01.03c.5 0 .9.4.9.9s-.4.9-.9.9c-1.82-.01-3.28-.02-4.45-.21-1.2-.2-2.18-.6-2.96-1.44-.81-.88-1.16-1.97-1.33-3.32-.16-1.31-.16-2.99-.16-5.12v-.64c0-2.13 0-3.81.16-5.12.17-1.35.52-2.45 1.33-3.32.56-.61 1.24-.97 2.01-1.21v-.54c0-.5.4-.9.9-.9s.9.4.9.9v.21c1.12-.11 2.46-.11 4.08-.11h2.04c1.62 0 2.96.01 4.08.11v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.54c.78.24 1.45.6 2.01 1.21.76.82 1.12 1.84 1.3 3.08.17 1.22.19 2.75.19 4.67 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-1 0-1.86-.03-2.6H3.83c-.03.92-.03 2.01-.03 3.34v.51c0 2.2 0 3.77.15 4.96.14 1.17.42 1.84.86 2.32.41.45.97.72 1.93.88M6.4 4.8c-.35 0-.64-.21-.79-.5H5.6c-.32.14-.58.33-.79.56-.42.46-.68 1.09-.83 2.14h16.84v-.02c-.15-1.05-.42-1.67-.84-2.12-.21-.23-.46-.41-.79-.56-.14.29-.44.5-.79.5-.5 0-.9-.4-.9-.89-1.03-.11-2.35-.11-4.15-.11h-1.9c-1.79 0-3.12 0-4.15.11-.01.49-.41.89-.9.89",clipRule:"evenodd"}),(0,r1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M21.19 14.97c.62.11 1.31.44 1.54 1.17h-.04c.23.73-.14 1.4-.58 1.84l-1.09 1.1v.04l.31 1.36c.15.62.17 1.52-.53 2.03s-1.55.22-2.1-.11l-1.31-.78h-.03l-1.31.78c-.55.33-1.4.62-2.1.1-.7-.51-.68-1.4-.54-2.03l.31-1.36v-.04l-1.09-1.1c-.44-.44-.8-1.11-.57-1.84.24-.73.92-1.07 1.54-1.17l1.4-.23h.01l.01-.01.78-1.57c.28-.56.8-1.15 1.59-1.15s1.31.59 1.59 1.15l.78 1.57.01.01.02.01zm-1.87 3.64c.08-.25.21-.54.44-.77l-.02-.01 1.09-1.1-1.39-.23c-.3-.05-.56-.19-.76-.34-.2-.14-.41-.36-.54-.63l-.76-1.54-.77 1.54c-.14.27-.35.49-.54.63-.19.15-.45.29-.75.34l-1.39.23 1.09 1.1c.23.23.37.52.44.77.08.25.11.56.04.88l-.31 1.34 1.3-.77c.29-.17.62-.23.9-.23s.62.06.91.24l1.29.77-.31-1.34c-.07-.31-.03-.63.04-.88",clipRule:"evenodd"})]})});M2.displayName="CalendarEvent";var J5=i(require("react"),1),o1=require("react/jsx-runtime"),A2=J5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,o1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,o1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6 1.1a.9.9 0 0 1 .9.9v.2c1.113-.1 2.463-.1 4.078-.1h2.043c1.616 0 2.965 0 4.079.1V2a.9.9 0 0 1 1.8 0v.523c.778.236 1.446.612 2.008 1.22.76.822 1.118 1.843 1.297 3.083.176 1.22.192 2.756.194 4.673V13a.9.9 0 1 1-1.8 0v-1.5a78 78 0 0 0-.033-2.6H3.433c-.033.922-.033 2.018-.033 3.343v.514c0 2.202.001 3.77.15 4.96.145 1.17.419 1.838.862 2.318.435.47 1.025.752 2.076.905 1.085.158 2.519.16 4.562.16a.9.9 0 1 1 0 1.8h-.072c-1.954 0-3.52 0-4.749-.179-1.277-.185-2.32-.58-3.138-1.463-.808-.874-1.16-1.973-1.328-3.319-.163-1.314-.163-2.994-.163-5.12v-.639c0-2.125 0-3.805.163-5.119.167-1.346.52-2.445 1.328-3.318.562-.608 1.23-.984 2.009-1.22V2a.9.9 0 0 1 .9-.9m-2.426 6h16.852l-.003-.017c-.151-1.048-.418-1.666-.836-2.118a2.4 2.4 0 0 0-.783-.56.9.9 0 0 1-1.704-.396c-1.031-.107-2.356-.109-4.15-.109h-1.9c-1.795 0-3.12.002-4.15.109a.9.9 0 0 1-1.705.395c-.321.147-.57.332-.783.56-.42.455-.687 1.078-.838 2.136",clipRule:"evenodd"}),(0,o1.jsx)("path",{fill:"currentColor",d:"M19.127 15.355a.9.9 0 0 0-1.255 1.29c.169.164.434.372.676.562l.056.045q.217.169.44.348H13a.9.9 0 0 0 0 1.8h6.044l-.439.348-.057.045c-.242.19-.507.398-.676.562a.9.9 0 0 0 1.255 1.29c.084-.081.258-.221.533-.437l.06-.047c.241-.19.528-.414.801-.646.293-.248.602-.53.844-.814.122-.143.245-.308.341-.488.093-.173.194-.42.194-.713 0-.292-.101-.54-.194-.713a2.8 2.8 0 0 0-.34-.488 7.5 7.5 0 0 0-.845-.814c-.273-.232-.56-.456-.801-.646l-.06-.047a9 9 0 0 1-.533-.437"})]})});A2.displayName="CalendarSchedule2";var K5=i(require("react"),1),E2=require("react/jsx-runtime"),I2=K5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,E2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,E2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.91 21.8c-.32 0-.68-.03-1.13-.08C8.28 20.8 3 15.52 2.08 6.03c-.09-.92-.14-1.47.06-2.07.26-.73.84-1.38 1.54-1.7C4.26 2 4.83 2 5.88 2c.71 0 1.11 0 1.52.13.52.16.99.46 1.34.87.28.33.44.69.73 1.34l.4.91-.82.37.83-.36c.31.7.48 1.09.53 1.56.04.45-.02.91-.19 1.33-.17.44-.44.77-.94 1.36-.4.48-.57.69-.64.87-.05.15-.08.38-.06.54.03.18.12.36.38.85.8 1.49 1.57 2.27 3.06 3.06.49.26.66.35.85.38.16.03.39 0 .54-.05.17-.06.39-.24.86-.63.61-.5.93-.77 1.37-.94.42-.16.88-.23 1.33-.19.47.05.86.22 1.57.53l.91.4c.66.29 1.01.45 1.34.74.41.36.71.82.87 1.34.13.42.13.81.13 1.52 0 1.04 0 1.62-.26 2.2-.32.7-.97 1.29-1.69 1.54-.31.11-.6.14-.94.14zM5.88 3.8c-.79 0-1.23 0-1.45.1-.24.11-.5.39-.58.64-.08.22-.05.54.03 1.31.83 8.64 5.44 13.24 14.08 14.08.77.07 1.09.1 1.31.03.25-.09.53-.34.64-.59.1-.22.1-.68.1-1.45 0-.54 0-.84-.05-1-.06-.2-.18-.37-.33-.51-.12-.11-.41-.23-.88-.44l-.92-.41c-.53-.24-.83-.37-1.01-.39-.17-.02-.35 0-.5.07-.17.07-.43.28-.85.63-.59.49-.94.78-1.41.96-.44.16-.97.21-1.42.14-.5-.07-.87-.27-1.43-.57-1.81-.97-2.84-2-3.8-3.8-.31-.58-.5-.93-.57-1.43-.07-.46-.01-.99.15-1.42.17-.48.46-.83.95-1.4.36-.43.58-.7.65-.86.06-.16.09-.34.07-.51-.02-.18-.15-.47-.38-1l-.4-.91c-.21-.48-.34-.77-.45-.89q-.21-.24-.51-.33c-.16-.05-.48-.05-1-.05z",clipRule:"evenodd"})})});I2.displayName="Call02";var X5=i(require("react"),1),f=require("react/jsx-runtime"),y2=X5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,f.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,f.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 9.5a4.4 4.4 0 1 0 0 8.8 4.4 4.4 0 0 0 0-8.8m0 7c-1.43 0-2.6-1.17-2.6-2.6s1.17-2.6 2.6-2.6 2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6",clipRule:"evenodd"}),(0,f.jsx)("path",{fill:"currentColor",d:"M12.81 5.9c0 .5-.4.9-.9.9-.49 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9"}),(0,f.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M21.99 6.53q-.315-.405-.72-.72c-1.02-.78-1.91-.8-4.16-.8l-.37-.93-.005-.013c-.37-.938-.83-2.11-2.015-2.697-.71-.35-1.46-.35-2.82-.35s-2.1 0-2.82.35c-1.183.581-1.637 1.736-2.004 2.67l-.016.04-.37.93c-2.25 0-3.15.02-4.16.81q-.405.315-.72.72C1 7.59 1 8.95 1 11.41v4.5c0 2.98 0 4.62 1.14 5.76s2.78 1.14 5.76 1.14h8c2.98 0 4.62 0 5.76-1.14s1.14-2.78 1.14-5.76v-4.5c0-2.47 0-3.82-.81-4.87zM21 15.9c0 2.75-.02 3.89-.61 4.48s-1.73.62-4.49.62h-8c-2.75 0-3.89-.02-4.48-.62-.59-.59-.62-1.73-.62-4.48v-4.5c0-2.07 0-3.21.43-3.78q.165-.225.39-.39c.47-.36.87-.42 2.4-.43-.04.39.16.78.54.93q.165.06.33.06c.36 0 .7-.21.84-.57l1-2.52c.29-.76.57-1.47 1.14-1.75.34-.17.93-.17 2.02-.17s1.68 0 2.02.17c.57.28.85 1 1.14 1.75l1 2.51c.18.46.71.69 1.17.5.38-.15.59-.54.54-.93 1.53.01 1.93.07 2.4.43q.225.165.39.39c.43.57.43 1.71.43 3.78v4.5z",clipRule:"evenodd"})]})});y2.displayName="Camera";var Y5=i(require("react"),1),B2=require("react/jsx-runtime"),H2=Y5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,B2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,B2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.813 1.1c.874 0 1.638-.003 2.25.096.656.107 1.255.349 1.718.91l.153.206c.328.486.444 1.02.463 1.59q.002.097.001.198h.305c.573 0 1.098-.002 1.514.055.435.06.928.209 1.292.648l.125.17c.257.403.288.845.257 1.23a6 6 0 0 1-.102.679l-.172.773-.39 1.7c-.649 2.817-2.942 4.915-5.74 5.471-.544.86-1.177 1.602-1.893 2.142.929.673 1.66 1.681 2.123 2.827l.088.26c.172.61.1 1.23-.14 1.732-.262.551-.82 1.113-1.624 1.113H8.959c-.804 0-1.363-.562-1.625-1.113a2.5 2.5 0 0 1-.051-1.992l.166-.383c.463-.987 1.133-1.847 1.957-2.444-.715-.54-1.35-1.282-1.894-2.14-2.706-.539-4.94-2.52-5.67-5.2l-.068-.274-.39-1.699c-.124-.538-.242-1.04-.275-1.452-.035-.44.012-.954.382-1.4l.141-.152c.345-.323.77-.443 1.152-.496.416-.057.94-.055 1.514-.055H4.6q0-.102.002-.199c.022-.65.171-1.255.616-1.795l.18-.196c.434-.424.964-.62 1.54-.714.61-.099 1.375-.096 2.248-.096zM12 17.9c-1.105 0-2.228.796-2.916 2.265l-.132.303a.7.7 0 0 0 .007.545.4.4 0 0 0 .055.087h5.971a.4.4 0 0 0 .056-.087.68.68 0 0 0 .032-.47l-.026-.075C14.378 18.806 13.179 17.9 12 17.9m-2.814-15c-.934 0-1.527.003-1.96.074-.29.047-.44.114-.536.194l-.083.084c-.114.139-.192.313-.205.709-.014.439.052 1.016.161 1.922l.075.575c.4 2.845 1.165 5.262 2.134 6.974 1.06 1.87 2.216 2.667 3.228 2.668 1.012 0 2.168-.798 3.227-2.668 1.034-1.826 1.836-4.455 2.21-7.55l.072-.62c.065-.565.1-.972.088-1.301-.01-.297-.055-.47-.126-.596l-.079-.113c-.096-.117-.231-.215-.618-.278-.433-.07-1.026-.074-1.96-.074zm-4.888 3c-.628 0-1.004.002-1.267.038a1 1 0 0 0-.13.025q-.002.036.003.099c.02.247.097.595.233 1.19l.391 1.7.05.201c.402 1.475 1.427 2.685 2.773 3.38-.68-1.674-1.192-3.66-1.496-5.829L4.776 6.1l-.023-.2zm14.925.199c-.29 2.405-.832 4.604-1.574 6.432 1.407-.727 2.463-2.014 2.823-3.58l.39-1.699.162-.725a4 4 0 0 0 .072-.465q.005-.063.003-.1a1 1 0 0 0-.13-.024c-.262-.036-.639-.038-1.266-.038h-.456z",clipRule:"evenodd"})})});H2.displayName="Champion";var _5=i(require("react"),1),q2=require("react/jsx-runtime"),z2=_5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,q2.jsx)("path",{fill:"currentColor",d:"M8.854 5.63a.9.9 0 0 0-1.286-1.26L5.282 6.705c-.32.327-.624.638-.825.91-.19.258-.52.789-.266 1.415.257.635.874.776 1.192.822.332.048.765.048 1.216.048H19a.9.9 0 0 0 0-1.8H6.436l.174-.178zm8.709 10.27-.173.178-2.244 2.292a.9.9 0 1 0 1.286 1.26l2.285-2.335c.32-.327.625-.638.825-.91.19-.258.52-.789.267-1.414-.258-.636-.874-.777-1.192-.823-.333-.048-.765-.048-1.216-.048H5a.9.9 0 1 0 0 1.8z"})})});z2.displayName="Change";var $5=i(require("react"),1),l1=require("react/jsx-runtime"),L2=$5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,l1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,l1.jsx)("path",{fill:"currentColor",d:"M15.6 3a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-.791c-.561.525-1.346 1.2-2.382 1.956-2.385 1.74-6.092 3.908-11.434 5.689a.9.9 0 1 1-.569-1.708c5.16-1.72 8.702-3.8 10.942-5.436a24 24 0 0 0 2.207-1.81H16.5a.9.9 0 0 1-.9-.9"}),(0,l1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.975 8.1h.05c.21 0 .412 0 .583.012.185.012.399.042.619.133a1.9 1.9 0 0 1 1.028 1.028c.091.22.12.433.133.619.012.17.012.372.012.583v9.05c0 .211 0 .413-.012.583a2 2 0 0 1-.133.619 1.9 1.9 0 0 1-1.028 1.028 2 2 0 0 1-.619.133c-.17.012-.372.012-.584.012h-.05c-.21 0-.412 0-.583-.012a2 2 0 0 1-.618-.133 1.9 1.9 0 0 1-1.029-1.028 2 2 0 0 1-.133-.619c-.011-.17-.011-.372-.011-.583v-9.05c0-.211 0-.413.011-.583a2 2 0 0 1 .133-.619 1.9 1.9 0 0 1 1.029-1.028c.22-.091.433-.12.618-.133.17-.012.372-.012.584-.012m-.526 1.814a.1.1 0 0 0-.036.035l-.006.065a8 8 0 0 0-.007.486v9c0 .245 0 .384.007.486l.006.065a.1.1 0 0 0 .036.035l.065.007c.102.006.24.007.486.007.245 0 .384 0 .485-.007l.066-.007a.1.1 0 0 0 .035-.035l.006-.065a8 8 0 0 0 .008-.486v-9c0-.245 0-.384-.008-.486l-.006-.065a.1.1 0 0 0-.035-.035l-.066-.007A8 8 0 0 0 19 9.9a8 8 0 0 0-.486.007zM11.975 11.6h.05c.21 0 .412 0 .583.012.185.012.399.042.619.133a1.9 1.9 0 0 1 1.028 1.028c.091.22.12.433.133.619.012.17.012.372.012.583v5.55c0 .211 0 .413-.012.583a2 2 0 0 1-.133.619 1.9 1.9 0 0 1-1.028 1.028 2 2 0 0 1-.619.133c-.17.012-.372.012-.584.012h-.05c-.21 0-.412 0-.583-.012a2 2 0 0 1-.618-.133 1.9 1.9 0 0 1-1.029-1.028 2 2 0 0 1-.133-.619 9 9 0 0 1-.011-.583v-5.55c0-.211 0-.413.011-.583a2 2 0 0 1 .133-.619 1.9 1.9 0 0 1 1.028-1.028c.22-.091.434-.12.62-.133.17-.012.371-.012.583-.012m-.526 1.814a.1.1 0 0 0-.035.035l-.007.065A8 8 0 0 0 11.4 14v5.5c0 .245 0 .384.007.486l.007.065a.1.1 0 0 0 .035.035l.065.007c.102.006.24.007.486.007.245 0 .384 0 .486-.007l.064-.007a.1.1 0 0 0 .036-.035l.006-.065a8 8 0 0 0 .008-.486V14c0-.245 0-.384-.008-.486l-.006-.065a.1.1 0 0 0-.036-.035l-.065-.007A8 8 0 0 0 12 13.4c-.246 0-.384 0-.486.007zm-6.474.686c-.212 0-.413 0-.584.012a2 2 0 0 0-.618.133 1.9 1.9 0 0 0-1.029 1.028 2 2 0 0 0-.133.619c-.011.17-.011.372-.011.583v3.05c0 .211 0 .413.011.583.013.186.042.4.133.62a1.9 1.9 0 0 0 1.029 1.027c.22.091.433.12.618.133.17.012.372.012.584.012h.05c.211 0 .412 0 .583-.012a2 2 0 0 0 .619-.133 1.9 1.9 0 0 0 1.028-1.028c.091-.22.12-.433.133-.619.012-.17.012-.372.012-.583v-3.05c0-.211 0-.413-.012-.583a2 2 0 0 0-.133-.62 1.9 1.9 0 0 0-1.028-1.027 2 2 0 0 0-.619-.133c-.17-.012-.372-.012-.584-.012zm-.561 1.85a.1.1 0 0 1 .035-.036l.065-.007c.101-.007.24-.007.486-.007.245 0 .384 0 .486.007l.064.007a.1.1 0 0 1 .036.035l.006.065a8 8 0 0 1 .008.486v3c0 .245 0 .384-.008.486l-.006.065a.1.1 0 0 1-.036.035l-.064.007A9 9 0 0 1 5 20.1c-.246 0-.385 0-.486-.007l-.065-.007a.1.1 0 0 1-.035-.035l-.007-.065A8 8 0 0 1 4.4 19.5v-3c0-.245 0-.384.007-.486z",clipRule:"evenodd"})]})});L2.displayName="ChartUp";var j5=i(require("react"),1),c1=require("react/jsx-runtime"),F2=j5.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,c1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,c1.jsx)("path",{fill:"currentColor",d:"M11.5 17.4c0 .5.4.9.9.9s.9-.4.9-.9v-10c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm-5 0c0 .5.4.9.9.9s.9-.4.9-.9v-4c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm10.9.9c-.5 0-.9-.4-.9-.9v-6c0-.5.4-.9.9-.9s.9.4.9.9v6c0 .5-.4.9-.9.9"}),(0,c1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M3.65 21.15c1.66 1.65 4.03 1.65 8.75 1.65s7.09 0 8.75-1.65c1.65-1.66 1.65-4.02 1.65-8.75s0-7.09-1.65-8.75C19.49 2 17.12 2 12.4 2S5.31 2 3.66 3.65C2 5.31 1.99 7.67 1.99 12.4s0 7.1 1.66 8.75M4.93 4.93C6.06 3.8 8.18 3.8 12.4 3.8s6.34 0 7.47 1.13S21 8.18 21 12.4s0 6.34-1.13 7.47S16.62 21 12.4 21s-6.34 0-7.47-1.13S3.8 16.62 3.8 12.4s0-6.34 1.13-7.47",clipRule:"evenodd"})]})});F2.displayName="Chart";var et=i(require("react"),1),g=require("react/jsx-runtime"),D2=et.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,g.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,g.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.75 12c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5H8c-.69 0-1.25-.56-1.25-1.25m3.996 0c0-.69.56-1.25 1.25-1.25h.008a1.25 1.25 0 1 1 0 2.5h-.008c-.69 0-1.25-.56-1.25-1.25m3.995 0c0-.69.56-1.25 1.25-1.25H16a1.25 1.25 0 1 1 0 2.5h-.009c-.69 0-1.25-.56-1.25-1.25",clipRule:"evenodd"}),(0,g.jsx)("path",{fill:"currentColor",d:"M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1c.5 0 .9.4.9.9s-.4.9-.9.9c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67 0-.79-.11-1.57-.33-2.32-.14-.48.14-.98.61-1.12.48-.14.98.14 1.12.61.27.91.4 1.86.4 2.82 0 5.77-4.89 10.47-10.9 10.47-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87z"}),(0,g.jsx)("path",{fill:"currentColor",d:"M15.9 8.8h-.05a.93.93 0 0 1-.76-.5c-.68-1.37-1.27-1.51-1.28-1.51-.5 0-.86-.4-.86-.9s.44-.9.94-.9c.2 0 1.09.07 2.03 1.26 1.17-1.63 3.44-4.42 5.67-5.21.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-2.07.73-4.7 4.32-5.54 5.63-.17.26-.45.42-.76.42z"})]})});D2.displayName="ChatSquareCheck";var tt=i(require("react"),1),s1=require("react/jsx-runtime"),U2=tt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,s1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,s1.jsx)("path",{fill:"currentColor",d:"M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1s10.9 4.7 10.9 10.47-4.89 10.47-10.9 10.47c-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87m6.68-20c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67S16.92 2.8 11.9 2.8"}),(0,s1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.65 11.9a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0m4 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0m3.99 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0",clipRule:"evenodd"})]})});U2.displayName="ChatSquare";var rt=i(require("react"),1),n1=require("react/jsx-runtime"),T2=rt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,n1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,n1.jsx)("path",{fill:"currentColor",d:"M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1s10.9 4.7 10.9 10.47-4.89 10.47-10.9 10.47c-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87m6.68-20c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67S16.92 2.8 11.9 2.8"}),(0,n1.jsx)("path",{fill:"currentColor",d:"M15.9 13.15a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5m-4 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5m-3.99 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5"})]})});T2.displayName="Chat";var ot=i(require("react"),1),O2=require("react/jsx-runtime"),Q2=ot.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,O2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,O2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.223 7.19a1 1 0 0 0-1.446-1.38l-6.063 6.35a1 1 0 0 0 1.446 1.381zm-14 5.953a1 1 0 0 0-1.446 1.38l3.5 3.668a1 1 0 0 0 1.446 0l1.024-1.073a1 1 0 0 0-1.446-1.381L6 16.052zm19-5.953a1 1 0 0 0-1.446-1.38L11 16.052l-2.777-2.91a1 1 0 0 0-1.446 1.382l3.5 3.667a1 1 0 0 0 1.446 0z",clipRule:"evenodd"})})});Q2.displayName="CheckDouble";var lt=i(require("react"),1),a1=require("react/jsx-runtime"),Z2=lt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,a1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,a1.jsx)("path",{fill:"currentColor",d:"M10.9 22.8c-.55 0-.94-.25-1.54-.63l-1.91-1.2c-.24-.15-.49-.31-.57-.33l-.52.33c-.09.05-.19.13-.3.21-.76.53-2.04 1.42-3.17.69-.87-.56-.87-1.6-.87-3.32V7.9C2 4.93 2 3.3 3.07 2.16 4.17 1 5.72 1 8.55 1h4.71c2.83 0 4.38 0 5.47 1.16C19.8 3.3 19.8 4.93 19.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.51 0-3.89-.58-4.5-.54-.57-1.6-.6-4.16-.6H8.55c-2.56 0-3.63.02-4.17.6-.58.62-.58 2-.58 4.5v10.65c0 .74 0 1.5.08 1.79.29-.04.9-.47 1.14-.64.14-.1.26-.19.37-.25.58-.36.98-.64 1.57-.61.51.02.88.25 1.44.6l1.91 1.21c.24.16.52.33.61.35.03-.02.31-.2.55-.35.42-.26.98-.14 1.24.28.27.42.14.98-.28 1.24-.6.38-.99.63-1.54.63z"}),(0,a1.jsx)("path",{fill:"currentColor",d:"M10.9 11.8h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m4-4h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m1 14.5h-.03a.875.875 0 0 1-.8-.57c-.85-2.13-2.55-3.02-2.57-3.03a.9.9 0 0 1-.39-1.21c.22-.44.76-.62 1.2-.4.07.04 1.46.75 2.59 2.39 1.18-2.1 3.44-5.64 5.71-6.44.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-1.8.64-4.33 4.66-5.49 7.05-.15.31-.47.5-.81.5z"})]})});Z2.displayName="CheckInvoice";var ct=i(require("react"),1),J2=require("react/jsx-runtime"),K2=ct.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,J2.jsx)("path",{fill:"currentColor",d:"M7.524 14.237a.9.9 0 0 1 .953 1.527c-.796.498-1.578 1.572-2.195 2.651a18 18 0 0 0-.886 1.776l-.046.11-.012.027-.002.006-.057.117a.9.9 0 0 1-1.507.078l-.07-.112c-.18-.345-.47-.664-.743-.91a5 5 0 0 0-.428-.344l-.022-.015-.003-.002h.003a.9.9 0 1 1 .983-1.507l-.277.425.277-.425v.001l.004.002.004.003.014.009.044.03q.055.038.146.105c.119.09.282.22.462.382q.065.06.133.127.187-.365.42-.775c.633-1.108 1.6-2.534 2.805-3.286m13.567 2.868a.9.9 0 0 1 0 1.79l-.092.006H11a.901.901 0 0 1 0-1.801h10zm0-6a.9.9 0 0 1 0 1.79l-.092.006H11a.901.901 0 0 1 0-1.801h10zM7.524 3.237a.9.9 0 0 1 .953 1.527c-.796.498-1.578 1.572-2.195 2.651a18 18 0 0 0-.886 1.776l-.046.11-.012.027-.002.006-.057.118a.9.9 0 0 1-1.507.077l-.07-.112c-.18-.345-.47-.664-.743-.91a5 5 0 0 0-.45-.36l-.003-.001h.003a.9.9 0 1 1 .983-1.507l-.277.425.277-.425v.001l.004.001.004.004.014.009a4 4 0 0 1 .19.135c.119.09.282.218.462.381q.065.061.133.128c.124-.242.265-.504.42-.775.633-1.108 1.6-2.534 2.805-3.286m13.567 1.868a.9.9 0 0 1 0 1.79L21 6.902H11A.901.901 0 0 1 11 5.1h10z"})})});K2.displayName="CheckList";var st=i(require("react"),1),X2=require("react/jsx-runtime"),Y2=st.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,X2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,X2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.69 5.777a1 1 0 0 1 .033 1.413l-10.5 11a1 1 0 0 1-1.43.017l-3.5-3.5a1 1 0 1 1 1.414-1.414l2.776 2.776 9.794-10.26a1 1 0 0 1 1.413-.032",clipRule:"evenodd"})})});Y2.displayName="Check";var nt=i(require("react"),1),_2=require("react/jsx-runtime"),$2=nt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,_2.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,_2.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.932 1.6h.135c2.182 0 3.911 0 5.265.182 1.393.187 2.522.582 3.413 1.473.89.89 1.285 2.02 1.473 3.413.182 1.353.182 3.083.182 5.264v.136c0 2.181 0 3.91-.182 5.264-.188 1.393-.582 2.522-1.473 3.413-.89.89-2.02 1.286-3.413 1.473-1.354.182-3.083.182-5.265.182h-.135c-2.182 0-3.91 0-5.264-.182-1.394-.187-2.523-.582-3.414-1.473-.89-.89-1.285-2.02-1.472-3.413-.182-1.354-.182-3.083-.182-5.264v-.136c0-2.181 0-3.91.182-5.264.187-1.393.582-2.522 1.472-3.413.891-.89 2.02-1.286 3.414-1.473C8.02 1.6 9.75 1.6 11.932 1.6m4.731 8.008a.9.9 0 1 0-1.327-1.216l-4.865 5.307-1.835-1.835a.9.9 0 1 0-1.273 1.272l2.5 2.5a.9.9 0 0 0 1.3-.028z",clipRule:"evenodd"})})});$2.displayName="CheckboxFill";var at=i(require("react"),1),i1=require("react/jsx-runtime"),j2=at.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,i1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,i1.jsx)("path",{fill:"currentColor",d:"M16.092 11.105a.9.9 0 0 1 0 1.79L16 12.9H8a.9.9 0 0 1 0-1.8h8z"}),(0,i1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.6c2.214 0 3.965-.002 5.332.182 1.393.188 2.522.582 3.413 1.473l.161.17c.778.863 1.136 1.937 1.312 3.243.184 1.367.182 3.118.182 5.332s.002 3.965-.182 5.332c-.176 1.306-.534 2.38-1.312 3.243l-.16.17c-.892.89-2.02 1.285-3.414 1.473-1.367.184-3.118.182-5.332.182s-3.965.002-5.332-.182c-1.306-.176-2.38-.534-3.243-1.312l-.17-.16c-.89-.892-1.285-2.02-1.473-3.414C1.598 15.965 1.6 14.214 1.6 12s-.002-3.965.182-5.332c.188-1.393.582-2.522 1.473-3.413l.17-.161c.863-.778 1.937-1.136 3.243-1.312C8.035 1.598 9.786 1.6 12 1.6m0 1.8c-2.264 0-3.872.002-5.092.165-1.044.14-1.7.39-2.183.785l-.198.177c-.5.5-.801 1.188-.962 2.381C3.402 8.128 3.4 9.736 3.4 12s.002 3.872.165 5.092c.16 1.194.462 1.88.962 2.38l.198.178c.483.396 1.139.644 2.183.785 1.22.164 2.828.165 5.092.165s3.872-.002 5.092-.165c1.194-.16 1.88-.462 2.38-.962l.178-.198c.396-.483.644-1.139.785-2.183.164-1.22.165-2.828.165-5.092s-.002-3.872-.165-5.092c-.14-1.044-.39-1.7-.785-2.183l-.177-.198c-.5-.5-1.187-.801-2.381-.962C15.872 3.402 14.264 3.4 12 3.4",clipRule:"evenodd"})]})});j2.displayName="CheckboxIndeterminate";var it=i(require("react"),1),d1=require("react/jsx-runtime"),e4=it.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,d1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,d1.jsx)("path",{fill:"currentColor",d:"M10.26 16.04c.17.17.4.26.64.26v.01h.02c.24 0 .47-.11.64-.29l5.5-6A.9.9 0 0 0 17 8.75a.89.89 0 0 0-1.27.05l-4.86 5.31-1.84-1.84a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z"}),(0,d1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M3.65 21.14c1.66 1.66 4.03 1.66 8.75 1.66v.01c4.73 0 7.1 0 8.75-1.66s1.65-4.02 1.65-8.75 0-7.1-1.65-8.75C19.49 2 17.12 2 12.4 2h-.084C7.652 2 5.29 2 3.65 3.65 2 5.31 2 7.66 2 12.39s0 7.1 1.65 8.75M4.93 4.93C6.05 3.8 8.18 3.8 12.4 3.8s6.34 0 7.47 1.13C21 6.05 21 8.18 21 12.4s-.01 6.34-1.13 7.47S16.62 21 12.4 21s-6.34 0-7.47-1.13S3.8 16.62 3.8 12.4s.01-6.34 1.13-7.47",clipRule:"evenodd"})]})});e4.displayName="Checkbox";var dt=i(require("react"),1),m1=require("react/jsx-runtime"),t4=dt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,m1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,m1.jsx)("path",{fill:"currentColor",d:"M10.1 15.07a.9.9 0 0 0 .6.23h.07a.9.9 0 0 0 .62-.32l4.2-5c.32-.38.27-.95-.11-1.27a.903.903 0 0 0-1.27.11l-3.6 4.29-1.11-.99a.9.9 0 0 0-1.2 1.34z"}),(0,m1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.25 21.2c.63.68 1.49 1.6 2.65 1.6h-.01c1.147 0 1.986-.893 2.612-1.56l.038-.04c.1-.12.2-.22.3-.32.52-.52.76-.62 1.5-.62h.38c.84.03 2 .06 2.8-.73.799-.788.771-1.936.751-2.783v-.417c0-.74.1-.98.67-1.55 1.16-1.16 1.86-1.86 1.86-2.9s-.7-1.74-1.86-2.9c-.56-.57-.67-.81-.67-1.55v-.39c.02-.858.046-2.013-.75-2.81-.788-.778-1.915-.751-2.761-.73h-.04c-.85.02-1.35-.09-1.93-.67-1.16-1.16-1.86-1.86-2.9-1.86s-1.74.7-2.9 1.86c-.58.59-1.08.7-1.92.67h-.04c-.855-.021-1.992-.048-2.78.75-.79.8-.76 1.95-.73 2.8v.38c0 .64-.18 1.06-.67 1.55-1.16 1.16-1.86 1.86-1.86 2.9s.7 1.74 1.86 2.9c.56.57.67.81.67 1.55v.39c-.02.858-.047 2.013.75 2.81.788.778 1.926.751 2.763.73h.417c.74 0 .98.1 1.5.62.09.1.19.21.3.32m.97-1.59c-.86-.86-1.56-1.15-2.77-1.15h-.4c-.52.02-1.23.04-1.48-.21-.236-.236-.222-.892-.212-1.402l.002-.088v-.43c0-1.23-.29-1.91-1.2-2.82-.78-.77-1.34-1.33-1.34-1.62s.56-.85 1.34-1.63c.83-.83 1.2-1.7 1.2-2.82v-.43c-.02-.52-.03-1.24.21-1.48.235-.234.926-.22 1.443-.21h.467c1.12 0 1.99-.37 2.82-1.2.77-.78 1.33-1.34 1.62-1.34s.85.56 1.62 1.34c.83.83 1.7 1.2 2.82 1.2h.43l.09-.002c.508-.01 1.154-.024 1.39.212s.223.892.212 1.402l-.002.088v.43c0 1.22.29 1.91 1.2 2.82.77.77 1.33 1.33 1.33 1.62s-.55.85-1.33 1.63c-.91.91-1.2 1.59-1.2 2.82v.43l.001.04c.01.524.023 1.206-.22 1.45-.237.236-.883.223-1.392.212l-.089-.002c-1.5-.04-2.25.19-3.2 1.14-.11.11-.23.24-.35.37l-.052.055c-.378.399-.915.965-1.278.965-.38 0-.95-.61-1.33-1.02-.12-.14-.24-.26-.35-.37",clipRule:"evenodd"})]})});t4.displayName="CheckmarkBadge";var mt=i(require("react"),1),h1=require("react/jsx-runtime"),r4=mt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,h1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,h1.jsx)("path",{fill:"currentColor",d:"M9.76 15.54c.17.17.4.26.64.26l-.01-.01h.02c.24 0 .47-.11.64-.29l5.5-6c.34-.36.32-.93-.05-1.27a.9.9 0 0 0-1.27.06l-4.87 5.31-1.83-1.83a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z"}),(0,h1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1",clipRule:"evenodd"})]})});r4.displayName="CheckmarkCircle";var ht=i(require("react"),1),u1=require("react/jsx-runtime"),o4=ht.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,u1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.18 1.471C3.363 3.03-.087 9.006 1.471 14.821s7.535 9.266 13.35 7.708 9.265-7.535 7.707-13.35S14.994-.087 9.179 1.47M3.21 14.355a9.1 9.1 0 1 1 17.58-4.71 9.1 9.1 0 0 1-17.58 4.71",clipRule:"evenodd"}),(0,u1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.503 10.425a.9.9 0 0 0 1.13.583c2.036-.649 3.12-.711 4.347 0 .63.365 1.034.77 1.343 1.283q.125.209.237.454a5 5 0 0 0-.266-.128.9.9 0 0 0-.729 1.646q.209.094.512.269l.15.085c.153.088.321.185.477.268.203.108.457.232.71.302.157.043.537.127.912-.045.336-.101.558-.337.652-.442.165-.185.309-.41.423-.6.107-.177.195-.334.274-.474.124-.22.225-.401.34-.56a.9.9 0 0 0-1.457-1.057 5 5 0 0 0-.216.328 7 7 0 0 0-.477-.973c-.477-.794-1.11-1.407-1.982-1.913-1.901-1.103-3.619-.852-5.796-.157a.9.9 0 0 0-.584 1.13",clipRule:"evenodd"})]})});o4.displayName="CircleArrowMoveDownRight";var ut=i(require("react"),1),p1=require("react/jsx-runtime"),l4=ut.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,p1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,p1.jsx)("path",{fill:"currentColor",d:"M14.895 15.8h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-2.36-2.36 2.36-2.36a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-2.36 2.36-2.36-2.36a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.36 2.36-2.36 2.36a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.36-2.36z"}),(0,p1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1",clipRule:"evenodd"})]})});l4.displayName="CloseCircle";var pt=i(require("react"),1),c4=require("react/jsx-runtime"),s4=pt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,c4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,c4.jsx)("path",{fill:"currentColor",d:"M18.9 19.8c-.23 0-.46-.09-.64-.26l-6.36-6.36-6.36 6.36a.9.9 0 0 1-1.27 0 .9.9 0 0 1 0-1.27l6.36-6.36-6.37-6.37a.91.91 0 0 1 0-1.28c.36-.35.93-.35 1.28 0l6.36 6.36 6.36-6.36a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-6.36 6.36 6.36 6.36a.9.9 0 0 1 0 1.27c-.18.18-.41.26-.64.26z"})})});s4.displayName="Close";var ft=i(require("react"),1),n4=require("react/jsx-runtime"),a4=ft.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,n4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,n4.jsx)("path",{fill:"currentColor",d:"m12.1 10.83 4.24-4.24c.4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49c-.82-.82-2.15-.82-2.98 0L12.1 4.87l-1.26-1.26c-.4-.4-.93-.62-1.49-.62s-1.09.22-1.49.62c-.82.82-.82 2.15 0 2.98zm0 2.54-4.24 4.24c-.82.82-.82 2.16 0 2.98s2.15.82 2.98 0l1.26-1.26 1.26 1.26c.82.82 2.16.82 2.98 0s.82-2.16 0-2.98zm7.22-1.27 1.26-1.26c.4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49c-.82-.82-2.16-.82-2.98 0l-4.24 4.24 4.24 4.24c.79.8 2.18.79 2.97 0 .4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49l-1.26-1.26zM6.59 7.86c-.82-.82-2.16-.82-2.98 0s-.82 2.15 0 2.98l1.26 1.26-1.26 1.26c-.4.4-.62.93-.62 1.49s.22 1.09.62 1.49c.79.79 2.18.79 2.98 0l4.24-4.24z"})})});a4.displayName="CloverFill";var gt=i(require("react"),1),i4=require("react/jsx-runtime"),d4=gt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,i4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,i4.jsx)("path",{fill:"currentColor",d:"M21.66 6.39c-.83-.83-2.01-1.18-3.15-1.07.01-.14.04-.27.04-.42 0-1.04-.41-2.02-1.14-2.76C15.94.67 13.38.66 11.9 2.13a3.91 3.91 0 0 0-5.51.01c-.87.87-1.22 2.04-1.1 3.18-1.14-.11-2.31.24-3.15 1.07a3.91 3.91 0 0 0-.01 5.51 3.91 3.91 0 0 0 .01 5.51c.74.74 1.72 1.14 2.76 1.14.13 0 .25-.02.38-.04-.11 1.12.25 2.28 1.1 3.14a3.91 3.91 0 0 0 5.51.01 3.914 3.914 0 0 0 5.51-.01c.74-.74 1.14-1.72 1.14-2.76 0-.13-.02-.25-.04-.38.13.01.25.04.38.04 1 0 2-.38 2.76-1.14a3.91 3.91 0 0 0 .01-5.51 3.91 3.91 0 0 0-.01-5.51zm-14-2.97c.41-.41.95-.62 1.49-.62s1.08.21 1.49.61l.62.63c.17.17.4.26.64.26a.9.9 0 0 0 .64-.26l.63-.63a2.112 2.112 0 0 1 3.6 1.49c0 .56-.22 1.09-.62 1.49l-4.24 4.24-4.24-4.24c-.82-.82-.82-2.16 0-2.98zM3.41 16.14c-.82-.82-.82-2.16 0-2.98l.62-.62a.9.9 0 0 0 0-1.27l-.62-.63c-.4-.4-.62-.93-.62-1.49s.22-1.09.62-1.49.93-.62 1.49-.62 1.09.22 1.49.62l4.24 4.24-4.24 4.24a2.1 2.1 0 0 1-2.97 0zm13.34 2.76c0 .56-.22 1.09-.62 1.49-.8.79-2.18.79-2.97 0l-.63-.63a.9.9 0 0 0-.64-.26c-.24 0-.47.1-.64.26l-.62.63a2.1 2.1 0 0 1-2.97 0c-.82-.82-.82-2.16 0-2.98l4.24-4.24 4.24 4.24c.4.4.62.93.62 1.49zm3.01-6.36.62.62c.82.82.82 2.16 0 2.98s-2.15.82-2.98 0l-4.24-4.24 4.24-4.24c.79-.8 2.18-.79 2.98 0 .4.4.62.93.62 1.49s-.22 1.09-.62 1.49l-.62.63a.9.9 0 0 0 0 1.27"})})});d4.displayName="Clover";var bt=i(require("react"),1),f1=require("react/jsx-runtime"),m4=bt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,f1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,f1.jsx)("path",{fill:"currentColor",d:"M20.366 4.505c-2.47-2.1-6.01-2.02-8.35.12a6.3 6.3 0 0 0-8.35-.12 6.267 6.267 0 0 0-.18 9.36c1.27 1.16 2.52 2.38 3.79 3.61l.5.49c.42.41.98.64 1.55.64.13 0 .26-.01.39-.04.7-.13 1.27-.58 1.58-1.23.39-.83.16-1.58-.04-2.07-.1-.23-.18-.46-.27-.69a8 8 0 0 0 .79-.57 6.23 6.23 0 0 0 2.25-4.54c.06-1.24-.26-2.44-.87-3.46a4.49 4.49 0 0 1 6.03-.13c.96.82 1.53 2.03 1.55 3.31s-.5 2.51-1.44 3.38l-4.78 4.55a.9.9 0 0 0 1.24 1.3l4.76-4.54a6.28 6.28 0 0 0 2.01-4.72 6.26 6.26 0 0 0-2.18-4.64z"}),(0,f1.jsx)("path",{fill:"currentColor",d:"M12.126 18.315h-.02c-.36 0-.7.15-.95.41-.25.25-.39.6-.38.95 0 .36.14.7.39.95s.59.39.95.4c.18 0 .36-.04.53-.11a1.37 1.37 0 0 0 .85-1.28c-.02-.71-.65-1.31-1.37-1.31z"})]})});m4.displayName="ClubePodiFill";var vt=i(require("react"),1),g1=require("react/jsx-runtime"),h4=vt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,g1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,g1.jsx)("path",{fill:"currentColor",d:"M20.35 4.51c-2.47-2.1-6.01-2.02-8.35.12a6.3 6.3 0 0 0-8.35-.12 6.267 6.267 0 0 0-.18 9.36c1.28 1.18 2.56 2.42 3.79 3.62l.5.49c.42.41.98.63 1.55.63.13 0 .26-.01.39-.04.7-.13 1.27-.58 1.58-1.23.39-.83.16-1.58-.04-2.07q-.15-.345-.27-.69c.03-.02.06-.03.08-.05.25-.16.49-.34.71-.52a6.23 6.23 0 0 0 2.25-4.54c.06-1.24-.26-2.44-.87-3.46a4.49 4.49 0 0 1 6.03-.13c.96.82 1.53 2.03 1.55 3.31s-.5 2.51-1.44 3.38l-4.77 4.55a.9.9 0 0 0 1.24 1.3l4.76-4.54a6.28 6.28 0 0 0 2.01-4.72 6.26 6.26 0 0 0-2.18-4.64zm-9.74 8.12c-.17.14-.35.28-.54.4-.12.08-.25.14-.4.22l-.96.5.46 1.19c.13.35.26.69.41 1.03.16.38.12.51.07.62-.07.15-.19.21-.27.22s-.22.02-.36-.12l-.53-.52c-1.23-1.2-2.51-2.44-3.8-3.62a4.44 4.44 0 0 1-1.43-3.36c.02-1.28.59-2.48 1.56-3.3.88-.75 1.93-1.12 2.97-1.12 1.14 0 2.26.44 3.16 1.32.86.85 1.33 2.06 1.27 3.31a4.48 4.48 0 0 1-1.6 3.24z"}),(0,g1.jsx)("path",{fill:"currentColor",d:"M12.11 18.32h-.02c-.36 0-.7.15-.95.41-.25.25-.39.6-.38.95 0 .36.14.7.39.95s.59.39.95.4c.18 0 .36-.04.53-.11a1.37 1.37 0 0 0 .85-1.28c-.02-.71-.65-1.31-1.37-1.31z"})]})});h4.displayName="ClubePodi";var wt=i(require("react"),1),u4=require("react/jsx-runtime"),p4=wt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,u4.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M16.365 7.362a.9.9 0 0 1 1.273.003l1.84 1.85.037.038c.354.356.681.685.912.989.254.335.473.742.473 1.258s-.22.923-.473 1.258c-.23.304-.558.633-.912.989l-.037.037-1.84 1.85a.9.9 0 1 1-1.277-1.269l1.84-1.85c.405-.407.643-.649.792-.844a.8.8 0 0 0 .103-.163l.003-.008-.003-.008a.8.8 0 0 0-.103-.163c-.149-.195-.387-.437-.792-.844l-1.84-1.85a.9.9 0 0 1 .004-1.273m-8.731 0a.9.9 0 0 1 .004 1.273l-1.84 1.85c-.405.407-.643.649-.791.845a.8.8 0 0 0-.106.17l.002.008a1 1 0 0 0 .104.163c.148.195.386.437.791.844l1.84 1.85a.9.9 0 1 1-1.277 1.27l-1.84-1.85-.037-.038c-.354-.357-.681-.685-.911-.989-.255-.335-.473-.742-.473-1.258s.218-.923.473-1.258c.23-.304.557-.632.911-.989l.038-.038 1.84-1.85a.9.9 0 0 1 1.272-.003m7.134-4.221a.9.9 0 0 1 .59 1.127l-5 16a.9.9 0 1 1-1.717-.536l5-16a.9.9 0 0 1 1.127-.591",clipRule:"evenodd"})})});p4.displayName="CodeSSlash";var xt=i(require("react"),1),b1=require("react/jsx-runtime"),f4=xt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,b1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,b1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15.34 7.6c.566 0 1.069.021 1.497.091.425.07.852.198 1.21.465.504.375.717.897.801 1.443h.793c.477 0 .91.018 1.286.073.371.054.753.154 1.086.366.78.496.91 1.325.885 2.076-.04 1.206-.335 2.587-1.23 3.776-.901 1.198-2.335 2.1-4.46 2.486a10 10 0 0 1-2.606 2.952c-.562.432-1.112.713-1.736.877-.606.158-1.242.195-1.947.195H9.08c-.705 0-1.342-.037-1.947-.195-.624-.164-1.175-.445-1.737-.877-3.728-2.867-4.222-6.937-4.296-10.81-.016-.838.067-1.777.85-2.362.36-.268.786-.395 1.212-.465.428-.07.93-.092 1.496-.092zM4.66 9.4c-.538 0-.924.021-1.206.067-.284.047-.391.107-.425.132-.01.005-.142.089-.127.884.073 3.806.574 7.096 3.594 9.418.397.306.733.468 1.095.563.38.1.832.135 1.49.135h1.839c.658 0 1.11-.036 1.49-.135.363-.095.698-.257 1.096-.563 3.02-2.322 3.52-5.612 3.593-9.418.016-.803-.12-.88-.127-.884-.034-.025-.141-.085-.424-.132-.283-.045-.669-.067-1.206-.067zm14.214 2c-.065 1.645-.243 3.305-.745 4.877 1.017-.368 1.672-.899 2.101-1.469.6-.798.836-1.777.87-2.755.009-.278-.018-.415-.039-.473-.01-.03-.008-.021-.012-.024-.031-.02-.131-.068-.381-.104a7.5 7.5 0 0 0-1.026-.052z",clipRule:"evenodd"}),(0,b1.jsx)("path",{fill:"currentColor",d:"M6.928 3.34a.901.901 0 0 1 1.225 1.319l.002-.001.017-.017-.016.019a1 1 0 0 0-.094.142 1.45 1.45 0 0 0-.16.698.9.9 0 0 1-1.802 0c0-.669.182-1.19.378-1.553a2.7 2.7 0 0 1 .385-.542q.022-.024.04-.04l.014-.015.007-.006zl.305.329zm3.908-1.605a.9.9 0 0 1 .948 1.53c-.083.05-.314.27-.527.7a3.5 3.5 0 0 0-.355 1.535.9.9 0 0 1-1.8 0c0-.902.229-1.703.543-2.336.303-.61.727-1.142 1.19-1.429M13.61 3.19a.9.9 0 0 1 .984 1.486 1.4 1.4 0 0 0-.086.218 2.3 2.3 0 0 0-.107.606.9.9 0 0 1-1.8 0c0-.36.077-.785.189-1.143.057-.182.132-.377.228-.554a1.5 1.5 0 0 1 .51-.568z"})]})});f4.displayName="Coffee";var St=i(require("react"),1),g4=require("react/jsx-runtime"),b4=St.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,g4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,g4.jsx)("path",{fill:"currentColor",d:"M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10"})})});b4.displayName="Color";var kt=i(require("react"),1),v1=require("react/jsx-runtime"),v4=kt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,v1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,v1.jsx)("path",{fill:"currentColor",d:"M21.82 3.3a5.4 5.4 0 0 0-1.33-1.33c-1.4-.98-3.13-.98-6.6-.98h-4C6.44 1 4.7 1 3.3 1.98c-.52.36-.96.81-1.33 1.33C.99 4.7.99 6.44.99 9.91s0 5.2.98 6.6c.36.52.81.96 1.33 1.33 1.33.93 2.99.97 6.15.98.12.77-.03 1.58-.45 2.14l-.04.06H6.91c-.5 0-.9.4-.9.9s.4.9.9.9h10c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.05l-.04-.06c-.42-.55-.57-1.37-.45-2.14 3.16 0 4.82-.04 6.15-.98.52-.36.96-.81 1.33-1.33.98-1.39.98-3.13.98-6.6s0-5.2-.98-6.6zM10.99 21c.26-.68.35-1.45.28-2.2h1.26c-.07.75.03 1.52.28 2.2zm9.36-5.54c-.24.34-.54.64-.88.88-.93.65-2.48.65-5.56.65h-4c-3.09 0-4.63 0-5.57-.65-.34-.24-.64-.54-.88-.88-.65-.93-.65-2.48-.65-5.56s0-4.64.65-5.56c.24-.35.54-.64.88-.88.93-.65 2.48-.65 5.56-.65h4c3.09 0 4.63 0 5.56.65.35.24.64.54.88.88.65.93.65 2.48.65 5.56s0 4.63-.65 5.56z"}),(0,v1.jsx)("path",{fill:"currentColor",d:"M12.9 14h-2c-.5 0-.9.4-.9.9s.4.9.9.9h2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9"})]})});v4.displayName="Computer";var Rt=i(require("react"),1),b=require("react/jsx-runtime"),w4=Rt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,b.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,b.jsx)("path",{fill:"currentColor",d:"M11.91 22.8h-4c-2.98 0-4.62 0-5.76-1.14s-1.14-2.78-1.14-5.76v-8C1 4.92 1 3.28 2.14 2.14 3.29 1 4.93 1 7.91 1h4c2.98 0 4.62 0 5.76 1.14.87.87 1.07 2.03 1.13 3.73.02.5-.38.91-.87.93-.49 0-.91-.38-.93-.87-.04-1.46-.2-2.11-.6-2.51-.59-.59-1.73-.62-4.49-.62h-4c-2.76 0-3.9.02-4.49.62-.59.59-.62 1.73-.62 4.48v8c0 2.75.02 3.89.62 4.48s1.73.62 4.49.62h4c2.76 0 3.9-.02 4.49-.62.4-.4.56-1.05.6-2.51.02-.5.44-.87.93-.87.5.01.89.43.87.93-.05 1.7-.25 2.86-1.13 3.73-1.14 1.14-2.78 1.14-5.76 1.14"}),(0,b.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 18.8h-.005c.089 0 .187-.02.275-.05l2.98-.99c.13-.05.25-.12.35-.22l6.44-6.44c.32-.32.51-.51.65-.79.26-.53.26-1.16 0-1.68-.122-.263-.315-.456-.595-.735l-.055-.055c-.31-.31-.5-.5-.78-.64-.53-.26-1.15-.26-1.68 0-.28.14-.47.33-.79.65l-6.44 6.44c-.1.1-.18.22-.22.35l-.99 2.98c-.11.32-.02.68.22.92a.94.94 0 0 0 .635.26h-.005zm1.78-3.39-.36 1.07 1.07-.36 4.48-4.48-.71-.71zm5.75-5.75.71.71.54-.54.12-.118c.093-.09.157-.154.2-.212-.053-.115-.137-.199-.266-.327l-.054-.053-.094-.095a1.7 1.7 0 0 0-.246-.225c-.115.053-.198.137-.32.26l-.05.05-.55.55z",clipRule:"evenodd"}),(0,b.jsx)("path",{fill:"currentColor",d:"M8.4 19.8h.99c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.44l-1-2c-.31-.61-1.3-.61-1.61 0l-1 2H4.9c-.5 0-.9.4-.9.9s.4.9.9.9h1c.35 0 .66-.2.81-.5l.44-.89.44.89c.16.31.47.5.81.5m5.5-13h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m-8 4h6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-6c-.5 0-.9.4-.9.9s.4.9.9.9"})]})});w4.displayName="Contract";var Nt=i(require("react"),1),w1=require("react/jsx-runtime"),x4=Nt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,w1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,w1.jsx)("path",{fill:"currentColor",d:"m8 15.967.02-2.037c0-.5.44-.9.91-.89.5 0 .9.41.89.91l-.03 2.96a.9.9 0 0 1-.9.89h-.01a.9.9 0 0 1-.265-.04c-2.952-.004-4.582-.08-5.835-1.11-.25-.2-.47-.43-.68-.68C.99 14.61.99 12.86.99 9.37S1 4.14 2.11 2.79c.2-.25.43-.48.68-.68C4.14 1 5.89 1 9.39 1s5.24 0 6.59 1.11c.25.2.47.43.68.68 1.033 1.256 1.107 2.892 1.11 5.86q.03.109.03.23c0 .5-.39.91-.89.91l-2.97.04h-.01a.9.9 0 0 1-.01-1.8l2.047-.028c-.018-2.298-.135-3.375-.697-4.062-.13-.16-.27-.3-.43-.43-.86-.7-2.39-.7-5.45-.7s-4.6 0-5.45.7c-.16.13-.3.27-.43.43-.7.85-.7 2.39-.7 5.45s0 4.6.7 5.45c.13.16.27.3.43.43.687.562 1.77.678 4.06.697m5.02 5.943c.01.5.41.89.9.89h.01l2.96-.04c.5 0 .89-.41.89-.91s-.4-.87-.91-.89l-2.96.04c-.5 0-.89.41-.89.91m5.49.1c.08.44.46.75.89.75v.01c.05 0 .15-.01.15-.01l.11-.02.016-.002c.875-.141 2.677-.431 3.114-2.678a.9.9 0 0 0-.71-1.06.907.907 0 0 0-1.06.71c-.19.97-.75 1.11-1.65 1.25l-.12.02c-.49.08-.82.54-.74 1.03m-7.27.74c.05.01.11.01.16.01a.896.896 0 0 0 .16-1.78l-.12-.02c-.9-.15-1.46-.3-1.63-1.27a.89.89 0 0 0-1.04-.73.89.89 0 0 0-.73 1.04c.4 2.26 2.22 2.58 3.09 2.73zm9.72-5.88c-.01.5.39.91.89.91h.01c.49 0 .9-.4.9-.89l.03-2.96a.89.89 0 0 0-.89-.91c-.53 0-.91.39-.91.89zm.904-5.02h.006-.01zm-.874-.74a.89.89 0 0 0 .95.735l.08-.005a.89.89 0 0 0 .73-1.04c-.4-2.26-2.22-2.58-3.09-2.73l-.11-.02a.91.91 0 0 0-1.04.73c-.09.49.24.95.73 1.04l.12.02c.9.15 1.46.3 1.63 1.27"}),(0,w1.jsx)("path",{fill:"currentColor",d:"M8.75 11.84c.05.01.11.01.16.01H8.9c.42 0 .8-.3.88-.74.18-.97.73-1.11 1.63-1.27l.12-.02a.89.89 0 0 0 .73-1.04.89.89 0 0 0-1.04-.73l-.11.02c-.87.15-2.69.47-3.09 2.73-.09.49.24.95.73 1.04"})]})});x4.displayName="Copy";var Wt=i(require("react"),1),x1=require("react/jsx-runtime"),S4=Wt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,x1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,x1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.789 7.302a.9.9 0 0 1 1.445.892l.273.223a29 29 0 0 1 1.88 1.696l.461.479c.458.487.892.99 1.235 1.401q.118.143.221.272a.9.9 0 0 1 .833 1.514l-2.858 2.858-.068.061a.9.9 0 0 1-1.447-.893l-.271-.222a34 34 0 0 1-1.228-1.076l-3.129 3.13a.901.901 0 0 1-1.273-1.274l3.129-3.13a34 34 0 0 1-1.074-1.226q-.119-.144-.223-.273a.9.9 0 0 1-.832-1.513l2.857-2.858zm-.726 3.263q.11.136.237.289c.442.53 1.02 1.194 1.586 1.76.566.565 1.23 1.144 1.76 1.586l.287.236 1.002-1.002q-.108-.135-.235-.287a31 31 0 0 0-1.162-1.322l-.425-.438a28 28 0 0 0-1.76-1.587l-.288-.237z",clipRule:"evenodd"}),(0,x1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1c.9 0 1.701.29 2.55.765.827.465 1.774 1.152 2.956 2.006l1.44 1.041 1.285.94c.382.288.718.555 1.007.811.592.525 1.045 1.058 1.333 1.733l.099.255c.206.597.253 1.211.22 1.894-.027.57-.114 1.227-.23 1.997l-.122.809-.3 1.959c-.247 1.604-.444 2.893-.735 3.898-.3 1.032-.726 1.87-1.498 2.513-.77.64-1.681.92-2.77 1.052-1.066.129-2.412.127-4.097.127h-2.277c-1.685 0-3.03.002-4.097-.127-1.088-.133-2-.413-2.77-1.052-.772-.643-1.198-1.481-1.497-2.513-.219-.754-.384-1.667-.557-2.754l-.178-1.144-.3-1.96c-.174-1.13-.316-2.046-.353-2.805-.038-.78.03-1.471.32-2.149l.115-.247c.288-.561.7-1.026 1.217-1.486.578-.512 1.344-1.065 2.292-1.75l2.285-1.651c.803-.575 1.491-1.048 2.112-1.397.848-.476 1.649-.765 2.55-.765m0 1.8c-.482 0-.974.144-1.67.535-.536.301-1.15.722-1.935 1.284l-.847.61-1.44 1.041c-.978.707-1.658 1.2-2.152 1.639-.42.373-.661.668-.813.966l-.06.128c-.145.34-.206.733-.176 1.355.031.644.155 1.452.334 2.62l.3 1.958.18 1.149c.169 1.061.316 1.872.504 2.522.243.839.526 1.301.921 1.63.4.332.926.538 1.836.648.933.114 2.15.115 3.88.115h2.276c1.73 0 2.947-.001 3.88-.115.91-.11 1.436-.316 1.835-.648.395-.329.678-.791.921-1.63.251-.866.43-2.02.684-3.67l.3-1.96.223-1.506c.057-.428.096-.791.111-1.113.027-.544-.017-.913-.125-1.225l-.051-.13c-.146-.343-.392-.668-.872-1.094-.247-.22-.541-.453-.895-.719l-1.258-.92-1.44-1.04c-1.214-.88-2.066-1.493-2.782-1.895-.696-.39-1.187-.535-1.67-.535",clipRule:"evenodd"})]})});S4.displayName="CourtLaw";var Vt=i(require("react"),1),S1=require("react/jsx-runtime"),k4=Vt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,S1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,S1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.9 20.8h-.5c-3.96 0-5.95 0-7.45-1.19-.24-.19-.46-.4-.67-.63C1 17.54 1 15.65 1 11.89s0-5.64 1.28-7.08c.2-.23.43-.44.67-.63C4.45 3 6.44 3 10.4 3h3c3.96 0 5.95 0 7.45 1.19.24.19.46.4.67.63 1.2 1.35 1.27 3.19 1.28 6.08 0 .5-.4.9-.9.9s-.9-.4-.9-.9q0-.59-.007-1.1H2.82c-.011.617-.011 1.316-.011 2.11 0 3.31 0 4.96.82 5.89.13.15.28.29.44.41 1.01.8 2.79.8 6.34.8h.5c.5 0 .9.4.9.9s-.4.9-.9.9zM2.92 8h17.977c-.106-.92-.314-1.537-.717-1.99-.13-.15-.28-.29-.44-.41-1.01-.8-2.79-.8-6.34-.8h-3c-3.55 0-5.33 0-6.33.8-.16.13-.31.27-.44.42-.4.449-.605 1.074-.71 1.98",clipRule:"evenodd"}),(0,S1.jsx)("path",{fill:"currentColor",d:"M15.85 20.8h.05l-.01-.01c.31 0 .59-.16.76-.42.84-1.31 3.47-4.9 5.54-5.63.47-.17.72-.68.55-1.15a.9.9 0 0 0-1.15-.55c-2.23.79-4.5 3.58-5.67 5.21-.94-1.18-1.83-1.26-2.03-1.26-.5 0-.94.4-.94.9s.36.9.86.9c.01 0 .6.14 1.28 1.51.15.29.44.48.76.5"})]})});k4.displayName="CreditCardAccept";var Ct=i(require("react"),1),m=require("react/jsx-runtime"),R4=Ct.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,m.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,m.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8 9.1a6.9 6.9 0 1 1 0 13.8A6.9 6.9 0 0 1 8 9.1m0 1.8a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2",clipRule:"evenodd"}),(0,m.jsx)("path",{fill:"currentColor",d:"M22 14.1a.9.9 0 0 1 .9.9 6.896 6.896 0 0 1-6.544 6.89L16 21.9a.9.9 0 0 1-.805-1.302l.857-1.715.046-.08a.9.9 0 0 1 1.564.886l-.08.16A5.095 5.095 0 0 0 21.1 15a.9.9 0 0 1 .9-.9m-4.877.788a.9.9 0 0 1-.3-1.776z"}),(0,m.jsx)("path",{fill:"currentColor",d:"M15.957 1.1a6.944 6.944 0 0 1 1.166 13.788l-.15-.888-.15-.888a5.144 5.144 0 1 0-5.935-5.935L10 7.027l-.888-.15A6.945 6.945 0 0 1 15.957 1.1M8.116 2.107a.9.9 0 0 1 .689 1.295l-.857 1.715a.9.9 0 0 1-1.61-.805l.08-.162A5.1 5.1 0 0 0 2.9 9a.9.9 0 0 1-1.8 0c0-3.814 3.086-6.9 6.9-6.9z"}),(0,m.jsx)("path",{fill:"currentColor",d:"M10.888 7.177a.9.9 0 0 1-1.776-.3z"})]})});R4.displayName="CreditsSwap";var Gt=i(require("react"),1),k1=require("react/jsx-runtime"),N4=Gt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,k1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,k1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14 1a9 9 0 1 0 0 18 9 9 0 0 0 0-18m-7 9a7 7 0 1 1 14 0 7 7 0 0 1-14 0",clipRule:"evenodd"}),(0,k1.jsx)("path",{fill:"currentColor",d:"M3.891 11.343a1 1 0 0 0-1.72-1.02 8.398 8.398 0 0 0 11.506 11.506 1 1 0 1 0-1.02-1.72 6.398 6.398 0 0 1-8.766-8.765"})]})});N4.displayName="Credits";var Pt=i(require("react"),1),W4=require("react/jsx-runtime"),V4=Pt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,W4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,W4.jsx)("path",{fill:"currentColor",d:"M4 4a1 1 0 0 1 1-1h10.044a1 1 0 0 1 1 1v1.706a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm0 7.147a1 1 0 0 1 1-1h13.618a1 1 0 0 1 1 1v1.706a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm5.824 7.147a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1V20a1 1 0 0 0 1 1h3.824a1 1 0 0 0 1-1z"})})});V4.displayName="Crmall";var Mt=i(require("react"),1),R1=require("react/jsx-runtime"),C4=Mt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,R1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,R1.jsx)("path",{fill:"currentColor",d:"M19.092 19.605a.9.9 0 0 1 0 1.79L19 21.4H5a.9.9 0 0 1 0-1.8h14z"}),(0,R1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.117 2.604c.546.035 1.05.32 1.358.778l.062.1 2.215 3.822.488.827a6 6 0 0 0 .362.538c.202.26.293.282.327.29l.038.006c.053.002.161-.013.385-.12.32-.152.727-.417 1.37-.84l1.232-.81.144-.086a1.91 1.91 0 0 1 2.242.32l.092.097c.44.5.586 1.2.37 1.84l-.004.008-2.245 6.415c-.163.466-.31.886-.47 1.22-.17.354-.395.69-.759.948s-.756.358-1.146.402c-.368.042-.813.041-1.306.041H7.128c-.493 0-.938 0-1.306-.04-.342-.04-.684-.12-1.009-.313l-.137-.09c-.364-.258-.588-.594-.759-.948a7 7 0 0 1-.234-.56l-.236-.66-2.245-6.415-.004-.009A1.87 1.87 0 0 1 1.66 7.43l.124-.113a1.91 1.91 0 0 1 2.262-.122l1.231.81.808.521c.222.138.403.243.563.32.298.141.39.12.423.113l.037-.012c.05-.022.139-.083.29-.278.219-.28.464-.699.85-1.365l2.215-3.822.062-.1c.33-.49.884-.782 1.475-.782zM9.806 8.206c-.36.621-.676 1.169-.988 1.57-.287.368-.636.7-1.118.872l-.215.063c-.595.14-1.13-.01-1.611-.24a8 8 0 0 1-.74-.415L4.29 9.51 3.057 8.7a.11.11 0 0 0-.104-.009l-.03.02a.08.08 0 0 0-.02.076l2.243 6.406.222.623c.063.168.117.3.17.41.096.2.153.245.179.263l.08.038c.047.015.117.032.227.044.244.028.57.029 1.104.029h9.744c.534 0 .86-.001 1.104-.029.22-.025.281-.063.307-.082.026-.018.083-.063.179-.262.106-.221.215-.53.392-1.034l2.243-6.406a.1.1 0 0 0 0-.038l-.02-.038a.11.11 0 0 0-.1-.026l-.034.014-1.232.81c-.6.395-1.127.743-1.585.962-.422.2-.883.341-1.39.279l-.221-.04c-.595-.14-1.005-.514-1.333-.935a8 8 0 0 1-.476-.702l-.512-.867L12 4.419z",clipRule:"evenodd"})]})});C4.displayName="Crown03";var At=i(require("react"),1),G4=require("react/jsx-runtime"),P4=At.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,G4.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.99 22.81c-.51 0-.98-.21-1.34-.57-.26-.27-.38-.57-.58-1.07l-1.49-3.71c-.15-.38-.31-.77-.38-.86-.08.04-.41.3-.72.54-1.63 1.25-2.45 1.88-3.39 1.78-.63-.06-1.22-.39-1.62-.89-.58-.73-.5-1.76-.35-3.81l.56-7.72c.19-2.9.3-4.65 1.93-5.32 1.63-.66 2.93.52 5.07 2.48l5.73 5.16c1.53 1.37 2.29 2.06 2.38 2.99.06.63-.14 1.28-.55 1.77-.61.72-1.62.84-3.66 1.09-.4.05-.81.1-.92.15.02.1.18.49.33.87l1.48 3.7c.19.48.32.8.32 1.18 0 .51-.21.99-.57 1.34-.26.26-.56.38-1.05.58-.51.21-.81.33-1.18.33zm-3.8-7.98c.37 0 .74.11 1.05.32.48.32.68.82 1.01 1.65l1.48 3.7c.09.23.18.45.22.51.08 0 .31-.1.53-.19s.45-.18.5-.22c0-.1-.1-.33-.18-.54l-1.48-3.7c-.33-.83-.53-1.32-.41-1.89.09-.41.3-.76.6-1.03.44-.39.97-.45 1.85-.56 1.13-.14 2.3-.28 2.5-.46.1-.12.15-.28.13-.43-.06-.27-.94-1.06-1.79-1.82L10.47 5C8.76 3.44 7.85 2.63 7.29 2.86s-.66 1.45-.82 3.78l-.57 7.73c-.09 1.2-.17 2.33-.03 2.57.09.12.24.2.39.21.27 0 1.2-.72 2.11-1.42.71-.54 1.14-.87 1.72-.9z",clipRule:"evenodd"})})});P4.displayName="Cursor";var Et=i(require("react"),1),N1=require("react/jsx-runtime"),M4=Et.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,N1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,N1.jsx)("path",{fill:"currentColor",d:"M11 21.9c0 .5.4.9.9.9s.9-.4.9-.9v-1.5c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm7.965-2.03h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-1.06-1.06a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27zm-13.505.26h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26l1.06-1.06a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-1.06 1.06a.9.9 0 0 0 0 1.27M20.4 12.8h1.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-1.5c-.5 0-.9.4-.9.9s.4.9.9.9m-18.5 0h1.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H1.9c-.5 0-.9.4-.9.9s.4.9.9.9m16.005-6.01h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26l1.06-1.06a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-1.06 1.06a.9.9 0 0 0 0 1.27m-11.385.26h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27L5.46 4.2a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27zM11 3.4c0 .5.4.9.9.9s.9-.4.9-.9V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9z"}),(0,N1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6 11.9c0 3.25 2.65 5.9 5.9 5.9s5.9-2.65 5.9-5.9S15.15 6 11.9 6A5.91 5.91 0 0 0 6 11.9m1.8 0c0-2.26 1.84-4.1 4.1-4.1S16 9.64 16 11.9 14.16 16 11.9 16s-4.1-1.84-4.1-4.1",clipRule:"evenodd"})]})});M4.displayName="DarkmodeOff";var It=i(require("react"),1),A4=require("react/jsx-runtime"),E4=It.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,A4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,A4.jsx)("path",{fill:"currentColor",d:"M12.53 22.8C6.72 22.8 2 18.08 2 12.27c0-4.91 3.34-9.13 8.12-10.25a.9.9 0 0 1 1 1.3c-.59 1.1-.9 2.35-.9 3.6 0 4.22 3.43 7.66 7.66 7.66 1.26 0 2.5-.31 3.6-.9a.88.88 0 0 1 .97.08c.28.22.41.58.33.92a10.48 10.48 0 0 1-10.25 8.12M8.76 4.39a8.7 8.7 0 0 0-4.96 7.88c0 4.81 3.92 8.73 8.73 8.73 3.44 0 6.46-1.97 7.88-4.96-.82.23-1.68.35-2.53.35-5.21 0-9.46-4.24-9.46-9.46 0-.86.12-1.71.35-2.53z"})})});E4.displayName="DarkmodeOn";var yt=i(require("react"),1),I4=require("react/jsx-runtime"),y4=yt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,I4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,I4.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.034 1.1c.504 0 .94 0 1.304.032.38.034.746.108 1.103.294l.204.117q.1.063.195.133l.117.093c.262.222.457.485.629.771.188.313.377.706.597 1.16l.436.9H21a.9.9 0 0 1 0 1.8h-.654l-.568 9.181c-.078 1.263-.14 2.274-.267 3.082-.114.72-.29 1.346-.62 1.904l-.152.236a4.9 4.9 0 0 1-1.47 1.382c-.642.39-1.355.559-2.183.638-.814.078-1.828.077-3.093.077-1.267 0-2.281 0-3.097-.078-.83-.08-1.543-.246-2.186-.638a4.9 4.9 0 0 1-1.32-1.18l-.15-.205c-.43-.618-.64-1.32-.77-2.143-.127-.809-.188-1.822-.264-3.087L3.652 6.4H3a.9.9 0 0 1 0-1.8h4.475l.365-.802.303-.655q.143-.303.28-.546c.194-.34.42-.647.747-.898l.196-.138q.101-.066.207-.122l.137-.067c.32-.145.65-.208.99-.24.37-.033.818-.032 1.334-.032M5.456 6.4l.547 9.06c.078 1.3.134 2.212.245 2.916.108.69.258 1.09.47 1.394l.095.13a3.1 3.1 0 0 0 .7.659l.134.087.124.07c.3.154.69.257 1.297.315.71.068 1.623.069 2.925.069 1.3 0 2.213 0 2.921-.069.693-.066 1.102-.191 1.418-.383.367-.224.685-.522.93-.875l.077-.119c.172-.29.299-.67.394-1.273.112-.703.17-1.613.25-2.911l.56-9.07zm6.578-3.5c-.549 0-.9.001-1.172.026-.19.017-.302.044-.378.073l-.066.03-.078.046-.075.052c-.069.053-.151.14-.278.361a7 7 0 0 0-.22.43l-.29.627-.025.055h5.167l-.056-.116c-.233-.482-.384-.79-.521-1.018a1.4 1.4 0 0 0-.225-.302l-.053-.046-.152-.095c-.075-.039-.187-.076-.434-.098-.265-.024-.608-.025-1.144-.025",clipRule:"evenodd"})})});y4.displayName="Delete";var Bt=i(require("react"),1),W1=require("react/jsx-runtime"),B4=Bt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,W1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,W1.jsx)("path",{fill:"currentColor",d:"M15.112 13.905a1.1 1.1 0 0 1 0 2.19L15 16.1h-.01a1.1 1.1 0 1 1 0-2.2H15zm-.749-5.542a.9.9 0 0 1 1.274 1.274l-6 6a.9.9 0 0 1-1.274-1.274zm-5.24-.458a1.1 1.1 0 0 1 0 2.19l-.112.005H9a1.1 1.1 0 1 1 0-2.2h.01z"}),(0,W1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m12.187 1.107.199.025c.454.078.83.3 1.167.563.368.288.773.696 1.238 1.16s.546.528.626.565l.049.02.074.02c.095.017.277.024.769.024h.108c.728 0 1.366-.002 1.875.067.535.072 1.063.236 1.492.665l.149.166c.32.396.453.858.516 1.326.069.51.067 1.147.067 1.875v.108c0 .492.008.674.024.769l.02.074v.002l.02.047.038.066c.056.08.18.212.527.56l.646.656q.296.308.514.582c.3.385.547.82.588 1.366L22.9 12q-.001.094-.008.188c-.041.544-.287.98-.588 1.365-.288.367-.696.773-1.16 1.238l-.001-.001c-.463.463-.527.547-.564.627l-.02.047v.002c-.03.082-.044.187-.044.843v.108c0 .728.002 1.366-.067 1.875-.063.469-.196.931-.516 1.327l-.149.165c-.429.43-.957.593-1.492.665-.51.069-1.147.067-1.875.067h-.108c-.656 0-.76.013-.843.044h-.002l-.048.02h.001c-.08.037-.164.1-.627.564h.001c-.465.465-.87.873-1.238 1.16-.385.302-.821.547-1.366.588q-.187.015-.374 0c-.545-.04-.981-.287-1.366-.587a8 8 0 0 1-.582-.514l-.656-.646c-.347-.348-.48-.471-.56-.527l-.066-.038-.047-.02h-.002c-.082-.03-.187-.044-.842-.044h-.109c-.728 0-1.365.002-1.875-.067-.468-.063-.93-.197-1.326-.516l-.166-.149c-.43-.43-.593-.957-.665-1.492-.069-.51-.066-1.147-.066-1.875v-.108c0-.492-.008-.674-.025-.769l-.02-.074-.02-.049c-.037-.08-.1-.163-.564-.627-.465-.465-.873-.87-1.16-1.237-.264-.337-.485-.713-.564-1.167l-.024-.2a2.5 2.5 0 0 1 0-.373l.024-.199c.079-.454.3-.83.563-1.167.288-.367.696-.773 1.16-1.238l.28-.282c.215-.222.258-.284.285-.344l.02-.049.02-.074c.017-.095.025-.276.025-.769v-.108c0-.728-.003-1.366.066-1.875.072-.535.236-1.063.665-1.492l.166-.149c.396-.32.858-.453 1.326-.516.51-.069 1.147-.067 1.875-.067h.109c.655 0 .76-.013.842-.044l.05-.02.066-.038c.078-.055.211-.179.56-.527l.655-.646q.308-.296.582-.514c.385-.3.822-.547 1.367-.588L12 1.1q.093 0 .187.007m-.239 1.795c-.046.004-.147.02-.391.211a6 6 0 0 0-.45.398l-.624.617c-.325.325-.623.637-.989.846l-.16.083-.174.07c-.455.17-.944.157-1.468.157h-.109c-.78 0-1.274.001-1.636.05-.25.034-.36.082-.417.12l-.04.035c-.04.04-.11.123-.156.458-.048.362-.05.857-.05 1.636v.448c-.002.334-.017.653-.1.957l-.056.172-.071.173c-.152.331-.39.603-.655.875l-.274.274c-.497.497-.81.814-1.015 1.075-.143.183-.189.285-.204.344l-.007.047a1 1 0 0 0 0 .104l.007.047c.015.059.061.161.204.344.103.13.232.276.398.45l.617.625.274.274c.265.272.503.544.655.875l.071.173.056.172c.083.304.098.623.1.957v.448c0 .78.002 1.274.05 1.636.045.334.115.418.154.458h.001l.041.035c.056.038.167.086.417.12.362.049.857.05 1.636.05h.109c.524 0 1.013-.013 1.468.156q.09.033.173.071l.161.083c.366.209.664.521.989.846l.625.617c.174.166.318.296.449.398.243.19.343.207.39.21h.106l.046-.006c.059-.015.161-.06.345-.204.26-.204.577-.518 1.074-1.015l.274-.273c.272-.266.544-.504.875-.656l.173-.07.172-.056c.304-.083.624-.099.958-.101h.447c.78 0 1.274-.001 1.636-.05.334-.045.419-.115.458-.154v-.001l.035-.041c.038-.056.086-.166.12-.417.049-.362.05-.857.05-1.636v-.108c0-.525-.013-1.013.156-1.47q.033-.088.072-.171l.082-.162c.21-.366.521-.663.846-.988l.617-.626c.166-.174.296-.318.398-.449.19-.243.207-.343.21-.39v-.106c-.003-.046-.02-.147-.21-.39a6 6 0 0 0-.398-.449l-.617-.626c-.325-.325-.637-.622-.846-.988l-.082-.161a3 3 0 0 1-.072-.173l-.055-.172c-.11-.406-.101-.837-.101-1.297v-.108c0-.78-.001-1.274-.05-1.636-.045-.334-.115-.418-.154-.458h-.001c-.04-.04-.124-.11-.458-.155-.362-.049-.857-.05-1.636-.05h-.447c-.334-.002-.654-.017-.958-.1l-.172-.056-.173-.071c-.331-.152-.603-.39-.875-.656l-.274-.273c-.497-.497-.814-.81-1.075-1.015-.183-.143-.285-.189-.344-.204l-.047-.007z",clipRule:"evenodd"})]})});B4.displayName="Descontos";var Ht=i(require("react"),1),v=require("react/jsx-runtime"),H4=Ht.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,v.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,v.jsx)("path",{fill:"currentColor",d:"M15.88 9.32h-.05a.93.93 0 0 1-.76-.5c-.42-.84-.83-1.27-.84-1.27a.91.91 0 0 1 .01-1.27.9.9 0 0 1 1.27 0c.03.03.2.2.43.51.67-.84 1.64-1.87 2.64-2.22.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-.77.27-1.95 1.7-2.54 2.63-.17.26-.45.42-.76.42"}),(0,v.jsx)("path",{fill:"currentColor",d:"M11.32 22.8c-2.21 0-4.54-.06-6.18-.15-3.12-.18-4.13-3.45-4.13-5C1 16.38 1 13.84 1 11.12V6.87c.01-4.96 3.37-5.59 4.4-5.66.01 0 1.98-.29 4.53-.18.5.02.88.44.86.94s-.48.88-.94.86C7.48 2.73 5.61 3 5.59 3c-1.31.1-2.79.84-2.79 3.87v4.26c-.01 2.71-.02 5.24 0 6.51 0 .66.41 3.1 2.43 3.22 3.06.18 8.58.22 11.1 0 .05 0 2.19-.15 2.44-2.26.26-2.24.24-3.87.23-4.48v-.19c0-.5.4-.9.9-.9s.9.4.9.9v.17c0 .65.03 2.36-.25 4.71-.31 2.68-2.62 3.77-4.1 3.85-1.22.11-3.14.15-5.15.15z"}),(0,v.jsx)("path",{fill:"currentColor",d:"M16.9 12.82c-3.26 0-5.91-2.65-5.91-5.9s2.65-5.9 5.91-5.9 5.91 2.65 5.91 5.9-2.65 5.9-5.91 5.9m0-10c-2.26 0-4.1 1.84-4.1 4.1s1.84 4.1 4.1 4.1S21 9.18 21 6.92s-1.84-4.1-4.1-4.1m-6.02 11h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m4 4h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9"})]})});H4.displayName="DocumentValidation";var qt=i(require("react"),1),q4=require("react/jsx-runtime"),z4=qt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,q4.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1",clipRule:"evenodd"})})});z4.displayName="Dot";var zt=i(require("react"),1),V1=require("react/jsx-runtime"),L4=zt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,V1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,V1.jsx)("path",{fill:"currentColor",d:"M9.24 12.62c1.03 1.32 1.78 2.18 2.66 2.18v-.01c.88 0 1.63-.86 2.66-2.18.19-.25.36-.47.48-.59a.9.9 0 0 0-.02-1.27.9.9 0 0 0-1.27.02c-.15.16-.36.42-.61.74-.041.057-.097.125-.158.201q-.087.106-.182.229V3.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v8.05l-.194-.246q-.081-.105-.146-.184l-.02-.026c-.241-.309-.444-.568-.59-.714a.9.9 0 0 0-1.27-.02.89.89 0 0 0-.02 1.27c.084.091.202.24.341.415l.14.175"}),(0,V1.jsx)("path",{fill:"currentColor",d:"M10.68 20.8h2.44c2.83 0 4.39 0 5.66-.9s1.79-2.37 2.73-5.04l.23-.66a.907.907 0 0 0-.55-1.15.907.907 0 0 0-1.15.55l-.23.66c-.84 2.4-1.27 3.6-2.07 4.17s-2.08.57-4.62.57h-2.44c-2.54 0-3.82 0-4.62-.57-.793-.565-1.213-1.75-2.049-4.11l-.02-.06-.23-.66a.9.9 0 0 0-1.15-.55c-.47.17-.72.68-.55 1.15l.23.66c.94 2.67 1.46 4.14 2.73 5.04s2.83.9 5.66.9"})]})});L4.displayName="Download";var Lt=i(require("react"),1),F4=require("react/jsx-runtime"),D4=Lt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,F4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,F4.jsx)("path",{fill:"currentColor",d:"m8.007 16.5.153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 0 1 0-3zm7.993 0a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3zm-7.993-6 .153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 0 1 0-3zm7.993 0a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3zm-7.993-6 .153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 1 1 0-3zM16 4.5a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3z"})})});D4.displayName="DragDropVertical";var Ft=i(require("react"),1),w=require("react/jsx-runtime"),U4=Ft.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,w.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,w.jsx)("path",{fill:"currentColor",d:"M15.334 16.395a.901.901 0 0 1 1.44 1.062l-.05.077v.001l-.003.003-.007.009-.026.036-.099.13a38 38 0 0 1-1.514 1.877c-.444.511-.941 1.046-1.41 1.46-.232.206-.48.4-.726.549-.222.133-.557.301-.94.301s-.717-.168-.939-.301a5 5 0 0 1-.726-.55c-.469-.413-.966-.948-1.41-1.46a36 36 0 0 1-1.514-1.875l-.099-.131-.026-.036-.007-.01-.003-.003-.05-.077a.9.9 0 0 1 1.44-1.062l.06.07.001.003.005.008.023.03.092.124a38 38 0 0 0 1.438 1.78c.424.489.861.954 1.242 1.29q.287.253.464.358l.01.005.01-.005q.175-.105.463-.358c.38-.336.818-.801 1.242-1.29a34 34 0 0 0 1.438-1.78l.092-.123.023-.031.005-.008.002-.001z"}),(0,w.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 9.1a2.9 2.9 0 1 1 0 5.801A2.9 2.9 0 0 1 12 9.1m0 1.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2",clipRule:"evenodd"}),(0,w.jsx)("path",{fill:"currentColor",d:"M12.14 2.107c.324.034.605.177.799.294.246.149.494.343.727.55.468.413.965.948 1.409 1.46a36 36 0 0 1 1.514 1.875l.099.131.026.036.007.01.003.003.05.077a.9.9 0 0 1-1.44 1.062l-.06-.07-.001-.003-.005-.008-.023-.03-.092-.124a37 37 0 0 0-1.438-1.78 14 14 0 0 0-1.242-1.29 3.4 3.4 0 0 0-.464-.358L12 3.937l-.01.005q-.175.105-.463.358c-.38.336-.818.801-1.242 1.29a34 34 0 0 0-1.438 1.78l-.092.123-.023.031-.005.008-.002.001a.901.901 0 0 1-1.45-1.067l.002-.001.002-.003.007-.009.026-.036.099-.13A38 38 0 0 1 8.924 4.41c.444-.511.941-1.046 1.41-1.46.232-.206.48-.4.726-.549.222-.133.557-.301.94-.301z"})]})});U4.displayName="Drag";var Dt=i(require("react"),1),C1=require("react/jsx-runtime"),T4=Dt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,C1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,C1.jsx)("path",{fill:"currentColor",d:"M17.008 2.733a1.9 1.9 0 0 1 2.543.13l1.586 1.586.13.145a1.9 1.9 0 0 1 0 2.398l-.13.145-7.902 7.9a2.9 2.9 0 0 1-1.158.71l-.19.053-3.461.866a.9.9 0 0 1-1.092-1.092l.865-3.462.055-.19a2.9 2.9 0 0 1 .708-1.157l7.901-7.902zm-6.773 9.304a1.1 1.1 0 0 0-.244.37l-.046.142-.502 2.007 2.008-.502.142-.046a1.1 1.1 0 0 0 .369-.243l5.472-5.472-1.728-1.727zm7.934-7.923-.032.023-1.157 1.156 1.727 1.727 1.156-1.157.023-.033a.1.1 0 0 0 0-.075l-.023-.033-1.586-1.585a.1.1 0 0 0-.108-.023"}),(0,C1.jsx)("path",{fill:"currentColor",d:"M2.307 18.793v-12a2.9 2.9 0 0 1 2.9-2.9h5.5l.092.004a.9.9 0 0 1 0 1.791l-.092.005h-5.5a1.1 1.1 0 0 0-1.1 1.1v12a1.1 1.1 0 0 0 1.1 1.1h12a1.1 1.1 0 0 0 1.1-1.1v-5.5a.9.9 0 0 1 1.8 0v5.5a2.9 2.9 0 0 1-2.9 2.9h-12a2.9 2.9 0 0 1-2.9-2.9"})]})});T4.displayName="Edit";var Ut=i(require("react"),1),O4=require("react/jsx-runtime"),Q4=Ut.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,O4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,O4.jsx)("path",{fill:"currentColor",d:"M10.575 20.99a9.2 9.2 0 0 0 2.85 0 .9.9 0 1 1 .28 1.778 11 11 0 0 1-3.41 0 .901.901 0 0 1 .28-1.779M3.38 17.15a.9.9 0 0 1 1.257.199 9.2 9.2 0 0 0 2.014 2.014.9.9 0 1 1-1.06 1.455 11 11 0 0 1-2.41-2.41.9.9 0 0 1 .199-1.258m15.983.199a.9.9 0 1 1 1.455 1.06 11 11 0 0 1-2.41 2.41.9.9 0 0 1-1.06-1.456 9.2 9.2 0 0 0 2.015-2.014M7.46 14.28a.9.9 0 0 1 1.26.18c.75.997 1.94 1.64 3.28 1.64s2.53-.643 3.28-1.64a.9.9 0 0 1 1.44 1.08A5.9 5.9 0 0 1 12 17.9c-1.93 0-3.645-.93-4.72-2.36a.9.9 0 0 1 .18-1.26M2.262 9.546a.9.9 0 0 1 .749 1.03 9.2 9.2 0 0 0 0 2.849.9.9 0 1 1-1.779.28 11 11 0 0 1 0-3.41.9.9 0 0 1 1.03-.75m19.476.001a.9.9 0 0 1 1.03.75 11 11 0 0 1 0 3.408.901.901 0 0 1-1.779-.28 9.2 9.2 0 0 0 0-2.849.9.9 0 0 1 .75-1.03M8.009 7.75a1.25 1.25 0 0 1 0 2.5H8a1.25 1.25 0 1 1 0-2.5zm7.991 0a1.25 1.25 0 1 1 0 2.5h-.009a1.25 1.25 0 0 1 0-2.5zM5.592 3.182a.9.9 0 0 1 1.06 1.455A9.2 9.2 0 0 0 4.636 6.65a.9.9 0 1 1-1.455-1.06 11 11 0 0 1 2.41-2.41m11.559.2a.9.9 0 0 1 1.258-.198 11 11 0 0 1 2.41 2.41.9.9 0 0 1-1.455 1.06 9.2 9.2 0 0 0-2.014-2.015.9.9 0 0 1-.199-1.257M12 1.1q.87 0 1.704.132a.9.9 0 0 1-.28 1.779 9.2 9.2 0 0 0-2.849 0 .9.9 0 1 1-.28-1.779A11 11 0 0 1 12 1.1"})})});Q4.displayName="EmojiEmpty";var Tt=i(require("react"),1),G1=require("react/jsx-runtime"),Z4=Tt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,G1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 2.9a9.1 9.1 0 1 0 0 18.2 9.1 9.1 0 0 0 0-18.2M1.1 12C1.1 5.98 5.98 1.1 12 1.1S22.9 5.98 22.9 12 18.02 22.9 12 22.9 1.1 18.02 1.1 12",clipRule:"evenodd"}),(0,G1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M16.54 14.28a.9.9 0 0 1 .18 1.26A5.9 5.9 0 0 1 12 17.9a5.9 5.9 0 0 1-4.72-2.36.9.9 0 1 1 1.44-1.08c.749.997 1.939 1.64 3.28 1.64s2.53-.643 3.28-1.64a.9.9 0 0 1 1.26-.18M6.75 9c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m7.99 0c0-.69.56-1.25 1.25-1.25H16a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25",clipRule:"evenodd"})]})});Z4.displayName="Emoji";var Ot=i(require("react"),1),J4=require("react/jsx-runtime"),K4=Ot.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,J4.jsx)("path",{fill:"currentColor",d:"m18 9-6-6-6 6zm0 6-6 6-6-6z"})})});K4.displayName="ExpandUpDownFill";var Qt=i(require("react"),1),P1=require("react/jsx-runtime"),X4=Qt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,P1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,P1.jsx)("path",{fill:"currentColor",d:"M3.58 20.22c1.58 1.58 3.83 1.58 8.32 1.58l-.02-.01c4.49 0 6.74 0 8.32-1.58 1.5-1.5 1.58-3.69 1.58-7.42 0-.49-.4-.9-.9-.9s-.9.4-.9.9c0 3.55-.1 5.2-1.05 6.15-1.05 1.05-3.06 1.05-7.04 1.05s-5.99 0-7.04-1.05S3.8 15.89 3.8 11.9s0-5.99 1.05-7.05C5.8 3.91 7.45 3.8 11 3.8c.5 0 .9-.4.9-.9S11.5 2 11 2c-3.74 0-5.92.08-7.42 1.58C2 5.16 2 7.41 2 11.9s0 6.74 1.58 8.32"}),(0,P1.jsx)("path",{fill:"currentColor",d:"M10.32 13.6c.17.17.4.26.63.26l-.01.01c.23 0 .46-.09.64-.27l8.35-8.4c.05.6.08 1.47.06 2.72 0 .49.39.91.89.91h.01c.49 0 .9-.4.9-.89.06-4.41-.41-4.89-.7-5.18-.28-.28-.75-.75-5.17-.7-.5 0-.89.41-.89.91.01.49.41.89.9.89h.01c1.26-.02 2.13.02 2.73.06l-8.35 8.41a.9.9 0 0 0 0 1.27"})]})});X4.displayName="ExternalLinkFill";var Zt=i(require("react"),1),M1=require("react/jsx-runtime"),Y4=Zt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,M1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,M1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2.363 2.357a.9.9 0 0 1 1.205-.061l.069.061L17.88 16.6l.018.019 3.739 3.738.061.068a.901.901 0 0 1-1.266 1.267l-.069-.061-3.238-3.239c-1.462.87-3.19 1.502-5.125 1.502-2.616 0-4.851-1.151-6.572-2.495-1.723-1.345-2.994-2.932-3.704-3.928-.24-.336-.578-.761-.62-1.356l-.004-.121.004-.121c.042-.595.38-1.02.62-1.357.699-.98 1.949-2.543 3.644-3.88L2.363 3.63l-.061-.069a.9.9 0 0 1 .061-1.205M6.651 7.92c-1.59 1.213-2.788 2.696-3.463 3.642-.077.11-.136.192-.184.264a2 2 0 0 0-.092.148l-.01.02.01.021c.016.031.044.077.092.149s.107.154.184.263c.656.92 1.813 2.355 3.348 3.554 1.537 1.2 3.39 2.113 5.464 2.113 1.374 0 2.65-.401 3.804-1.022l-1.794-1.794a3.83 3.83 0 0 1-5.294-5.294zm3.394 3.393a2.028 2.028 0 0 0 2.636 2.636z",clipRule:"evenodd"}),(0,M1.jsx)("path",{fill:"currentColor",d:"M12 4.093c2.616 0 4.851 1.152 6.572 2.496 1.723 1.344 2.994 2.931 3.704 3.927.256.36.624.819.624 1.478s-.368 1.119-.624 1.477a20.4 20.4 0 0 1-2.203 2.6.901.901 0 0 1-1.268-1.277 18.6 18.6 0 0 0 2.191-2.631 2 2 0 0 0 .092-.149l.01-.02-.01-.02a2 2 0 0 0-.092-.15 12 12 0 0 0-.184-.263c-.656-.92-1.813-2.355-3.348-3.554-1.537-1.2-3.39-2.113-5.464-2.113-.804 0-1.573.137-2.304.374l-.089.024a.9.9 0 0 1-.466-1.736l.337-.103A9.2 9.2 0 0 1 12 4.093"})]})});Y4.displayName="EyeOff";var Jt=i(require("react"),1),A1=require("react/jsx-runtime"),_4=Jt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,A1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,A1.jsx)("path",{fill:"currentColor",d:"M12 4.1c2.616 0 4.851 1.151 6.572 2.495 1.723 1.345 2.994 2.931 3.704 3.928.256.358.624.818.624 1.477s-.368 1.119-.624 1.477c-.71.997-1.981 2.583-3.704 3.928C16.852 18.75 14.616 19.9 12 19.9s-4.851-1.151-6.572-2.495c-1.723-1.345-2.994-2.931-3.704-3.928-.24-.336-.578-.76-.62-1.356L1.1 12l.004-.121c.042-.595.38-1.02.62-1.356.71-.997 1.981-2.583 3.704-3.928C7.148 5.25 9.384 4.1 12 4.1m0 1.8c-2.073 0-3.927.914-5.464 2.114-1.535 1.198-2.692 2.634-3.348 3.553-.077.11-.136.192-.184.264a2 2 0 0 0-.092.149l-.01.02.01.02c.016.032.044.077.092.149s.107.154.184.264c.656.919 1.813 2.355 3.348 3.553C8.073 17.186 9.926 18.1 12 18.1c2.073 0 3.927-.914 5.464-2.114 1.535-1.198 2.692-2.634 3.348-3.553.077-.11.136-.192.184-.264s.076-.117.092-.149l.01-.02-.01-.02a2 2 0 0 0-.092-.149 12 12 0 0 0-.184-.264c-.656-.919-1.813-2.355-3.348-3.553C15.927 6.814 14.074 5.9 12 5.9"}),(0,A1.jsx)("path",{fill:"currentColor",d:"M14.1 12a2.1 2.1 0 1 0-4.2 0 2.1 2.1 0 0 0 4.199 0m1.8 0a3.9 3.9 0 1 1-7.8 0 3.9 3.9 0 0 1 7.8 0"})]})});_4.displayName="Eye";var Kt=i(require("react"),1),$4=require("react/jsx-runtime"),j4=Kt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,$4.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,$4.jsx)("path",{fill:"currentColor",d:"M20.156 8.906C20.156 4.41 16.497.75 12 .75S3.844 4.41 3.844 8.906c0 4.148 3.112 7.583 7.125 8.091v1.472H9.28a1.031 1.031 0 1 0 0 2.062h1.688v1.688a1.031 1.031 0 1 0 2.062 0V20.53h1.688a1.031 1.031 0 1 0 0-2.062H13.03v-1.472c4.013-.508 7.125-3.943 7.125-8.09m-14.25 0A6.1 6.1 0 0 1 12 2.812a6.1 6.1 0 0 1 6.094 6.094A6.1 6.1 0 0 1 12 15a6.1 6.1 0 0 1-6.094-6.094"})})});j4.displayName="Female1";var Xt=i(require("react"),1),E1=require("react/jsx-runtime"),e9=Xt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,E1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,E1.jsx)("path",{fill:"currentColor",d:"M7 9.9c0 .5.4.9.9.9s.9-.4.9-.9V6.8h3.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H8.8V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9V5H3.9c-.5 0-.9.4-.9.9s.4.9.9.9H7z"}),(0,E1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.01c.78 0 1.22 0 1.68-.17.09-.03.19-.07.29-.12.44-.21.76-.53 1.3-1.07l4.74-4.74c.65-.64 1-1 1.22-1.53.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.02-1.44-7.46-1.35-1.35-3.33-1.42-6.43-1.43-.5 0-.9.4-.9.9 0 .49.4.9.9.9 2.9.01 4.35.11 5.16.91.91.91.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4v-2.55c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.55c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31",clipRule:"evenodd"})]})});e9.displayName="FileAdd";var Yt=i(require("react"),1),I1=require("react/jsx-runtime"),t9=Yt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,I1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,I1.jsx)("path",{fill:"currentColor",d:"M6.5 9.17c0 1.45 1.19 2.63 2.65 2.63s2.65-1.18 2.65-2.63V5.36C11.8 2.96 9.83 1 7.4 1S3 2.96 3 5.36v2.77c0 .5.4.9.9.9s.9-.4.9-.9V5.36c0-1.41 1.17-2.56 2.6-2.56S10 3.95 10 5.36v3.81c0 .46-.38.83-.85.83s-.85-.37-.85-.83V5.36c0-.5-.4-.9-.9-.9s-.9.4-.9.9z"}),(0,I1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.01c.78 0 1.22 0 1.68-.17.09-.03.19-.07.29-.12.44-.21.76-.53 1.3-1.07l4.74-4.74c.65-.64 1-1 1.22-1.53.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.02-1.44-7.46-1.35-1.35-3.33-1.42-6.43-1.43-.5 0-.9.4-.9.9 0 .49.4.9.9.9 2.9.01 4.35.11 5.16.91.91.91.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4v-2.55c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.55c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31",clipRule:"evenodd"})]})});t9.displayName="FileAttachment";var _t=i(require("react"),1),y1=require("react/jsx-runtime"),r9=_t.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,y1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,y1.jsx)("path",{fill:"currentColor",d:"M3.85 8.25C5.02 9.74 5.92 10.8 6.9 10.8l.02-.01c.97 0 1.88-1.06 3.05-2.55l.135-.17c.184-.23.342-.429.455-.55a.9.9 0 0 0-.02-1.27.9.9 0 0 0-1.27.02c-.176.176-.42.487-.703.848l-.017.022q-.09.11-.204.254c-.156.195-.341.428-.536.656V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v6.16c-.29-.34-.57-.69-.74-.91-.29-.37-.55-.69-.72-.87a.89.89 0 0 0-1.27-.02.89.89 0 0 0-.02 1.27c.14.14.35.41.59.72"}),(0,y1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.02c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.91c0-4.01 0-6.03-1.44-7.46-1.43-1.44-3.45-1.44-7.46-1.44-.5 0-.9.4-.9.9s.4.9.9.9c3.52 0 5.28 0 6.19.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.54c0 3.45 0 5.18 1.09 6.53.22.28.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31",clipRule:"evenodd"})]})});r9.displayName="FileDownload";var $t=i(require("react"),1),B1=require("react/jsx-runtime"),o9=$t.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,B1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,B1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.63 21h4.27l-.01-.01c.5 0 .9.4.9.9s-.4.9-.9.9h-4.27c-3.45 0-5.17 0-6.54-.96-.39-.27-.74-.61-1.04-.98C2 19.54 2 17.9 2 14.62V11.9c0-2.95.01-4.46.53-5.78.85-2.14 2.64-3.83 4.93-4.62 1.27-.45 2.75-.49 5.45-.49h.81c1.89 0 2.85 0 3.71.3 1.41.49 2.51 1.54 3.04 2.87.33.84.33 1.75.33 3.55v2.18c0 .5-.4.9-.9.9s-.9-.4-.9-.9V7.73c0-1.57 0-2.36-.21-2.88-.34-.84-1.05-1.51-1.96-1.83-.58-.2-1.43-.2-3.12-.2h-.82c-1.34 0-2.43 1.09-2.43 2.43q.001.125.01.255.009.138.01.285l.002.064c.02.544.042 1.149-.112 1.726-.23.88-.93 1.57-1.81 1.81-.6.16-1.23.14-1.79.11-.18-.02-.37-.02-.54-.02-1.34 0-2.43 1.09-2.43 2.43v2.72c0 2.86 0 4.29.65 5.11.19.24.42.45.67.63.9.63 2.44.63 5.51.63M9.37 2.91c-.52.06-.95.15-1.33.28l-.01.01c-1.78.62-3.17 1.93-3.83 3.59-.17.43-.26.95-.32 1.6a4.2 4.2 0 0 1 2.35-.72c.19 0 .39.01.6.019l.03.001c.45.02.91.04 1.24-.05.26-.07.47-.28.54-.54.09-.33.07-.79.05-1.24-.02-.22-.02-.43-.02-.63 0-.86.26-1.65.7-2.32",clipRule:"evenodd"}),(0,B1.jsx)("path",{fill:"currentColor",d:"M19.68 14.5c.45 0 .75 0 1.07.14v-.01c1.05.45 1.05 1.5 1.05 2 0 .54 0 1.58-1.05 2.03-.32.14-.62.14-1.07.14h-1.03c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h1.34v-.7h-.31c-.45 0-.75 0-1.07-.14-1.05-.45-1.05-1.5-1.05-2 0-.54 0-1.58 1.05-2.03.32-.13.62-.13 1.07-.13h.95c.5 0 .9.4.9.9s-.4.9-.9.9h-1.26v.7zm-9.11-2.1a.9.9 0 0 1 1.25-.24v-.01a.9.9 0 0 1 .24 1.25l-1.36 1.99 1.36 1.99a.9.9 0 0 1-.24 1.25c-.16.11-.34.16-.51.16-.28 0-.57-.14-.74-.39l-.96-1.41-.96 1.41a.9.9 0 0 1-1.49-1.01l1.36-1.99-1.36-1.99a.9.9 0 0 1 1.49-1.01l.96 1.41zm5.89 4.6h-1.64c-.02-.17-.02-.49-.02-.77V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v3.33c0 .9 0 1.56.52 2.07.51.5 1.14.5 2.09.5h.85c.5 0 .9-.4.9-.9s-.4-.9-.9-.9"})]})});o9.displayName="FileExcel";var jt=i(require("react"),1),H1=require("react/jsx-runtime"),l9=jt.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,H1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,H1.jsx)("path",{fill:"currentColor",d:"M9.966 3.55C8.796 2.06 7.896 1 6.916 1l-.02.01c-.97 0-1.88 1.06-3.05 2.55l-.135.17c-.183.23-.342.429-.455.55a.9.9 0 0 0 .02 1.27.9.9 0 0 0 1.27-.02c.177-.176.42-.487.703-.848l.017-.022.205-.254c.155-.195.34-.428.535-.656V9.9c0 .5.4.9.9.9s.9-.4.9-.9V3.74c.29.34.57.69.74.91.29.37.55.69.72.87.34.36.91.37 1.27.02a.89.89 0 0 0 .02-1.27c-.14-.14-.35-.41-.59-.72"}),(0,H1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.02c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.91c0-4.01 0-6.03-1.44-7.46-1.43-1.44-2.94-1.44-6.95-1.44-.5 0-.9.4-.9.9s.4.9.9.9c3.52 0 4.77 0 5.68.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.54c0 3.45 0 5.18 1.09 6.53.22.28.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31",clipRule:"evenodd"})]})});l9.displayName="FileSend";var er=i(require("react"),1),q1=require("react/jsx-runtime"),c9=er.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,q1.jsx)("path",{fill:"currentColor",d:"M9.9 22.8h-.01c-2.31-.03-4.19-.16-5.45-1.43C3 19.93 3 17.92 3 13.9V9.35c0-3.44 0-5.18 1.09-6.52.22-.27.47-.52.74-.74C6.18 1 7.91 1 11.36 1c.78 0 1.21 0 1.68.17.1.03.19.07.29.12.44.21.74.51 1.29 1.06l4.75 4.75c.64.64.99.99 1.21 1.53.22.53.22 1.03.22 1.94v3.34c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4.1h-.09c-2.98 0-4.62 0-5.76-1.14s-1.14-2.78-1.14-5.76v-.09h-.64c-3.03 0-4.55 0-5.4.69-.17.14-.33.3-.47.47-.69.85-.69 2.38-.69 5.41v4.55c0 3.52 0 5.29.91 6.2.64.64 1.67.86 4.21.9.5 0 .89.42.89.91a.9.9 0 0 1-.9.89zm3.9-18.72c.02 1.92.11 2.81.61 3.31s1.39.59 3.31.61z"}),(0,q1.jsx)("path",{fill:"currentColor",d:"M15.4 22.8c-1.44 0-2.79-.71-3.61-1.89a.905.905 0 0 1 .22-1.25c.41-.28.97-.18 1.25.22.49.7 1.28 1.11 2.13 1.11 1.31 0 2.43-.96 2.61-2.23a.902.902 0 0 1 1.7-.27l1 2c.22.44.04.99-.4 1.21s-.99.04-1.21-.4l-.14-.28a4.48 4.48 0 0 1-3.56 1.78zm-3.5-4c-.34 0-.65-.19-.8-.5l-1-2a.91.91 0 0 1 .4-1.21c.44-.22.98-.04 1.21.4l.14.28a4.48 4.48 0 0 1 3.56-1.78c1.44 0 2.79.71 3.61 1.89.28.41.18.97-.22 1.25-.41.28-.97.18-1.25-.22a2.59 2.59 0 0 0-2.13-1.11c-1.31 0-2.43.96-2.61 2.23-.06.39-.36.7-.75.76-.05 0-.1.01-.14.01z"})]})});c9.displayName="FileSync";var tr=i(require("react"),1),z1=require("react/jsx-runtime"),s9=tr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,z1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,z1.jsx)("path",{fill:"currentColor",d:"M15.9 7.8h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m-4 4h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9"}),(0,z1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.01.01c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.03-1.44-7.46C17.93 1 15.91 1 11.9 1S5.87 1 4.44 2.44C3 3.87 3 5.89 3 9.9v4.54c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m.88-18c.91-.91 2.67-.91 6.19-.91l-.01.01c3.52 0 5.28 0 6.19.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V9.9c0-3.52 0-5.28.91-6.19m8.7 12.7c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31",clipRule:"evenodd"})]})});s9.displayName="FileText";var rr=i(require("react"),1),x=require("react/jsx-runtime"),n9=rr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,x.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,x.jsx)("path",{fill:"currentColor",d:"M18.9 14.5c-.5 0-.9.4-.9.9v.68c0 1.58 0 2.37-.21 2.88-.33.85-1.05 1.51-1.96 1.83-.57.2-1.42.2-3.12.2h-.82c-1.34 0-2.43-1.09-2.43-2.43 0-.17 0-.36.02-.54.03-.56.06-1.19-.1-1.79-.24-.88-.93-1.58-1.82-1.82-.6-.16-1.23-.13-1.79-.11-.19 0-.37.02-.54.02-1.34 0-2.43-1.09-2.43-2.43V9.16c0-2.86 0-4.29.65-5.11.19-.24.42-.45.67-.63.9-.63 2.44-.63 5.51-.63.5 0 .9-.4.9-.9s-.4-.9-.9-.9C6.18 1 4.45 1 3.08 1.96c-.39.28-.75.61-1.04.98C1 4.25 1 5.9 1 9.17v2.73c0 2.95.01 4.46.53 5.78.85 2.14 2.64 3.83 4.91 4.63 1.28.45 2.75.49 5.45.49h.81c1.9 0 2.85 0 3.71-.3 1.4-.49 2.51-1.54 3.04-2.87.33-.84.33-1.74.33-3.55v-.68c0-.5-.4-.9-.9-.9zM3.21 17.01c-.17-.43-.27-.95-.32-1.6.67.45 1.48.72 2.35.72.2 0 .41 0 .63-.02.45-.02.91-.04 1.24.04.26.07.47.28.54.54.09.33.07.79.05 1.24-.01.21-.02.43-.02.63 0 .86.26 1.65.7 2.32-.52-.06-.95-.14-1.33-.28-1.78-.62-3.17-1.93-3.83-3.59z"}),(0,x.jsx)("path",{fill:"currentColor",d:"M18.6 4.55c-1.04.37-2.07 1.49-2.73 2.34-.43-.35-.82-.39-.97-.39-.5 0-.9.4-.9.9 0 .44.31.8.73.88.05.04.19.17.37.52.15.29.44.48.76.5h.05c.31 0 .59-.16.76-.42.59-.93 1.77-2.36 2.54-2.63.47-.17.71-.68.55-1.15a.907.907 0 0 0-1.15-.55z"}),(0,x.jsx)("path",{fill:"currentColor",d:"M16.9 1A5.91 5.91 0 0 0 11 6.9c0 3.25 2.65 5.9 5.9 5.9s5.9-2.65 5.9-5.9S20.15 1 16.9 1m0 10c-2.26 0-4.1-1.84-4.1-4.1s1.84-4.1 4.1-4.1S21 4.64 21 6.9 19.16 11 16.9 11"})]})});n9.displayName="FileValidation";var or=i(require("react"),1),L1=require("react/jsx-runtime"),a9=or.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,L1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,L1.jsx)("path",{fill:"currentColor",d:"M10.4 15.8h7c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-7c-.5 0-.9.4-.9.9s.4.9.9.9m0-4h4c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-4c-.5 0-.9.4-.9.9s.4.9.9.9"}),(0,L1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M20.65 18.66c-.512.512-1.125.794-1.915.95A3.91 3.91 0 0 1 14.9 22.8h-5c-2.98 0-4.62 0-5.76-1.14S3 18.88 3 15.9v-8c0-1.907 1.377-3.5 3.189-3.835.154-.795.437-1.41.951-1.925C8.28 1 9.92 1 12.9 1h1.34c.91 0 1.4 0 1.94.22.53.22.9.59 1.52 1.21l2.66 2.66c.62.62.99.99 1.21 1.53s.22 1.03.22 1.94v4.34c0 2.98 0 4.62-1.14 5.76M12.9 19.8h1.99c.71 0 1.345 0 1.915-.015A2.1 2.1 0 0 1 14.9 21h-5c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.48v-8a2.1 2.1 0 0 1 1.215-1.905C6 6.562 6 7.193 6 7.9v5c0 2.98 0 4.62 1.14 5.76s2.78 1.14 5.76 1.14M8.42 3.41c.59-.59 1.73-.61 4.48-.61h1.6v.6c0 2.06 0 3.2.85 4.05s1.99.85 4.05.85h.6v4.6c0 2.75-.02 3.89-.61 4.48-.6.6-1.74.62-4.49.62h-2c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.48v-5c0-2.76.03-3.9.62-4.49M19.23 6.5l-.13-.13-2.8-2.8c0 1.43.012 2.302.32 2.61s1.18.32 2.61.32",clipRule:"evenodd"})]})});a9.displayName="Files";var lr=i(require("react"),1),i9=require("react/jsx-runtime"),d9=lr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,i9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,i9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.69 21.8c-.23 0-.46-.05-.67-.14-.59-.26-1-.83-1.08-1.47-.13-1.1-.39-3.46-.68-6.95 0-.06-.03-.1-.04-.11-2.4-1.79-4.13-3.72-5.38-5.2-.46-.54-.59-.99-.66-1.54-.23-1.73-.36-2.77.38-3.59C3.29 2 4.3 2 6.13 2h11.53c1.83 0 2.84 0 3.57.8.74.82.61 1.86.38 3.59-.08.65-.26 1.07-.66 1.54-1.24 1.48-2.98 3.41-5.39 5.21-.01 0-.04.05-.04.11-.25 2.74-.48 4.27-.63 5.07-.25 1.34-1.54 2.12-2.58 2.75-.25.15-.48.29-.67.43-.29.2-.62.31-.96.31zm-1.4-10.11c.44.33.71.84.76 1.4.28 3.42.54 5.75.67 6.85.2-.13.43-.27.66-.42.69-.42 1.64-1 1.74-1.55.14-.76.36-2.23.6-4.9.05-.56.33-1.07.76-1.39 2.26-1.69 3.91-3.52 5.09-4.92.18-.21.21-.3.25-.61.14-1.09.25-1.95.07-2.15-.19-.21-1.1-.21-2.24-.21H6.13c-1.14 0-2.05 0-2.24.21-.18.2-.07 1.06.07 2.15.04.31.08.4.25.61 1.18 1.4 2.83 3.23 5.08 4.92z",clipRule:"evenodd"})})});d9.displayName="Filter";var cr=i(require("react"),1),m9=require("react/jsx-runtime"),h9=cr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,m9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,m9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m12.797 3.238-6.783 8.706A.1.1 0 0 0 6 11.98a.1.1 0 0 0 .001.035h3.303c1.16 0 1.899 1.02 1.899 2.015v6.732l6.782-8.706a.1.1 0 0 0 .014-.037.1.1 0 0 0 0-.034h-3.303c-1.16 0-1.9-1.02-1.9-2.015zm.81-2.09c.707.3 1.19 1.015 1.19 1.87v6.967H18.1c.886 0 1.496.598 1.748 1.225.25.627.217 1.432-.284 2.075l-6.998 8.983c-.562.72-1.444.895-2.173.584-.707-.3-1.19-1.015-1.19-1.87v-6.967H5.9c-.886 0-1.496-.598-1.747-1.225a2.1 2.1 0 0 1 .284-2.075l6.998-8.983c.561-.72 1.444-.895 2.173-.585",clipRule:"evenodd"})})});h9.displayName="Flash";var sr=i(require("react"),1),u9=require("react/jsx-runtime"),p9=sr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,u9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.15 21.8H11.9c-4.96 0-7.44 0-9.17-1.73S1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4c.35-.63.87-1.15 1.51-1.51C3.89 2 4.88 2 6.84 2c1.23 0 1.91 0 2.57.25 1.44.54 2.05 1.76 2.58 2.83l.46.92h4.19c2.29 0 3.43 0 4.42.66.42.28.79.64 1.07 1.07.66.99.66 2.13.66 4.42 0 3.69 0 5.54-.99 7.03-.43.65-.98 1.2-1.63 1.63-1.49 1-3.34 1-7.03 1z",clipRule:"evenodd"})})});p9.displayName="FolderFill";var nr=i(require("react"),1),f9=require("react/jsx-runtime"),g9=nr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,f9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,f9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.15 21.8H11.9c-4.96 0-7.44 0-9.17-1.73S1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4c.35-.63.87-1.15 1.51-1.51C3.89 2 4.88 2 6.84 2c1.23 0 1.91 0 2.57.25 1.44.54 2.05 1.76 2.58 2.83l.46.92h4.19c2.29 0 3.43 0 4.42.66.42.28.79.64 1.07 1.07.66.99.66 2.13.66 4.42 0 3.69 0 5.54-.99 7.03-.43.65-.98 1.2-1.63 1.63-1.49 1-3.34 1-7.03 1zm-6.31-18c-1.61 0-2.49 0-2.97.27-.34.19-.62.47-.81.81-.27.48-.27 1.36-.27 2.97v3.06c0 4.46 0 6.7 1.2 7.9s3.44 1.2 7.9 1.2h1.25c3.32 0 4.99 0 6.03-.69.45-.3.83-.68 1.13-1.13.69-1.03.69-2.7.69-6.03 0-1.86 0-2.89-.35-3.42-.15-.23-.35-.43-.58-.58-.53-.36-1.56-.36-3.42-.36H7.89c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.54l-.06-.12c-.51-1.03-.86-1.67-1.6-1.95-.36-.13-.89-.13-1.94-.13z",clipRule:"evenodd"})})});g9.displayName="Folder";var ar=i(require("react"),1),b9=require("react/jsx-runtime"),v9=ar.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,b9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,b9.jsx)("path",{fill:"currentColor",d:"M2.1 15.5a.9.9 0 0 1 1.8 0c0 1.46.01 1.992.133 2.4l.063.183A3.1 3.1 0 0 0 6.1 19.967c.306.093.68.121 1.465.13l.934.003.092.005a.9.9 0 0 1 0 1.79L8.5 21.9l-.915-.002c-.838-.007-1.461-.043-2.007-.209a4.9 4.9 0 0 1-3.169-2.977l-.098-.29C2.09 17.694 2.1 16.83 2.1 15.5m18 0a.9.9 0 0 1 1.8 0c0 1.164.008 1.971-.138 2.643l-.073.279a4.9 4.9 0 0 1-2.977 3.169l-.29.098c-.728.221-1.592.211-2.922.211a.9.9 0 0 1 0-1.8c1.46 0 1.992-.01 2.4-.133l.183-.063a3.1 3.1 0 0 0 1.884-2.005l.04-.16c.085-.395.093-.96.093-2.239m-18-7c0-1.33-.01-2.195.21-2.923l.1-.289a4.9 4.9 0 0 1 3.167-2.977l.28-.073C6.53 2.092 7.337 2.1 8.5 2.1a.9.9 0 0 1 0 1.8c-1.278 0-1.844.008-2.24.092l-.16.041a3.1 3.1 0 0 0-2.004 1.884l-.063.184C3.91 6.508 3.9 7.04 3.9 8.5a.9.9 0 0 1-1.8 0m18 0c0-1.46-.01-1.992-.133-2.4l-.063-.183a3.1 3.1 0 0 0-1.82-1.821l-.184-.063c-.306-.092-.682-.121-1.466-.13L15.5 3.9l-.092-.004A.9.9 0 0 1 15.5 2.1l.915.002c.838.007 1.461.043 2.007.209l.29.098a4.9 4.9 0 0 1 2.879 2.88l.098.288.073.28c.146.672.139 1.48.139 2.643a.9.9 0 0 1-1.801 0"})})});v9.displayName="FullScreen";var ir=i(require("react"),1),F1=require("react/jsx-runtime"),w9=ir.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,F1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,F1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8.143 1.1A4.75 4.75 0 0 1 12 3.073 4.75 4.75 0 0 1 15.857 1.1h.357A2.687 2.687 0 0 1 18.9 3.786a4.1 4.1 0 0 1-.712 2.314h.312c.454 0 .843 0 1.16.022.324.024.651.076.967.222l.13.064c.3.16.569.383.772.665.225.311.305.643.34.95.032.284.031.624.031.977s.001.693-.03.978c-.036.306-.118.637-.342.948h.001c-.17.237-.387.429-.629.58V13a.9.9 0 0 1-1.8 0v-1.102q-.277.002-.6.002h-5.6V17a.9.9 0 0 1-1.8 0v-5.1H5.5q-.322 0-.6-.002V15c0 1.675.002 2.842.12 3.72.115.854.324 1.301.641 1.619l.126.113c.31.254.746.427 1.492.527.66.09 1.48.113 2.557.119L11 21.1l.092.005a.9.9 0 0 1 0 1.79L11 22.9l-1.16-.002c-1.101-.006-2.03-.03-2.8-.134-.987-.133-1.832-.408-2.517-1.025l-.134-.128c-.708-.707-1.011-1.598-1.153-2.651C3.098 17.933 3.1 16.624 3.1 15v-3.494a2.3 2.3 0 0 1-.538-.462l-.091-.117c-.224-.311-.305-.643-.34-.95C2.099 9.694 2.1 9.354 2.1 9s-.001-.693.03-.978c.036-.306.116-.638.34-.949l.092-.117c.222-.265.503-.47.811-.612l.118-.051c.28-.108.565-.15.849-.17.317-.024.706-.023 1.16-.023h.313A4.1 4.1 0 0 1 5.1 3.786 2.687 2.687 0 0 1 7.786 1.1zM5.5 7.9c-.48 0-.793 0-1.03.018a2 2 0 0 0-.245.03l-.098.03a.5.5 0 0 0-.19.141 1 1 0 0 0-.018.107c-.018.159-.019.38-.019.774s0 .615.019.774c.006.058.014.09.018.106a.5.5 0 0 0 .19.143l.098.029c.052.01.13.022.245.03.237.017.55.018 1.03.018h13c.48 0 .793 0 1.03-.018.23-.017.311-.045.343-.06l.07-.038a.4.4 0 0 0 .118-.104 1 1 0 0 0 .02-.106c.018-.159.019-.38.019-.774s0-.615-.019-.774a1 1 0 0 0-.02-.107.4.4 0 0 0-.118-.103l-.07-.038c-.032-.015-.113-.043-.343-.06A16 16 0 0 0 18.5 7.9zm2.286-5a.886.886 0 0 0-.886.886A2.314 2.314 0 0 0 9.214 6.1H11.1v-.243A2.957 2.957 0 0 0 8.143 2.9zm8.071 0A2.957 2.957 0 0 0 12.9 5.857V6.1h1.886A2.314 2.314 0 0 0 17.1 3.786a.886.886 0 0 0-.886-.886z",clipRule:"evenodd"}),(0,F1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M20.7 15.151a.9.9 0 0 1 .6 1.698c-.55.195-1.178.61-1.835 1.187-.648.568-1.277 1.249-1.833 1.915a28 28 0 0 0-1.841 2.483l-.024.038-.006.008-.001.002a.9.9 0 0 1-1.565-.08c-.446-.893-.852-1.258-1.069-1.403a.8.8 0 0 0-.201-.102q-.016-.005 0 0A.9.9 0 0 1 13 19.1v.718c0-.717.001-.718.002-.718h.029a2 2 0 0 1 .133.011q.107.014.255.055c.198.057.44.158.705.335.291.194.598.473.91.864.326-.45.741-.997 1.216-1.566.591-.709 1.287-1.466 2.028-2.116.733-.643 1.56-1.227 2.421-1.532m-7.707 5.75h.005l.001-.002h-.01zm-.068-.005.028.002.022.001h.006q-.028 0-.055-.004z",clipRule:"evenodd"})]})});w9.displayName="GiftCheck";var dr=i(require("react"),1),x9=require("react/jsx-runtime"),S9=dr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,x9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,x9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8.143 1.1A4.75 4.75 0 0 1 12 3.073 4.75 4.75 0 0 1 15.857 1.1h.357A2.687 2.687 0 0 1 18.9 3.786a4.1 4.1 0 0 1-.712 2.314h.312c.454 0 .843 0 1.16.022.324.024.651.076.967.222l.13.064c.3.16.569.383.772.665.225.311.305.643.34.95.032.284.031.624.031.977s.001.693-.03.978c-.036.306-.118.637-.342.948h.001c-.17.237-.387.429-.629.58V15c0 1.624.002 2.933-.136 3.96-.133.987-.408 1.832-1.025 2.517l-.128.134c-.707.708-1.598 1.011-2.651 1.153-1.027.138-2.336.136-3.96.136h-2c-1.624 0-2.933.002-3.96-.136-.987-.133-1.832-.408-2.517-1.025l-.134-.128c-.708-.707-1.011-1.598-1.153-2.651C3.098 17.933 3.1 16.624 3.1 15v-3.494a2.3 2.3 0 0 1-.538-.462l-.091-.117c-.224-.311-.305-.643-.34-.95C2.099 9.694 2.1 9.354 2.1 9s-.001-.693.03-.978c.036-.306.116-.638.34-.949l.092-.117c.222-.265.503-.47.811-.612l.118-.051c.28-.108.565-.15.849-.17.317-.024.706-.023 1.16-.023h.313A4.1 4.1 0 0 1 5.1 3.786 2.687 2.687 0 0 1 7.786 1.1zM18.5 11.9h-5.6v9.2h.1c1.675 0 2.842-.002 3.72-.12.854-.115 1.301-.324 1.619-.641l.113-.126c.254-.31.427-.746.527-1.492.119-.88.12-2.046.12-3.721v-3.102q-.276.002-.599.002M4.9 15c0 1.675.002 2.842.12 3.72.115.854.324 1.301.641 1.619l.126.113c.31.254.746.427 1.492.527.88.119 2.046.12 3.721.12h.1V11.9H5.5q-.322 0-.6-.002zm.6-7.1c-.48 0-.793 0-1.03.018a2 2 0 0 0-.245.03l-.098.03a.5.5 0 0 0-.19.141 1 1 0 0 0-.018.107c-.018.159-.019.38-.019.774s0 .615.019.774c.006.058.014.09.018.106a.5.5 0 0 0 .19.143l.098.029c.052.01.13.022.245.03.237.017.55.018 1.03.018h13c.48 0 .793 0 1.03-.018.23-.017.311-.045.343-.06l.07-.038a.4.4 0 0 0 .118-.104 1 1 0 0 0 .02-.106c.018-.159.019-.38.019-.774s0-.615-.019-.774a1 1 0 0 0-.02-.107.4.4 0 0 0-.118-.103l-.07-.038c-.032-.015-.113-.043-.343-.06A16 16 0 0 0 18.5 7.9zm2.286-5a.886.886 0 0 0-.886.886A2.314 2.314 0 0 0 9.214 6.1H11.1v-.243A2.957 2.957 0 0 0 8.143 2.9zm8.071 0A2.957 2.957 0 0 0 12.9 5.857V6.1h1.886A2.314 2.314 0 0 0 17.1 3.786a.886.886 0 0 0-.886-.886z",clipRule:"evenodd"})})});S9.displayName="Gift";var mr=i(require("react"),1),S=require("react/jsx-runtime"),k9=mr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,S.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,S.jsx)("path",{fill:"currentColor",d:"M6.25 9a7.75 7.75 0 1 1 14.11 4.43.75.75 0 0 1-1.23-.86 6.25 6.25 0 1 0-10.78-.893.75.75 0 0 1-1.354.645A7.7 7.7 0 0 1 6.25 9"}),(0,S.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14 4.25a.75.75 0 0 1 .75.75v.583h.813c.976 0 1.687.83 1.687 1.75V8c0 .362-.11.71-.303 1 .193.29.303.638.303 1v.667c0 .92-.71 1.75-1.687 1.75h-.813V13a.75.75 0 0 1-1.5 0v-.583H11.5a.75.75 0 0 1 0-1.5h.188V7.083H11.5a.75.75 0 0 1 0-1.5h1.75V5a.75.75 0 0 1 .75-.75m-.812 2.833V8.25h2.374c.06 0 .188-.066.188-.25v-.667c0-.184-.129-.25-.187-.25zm0 2.667v1.167h2.374c.06 0 .188-.066.188-.25V10c0-.184-.129-.25-.187-.25z",clipRule:"evenodd"}),(0,S.jsx)("path",{fill:"currentColor",d:"M3 13.25a.75.75 0 0 0 0 1.5h2.395c.182 0 .36.041.52.119l2.043.988c.365.177.767.268 1.174.268h1.042c.427 0 .777.228.953.547l-1.934.535c-.28.077-.582.05-.841-.076l-2.183-1.056a.75.75 0 1 0-.653 1.35l2.183 1.056a2.7 2.7 0 0 0 1.894.171l2.54-.702a.84.84 0 0 0 .617-.808l-.001-.087 4.064-1.25h.003a1.24 1.24 0 0 1 1.373.476c.116.161.056.382-.085.464l-7.516 4.336a1.24 1.24 0 0 1-.98.118L3.215 19.3a.75.75 0 1 0-.427 1.438l6.395 1.898c.724.215 1.5.121 2.156-.257l7.516-4.336c.933-.539 1.173-1.78.551-2.64a2.735 2.735 0 0 0-3.034-1.032h-.001l-4.127 1.269a2.6 2.6 0 0 0-2.069-1.016H9.132c-.182 0-.36-.04-.521-.118l-2.042-.989a2.7 2.7 0 0 0-1.174-.268z"})]})});k9.displayName="HandCredit";var hr=i(require("react"),1),D1=require("react/jsx-runtime"),R9=hr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,D1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,D1.jsx)("path",{fill:"currentColor",d:"M12.113 15.905a1.1 1.1 0 0 1 0 2.19l-.112.005h-.009a1.1 1.1 0 1 1 0-2.2h.009zM12 6.1a2.9 2.9 0 0 1 2.44 4.466v.001a9 9 0 0 1-.57.77c-.197.244-.369.452-.525.667-.32.438-.445.74-.445.996v.5a.9.9 0 0 1-1.8 0V13c0-.849.417-1.542.79-2.055.19-.26.401-.518.577-.736a8 8 0 0 0 .459-.615L13 9.46q.098-.211.1-.46a1.1 1.1 0 1 0-2.2 0 .9.9 0 0 1-1.8 0A2.9 2.9 0 0 1 12 6.1"}),(0,D1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9",clipRule:"evenodd"})]})});R9.displayName="HelpCircle";var ur=i(require("react"),1),N9=require("react/jsx-runtime"),W9=ur.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,N9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,N9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.9 22.8h2c4.02 0 6.04 0 7.47-1.44s1.43-3.46 1.43-7.49v-2.09c0-2 0-3.1-.5-4.12s-1.36-1.7-2.94-2.93l-1.036-.808C14.907 2.04 13.572 1 11.9 1S8.893 2.04 6.476 3.922l-.036.028-1.038.812C3.85 5.978 2.997 6.646 2.5 7.66 2 8.68 2 9.78 2 11.78v2.09c0 4.03 0 6.05 1.43 7.49 1.44 1.44 3.45 1.44 7.47 1.44M7.58 5.34C9.753 3.65 10.846 2.8 11.9 2.8l-.01-.01c1.054 0 2.147.85 4.32 2.54l.04.03 1.01.79c1.4 1.09 2.1 1.64 2.42 2.29s.32 1.54.32 3.33v2.09c0 3.53 0 5.31-.91 6.22-.615.615-1.618.814-3.29.879V17.9c0-1.02 0-1.58-.22-2.11-.29-.71-.86-1.28-1.57-1.57-.53-.22-1.09-.22-2.11-.22s-1.58 0-2.11.22c-.72.3-1.27.85-1.57 1.57C8 16.33 8 16.89 8 17.9v3.059c-1.672-.065-2.675-.264-3.29-.879-.91-.92-.91-2.69-.91-6.22v-2.09c0-1.78 0-2.68.32-3.33.31-.64 1.01-1.19 2.42-2.29l1-.78zM9.8 20.988V17.9c0-.73 0-1.22.08-1.42.12-.28.33-.49.6-.6.2-.08.66-.08 1.42-.08s1.22 0 1.42.08c.27.11.49.33.6.6.08.2.08.66.08 1.42v3.089l-1.1.001h-2z",clipRule:"evenodd"})})});W9.displayName="Home";var pr=i(require("react"),1),U1=require("react/jsx-runtime"),V9=pr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,U1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,U1.jsx)("path",{fill:"currentColor",d:"M22.65 5.75c0 .41-.34.75-.75.75h-3.25v3.25c0 .41-.34.75-.75.75s-.75-.34-.75-.75V6.5H13.9c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.25V1.75c0-.41.34-.75.75-.75s.75.34.75.75V5h3.25c.41 0 .75.34.75.75"}),(0,U1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2.65 21c1.66 1.65 4.03 1.65 8.75 1.65h-.01c4.73 0 7.1 0 8.75-1.65 1.66-1.66 1.66-4.03 1.66-8.75v-.5c0-.5-.4-.9-.9-.9s-.9.4-.9.9v.5c0 1.165 0 2.17-.024 3.037a8.5 8.5 0 0 0-2.686-.437h-.04c-1.61 0-3.176.452-4.671 1.34q-.46-.434-.97-.82c-2.22-1.68-5-2.56-7.84-2.51a20 20 0 0 0-.969.035v-.645c0-4.22 0-6.34 1.13-7.47 1.12-1.13 3.25-1.13 7.47-1.13.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-4.72 0-7.09 0-8.75 1.65C1 5.16 1 7.53 1 12.25v.084C1 16.998 1 19.36 2.65 21m11.166-3.439c.75.978 1.335 2.066 1.727 3.216 1.621-.11 2.651-.381 3.327-1.057.562-.562.845-1.369.986-2.557a6.8 6.8 0 0 0-2.566-.513h-.03c-1.17 0-2.323.306-3.444.912M11.4 20.85c.829 0 1.577 0 2.252-.009a9.7 9.7 0 0 0-3.122-4.031c-1.9-1.44-4.28-2.2-6.74-2.15a8 8 0 0 0-.979.029c.041 2.649.232 4.151 1.119 5.031 1.13 1.12 3.25 1.13 7.47 1.13",clipRule:"evenodd"})]})});V9.displayName="ImageAdd";var fr=i(require("react"),1),T1=require("react/jsx-runtime"),C9=fr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,T1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,T1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8.4 10.8C7.08 10.8 6 9.72 6 8.4S7.08 6 8.4 6s2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6",clipRule:"evenodd"}),(0,T1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.9 21.8h-4c-4.01 0-6.03 0-7.46-1.44C1 18.93 1 16.91 1 12.9v-2c0-4.01 0-6.03 1.43-7.46C3.87 2 5.88 2 9.9 2h4c4.01 0 6.03 0 7.46 1.44 1.44 1.44 1.44 3.45 1.44 7.46v2c0 4.01 0 6.03-1.44 7.46-1.43 1.44-3.45 1.44-7.46 1.44m-4-18c-3.52 0-5.28 0-6.19.91S2.8 7.38 2.8 10.9v2c0 1.261 0 2.297.042 3.148L5.38 13.19c.76-.85 2.19-.89 2.99-.09l1.52 1.53 4.02-4.02c.8-.8 2.23-.77 2.99.07l4.088 4.46C21 14.488 21 13.745 21 12.9v-2c0-3.52 0-5.28-.91-6.19s-2.67-.91-6.19-.91zm10.894 13.783c-.133.668-.349 1.152-.704 1.507-.91.91-2.67.91-6.19.91h-4c-3.52 0-5.28 0-6.19-.91a2.2 2.2 0 0 1-.487-.754L6.71 14.41c.1-.11.28-.11.38-.01l2.16 2.16c.17.16.4.26.64.26a.9.9 0 0 0 .64-.26l4.66-4.66c.1-.11.29-.11.39 0l5.15 5.62a1 1 0 0 0 .064.063",clipRule:"evenodd"})]})});C9.displayName="Image";var gr=i(require("react"),1),G9=require("react/jsx-runtime"),P9=gr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,G9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 22.75C6.063 22.75 1.25 17.937 1.25 12S6.063 1.25 12 1.25 22.75 6.063 22.75 12 17.937 22.75 12 22.75M11 6.5V8h2V6.5zM10 11h1v6h2V9h-3z",clipRule:"evenodd"})})});P9.displayName="InformationFill";var br=i(require("react"),1),O1=require("react/jsx-runtime"),M9=br.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,O1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,O1.jsx)("path",{fill:"currentColor",d:"M12.14 17.8c-.5 0-.9-.4-.9-.9v-5.1h-.1c-.5 0-.9-.4-.9-.9s.4-.9.9-.9c.58 0 1.08 0 1.49.41.41.42.41.92.41 1.49v5c0 .5-.4.9-.9.9M11 7.9c0 .5.4.9.9.9s.9-.4.9-.9-.4-.9-.9-.9-.9.4-.9.9"}),(0,O1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 22.8C5.89 22.8 1 17.91 1 11.9S5.89 1 11.9 1s10.9 4.89 10.9 10.9-4.89 10.9-10.9 10.9m0-20c-5.02 0-9.1 4.08-9.1 9.1S6.88 21 11.9 21s9.1-4.08 9.1-9.1-4.08-9.1-9.1-9.1",clipRule:"evenodd"})]})});M9.displayName="Information";var vr=i(require("react"),1),Q1=require("react/jsx-runtime"),A9=vr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Q1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Q1.jsx)("path",{fill:"currentColor",d:"M11.36 22.8c-3.45 0-5.19 0-6.53-1.08-.27-.22-.52-.47-.74-.74-1.08-1.34-1.08-3.08-1.08-6.53V9.91C3 5.89 3 3.87 4.44 2.44 5.87 1 7.89 1 11.9 1s6.03 0 7.47 1.44C20.8 3.88 20.8 5.89 20.8 9.9v3.34c0 .91 0 1.41-.22 1.94s-.57.89-1.21 1.53l-4.74 4.74c-.55.55-.86.86-1.3 1.07-.09.04-.19.08-.28.12-.47.17-.9.17-1.68.17zm.54-20c-3.52 0-5.28 0-6.19.91S4.8 6.38 4.8 9.9v4.54c0 3.03 0 4.55.69 5.4.14.17.29.33.47.47.85.69 2.37.69 5.4.69H12v-.09c0-2.98 0-4.61 1.14-5.76 1.14-1.14 2.78-1.14 5.76-1.14h.09v-4.1c0-3.52 0-5.28-.91-6.19s-2.67-.91-6.19-.91zm5.82 13c-1.92.02-2.81.11-3.31.61s-.59 1.39-.61 3.31z"}),(0,Q1.jsx)("path",{fill:"currentColor",d:"M11.9 14.8c-.5 0-.9-.4-.9-.9v-.22c-.81-.21-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.36 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.22c.81.22 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.36-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9"})]})});A9.displayName="Invoice";var wr=i(require("react"),1),E9=require("react/jsx-runtime"),I9=wr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,E9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,E9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m15.533 6.725-.003.002-.012.009-.048.036-.186.14a54 54 0 0 0-2.694 2.175c-.74.641-1.455 1.312-1.978 1.904a5.5 5.5 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.01.032.04.112.122.247.125.207.32.464.584.762.523.592 1.239 1.263 1.978 1.904a51 51 0 0 0 2.88 2.315l.048.036.012.009.003.002a.9.9 0 0 1-1.067 1.45L15 18l-.534.725-.005-.004-.014-.01-.053-.04-.195-.146a55 55 0 0 1-2.79-2.252c-.76-.661-1.545-1.392-2.146-2.072a7.3 7.3 0 0 1-.776-1.025C8.298 12.864 8.1 12.448 8.1 12s.198-.864.387-1.176A7.3 7.3 0 0 1 9.263 9.8c.6-.68 1.385-1.412 2.147-2.073a53 53 0 0 1 2.984-2.399l.053-.038.014-.01.004-.004L15 6l-.535-.724a.9.9 0 0 1 1.068 1.449",clipRule:"evenodd"})})});I9.displayName="Left";var xr=i(require("react"),1),k=require("react/jsx-runtime"),y9=xr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,k.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,k.jsx)("path",{fill:"currentColor",d:"M19.99 3.81A6.13 6.13 0 0 0 15.63 2c-1.64 0-3.2.64-4.37 1.81L8.65 6.42a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.61-2.61c.83-.83 1.92-1.28 3.09-1.28s2.27.46 3.09 1.28a4.364 4.364 0 0 1 0 6.18l-2.61 2.61a.9.9 0 0 0 0 1.27c.18.18.41.26.64.26s.46-.09.64-.26l2.61-2.61a6.174 6.174 0 0 0 0-8.73z"}),(0,k.jsx)("path",{fill:"currentColor",d:"m10.03 15.04 5-5a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-5 5a.9.9 0 0 0 0 1.27c.18.18.41.26.64.26s.46-.09.64-.26z"}),(0,k.jsx)("path",{fill:"currentColor",d:"m11.26 18.72 2.61-2.61.01.01a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27L12.54 20a6.1 6.1 0 0 1-4.36 1.81c-1.65 0-3.2-.64-4.37-1.81a6.174 6.174 0 0 1 0-8.73l2.61-2.61a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a4.364 4.364 0 0 0 0 6.18A4.35 4.35 0 0 0 8.17 20c1.17 0 2.26-.45 3.09-1.28"})]})});y9.displayName="Link";var Sr=i(require("react"),1),B9=require("react/jsx-runtime"),H9=Sr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,B9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,B9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 2.1a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0V3a.9.9 0 0 1 .9-.9m0 15a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-3a.9.9 0 0 1 .9-.9m5.1-5.1a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8h-3a.9.9 0 0 1-.9-.9m-15 0a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8H3a.9.9 0 0 1-.9-.9M19 5a.9.9 0 0 1 0 1.273l-2.122 2.121a.9.9 0 0 1-1.273-1.272L17.727 5A.9.9 0 0 1 19 5M8.394 15.606a.9.9 0 0 1 0 1.273l-2.121 2.12A.9.9 0 1 1 5 17.728l2.121-2.121a.9.9 0 0 1 1.273 0m7.211-.001a.9.9 0 0 1 1.273 0L19 17.727A.9.9 0 1 1 17.727 19l-2.122-2.121a.9.9 0 0 1 0-1.273M5 5a.9.9 0 0 1 1.273 0l2.121 2.122a.9.9 0 1 1-1.273 1.272L5 6.274A.9.9 0 0 1 5 5",clipRule:"evenodd"})})});H9.displayName="Loader";var kr=i(require("react"),1),Z1=require("react/jsx-runtime"),q9=kr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Z1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Z1.jsx)("path",{fill:"currentColor",d:"M11.9 17.3c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9"}),(0,Z1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8.29 8.085c2.675-.094 5.448-.082 8.09.035 2.11.1 3.86 1.71 4.14 3.83.14 1.01.28 2.22.28 3.46s-.14 2.45-.28 3.46c-.29 2.12-2.03 3.74-4.14 3.83-1.46.07-2.92.1-4.48.1s-3.02-.03-4.48-.1c-2.11-.1-3.86-1.71-4.14-3.83-.14-1.01-.28-2.22-.28-3.46s.14-2.45.28-3.46c.247-1.802 1.541-3.243 3.22-3.69V6.4C6.5 3.42 8.92 1 11.9 1c2.4 0 4.25 1.82 4.85 3.62.16.47-.1.98-.57 1.14s-.98-.1-1.14-.57c-.39-1.16-1.62-2.38-3.15-2.38a3.61 3.61 0 0 0-3.6 3.6zM11.9 9.8c-1.52 0-2.96.03-4.4.1-1.24.06-2.27 1.02-2.44 2.28-.13.95-.26 2.08-.26 3.22s.13 2.27.26 3.22c.17 1.26 1.2 2.22 2.44 2.28 2.86.13 5.94.13 8.8 0 1.24-.06 2.27-1.02 2.44-2.28.13-.95.26-2.08.26-3.22s-.13-2.27-.26-3.22c-.17-1.26-1.2-2.22-2.44-2.28-1.44-.07-2.88-.1-4.4-.1",clipRule:"evenodd"})]})});q9.displayName="LockUnlock";var Rr=i(require("react"),1),J1=require("react/jsx-runtime"),z9=Rr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,J1.jsx)("path",{fill:"currentColor",d:"M11.9 17.3c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9"}),(0,J1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.3 8.263a4.41 4.41 0 0 1 3.22 3.687c.14 1.02.28 2.22.28 3.47s-.14 2.45-.28 3.46c-.29 2.12-2.03 3.74-4.14 3.83-1.46.07-2.92.1-4.48.1v-.01c-1.56 0-3.02-.03-4.48-.1-2.11-.1-3.86-1.71-4.14-3.83-.14-1.01-.28-2.22-.28-3.46s.14-2.45.28-3.46c.247-1.802 1.541-3.243 3.22-3.69V6.4C6.5 3.42 8.92 1 11.9 1s5.4 2.42 5.4 5.4zm-1.8-.178V6.4c0-1.98-1.61-3.6-3.6-3.6S8.3 4.42 8.3 6.4v1.685c2.377-.083 4.83-.083 7.2 0M11.9 9.8c-1.52 0-2.96.03-4.4.1-1.24.06-2.27 1.02-2.44 2.28-.13.95-.26 2.08-.26 3.22s.13 2.27.26 3.22c.17 1.26 1.2 2.22 2.44 2.28 2.86.13 5.94.13 8.8 0 1.25-.06 2.27-1.02 2.44-2.28.13-.95.26-2.08.26-3.22s-.13-2.27-.26-3.23c-.17-1.26-1.2-2.22-2.44-2.28-1.44-.07-2.88-.1-4.4-.1z",clipRule:"evenodd"})]})});z9.displayName="Lock";var Nr=i(require("react"),1),K1=require("react/jsx-runtime"),L9=Nr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,K1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,K1.jsx)("path",{fill:"currentColor",d:"M12.598 2.25c-5.67 0-10.35 4.32-10.35 9.75s4.68 9.75 10.35 9.75q.765 0 1.502-.102l-.204-1.486a10 10 0 0 1-1.298.088c-4.934 0-8.85-3.738-8.85-8.25 0-4.511 3.916-8.25 8.85-8.25q.663 0 1.298.088l.204-1.486q-.736-.101-1.502-.102"}),(0,K1.jsx)("path",{fill:"currentColor",d:"m14.529 9.53-1.06-1.06L9.937 12l3.53 3.53 1.06-1.06-1.719-1.72h8.19v-1.5h-8.19z"})]})});L9.displayName="Login";var Wr=i(require("react"),1),X1=require("react/jsx-runtime"),F9=Wr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,X1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,X1.jsx)("path",{fill:"currentColor",d:"M12.6 2.25C6.93 2.25 2.25 6.57 2.25 12s4.68 9.75 10.35 9.75q.765 0 1.502-.102l-.204-1.486a10 10 0 0 1-1.298.088c-4.934 0-8.85-3.738-8.85-8.25 0-4.511 3.916-8.25 8.85-8.25q.662 0 1.298.088l.204-1.486q-.736-.101-1.502-.102"}),(0,X1.jsx)("path",{fill:"currentColor",d:"m17.47 9.53 1.72 1.72H11v1.5h8.19l-1.72 1.72 1.06 1.06L22.06 12l-3.53-3.53z"})]})});F9.displayName="Logout";var Vr=i(require("react"),1),Y1=require("react/jsx-runtime"),D9=Vr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Y1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,Y1.jsx)("path",{fill:"currentColor",d:"M14 9.1a.9.9 0 0 1 0 1.8h-4a.9.9 0 0 1 0-1.8zm0-4a.9.9 0 0 1 0 1.8h-4a.9.9 0 0 1 0-1.8z"}),(0,Y1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15 1.1c.917 0 1.696-.002 2.314.082.645.086 1.249.28 1.737.767.488.488.68 1.092.767 1.737.083.618.082 1.397.082 2.314v.518l.819.545c.423.282.791.528 1.08.761.302.246.567.518.761.883l.068.137c.145.32.21.646.24.985.034.368.032.81.03 1.315-.004 1.26-.016 2.548-.049 3.853-.037 1.51-.066 2.742-.24 3.733-.183 1.034-.537 1.89-1.268 2.622-.734.734-1.598 1.087-2.64 1.27-1.001.174-2.248.203-3.78.241-1.952.049-3.889.049-5.842 0-1.53-.038-2.78-.067-3.78-.242-1.042-.182-1.905-.535-2.639-1.268-.732-.732-1.085-1.588-1.268-2.623-.174-.991-.203-2.224-.24-3.734a178 178 0 0 1-.05-3.852c-.001-.506-.004-.947.03-1.315.035-.387.114-.758.308-1.122.195-.365.46-.637.762-.883.288-.233.657-.479 1.08-.76l.817-.545V6c0-.917 0-1.696.082-2.314.087-.645.28-1.249.768-1.737s1.092-.68 1.736-.767C7.304 1.099 8.083 1.1 9 1.1zm.55 13.82c-.737.442-1.346.808-1.876 1.057-.55.259-1.08.424-1.674.424s-1.125-.165-1.674-.424c-.53-.249-1.14-.615-1.876-1.057l-5.545-3.328c.006 1.106.018 2.228.046 3.36.04 1.564.068 2.638.214 3.466.138.786.369 1.264.767 1.662.397.397.88.63 1.677.769.84.146 1.93.176 3.515.215 1.923.049 3.83.049 5.753 0 1.585-.04 2.675-.069 3.515-.215.797-.14 1.279-.372 1.675-.769.399-.398.63-.876.769-1.662.146-.828.175-1.902.214-3.467.028-1.131.038-2.253.044-3.36zM9 2.9c-.968 0-1.604.002-2.074.065-.445.06-.606.16-.703.258-.098.097-.198.258-.258.703C5.9 4.396 5.9 5.032 5.9 6v5.29l3.476 2.086c.767.46 1.287.77 1.716.973.41.193.671.253.908.253.236 0 .498-.06.908-.253.43-.202.949-.513 1.716-.973l3.475-2.086V6c0-.968 0-1.604-.064-2.074-.06-.444-.16-.605-.257-.703-.098-.098-.26-.198-.704-.258-.47-.063-1.106-.065-2.074-.065zM4.1 8.684c-.349.233-.586.394-.764.539-.193.156-.265.251-.308.33l-.006.011 1.077.646zm15.8 1.525 1.076-.646-.003-.01c-.043-.079-.115-.174-.308-.33a11 11 0 0 0-.765-.54z",clipRule:"evenodd"})]})});D9.displayName="MailOpen";var Cr=i(require("react"),1),_1=require("react/jsx-runtime"),U9=Cr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,_1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,_1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.076 2.637c1.955-.05 3.892-.05 5.847 0l.069.002c1.516.038 2.752.069 3.747.242 1.05.183 1.918.537 2.653 1.274.732.735 1.084 1.591 1.264 2.625.17.975.195 2.182.226 3.657l.002.068c.01.503.016 1.502.016 1.995a.9.9 0 1 1-1.8 0c0-.49-.006-1.474-.016-1.956-.026-1.241-.048-2.172-.128-2.917l-5.425 3.08C14.241 11.44 13.157 11.9 12 11.9s-2.241-.46-3.531-1.193l-5.426-3.08c-.08.745-.101 1.675-.128 2.917-.02.973-.02 1.94 0 2.912.033 1.56.059 2.63.202 3.456.136.783.366 1.261.765 1.662.396.398.88.631 1.687.772.848.148 1.95.177 3.552.218q1.195.03 2.383.035a.9.9 0 0 1-.008 1.8q-1.208-.005-2.42-.036l-.069-.002c-1.516-.038-2.752-.069-3.746-.242-1.05-.183-1.919-.537-2.654-1.274-.732-.735-1.084-1.591-1.263-2.625-.17-.975-.196-2.182-.227-3.656l-.001-.07a70 70 0 0 1 0-2.989l.001-.069c.031-1.474.057-2.68.227-3.656.18-1.034.531-1.89 1.263-2.625.735-.737 1.604-1.091 2.654-1.274.994-.173 2.23-.204 3.746-.242zm11.041 2.789q.192.192.335.418l-5.81 3.298c-1.235.701-1.975.958-2.642.958s-1.407-.257-2.643-.958l-5.81-3.298q.143-.228.335-.418c.396-.398.88-.631 1.687-.772.848-.148 1.95-.177 3.552-.218 1.925-.048 3.832-.048 5.757 0 1.601.04 2.704.07 3.552.218.807.14 1.291.374 1.687.772",clipRule:"evenodd"}),(0,_1.jsx)("path",{fill:"currentColor",d:"M20.127 14.355a.9.9 0 0 0-1.255 1.29c.169.164.434.372.676.562l.056.045q.217.169.44.348H14a.9.9 0 0 0 0 1.8h6.044q-.223.18-.44.348l-.056.045c-.242.19-.507.398-.676.562a.9.9 0 0 0 1.255 1.29c.084-.081.258-.221.533-.437l.06-.047c.241-.19.528-.414.801-.646.293-.248.602-.53.844-.814.122-.143.245-.308.341-.488.093-.173.194-.42.194-.713 0-.292-.101-.54-.194-.713a2.8 2.8 0 0 0-.34-.488 7.5 7.5 0 0 0-.845-.814 28 28 0 0 0-.801-.646l-.06-.047a9 9 0 0 1-.533-.437"})]})});U9.displayName="MailSend";var Gr=i(require("react"),1),T9=require("react/jsx-runtime"),O9=Gr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,T9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,T9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.54 2.61a116 116 0 0 1 4.384.027l1.108.03c1.053.033 1.95.083 2.708.214 1.049.183 1.918.537 2.653 1.275l.133.14c.642.702.962 1.515 1.13 2.484.173.99.196 2.22.228 3.725l.013.748q.008.747 0 1.495l-.013.748c-.032 1.505-.055 2.734-.227 3.725-.169.969-.49 1.782-1.131 2.485l-.133.14c-.735.737-1.604 1.09-2.653 1.274-.757.131-1.655.18-2.708.213l-1.108.03c-1.466.038-2.922.047-4.384.028l-1.463-.027c-1.548-.04-2.807-.069-3.816-.244-.984-.172-1.809-.494-2.514-1.141l-.14-.134c-.73-.734-1.083-1.59-1.263-2.624-.129-.743-.175-1.621-.203-2.648l-.024-1.077a70 70 0 0 1 0-2.99l.024-1.078c.028-1.027.074-1.905.203-2.648.18-1.034.532-1.89 1.264-2.624l.14-.134c.704-.647 1.53-.97 2.513-1.14 1.01-.176 2.268-.206 3.816-.245zm4.99 8.09c-1.297.735-2.377 1.2-3.53 1.2-1.01 0-1.963-.355-3.054-.937l-.477-.262-5.426-3.075c-.054.511-.081 1.11-.101 1.836l-.026 1.082c-.02.973-.02 1.94 0 2.912l.026 1.083c.028.997.068 1.754.176 2.374.135.782.366 1.26.765 1.662l.152.141c.37.313.829.507 1.535.63.847.148 1.95.178 3.551.218l1.442.027c1.438.018 2.872.01 4.316-.027l1.112-.03c1.025-.033 1.804-.077 2.44-.188.807-.14 1.29-.374 1.686-.771l.143-.155c.313-.37.504-.823.623-1.507.143-.826.168-1.897.201-3.456l.012-.729q.007-.728 0-1.455l-.012-.729c-.026-1.242-.05-2.174-.13-2.919zm-4.967-6.29-1.442.027c-1.6.04-2.704.07-3.551.218-.707.123-1.166.317-1.535.63l-.152.141a2.4 2.4 0 0 0-.334.418l5.807 3.29.446.245c.988.524 1.62.721 2.197.721.66 0 1.393-.257 2.644-.966l5.808-3.292a2 2 0 0 0-.19-.261l-.143-.155c-.396-.397-.88-.63-1.687-.771-.636-.11-1.415-.155-2.44-.188l-1.112-.03a114 114 0 0 0-4.316-.027",clipRule:"evenodd"})})});O9.displayName="Mail";var Pr=i(require("react"),1),Q9=require("react/jsx-runtime"),Z9=Pr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Q9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Q9.jsx)("path",{fill:"currentColor",d:"M19.95 12.85C19.1 12 17.96 12 15.9 12c-.36 0-.68.21-.82.53l-2 4.51-.25-1.98.88-1.76a.907.907 0 0 0-.81-1.31h-2c-.31 0-.6.16-.77.43-.16.27-.18.6-.04.88l.88 1.76-.25 1.98-2-4.51A.89.89 0 0 0 7.9 12c-2.06 0-3.2 0-4.05.85S3 14.84 3 16.9v5c0 .5.4.9.9.9s.9-.4.9-.9v-5c0-1.53 0-2.46.32-2.78.28-.28 1.01-.32 2.19-.32l3.76 8.46c.29.65 1.36.65 1.64 0l3.76-8.46c1.18 0 1.91.04 2.19.32.32.32.32 1.25.32 2.78v5c0 .5.4.9.9.9s.9-.4.9-.9v-5c0-2.06 0-3.2-.85-4.05zM11.9 10.8a4.4 4.4 0 0 0 4.4-4.4v-1a4.4 4.4 0 0 0-8.8 0v1a4.4 4.4 0 0 0 4.4 4.4M9.3 5.4c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6v1c0 1.43-1.17 2.6-2.6 2.6S9.3 7.83 9.3 6.4z"})})});Z9.displayName="Manager";var Mr=i(require("react"),1),$1=require("react/jsx-runtime"),J9=Mr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,$1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,$1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M7.5 10.9a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6",clipRule:"evenodd"}),(0,$1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.67 21.92c.6.57 1.39.88 2.23.88v.01c.83 0 1.63-.32 2.23-.88l.92-.86c3.85-3.54 8.64-7.96 5.99-14.14C19.53 3.38 15.85 1 11.9 1S4.28 3.38 2.76 6.93C.133 13.082 4.868 17.469 8.675 20.997l.015.013c.31.282.621.573.923.857zM4.41 7.63C5.65 4.74 8.66 2.8 11.9 2.8l-.01.01c3.24 0 6.25 1.94 7.49 4.83 2.147 5.003-1.76 8.61-5.535 12.096l-.945.874c-.53.5-1.47.5-2 0l-.06-.056q-.451-.426-.93-.864l-.002-.002C6.148 16.208 2.27 12.62 4.41 7.63",clipRule:"evenodd"})]})});J9.displayName="MapPin";var Ar=i(require("react"),1),j1=require("react/jsx-runtime"),K9=Ar.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,j1.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,j1.jsx)("path",{fill:"currentColor",d:"M14.9 16.3c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9m0-4c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9m-7.9.1c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm0-4c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9z"}),(0,j1.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.9 21.8h-2.08c-1.06 0-1.2-.03-2.15-.51l-3.81-1.9-.135-.067c-.74-.366-1.124-.555-1.435-.593-.66-.09-1.23.21-2.09.71l-.12.07c-1.49.86-2.24 1.29-3.09 1.14-.57-.1-1.08-.4-1.44-.86-.54-.67-.54-1.54-.54-3.28V8.36c0-1.28 0-1.98.39-2.67s.99-1.04 2.08-1.67l1.23-.71.45.78-.44-.78.004-.003C6.131 2.49 6.921 2.03 7.88 2c.96-.04 1.78.37 3.26 1.11l3.33 1.66q.639.32 1.35.32h2.08c2.07 0 3.21 0 4.06.87.84.86.84 2.02.84 4.12v6.74c0 2.1 0 3.26-.84 4.12-.85.87-1.99.87-4.06.87zm-9.294-4.84a.9.9 0 0 0 .194-.56v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1c0 .23.084.439.224.597-.725.17-1.354.535-1.934.873l-.13.08-.092.053c-.782.454-1.576.915-1.768.867a.58.58 0 0 1-.36-.21c-.14-.18-.14-1.18-.14-2.15V8.35c0-1.04 0-1.51.15-1.77.14-.25.54-.49 1.42-1l1.23-.71-.45-.78.46.77c.6-.35 1.041-.601 1.39-.772V4.4c0 .5.4.9.9.9s.9-.4.9-.9v-.413c.374.147.857.382 1.54.723l3.33 1.66q.181.093.33.164V7.4c0 .5.4.9.9.9s.9-.4.9-.9v-.52h2.1c1.65 0 2.46.02 2.77.33.33.34.33 1.29.33 2.86v6.74c0 1.57 0 2.52-.33 2.86-.31.32-1.12.33-2.77.33h-2.08q-.12 0-.24-.01a.9.9 0 0 0 .22-.59v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.047l-3.35-1.667c-.92-.46-1.455-.728-2.044-.82",clipRule:"evenodd"})]})});K9.displayName="Map";var Er=i(require("react"),1),X9=require("react/jsx-runtime"),Y9=Er.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,X9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,X9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15.5 1.1q.07.001.137.011h2.279c.36 0 1.026-.04 1.598.035.615.083 1.351.319 1.866 1.014l.105.158c.228.373.322.78.367 1.192.05.454.048 1.016.048 1.669 0 .558.001 1.032-.032 1.425-.03.357-.09.695-.225 1.026l-.064.141c-.294.612-.756 1.02-1.2 1.312-.42.277-.913.505-1.24.673l-3.71 1.904c-.726.373-1.323.68-1.84.889l-.122.045q.22.126.462.27l.999.59c.357.212.685.403.942.593.275.202.525.441.711.775l.064.125c.139.293.197.59.225.889.03.323.03.71.03 1.143v1.043c0 .432 0 .819-.03 1.142a2.6 2.6 0 0 1-.225.889l-.064.125a2.4 2.4 0 0 1-.71.775c-.258.19-.585.381-.942.593l-.001-.001-1 .592c-.343.203-.657.39-.936.52A2.3 2.3 0 0 1 12 22.9c-.374 0-.696-.105-.992-.243a6 6 0 0 1-.444-.232l-.493-.288-1-.592c-.357-.212-.684-.402-.941-.592a2.5 2.5 0 0 1-.639-.654l-.072-.121c-.185-.332-.257-.673-.29-1.014-.03-.323-.03-.71-.03-1.143v-1.043c0-.432 0-.819.03-1.142.033-.341.105-.682.29-1.014l.072-.12a2.5 2.5 0 0 1 .639-.655q.195-.142.433-.288l.508-.305 1-.59.46-.271-.12-.044a13 13 0 0 1-.842-.383l-.999-.506-3.708-1.904c-.327-.168-.821-.395-1.242-.673-.388-.256-.79-.6-1.082-1.092l-.117-.22c-.18-.376-.255-.76-.29-1.167C2.1 6.21 2.1 5.737 2.1 5.179c0-.653-.001-1.215.048-1.67.052-.47.166-.935.472-1.349l.1-.125c.507-.6 1.19-.811 1.766-.889.572-.076 1.238-.035 1.598-.035h2.28A1 1 0 0 1 8.5 1.1q.07.001.137.011h6.726A1 1 0 0 1 15.5 1.1M12 13.9c-.019 0-.073 0-.234.076-.09.041-.19.095-.316.166l-.463.27-1 .592c-.388.23-.622.369-.789.492a1 1 0 0 0-.152.129l-.054.072c-.02.037-.051.107-.07.308-.02.219-.022.507-.022.974v1.043c0 .466.001.754.022.973.019.2.05.271.07.308l.054.072q.043.047.152.129c.084.061.184.127.312.206l.477.286 1 .592.463.27c.125.071.226.125.316.166.16.075.215.076.234.076s.073 0 .234-.076c.18-.083.404-.215.779-.436l1-.592.477-.286a5 5 0 0 0 .312-.206c.149-.11.187-.167.206-.201l.036-.093c.012-.047.025-.115.034-.215.02-.219.022-.507.022-.974v-1.043c0-.466-.001-.754-.022-.973-.01-.1-.021-.168-.034-.215l-.036-.093c-.02-.034-.057-.091-.206-.2a5 5 0 0 0-.312-.207l-.477-.286-1-.592a10 10 0 0 0-.779-.436c-.16-.075-.215-.076-.234-.076m-2.6-3.838.963.489c.276.135.51.244.722.33.407.165.672.219.915.219s.508-.054.915-.22c.422-.17.934-.432 1.685-.818v-7.15H9.4zm-3.316-7.15c-.551 0-.945-.037-1.36.019-.324.043-.501.129-.613.248l-.044.052c-.037.052-.095.156-.13.474-.036.334-.037.781-.037 1.474 0 .588 0 .974.026 1.275.024.286.066.431.117.538l.042.08c.107.18.275.342.527.508.311.205.64.353 1.072.574l1.916.984V2.912zm11.832 0H16.4v6.226l1.916-.984.582-.293c.175-.09.334-.178.49-.28.288-.191.466-.375.569-.589l.036-.089c.035-.1.063-.234.081-.449.025-.3.026-.687.026-1.275 0-.693-.001-1.14-.038-1.474-.026-.238-.065-.357-.098-.423l-.031-.05c-.108-.147-.287-.252-.658-.301-.414-.056-.808-.019-1.359-.019",clipRule:"evenodd"})})});Y9.displayName="Medal01";var Ir=i(require("react"),1),e0=require("react/jsx-runtime"),_9=Ir.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,e0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,e0.jsx)("path",{fill:"currentColor",d:"M12 4.1a.9.9 0 0 1 .9.9v3a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9m-4 0a.9.9 0 0 1 .9.9v1a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9m8 0a.9.9 0 0 1 .9.9v1a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9"}),(0,e0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.91 1.1c.507 0 .886-.004 1.218.06l.256.058a3.41 3.41 0 0 1 2.458 2.67l.035.26c.025.271.023.581.023.965 0 .39.001.676-.015.93l-.024.247A4.94 4.94 0 0 1 20.1 9.491l-.199.155a5 5 0 0 1-.43.28l-.573.326-2.573 1.44c-.934.522-1.69.947-2.343 1.234a8 8 0 0 1-.471.188q.04.068.074.136l.778 1.57.013.011.013.009 1.404.236.234.05c.549.143 1.1.48 1.303 1.118.232.73-.132 1.4-.576 1.844l-.001-.001-1.09 1.1-.01.04-.002.002.313 1.36.047.247c.09.597.028 1.336-.582 1.785-.702.516-1.549.223-2.099-.104v-.001l-1.313-.785H12l-.018.001-1.313.784c-.552.33-1.398.62-2.099.104-.696-.512-.68-1.404-.536-2.031l.312-1.36v-.002a.2.2 0 0 0-.012-.04l-.001-.002-1.09-1.1c-.441-.444-.804-1.113-.574-1.84.231-.73.917-1.065 1.535-1.169l1.399-.235.013-.009.013-.012.78-1.57.001-.002.073-.136a8 8 0 0 1-.465-.186 16 16 0 0 1-1.067-.53l-1.276-.705-2.572-1.44c-.338-.188-.588-.326-.801-.465l-.203-.14A4.93 4.93 0 0 1 2.177 6.54l-.038-.249c-.04-.32-.04-.658-.04-1.177 0-.512-.003-.892.06-1.224l.057-.255A3.41 3.41 0 0 1 4.872 1.16l.259-.036c.27-.025.58-.023.96-.023zm-6.68 14.547v-.002a1.8 1.8 0 0 1-.536.628 1.8 1.8 0 0 1-.753.337H9.94l-1.392.234 1.09 1.1.082.088c.18.213.291.46.354.682.072.254.107.567.037.879v.006l-.308 1.338 1.29-.77.007-.003.111-.06a1.84 1.84 0 0 1 .791-.172c.28 0 .61.06.904.235l1.29.77-.306-1.338-.001-.006a1.8 1.8 0 0 1 .037-.88c.072-.252.208-.54.436-.77l1.09-1.1-1.391-.233a1.8 1.8 0 0 1-.76-.335 1.8 1.8 0 0 1-.537-.63l-.767-1.543zM6.09 2.9c-.44 0-.647.002-.776.013l-.108.015a1.61 1.61 0 0 0-1.25 1.169l-.028.122c-.024.128-.028.301-.028.894 0 .566.002.77.025.952l.023.16a3.13 3.13 0 0 0 1.221 1.973l.12.082c.134.087.325.195.693.402l2.573 1.438 1.247.69c.357.19.663.345.941.467.538.237.907.323 1.257.323s.719-.086 1.257-.323c.555-.244 1.224-.617 2.188-1.157l2.573-1.438.536-.305a3 3 0 0 0 .277-.179l.126-.098a3.14 3.14 0 0 0 1.118-2.035l.014-.145c.01-.161.01-.382.01-.807 0-.444 0-.653-.012-.784l-.015-.11a1.61 1.61 0 0 0-1.159-1.264l-.119-.027c-.125-.024-.295-.028-.885-.028z",clipRule:"evenodd"})]})});_9.displayName="Medal02";var yr=i(require("react"),1),t0=require("react/jsx-runtime"),$9=yr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,t0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,t0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M6.9 2a.9.9 0 1 0-1.8 0v.523c-.778.236-1.447.612-2.009 1.22-.808.873-1.16 1.972-1.328 3.318-.163 1.314-.163 2.994-.163 5.12v.639c0 2.125 0 3.805.163 5.119.167 1.346.52 2.445 1.328 3.319.818.883 1.86 1.278 3.138 1.463 1.23.18 2.795.179 4.749.179h.072a.9.9 0 1 0 0-1.8c-2.043 0-3.477-.002-4.562-.16-1.05-.153-1.641-.435-2.076-.905-.443-.48-.717-1.147-.863-2.318-.148-1.19-.15-2.758-.15-4.96v-.514c0-1.325.001-2.421.034-3.343h17.133c.03.864.034 1.882.034 3.1a.9.9 0 0 0 1.8 0c0-2.077-.005-3.723-.173-5.015-.172-1.312-.526-2.385-1.319-3.242-.562-.608-1.23-.984-2.008-1.22V2a.9.9 0 1 0-1.8 0v.2c-1.114-.1-2.463-.1-4.079-.1h-2.043c-1.615 0-2.965 0-4.078.1zm13.526 5.1H3.574c.15-1.058.418-1.681.838-2.135.212-.23.462-.414.783-.56A.9.9 0 0 0 6.9 4.008c1.03-.107 2.355-.109 4.15-.109h1.9c1.794 0 3.119.002 4.15.109a.9.9 0 0 0 1.704.395c.322.147.57.332.783.56.42.455.688 1.078.839 2.136",clipRule:"evenodd"}),(0,t0.jsx)("path",{fill:"currentColor",d:"M17.9 14a.9.9 0 1 0-1.8 0v3.1H13a.9.9 0 0 0 0 1.8h3.1V22a.9.9 0 0 0 1.8 0v-3.1H21a.9.9 0 1 0 0-1.8h-3.1z"})]})});$9.displayName="Meet";var Br=i(require("react"),1),j9=require("react/jsx-runtime"),ee=Br.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,j9.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,j9.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.586 3.1c.274 0 .597-.01.895.063l.126.036.206.083a1.9 1.9 0 0 1 .987 1.11l.037.126c.052.213.062.44.063.65v13.663c-.002.253-.017.527-.1.775v.001a1.9 1.9 0 0 1-1.193 1.193c-.248.084-.522.098-.776.1h-.413a3 3 0 0 1-.185-.01l-.127-.015a1.9 1.9 0 0 1-.8-.332c-.139-.1-.258-.222-.357-.32l-.168-.17c-.73-.73-.994-.986-1.298-1.169l-.02-.011c-.228-.135-.483-.232-1.01-.396l-.632-.191-1.33-.4-1.162 1.742a2.855 2.855 0 0 1-5.215-1.29l-.014-.293V15.97l-.232-.069H6c-.453 0-.839 0-1.155-.021a3.4 3.4 0 0 1-.72-.118l-.234-.082a2.9 2.9 0 0 1-1.448-1.31l-.123-.26a3 3 0 0 1-.199-.954C2.1 12.838 2.1 12.453 2.1 12s0-.84.021-1.156c.022-.324.07-.642.2-.954l.122-.26a2.9 2.9 0 0 1 1.448-1.31l.234-.082c.236-.07.476-.1.72-.117.316-.022.702-.022 1.155-.022h.868l7.953-2.385.632-.192c.529-.164.783-.261 1.01-.396l.021-.012c.304-.183.568-.439 1.297-1.168l.168-.169.163-.16q.09-.084.195-.161a1.9 1.9 0 0 1 .8-.331l.126-.016c.126-.01.248-.01.353-.01M8.9 18.045l.005.107a1.054 1.054 0 0 0 1.926.478l.857-1.286L8.9 16.51zM19.414 4.9h-.016a.1.1 0 0 0-.042.018c.01-.007.01-.008-.011.011l-.122.12-.17.168c-.67.67-1.107 1.117-1.644 1.44h-.002l-.02.013-.002.001c-.404.24-.842.397-1.42.576l-.627.19L7.9 9.668v4.662l7.438 2.231.628.19c.48.15.865.283 1.214.462l.205.114.003.002.02.012h.002l.196.127c.453.311.86.726 1.448 1.313l.169.168.12.12c.022.02.022.019.012.012l.043.017h.016l.172.001c.203 0 .318 0 .402-.005q.037-.002.051-.005a.1.1 0 0 0 .05-.05l.006-.051c.005-.084.005-.2.005-.402V5.414c0-.203 0-.318-.005-.403l-.005-.051a.1.1 0 0 0-.05-.051l-.052-.004a8 8 0 0 0-.402-.005zM6 9.9c-.478 0-.792 0-1.033.017-.117.008-.2.018-.26.03l-.128.036a1.1 1.1 0 0 0-.549.497l-.047.099c-.023.056-.05.155-.066.387A17 17 0 0 0 3.9 12c0 .478 0 .792.017 1.033.016.232.043.332.066.388l.047.098c.12.223.313.4.55.497l.126.036q.088.019.26.03c.242.017.556.017 1.034.017h.1V9.9z",clipRule:"evenodd"})})});ee.displayName="Megaphone";var Hr=i(require("react"),1),te=require("react/jsx-runtime"),re=Hr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,te.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,te.jsx)("path",{fill:"currentColor",d:"M20 4.1a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8zm0 7a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8zm0 7a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8z"})})});re.displayName="Menu";var qr=i(require("react"),1),oe=require("react/jsx-runtime"),le=qr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,oe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,oe.jsx)("path",{fill:"currentColor",d:"m20 11.1.092.005a.9.9 0 0 1 0 1.79L20 12.9H4a.9.9 0 0 1 0-1.8z"})})});le.displayName="Minus";var zr=i(require("react"),1),R=require("react/jsx-runtime"),ce=zr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,R.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,R.jsx)("path",{fill:"currentColor",d:"M12 1.1q.841 0 1.646.124l.533.094.09.023a.9.9 0 0 1-.357 1.755l-.09-.014-.446-.08A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 8.997-10.475l-.079-.445-.014-.091a.9.9 0 0 1 1.755-.357l.023.09.094.533q.124.806.124 1.646c0 6.02-4.88 10.9-10.9 10.9S1.1 18.02 1.1 12 5.98 1.1 12 1.1"}),(0,R.jsx)("path",{fill:"currentColor",d:"M12 6.1a.9.9 0 0 1 0 1.8 4.1 4.1 0 1 0 4.1 4.1.9.9 0 0 1 1.8 0A5.9 5.9 0 1 1 12 6.1"}),(0,R.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.008 1.31c.724-.45 1.644-.113 1.976.618l.063.162.008.026.41 1.48 1.376.34.034.01.168.06c.754.327 1.094 1.27.635 2l-.112.153c-.554.67-1.309 1.557-2.325 2.077-.958.49-2.082.625-3.378.165L12.667 12.6l-.068.061a.9.9 0 0 1-1.205-1.334l4.217-4.219c-.441-1.216-.33-2.305.125-3.252.505-1.047 1.395-1.842 2.12-2.435zm.49 1.927c-.492.444-.9.9-1.14 1.399-.257.533-.35 1.173.013 2.033.895.344 1.533.23 2.05-.035.48-.246.903-.643 1.324-1.114l-1.22-.302a.9.9 0 0 1-.652-.632z",clipRule:"evenodd"})]})});ce.displayName="Mission";var Lr=i(require("react"),1),se=require("react/jsx-runtime"),ne=Lr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,se.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,se.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.317 4.68c1.218-.57 2.857-.93 4.683-.93 1.417 0 2.597.236 3.419.471.344.098.624.196.831.275V11.5h1.5V3.536l-.416-.207-.003-.002-.008-.004-.024-.011-.082-.038a8 8 0 0 0-.298-.127 11 11 0 0 0-1.088-.368A14 14 0 0 0 17 2.25c-2.008 0-3.87.395-5.317 1.07-1.218.57-2.857.93-4.683.93h-.018c-1.009 0-2.337 0-4.703-.946L1.25 2.892v16.616l.471.188C4.341 20.744 5.88 20.75 7 20.75c2.008 0 3.87-.395 5.317-1.07l-.634-1.36c-1.218.57-2.857.93-4.683.93h-.018c-.94 0-2.157 0-4.232-.765V5.075c2.01.67 3.284.675 4.25.675 2.008 0 3.87-.395 5.317-1.07M22 4c.335-.67.335-.671.334-.671zm-2.75 17v-2.75H22v-1.5h-2.75V14h-1.5v2.75H15v1.5h2.75V21zM12 9.75a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5M8.75 11.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0M6.5 13.509V11.5h-2v2.009z",clipRule:"evenodd"})})});ne.displayName="MoneyAdd";var Fr=i(require("react"),1),r0=require("react/jsx-runtime"),ae=Fr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,r0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,r0.jsx)("path",{fill:"currentColor",d:"M11.9 22.8C5.89 22.8 1 17.91 1 11.91S5.89 1.02 11.9 1.02c.73 0 1.47.07 2.18.22.49.1.8.57.7 1.06s-.57.81-1.06.7c-.6-.12-1.21-.18-1.82-.18-5.02 0-9.1 4.08-9.1 9.09S6.88 21 11.9 21s9.1-4.08 9.1-9.09c0-.61-.06-1.22-.18-1.82a.9.9 0 0 1 .7-1.06c.49-.1.96.21 1.06.7.15.71.22 1.44.22 2.18 0 6-4.89 10.89-10.9 10.89"}),(0,r0.jsx)("path",{fill:"currentColor",d:"M11.9 16.81c-.5 0-.9-.4-.9-.9v-.21c-.81-.21-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.35 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.21c.81.21 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.35-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9m9.47-9.02h-.04l-3.12-.15c-1.28-.09-2.08-.93-2.08-2.14l-.12-3.05c-.02-.5.37-.91.87-.93.47 0 .92.37.93.87l.09 2.25 3.38-3.38a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-3.36 3.35 2.23.1a.902.902 0 0 1-.04 1.8z"})]})});ae.displayName="MoneyReceiveCircle";var Dr=i(require("react"),1),ie=require("react/jsx-runtime"),de=Dr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,ie.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,ie.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.75 2.5a.75.75 0 0 1 .75-.75h11v1.5H3.25v17.5h17.5V10.5h1.5v11a.75.75 0 0 1-.75.75h-19a.75.75 0 0 1-.75-.75zm9.5 5.834a2.95 2.95 0 0 0-1.114.505c-.504.378-.886.958-.886 1.661s.382 1.283.886 1.66c.504.379 1.165.59 1.864.59.406 0 .744.124.964.29.22.164.286.335.286.46s-.066.296-.286.46c-.22.166-.558.29-.964.29-.668 0-1.09-.321-1.208-.57l-1.357.64c.33.7 1.026 1.165 1.815 1.345v.835h1.5v-.834a2.95 2.95 0 0 0 1.114-.505c.504-.378.886-.958.886-1.661s-.382-1.283-.886-1.66c-.504-.379-1.165-.59-1.864-.59-.406 0-.744-.124-.964-.29-.22-.164-.286-.335-.286-.46s.066-.296.286-.46c.22-.166.558-.29.964-.29.668 0 1.09.321 1.208.57l1.357-.64c-.33-.7-1.026-1.165-1.815-1.345V7.5h-1.5zm9.72-6.34-3.708 3.698V2.998h-1.5V8.25H21v-1.5h-2.674l3.704-3.695z",clipRule:"evenodd"})})});de.displayName="MoneyReceiveSquare";var Ur=i(require("react"),1),o0=require("react/jsx-runtime"),me=Ur.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,o0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,o0.jsx)("path",{fill:"currentColor",d:"M11 15.93c0 .5.4.9.9.9s.9-.4.9-.9v-.21c1.17-.31 2-1.21 2-2.29 0-1.35-1.27-2.4-2.9-2.4-.67 0-1.1-.36-1.1-.6s.43-.6 1.1-.6c.55 0 .96.25 1.07.48.21.45.75.64 1.2.43s.64-.75.43-1.2c-.32-.68-.99-1.19-1.8-1.4v-.22c0-.5-.4-.9-.9-.9s-.9.4-.9.9v.21c-1.17.31-2 1.21-2 2.29 0 1.35 1.27 2.4 2.9 2.4.67 0 1.1.36 1.1.6s-.43.6-1.1.6c-.55 0-.96-.25-1.07-.48a.903.903 0 0 0-1.2-.43c-.45.21-.64.75-.43 1.2.32.68.99 1.18 1.8 1.4z"}),(0,o0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.116 22.264c.626.328 1.081.566 1.784.566v-.01c.72 0 1.19-.24 1.83-.58 2.42-1.28 8.07-4.93 8.07-11.13v-2.9c0-1.78 0-2.76-.59-3.54s-1.6-1.07-3.62-1.64c-1.04-.3-2.09-.67-3.11-1.13-1.348-.6-1.963-.9-2.579-.9s-1.234.3-2.591.9c-1.02.45-2.07.83-3.11 1.13l-.043.012c-1.981.572-2.991.863-3.567 1.628C2 5.45 2 6.43 2 8.21v2.9c0 6.2 5.65 9.85 8.07 11.13zm.013-18.753c.868-.382 1.549-.681 1.771-.681.224 0 .858.279 1.682.642l.178.078c1.1.49 2.23.9 3.35 1.22 1.42.4 2.45.7 2.67.99S20 6.91 20 8.21v2.9c0 5.03-4.45 8.14-7.11 9.54-.6.32-.73.38-.99.38-.255 0-.385-.067-.954-.361l-.036-.019c-2.65-1.4-7.11-4.51-7.11-9.54v-2.9c0-1.3 0-2.16.22-2.45s1.25-.59 2.67-.99a25.5 25.5 0 0 0 3.439-1.259",clipRule:"evenodd"})]})});me.displayName="MoneySecurity";var Tr=i(require("react"),1),N=require("react/jsx-runtime"),he=Tr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,N.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,N.jsx)("path",{fill:"currentColor",d:"M12.4 17.3c-.5 0-.9-.4-.9-.9v-.22c-.81-.22-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.36 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.22c.81.22 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.36-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9"}),(0,N.jsx)("path",{fill:"currentColor",d:"M12.4 22.8c-4.72 0-7.09 0-8.75-1.65s-1.66-4.02-1.66-8.75S2 5.31 3.66 3.66C5.31 2 7.68 2 12.4 2h1.5c.5 0 .9.4.9.9s-.4.9-.9.9h-1.5c-4.22 0-6.34 0-7.47 1.13S3.8 8.18 3.8 12.4s0 6.34 1.13 7.47S8.18 21 12.4 21s6.34 0 7.47-1.13S21 16.62 21 12.4v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 4.72 0 7.09-1.65 8.75-1.66 1.65-4.03 1.65-8.75 1.65"}),(0,N.jsx)("path",{fill:"currentColor",d:"M16.9 8.8c-.23 0-.46-.09-.64-.26a.9.9 0 0 1 0-1.27l3.36-3.36-2.23-.1a.897.897 0 0 1-.86-.94c.02-.5.46-.88.94-.86l3.12.15c1.28.09 2.09.93 2.09 2.14l.12 3.06c.02.5-.37.91-.87.93-.49.04-.91-.37-.93-.87l-.09-2.26-3.38 3.38c-.18.18-.41.26-.64.26z"})]})});he.displayName="MoneySendSquare";var Or=i(require("react"),1),l0=require("react/jsx-runtime"),ue=Or.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,l0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,l0.jsx)("path",{fill:"currentColor",d:"M12.902 7.507a.9.9 0 0 0-1.8 0v.33c-.457.11-.878.304-1.231.57-.578.433-1.02 1.1-1.02 1.913s.442 1.48 1.02 1.913c.577.433 1.333.674 2.13.674.446 0 .815.137 1.052.314.236.178.299.354.299.474 0 .119-.063.295-.3.473-.236.178-.605.314-1.05.314-.737 0-1.188-.354-1.308-.608a.9.9 0 1 0-1.629.767c.374.793 1.154 1.32 2.037 1.534v.332a.9.9 0 0 0 1.8 0v-.33c.456-.11.877-.304 1.23-.57.578-.432 1.02-1.1 1.02-1.912 0-.813-.442-1.48-1.02-1.914-.577-.433-1.333-.674-2.13-.674-.446 0-.815-.136-1.051-.314-.237-.178-.3-.354-.3-.473 0-.12.063-.296.3-.474.236-.177.605-.314 1.05-.314.737 0 1.188.354 1.308.609a.9.9 0 0 0 1.629-.767c-.374-.794-1.154-1.322-2.036-1.535z"}),(0,l0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1C5.98 1.1 1.1 5.98 1.1 12S5.98 22.9 12 22.9 22.9 18.02 22.9 12 18.02 1.1 12 1.1M2.9 12a9.1 9.1 0 1 1 18.2 0 9.1 9.1 0 0 1-18.2 0",clipRule:"evenodd"})]})});ue.displayName="Money";var Qr=i(require("react"),1),pe=require("react/jsx-runtime"),fe=Qr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,pe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,pe.jsx)("path",{fill:"currentColor",d:"M6 10.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zM10.746 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m6.004 0c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5H18c-.69 0-1.25-.56-1.25-1.25"})})});fe.displayName="MoreH";var Zr=i(require("react"),1),ge=require("react/jsx-runtime"),be=Zr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,ge.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,ge.jsx)("path",{fill:"currentColor",d:"M12 4.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zM10.742 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m-.008 6c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25"})})});be.displayName="More";var Jr=i(require("react"),1),c0=require("react/jsx-runtime"),ve=Jr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,c0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,c0.jsx)("path",{fill:"currentColor",d:"M10.092 15.105a.9.9 0 0 1 0 1.79L10 16.9H6a.9.9 0 0 1 0-1.8h4zm4-4a.9.9 0 0 1 0 1.79L14 12.9H6a.9.9 0 0 1 0-1.8h8zm0-4.001a.9.9 0 0 1 0 1.792L14 8.9H6a.9.9 0 0 1 0-1.8h8z"}),(0,c0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 2.1c1.389 0 2.521-.002 3.412.118.917.123 1.711.39 2.346 1.024.634.635.901 1.43 1.024 2.346.06.443.09.947.104 1.512H19c.682 0 1.283-.002 1.766.063.444.06.89.187 1.271.496l.16.144.144.16c.309.382.436.827.496 1.271.065.483.063 1.084.063 1.766v8a2.9 2.9 0 0 1-2.75 2.896L20 21.9H8c-1.389 0-2.521.002-3.412-.118-.917-.123-1.711-.39-2.346-1.024-.634-.634-.9-1.43-1.024-2.346-.12-.89-.118-2.023-.118-3.412V9c0-1.389-.002-2.521.118-3.412.123-.917.39-1.711 1.024-2.346.635-.634 1.43-.9 2.346-1.024C5.478 2.098 6.61 2.1 8 2.1zM8 3.9c-1.44 0-2.429.002-3.172.102-.717.096-1.07.268-1.313.513-.245.244-.417.596-.513 1.313C2.902 6.571 2.9 7.56 2.9 9v6c0 1.44.002 2.429.102 3.172.096.717.268 1.07.513 1.313.244.245.596.417 1.313.513.743.1 1.732.102 3.172.102h9.316A2.9 2.9 0 0 1 17.1 19V8.792c0-1.328-.007-2.257-.102-2.964-.096-.717-.268-1.07-.513-1.313-.244-.245-.596-.417-1.313-.513-.743-.1-1.732-.102-3.172-.102zM18.9 19a1.1 1.1 0 1 0 2.2 0v-8c0-.732-.002-1.192-.047-1.526-.042-.309-.105-.373-.13-.398-.024-.025-.09-.088-.397-.129-.334-.045-.793-.047-1.526-.047h-.1z",clipRule:"evenodd"})]})});ve.displayName="News";var Kr=i(require("react"),1),s0=require("react/jsx-runtime"),we=Kr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,s0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,s0.jsx)("path",{fill:"currentColor",d:"M7.9 5h8c.5 0 .9.4.9.9s-.4.9-.9.9h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9m2 4h-2c-.5 0-.9.4-.9.9s.4.9.9.9h2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9m3.9 2.09c0 .19.25.41.6.41 1.32 0 2.4.99 2.4 2.21 0 .93-.62 1.72-1.5 2.05v.14c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-.14c-.61-.22-1.11-.68-1.35-1.27-.18-.46.04-.98.5-1.17.46-.18.98.04 1.17.5.06.15.28.31.58.31.35 0 .6-.22.6-.41s-.25-.41-.6-.41c-1.32 0-2.4-.99-2.4-2.21 0-.93.62-1.72 1.5-2.05v-.14c0-.5.4-.9.9-.9s.9.4.9.9v.14c.61.22 1.11.68 1.35 1.27.18.46-.04.98-.5 1.17a.907.907 0 0 1-1.17-.5c-.06-.15-.28-.31-.58-.31-.35 0-.6.22-.6.41"}),(0,s0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.9 1c2.98 0 4.62 0 5.76 1.15s1.14 2.8 1.14 5.8v10.59c0 1.72 0 2.76-.88 3.32-1.125.736-2.398-.151-3.16-.682l-.01-.008q-.165-.12-.3-.21l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214l-1.925 1.22c-.592.374-.98.62-1.525.62s-.933-.246-1.525-.62L8.45 20.96l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.408-3.15.675C3 21.3 3 20.26 3 18.54V7.95c0-2.99 0-4.65 1.14-5.8S6.92 1 9.9 1zm5.02 19.34c.08-.29.08-1.05.08-1.79V7.95c0-2.78-.03-3.93-.62-4.53s-1.73-.62-4.48-.62h-4c-2.75 0-3.89.02-4.48.62-.6.6-.62 1.75-.62 4.53v10.6c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.089-.062.168-.114c.55-.35.96-.61 1.51-.61h.06c.506.02.87.247 1.404.582l.046.028 1.91 1.21.2.122c.18.112.344.213.41.228.03-.02.29-.19.55-.35l1.91-1.21c.58-.37 1.01-.63 1.57-.61.506.02.87.247 1.404.582l.046.028.14.095q.108.069.23.155c.24.17.85.6 1.14.64",clipRule:"evenodd"})]})});we.displayName="NotaMoney";var Xr=i(require("react"),1),xe=require("react/jsx-runtime"),Se=Xr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,xe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,xe.jsx)("path",{fill:"currentColor",d:"M15.75 20a4.249 4.249 0 0 1-7.5 0zM12 1.75a7.75 7.75 0 0 1 7.75 7.75v2.756c0 .597.237 1.169.66 1.59l.603.604a2.52 2.52 0 0 1-1.782 4.3H4.77a2.519 2.519 0 0 1-1.782-4.3l.604-.603.15-.165c.327-.4.509-.904.509-1.426V9.5A7.75 7.75 0 0 1 12 1.75"})})});Se.displayName="NotificationFill";var Yr=i(require("react"),1),n0=require("react/jsx-runtime"),ke=Yr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,n0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,n0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.363 1.363a.9.9 0 0 1 1.205-.061l.069.061 20 20 .061.069a.901.901 0 0 1-1.267 1.266l-.068-.061-3.736-3.736h-1.32a4.402 4.402 0 0 1-8.616 0H4.768a2.67 2.67 0 0 1-1.886-4.557l.603-.604a2.1 2.1 0 0 0 .614-1.484V9.5c0-1.205.27-2.35.754-3.373l-3.49-3.49-.061-.068a.9.9 0 0 1 .061-1.206m8.2 17.538a2.598 2.598 0 0 0 4.873 0zM6.233 7.507A6.1 6.1 0 0 0 5.9 9.5v2.756a3.9 3.9 0 0 1-1.142 2.758l-.604.603a.87.87 0 0 0 .614 1.483h11.058z",clipRule:"evenodd"}),(0,n0.jsx)("path",{fill:"currentColor",d:"M12 1.6a7.9 7.9 0 0 1 7.9 7.9v2.756c0 .557.221 1.09.615 1.484l.603.604c.5.5.782 1.18.782 1.888a.9.9 0 0 1-1.8 0 .87.87 0 0 0-.254-.616l-.604-.602a3.9 3.9 0 0 1-1.143-2.758V9.5A6.1 6.1 0 0 0 8.39 4.582l-.077.051a.9.9 0 0 1-.989-1.501l.25-.176A7.87 7.87 0 0 1 12 1.6"})]})});ke.displayName="NotificationOff";var _r=i(require("react"),1),Re=require("react/jsx-runtime"),Ne=_r.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Re.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Re.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.6a7.9 7.9 0 0 1 7.9 7.9v2.756c0 .556.221 1.09.615 1.484l.603.604a2.67 2.67 0 0 1-1.887 4.557h-2.923a4.402 4.402 0 0 1-8.616 0H4.77a2.67 2.67 0 0 1-1.887-4.557l.603-.604a2.1 2.1 0 0 0 .615-1.484V9.5A7.9 7.9 0 0 1 12 1.6M9.563 18.9a2.598 2.598 0 0 0 4.874 0zM12 3.4a6.1 6.1 0 0 0-6.1 6.1v2.756a3.9 3.9 0 0 1-1.142 2.758l-.604.603A.87.87 0 0 0 4.77 17.1h14.46a.868.868 0 0 0 .615-1.484l-.604-.602a3.9 3.9 0 0 1-1.142-2.758V9.5A6.1 6.1 0 0 0 12 3.4",clipRule:"evenodd"})})});Ne.displayName="Notification";var $r=i(require("react"),1),We=require("react/jsx-runtime"),Ve=$r.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,We.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,We.jsx)("path",{fill:"currentColor",d:"M4.5 14.1c.236 0 .485-.004.71.04l.153.037A2.1 2.1 0 0 1 6.86 15.79l.026.173c.017.176.015.36.015.537s.002.361-.015.537l-.026.173a2.1 2.1 0 0 1-1.496 1.613l-.153.036c-.225.045-.474.041-.71.041-.145 0-.232 0-.297.002-.06.002-.071.005-.061.003a.3.3 0 0 0-.236.237c.002-.01-.001 0-.004.061-.002.065-.002.152-.002.297v.6H6l.092.005a.9.9 0 0 1 0 1.79L6 21.9H3.6c-.116 0-.294.002-.45-.02a1.2 1.2 0 0 1-.699-.331l.001-.001a1.2 1.2 0 0 1-.333-.7c-.02-.155-.02-.332-.02-.448v-.9c0-.236-.003-.485.042-.71l.036-.153A2.1 2.1 0 0 1 3.79 17.14l.173-.026c.176-.017.36-.015.537-.015.145 0 .232 0 .297-.002.061-.002.071-.005.061-.003l.084-.03a.3.3 0 0 0 .152-.207l.004-.061c.002-.065.002-.152.002-.297s0-.232-.002-.297c-.002-.062-.005-.071-.003-.061a.3.3 0 0 0-.237-.236c.01.002 0-.002-.061-.004-.065-.002-.152-.002-.297-.002H3a.9.9 0 0 1 0-1.8zm16.592 3.005a.9.9 0 0 1 0 1.79L21 18.9H11a.9.9 0 0 1 0-1.8h10zm0-6a.9.9 0 0 1 0 1.79L21 12.9H11a.9.9 0 0 1 0-1.8h10zM4.322 2.106A1.2 1.2 0 0 1 5.4 3.3v4.8H6l.092.004a.9.9 0 0 1 0 1.792L6 9.9H3a.9.9 0 0 1 0-1.8h.6V3.9H3a.9.9 0 0 1 0-1.8h1.2zm16.77 2.998a.9.9 0 0 1 0 1.792L21 6.9H11a.9.9 0 0 1 0-1.8h10z"})})});Ve.displayName="NumberList";var jr=i(require("react"),1),W=require("react/jsx-runtime"),Ce=jr.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,W.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,W.jsx)("path",{fill:"currentColor",d:"M6.905 15.8h.005-.01zm.172-.017c-.06.009-.112.017-.172.017a.91.91 0 0 1-.875-.7c-.11-.49.19-.96.68-1.07.48-.11.97.2 1.07.68.11.49-.2.97-.68 1.07z"}),(0,W.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9.4 10.8C8.08 10.8 7 9.72 7 8.4S8.08 6 9.4 6s2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6M14 9.4c0 1.32 1.08 2.4 2.4 2.4s2.4-1.08 2.4-2.4S17.72 7 16.4 7 14 8.08 14 9.4m1.8 0c0-.33.27-.6.6-.6s.6.27.6.6-.27.6-.6.6-.6-.27-.6-.6",clipRule:"evenodd"}),(0,W.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.34 22.8c.64 0 1.41-.05 1.95-.58.23-.23.51-.65.51-1.32 0-.855-.416-1.484-.76-2.005l-.03-.045c-.46-.69-.61-.96-.31-1.55.38-.75.85-.83 2.68-.83.86 0 1.92 0 3.15-.18 3.27-.47 3.27-3.22 3.27-4.39C22.8 5.89 17.91 1 11.9 1S1 5.89 1 11.9s4.89 10.9 10.9 10.9zM2.8 11.9c0-5.02 4.08-9.1 9.1-9.1h.01c5.02 0 9.1 4.08 9.1 9.1 0 1.86-.37 2.42-1.73 2.61-1.1.16-2.05.16-2.89.16-1.74 0-3.37 0-4.29 1.83-.78 1.57-.06 2.65.43 3.37.29.43.47.72.51 1.06-.118.073-.547.071-.828.07H11.9c-5.02 0-9.1-4.08-9.1-9.1",clipRule:"evenodd"})]})});Ce.displayName="PaintBoard";var e6=i(require("react"),1),V=require("react/jsx-runtime"),Ge=e6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,V.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,V.jsx)("path",{fill:"currentColor",d:"M15.537 8.229a.9.9 0 0 1 .926 1.542c-.73.438-1.605.762-2.563.948v3.172l.973 3.89.018.091a.9.9 0 0 1-1.738.435l-.026-.088-.83-3.319h-.594l-.83 3.319a.9.9 0 0 1-1.746-.438l.973-3.89V10.72a8.1 8.1 0 0 1-2.335-.818l-.228-.13-.077-.051a.9.9 0 0 1 .922-1.536l.08.044.169.095c.859.469 2.038.776 3.369.776 1.42 0 2.667-.35 3.537-.871"}),(0,V.jsx)("path",{fill:"currentColor",d:"M12.169 5.108a1.65 1.65 0 1 1-1.81 1.811l-.01-.169.01-.169A1.65 1.65 0 0 1 12 5.1z"}),(0,V.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9",clipRule:"evenodd"})]})});Ge.displayName="Pcd";var t6=i(require("react"),1),a0=require("react/jsx-runtime"),Pe=t6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,a0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,a0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.74 5.07a11 11 0 0 1 2.4 3.59v.01l.011.026c.584 1.426 1.005 2.452.22 3.724-.016.02-.036.05-.056.08s-.04.06-.055.08c-.89 1.23-2.2 1.23-4.18 1.23h-2.11c-2.09 0-3.25 0-4.11-.86S11 10.94 11 8.84V6.73c0-1.98 0-3.29 1.22-4.17.03-.03.12-.09.17-.12 1.28-.79 2.319-.36 3.747.229l.003.001c1.35.56 2.57 1.37 3.6 2.4M18.09 12c1.89 0 2.4-.05 2.71-.47l.01-.01c.33-.53.25-.81-.32-2.18a9.1 9.1 0 0 0-2.01-3.01 9.4 9.4 0 0 0-3.01-2.01c-.87-.36-1.3-.52-1.62-.52-.19 0-.33.06-.5.16-.49.36-.54.87-.54 2.76v2.11c0 1.56 0 2.51.33 2.84s1.28.33 2.84.33z",clipRule:"evenodd"}),(0,a0.jsx)("path",{fill:"currentColor",d:"M20.07 15.88a.9.9 0 0 1 1.18-.48h-.01a.9.9 0 0 1 .48 1.18c-1.3 3.09-4.12 5.34-7.54 6.02-.7.13-1.39.2-2.08.2-2.68 0-5.25-1.01-7.14-2.89-2.38-2.36-3.42-5.82-2.78-9.25.64-3.41 2.85-6.24 5.91-7.57.45-.2.98 0 1.18.46.2.45 0 .98-.46 1.18-2.52 1.1-4.34 3.44-4.86 6.26-.53 2.85.32 5.7 2.28 7.64 1.95 1.93 4.79 2.76 7.6 2.2 2.84-.56 5.17-2.41 6.24-4.95"})]})});Pe.displayName="PieChart";var r6=i(require("react"),1),C=require("react/jsx-runtime"),Me=r6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,C.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,C.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m21.26 2.27-1.52 1.52a3.14 3.14 0 0 0-2.56-.75l-.72.12c-1.33.22-2.56.79-3.57 1.65l-1.23 1.05c-.4.34-.63.83-.65 1.36-.03.55.19 1.1.59 1.5l4.48 4.48c.38.39.89.6 1.42.6l.01-.01h.08c.53-.02 1.02-.25 1.36-.65L20 11.91a7.34 7.34 0 0 0 1.65-3.57l.12-.72a3.11 3.11 0 0 0-.76-2.561l1.52-1.519a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0M17.51 12l.013.01a.2.2 0 0 1-.153-.07l-4.48-4.48c-.07-.07-.07-.14-.05-.22l1.23-1.05a5.56 5.56 0 0 1 2.7-1.25l.72-.12c.4-.06.82.08 1.13.39l.99.99c.3.31.45.73.38 1.13l-.12.72a5.56 5.56 0 0 1-1.25 2.7l-1.05 1.23.69.58-.737-.55h.007z",clipRule:"evenodd"}),(0,C.jsx)("path",{fill:"currentColor",d:"M2.895 22.8H2.9h-.01z"}),(0,C.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M3.53 22.54a.9.9 0 0 1-.635.26.94.94 0 0 1-.635-.26.9.9 0 0 1 0-1.27l1.534-1.534a3.12 3.12 0 0 1-.754-2.566l.12-.72c.22-1.33.79-2.56 1.65-3.57l1.05-1.23c.34-.4.82-.63 1.36-.66.55-.04 1.1.19 1.5.59l.115.115 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425 1.73 1.73 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425.095.095c.4.4.62.95.59 1.5-.02.53-.25 1.02-.66 1.36l-1.23 1.05a7.34 7.34 0 0 1-3.57 1.65l-.72.12c-.16.03-.33.04-.5.04l.02.02c-.747 0-1.485-.28-2.066-.794zM7.3 12.8l-.06.02-1.05 1.23a5.56 5.56 0 0 0-1.25 2.7l-.12.72c-.07.4.08.82.38 1.13l.99.99c.31.31.73.46 1.13.39l.73-.12a5.56 5.56 0 0 0 2.7-1.25l1.23-1.05c.02-.08.02-.15-.05-.22l-4.48-4.48a.22.22 0 0 0-.15-.07z",clipRule:"evenodd"})]})});Me.displayName="PlugSocket";var o6=i(require("react"),1),G=require("react/jsx-runtime"),Ae=o6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,G.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.4 8.81c-1.32 0-2.4-1.08-2.4-2.4s1.08-2.4 2.4-2.4 2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6",clipRule:"evenodd"}),(0,G.jsx)("path",{fill:"currentColor",d:"M9.896 17.81H9.9h-.01zm-.636-.26a.94.94 0 0 0 .636.26.9.9 0 0 0 .634-.26.9.9 0 0 0 0-1.27l-3-3a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z"}),(0,G.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.71 22.81c-.88 0-1.76-.29-2.5-.86a35 35 0 0 1-6.35-6.35c-1.2-1.55-1.14-3.72.15-5.15 2.74-3.07 5.62-5.88 8.78-8.6.46-.39 1.01-.63 1.6-.68 3.31-.3 7.58-.35 9.09 1.16s1.46 5.78 1.16 9.09c-.05.59-.29 1.14-.68 1.6a93 93 0 0 1-8.6 8.78c-.75.67-1.69 1.01-2.65 1.01M3.35 11.65c-.71.79-.73 1.99-.06 2.85 1.77 2.28 3.74 4.25 6.03 6.03.87.67 2.06.64 2.85-.06a91 91 0 0 0 8.43-8.61c.15-.17.24-.38.25-.59.35-3.84.1-6.92-.64-7.66-.73-.73-3.81-.99-7.66-.64-.21.02-.42.11-.59.26-3.1 2.66-5.92 5.42-8.61 8.43z",clipRule:"evenodd"})]})});Ae.displayName="PriceTag";var l6=i(require("react"),1),i0=require("react/jsx-runtime"),Ee=l6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,i0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,i0.jsx)("path",{fill:"currentColor",d:"M17.01 11.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9"}),(0,i0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m22.604 12.254.006.056h.02c.23 2.21.34 3.32-.17 4.33-.34.65-.85 1.2-1.49 1.58-.81.48-1.74.57-3.32.58.16.73.21 1.21.12 1.69-.17.87-.71 1.6-1.46 2-.58.31-1.23.31-2.41.31H9.92c-1.18 0-1.83 0-2.41-.31-.76-.39-1.29-1.12-1.46-2-.1-.48-.04-.95.12-1.69-1.58-.02-2.51-.1-3.31-.58-.64-.38-1.16-.93-1.49-1.58-.51-1-.4-2.11-.17-4.31l.003-.032c.188-1.79.29-2.763.857-3.578.37-.52.87-.96 1.45-1.26.66-.35 1.37-.43 2.5-.45V5.9c0-2.06 0-3.2.85-4.05S8.85 1 10.91 1h2c2.06 0 3.2 0 4.05.85s.85 1.99.85 4.05v1.11c1.13.02 1.84.11 2.5.45.58.29 1.08.73 1.45 1.26.554.801.658 1.78.844 3.534M10.9 2.8c-1.53 0-2.46 0-2.78.32S7.8 4.37 7.8 5.9V7H16V5.9c0-1.53 0-2.46-.32-2.78s-1.25-.32-2.78-.32zm4.56 18.1c.27-.14.47-.43.53-.76.058-.262-.072-.825-.272-1.69l-.018-.08c-.13-.59-.21-.94-.31-1.1a.95.95 0 0 0-.49-.42c-.13-.05-.48-.05-1-.05H9.92c-.53 0-.87 0-1.01.05-.2.07-.37.22-.49.42-.09.16-.18.52-.31 1.1l-.009.037c-.205.89-.34 1.477-.291 1.733.06.34.26.62.53.76.19.1.77.1 1.57.1h3.98c.81 0 1.39 0 1.57-.1m4.56-4.22c.35-.21.63-.51.81-.86.27-.53.17-1.52-.02-3.32-.15-1.49-.24-2.32-.54-2.75-.2-.29-.47-.53-.79-.69-.5-.25-1.37-.25-2.94-.25H7.25c-1.57 0-2.44 0-2.93.25-.32.16-.59.4-.79.69-.3.43-.39 1.26-.54 2.75-.19 1.8-.29 2.79-.02 3.32.18.35.46.65.81.86.48.28 1.34.32 2.82.32.08-.25.16-.45.28-.65.32-.55.82-.96 1.4-1.18.44-.17.86-.17 1.63-.17h3.98c.76 0 1.19 0 1.63.17.57.22 1.07.64 1.4 1.18.12.19.2.4.28.65 1.48 0 2.34-.04 2.82-.32",clipRule:"evenodd"})]})});Ee.displayName="Printer";var c6=i(require("react"),1),d=require("react/jsx-runtime"),Ie=c6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,d.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,d.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2.7 2.7C3.41 2 4.34 2 5.9 2s2.5 0 3.2.7.7 1.64.7 3.2 0 2.5-.7 3.2c-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7C2 8.39 2 7.46 2 5.9s0-2.5.7-3.2M5.9 8c.97 0 1.74 0 1.92-.18C8 7.65 8 6.87 8 5.9s0-1.75-.18-1.92c-.17-.18-.95-.18-1.92-.18s-1.74 0-1.92.18c-.18.17-.18.95-.18 1.92s.01 1.74.18 1.92S4.93 8 5.9 8m-3.2 6.7c.71-.7 1.65-.7 3.2-.7 1.56 0 2.5 0 3.2.7.7.71.7 1.64.7 3.2s0 2.5-.7 3.2c-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7-.7-.71-.7-1.64-.7-3.2s0-2.5.7-3.2M5.9 20c.97 0 1.74 0 1.92-.18v.01c.18-.17.18-.94.18-1.92s0-1.75-.18-1.93c-.17-.17-.95-.17-1.92-.17s-1.74 0-1.92.17-.18.95-.18 1.92.01 1.74.18 1.92.95.18 1.92.18",clipRule:"evenodd"}),(0,d.jsx)("path",{fill:"currentColor",d:"M8.9 11h-6c-.5 0-.9.4-.9.9s.4.9.9.9h6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9m3.9-3.1c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-5c0-.5.4-.9.9-.9s.9.4.9.9z"}),(0,d.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.9 9.8c1.56 0 2.49 0 3.2-.7.7-.7.7-1.64.7-3.2s0-2.5-.7-3.2-1.64-.7-3.2-.7-2.49 0-3.2.7c-.7.7-.7 1.64-.7 3.2s0 2.49.7 3.2c.69.7 1.614.7 3.136.7zm-1.92-5.82c.18-.18.95-.18 1.92-.18s1.75 0 1.92.18c.18.17.18.95.18 1.92s0 1.75-.18 1.92c-.18.18-.95.18-1.92.18s-1.75 0-1.92-.18-.18-.95-.18-1.92 0-1.75.18-1.92",clipRule:"evenodd"}),(0,d.jsx)("path",{fill:"currentColor",d:"M11 17.67c0-.5.4-.9.9-.9s.9.4.9.9v2.77c0 .5-.4.9-.9.9s-.9-.4-.9-.9zM17.9 14c-.5 0-.9.4-.9.9s.4.9.9.9c.98 0 1.75 0 1.92.17.18.18.18.95.18 1.93s0 1.75-.18 1.93c-.1.1-.39.15-.95.17a.89.89 0 0 0-.87.93c.01.49.41.87.9.87h.03c.77-.02 1.57-.1 2.17-.7.7-.7.7-1.64.7-3.2s0-2.5-.7-3.2-1.64-.7-3.2-.7m-3-3h6v.01c.5 0 .9.4.9.9s-.4.9-.9.9h-6c-.97 0-1.74 0-1.92.17s-.18.94-.18 1.92c0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-1.56 0-2.5.7-3.2.71-.7 1.65-.7 3.2-.7m1 9h-1c-.5 0-.9.4-.9.9s.4.9.9.9h1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9"}),(0,d.jsx)("path",{fill:"currentColor",d:"M16.9 17c1.05 0 1.9.85 1.9 1.9 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.06-.04-.1-.1-.1-1.01 0-2.9 0-2.9-2.4v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 .39.08.5.08.5.12.1.77.1 1.02.1"})]})});Ie.displayName="QrCode";var s6=i(require("react"),1),d0=require("react/jsx-runtime"),ye=s6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,d0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,d0.jsx)("path",{fill:"currentColor",d:"M15.4 7c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9m2.1.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9"}),(0,d0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M16.9 2C13.65 2 11 4.55 11 7.68c0 1.45.57 2.83 1.62 3.91-.06.25-.18.49-.34.68a.93.93 0 0 0-.15.88c.1.3.37.52.68.57.25.05.5.07.75.07.68 0 1.35-.17 1.96-.49q.053-.03.1-.05l.04-.02q.036.001.09.014l.03.006c.37.07.75.11 1.14.11 3.25 0 5.9-2.55 5.9-5.68S20.15 2 16.9 2m0 9.57c-.27 0-.54-.02-.8-.07-.3-.06-.5-.09-.72-.06-.238.03-.417.129-.704.287l-.005.003c-.08.05-.17.09-.26.12.1-.54-.08-1.09-.5-1.51-.71-.72-1.1-1.66-1.1-2.65 0-2.14 1.84-3.88 4.1-3.88s4.1 1.74 4.1 3.88-1.84 3.88-4.1 3.88zM7.4 16.5c-1.99 0-4.81 1.03-6.11 2.74-.37.49-.4 1.17-.06 1.67.32.47.93 1.14 2.08 1.63.38.16.82.25 1.3.25h5.57c.48 0 .92-.08 1.3-.25 1.15-.49 1.76-1.16 2.08-1.64.34-.51.31-1.18-.06-1.67-1.29-1.72-4.12-2.75-6.1-2.75zm3.38 4.4c-.16.07-.35.1-.59.1H4.62c-.24 0-.43-.03-.59-.1-.57-.25-.92-.54-1.13-.77.99-1.09 3.1-1.83 4.5-1.83s3.51.74 4.5 1.83c-.2.23-.55.52-1.13.77zm.3-8.71a3.681 3.681 0 0 1-7.36 0 3.681 3.681 0 0 1 7.36 0m-1.8 0c0-1.03-.84-1.87-1.88-1.87s-1.88.84-1.88 1.87.84 1.87 1.88 1.87 1.88-.84 1.88-1.87",clipRule:"evenodd"})]})});ye.displayName="Question";var n6=i(require("react"),1),P=require("react/jsx-runtime"),Be=n6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,P.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,P.jsx)("path",{fill:"currentColor",d:"M22.8 6.06v.78l-.03.01c.02 1.5.02 2.41-.73 3.19a.89.89 0 0 1-1.27.02.91.91 0 0 1-.02-1.27c.22-.24.24-.68.22-1.92v-.8c0-1.6 0-2.57-.33-2.92-.3-.32-1.11-.33-2.76-.33H5.89c-1.65 0-2.45.01-2.76.33-.34.35-.34 1.32-.34 2.92v.8c-.01 1.24 0 1.68.23 1.92.35.36.34.93-.02 1.27-.17.17-.38.25-.62.25s-.47-.1-.65-.28C.97 9.24.98 8.34 1 6.84v-.79c0-2.13 0-3.29.85-4.17S3.84 1 5.9 1.01h12c2.07 0 3.21 0 4.06.88.84.87.84 2.04.84 4.17"}),(0,P.jsx)("path",{fill:"currentColor",d:"M8.9 10.8h3c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-3c-.5 0-.9.4-.9.9s.4.9.9.9m-1 2.2h6c.5 0 .9.4.9.9s-.4.9-.9.9h-6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9"}),(0,P.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.96 5.87c1.08.87 1.36 2.19 1.87 4.6h-.03l1.92 9.09c.06.25.07.43.02.83v.08a.83.83 0 0 1-.09.49c-.29.63-.96 1.06-1.73 1.11-.78.04-1.48-.31-1.88-.94-.03-.06-.12-.1-.21-.1a.29.29 0 0 0-.25.09l-.55.69c-.5.63-1.28.99-2.12.99s-1.62-.36-2.12-.99l-.09-.11c-.17-.22-.47-.35-.8-.35s-.63.13-.81.35l-.09.11c-.51.63-1.28.99-2.13.99-.84 0-1.62-.36-2.12-.99l-.55-.69c-.06-.07-.16-.09-.25-.09-.09.01-.18.05-.21.1-.4.63-1.1.98-1.88.93-.77-.04-1.44-.47-1.74-1.12-.07-.15-.09-.31-.09-.47v-.08c-.05-.4-.03-.57.02-.83l1.92-9.08c.51-2.42.79-3.74 1.87-4.61S8.29 5 10.76 5h2.28c2.48 0 3.84 0 4.92.87m2.02 14.36v-.04l.02-.01c.02-.1.02-.2.02-.2l-1.93-9.14c-.47-2.21-.68-3.13-1.24-3.58s-1.51-.47-3.79-.47h-2.28c-2.28 0-3.23.02-3.79.47s-.77 1.36-1.24 3.56l-1.93 9.1a.6.6 0 0 0-.004.213l.004.037v.05c.04.02.09.04.15.04.07 0 .19 0 .25-.1.35-.54.96-.89 1.64-.93h.12c.64 0 1.24.29 1.63.77l.55.69c.16.19.43.31.72.31s.56-.11.72-.31l.09-.11c.52-.65 1.33-1.03 2.21-1.03s1.69.38 2.21 1.03l.09.11c.31.39 1.12.39 1.44 0l.55-.69c.42-.51 1.08-.79 1.76-.76.67.03 1.28.38 1.63.93.06.1.18.1.25.1.06 0 .11-.02.15-.04",clipRule:"evenodd"})]})});Be.displayName="ReceiptPrint";var a6=i(require("react"),1),M=require("react/jsx-runtime"),He=a6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,M.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,M.jsx)("path",{fill:"currentColor",d:"M11.52 20.773c.18.111.344.212.41.227l-.01.01c.5 0 .89.4.89.9s-.41.9-.91.9c-.545 0-.933-.246-1.525-.62L8.45 20.97l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.408-3.15.675C3 21.31 3 20.27 3 18.55V7.9c0-2.97 0-4.6 1.07-5.74C5.17 1 6.72 1 9.55 1h4.71c2.82 0 4.38 0 5.47 1.16C20.8 3.3 20.8 4.93 20.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.5 0-3.88-.58-4.5-.54-.58-1.6-.6-4.16-.6H9.55c-2.57 0-3.63.03-4.17.6-.58.61-.58 1.99-.58 4.5v10.64c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.089-.062.168-.114c.57-.37 1-.63 1.57-.61.506.02.87.247 1.404.582l.046.028 1.91 1.21z"}),(0,M.jsx)("path",{fill:"currentColor",d:"M7 10.9c0-.5.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9h-4c-.5 0-.9-.4-.9-.9m9.8-4c0-.5-.4-.9-.9-.9h-8c-.5 0-.9.4-.9.9s.4.9.9.9h8c.5 0 .9-.4.9-.9"}),(0,M.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m19.96 19.68 1.58 1.58h.01a.9.9 0 0 1 0 1.27c-.18.17-.41.26-.64.26s-.46-.08-.64-.26l-1.58-1.58A4.332 4.332 0 0 1 12 17.32c0-2.39 1.94-4.33 4.33-4.33a4.332 4.332 0 0 1 3.63 6.69m-1.85-.56q.135-.12.24-.27h-.01c.34-.44.51-.97.51-1.52 0-1.4-1.13-2.53-2.53-2.53s-2.53 1.13-2.53 2.53a2.533 2.533 0 0 0 4.32 1.79",clipRule:"evenodd"})]})});He.displayName="ReceiptSearch";var i6=i(require("react"),1),A=require("react/jsx-runtime"),qe=i6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,A.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,A.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M20 13.1a1.9 1.9 0 0 1 1.9 1.9 3.9 3.9 0 0 1-1.409 3 3.9 3.9 0 0 1 1.41 3A1.9 1.9 0 0 1 20 22.9h-4a1.9 1.9 0 0 1-1.9-1.9c0-1.206.548-2.285 1.408-3a3.9 3.9 0 0 1-1.408-3 1.9 1.9 0 0 1 1.9-1.9zm-2 5.8a2.1 2.1 0 0 0-2.1 2.1.1.1 0 0 0 .1.1h4a.1.1 0 0 0 .1-.1 2.1 2.1 0 0 0-2.1-2.1m-2-4a.1.1 0 0 0-.1.1 2.1 2.1 0 0 0 1.885 2.089l.215.01.215-.01A2.1 2.1 0 0 0 20.1 15a.1.1 0 0 0-.1-.1z",clipRule:"evenodd"}),(0,A.jsx)("path",{fill:"currentColor",d:"M14.26 1c2.82 0 4.38 0 5.47 1.16C20.8 3.3 20.8 4.93 20.8 7.9v3c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3c0-2.5 0-3.88-.58-4.5-.54-.58-1.6-.6-4.16-.6H9.55c-2.57 0-3.63.03-4.17.6-.58.61-.58 1.99-.58 4.5v10.64c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.088-.062.168-.114c.57-.37 1-.63 1.57-.61.506.02.87.247 1.404.581l.046.03 1.91 1.21.2.122c.18.111.343.212.41.227l-.01.01c.5 0 .89.4.89.9s-.41.9-.91.9c-.545 0-.934-.246-1.525-.62L8.45 20.97l-.072-.045c-.216-.136-.426-.267-.498-.285a4 4 0 0 0-.187.116c-.106.067-.237.15-.343.214q-.135.09-.3.21l-.02.014c-.763.532-2.02 1.41-3.15.676C3 21.31 3 20.27 3 18.55V7.9c0-2.97 0-4.6 1.07-5.74C5.17 1 6.72 1 9.55 1z"}),(0,A.jsx)("path",{fill:"currentColor",d:"M11.9 10c.5 0 .9.4.9.9s-.4.9-.9.9h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9zm4-4c.5 0 .9.4.9.9s-.4.9-.9.9h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9z"})]})});qe.displayName="ReceiptWait";var d6=i(require("react"),1),ze=require("react/jsx-runtime"),Le=d6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,ze.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,ze.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.249 12c0-5.937 4.813-10.75 10.75-10.75q1.104.002 2.15.215l-.3 1.47a9.25 9.25 0 1 0 7.214 7.214l1.471-.298A11 11 0 0 1 22.749 12c0 5.937-4.813 10.75-10.75 10.75S1.249 17.937 1.249 12m10-3.666a2.95 2.95 0 0 0-1.114.505c-.504.378-.886.958-.886 1.661s.382 1.283.886 1.66c.504.379 1.165.59 1.864.59.406 0 .744.124.964.29.22.164.286.335.286.46s-.066.296-.286.46c-.22.166-.558.29-.964.29-.668 0-1.09-.321-1.208-.57l-1.357.64c.33.7 1.026 1.165 1.815 1.345v.835h1.5v-.834a2.95 2.95 0 0 0 1.114-.505c.504-.378.886-.958.886-1.661s-.382-1.283-.886-1.66c-.503-.379-1.165-.59-1.864-.59-.406 0-.744-.124-.964-.29-.22-.164-.286-.335-.286-.46s.066-.296.286-.46c.22-.166.558-.29.964-.29.668 0 1.09.321 1.208.57l1.357-.64c-.33-.7-1.026-1.165-1.815-1.345V7.5h-1.5zm10.222-6.86-3.708 3.699V2.479h-1.5V7.73H21.5v-1.5h-2.674l3.704-3.694z",clipRule:"evenodd"})})});Le.displayName="ReceiveMoney";var m6=i(require("react"),1),Fe=require("react/jsx-runtime"),De=m6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Fe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Fe.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.1 12C1.1 5.98 5.98 1.1 12 1.1c2.72 0 5.2.99 7.11 2.64V2c0-.5.4-.9.9-.9s.9.4.9.9v3.13c0 1.13-1.4 1.64-2.13.79A9.07 9.07 0 0 0 12 2.89C6.97 2.9 2.9 6.97 2.9 12s4.07 9.1 9.1 9.1 9.1-4.07 9.1-9.1c0-.5.4-.9.9-.9s.9.4.9.9c0 6.02-4.88 10.9-10.9 10.9S1.1 18.02 1.1 12",clipRule:"evenodd"})})});De.displayName="Refresh";var h6=i(require("react"),1),Ue=require("react/jsx-runtime"),Te=h6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Ue.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Ue.jsx)("path",{fill:"currentColor",d:"M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9m4.092 8.205a.9.9 0 0 1 0 1.79L16 12.9H8a.9.9 0 0 1 0-1.8h8z"})})});Te.displayName="RemoveCircle";var u6=i(require("react"),1),Oe=require("react/jsx-runtime"),Qe=u6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Oe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Oe.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.71 5.07c-.24.57-.81.67-1.01.7-.23.03-.52.03-.8.03H9.1c-3.5 0-6.3 2.76-6.3 6.1 0 1.29.41 2.49 1.12 3.48.29.4.2.97-.2 1.25-.41.29-.97.2-1.26-.2A7.73 7.73 0 0 1 1 11.9C1 7.52 4.65 4 9.1 4h7.03l-.47-.45a.9.9 0 0 1-.01-1.27.89.89 0 0 1 1.27-.02l1 .97s.02.03.04.04c.19.19.4.39.54.57.13.17.46.64.21 1.23m1.38 2.1a.9.9 0 0 1 1.26.21 7.7 7.7 0 0 1 1.46 4.52c0 4.39-3.65 7.9-8.09 7.9H7.69l.47.45a.9.9 0 0 1 .02 1.27.9.9 0 0 1-1.27.02l-1-.98s-.02-.02-.04-.03c-.19-.19-.4-.39-.54-.57-.13-.16-.46-.64-.22-1.23.24-.57.81-.67 1.01-.7.23-.03.52-.03.8-.03h7.81c3.5 0 6.29-2.75 6.29-6.1 0-1.29-.41-2.49-1.12-3.48a.9.9 0 0 1 .21-1.26z",clipRule:"evenodd"})})});Qe.displayName="Repeat";var p6=i(require("react"),1),h=require("react/jsx-runtime"),Ze=p6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,h.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,h.jsx)("path",{fill:"currentColor",d:"M6.433 17.301a.9.9 0 0 1 1.204 1.335l-3 3.001a.9.9 0 0 1-1.274-1.273l3.001-3.001z"}),(0,h.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.655 2.169a.9.9 0 0 1 .982.194l18 18 .061.068a.901.901 0 0 1-1.266 1.267l-.069-.062L12 14.273l-2.363 2.363a.9.9 0 0 1-1.274 0L5.606 13.88A15.4 15.4 0 0 1 1.1 2.999a.9.9 0 0 1 .555-.83m1.456 3.215a13.6 13.6 0 0 0 3.768 7.222l2.12 2.12L10.727 13z",clipRule:"evenodd"}),(0,h.jsx)("path",{fill:"currentColor",d:"M17.432 2.302a.9.9 0 0 1 1.204 1.335l-3 3c-.596.596-.73.747-.793.875a1.1 1.1 0 0 0 0 .977l.066.107c.092.124.278.319.719.76l.009.008.008.009c.589.588.738.722.866.785.308.152.67.152.977 0 .128-.064.279-.198.875-.794l3-3a.9.9 0 0 1 1.273 1.273l-3.354 3.354c-.34.335-.65.61-.995.78a2.9 2.9 0 0 1-2.575 0 3.2 3.2 0 0 1-.704-.506l-.371.372a.9.9 0 0 1-1.274-1.273l.371-.372a3.2 3.2 0 0 1-.505-.703 2.9 2.9 0 0 1 0-2.576c.228-.46.64-.855 1.134-1.35l3-3z"}),(0,h.jsx)("path",{fill:"currentColor",d:"M19.363 4.363a.901.901 0 0 1 1.274 1.273l-3 3a.9.9 0 0 1-1.274-1.273z"})]})});Ze.displayName="Restaurant";var f6=i(require("react"),1),Je=require("react/jsx-runtime"),Ke=f6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Je.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Je.jsx)("path",{fill:"currentColor",d:"M8.276 5.466a.9.9 0 0 1 1.181-.241l.078.05v.001l.004.003.014.01.053.04a38 38 0 0 1 .886.677 53 53 0 0 1 2.098 1.722c.761.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.188.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.148 2.073a53 53 0 0 1-2.79 2.252l-.194.147-.053.039-.014.01-.003.003h-.001a.9.9 0 0 1-1.068-1.449l.003-.002.012-.01.048-.035q.065-.047.186-.14a56 56 0 0 0 2.695-2.175c.738-.641 1.453-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762c-.524-.592-1.239-1.263-1.977-1.904A51 51 0 0 0 8.716 6.91l-.186-.14-.048-.035-.012-.008-.003-.002v-.001a.9.9 0 0 1-.191-1.26"})})});Ke.displayName="Right";var g6=i(require("react"),1),Xe=require("react/jsx-runtime"),Ye=g6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,Xe.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,Xe.jsx)("path",{fill:"currentColor",d:"M15.46 21.29c.16.32.48.51.81.51h.01q.195 0 .39-.09c3.79-1.84 6.14-5.6 6.14-9.81 0-6.01-4.89-10.9-10.9-10.9-2.62 0-5.13.94-7.09 2.64V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v3.13c0 .52.31.96.8 1.14s1.01.03 1.32-.34a9.15 9.15 0 0 1 6.78-3.03c5.01 0 9.09 4.08 9.09 9.1 0 3.51-1.97 6.65-5.13 8.19a.89.89 0 0 0-.42 1.2m-4.72.61c0 .5.4.899.898.9h-.008.01-.002c.498 0 1.005-.03 1.492-.1.49-.06.84-.52.77-1.01a.883.883 0 0 0-1.01-.77c-.41.05-.83.08-1.25.08-.5 0-.9.4-.9.9m-2.66.74c.11.05.23.07.35.07l.01.01a.9.9 0 0 0 .35-1.73c-.34-.14-.68-.31-1.01-.5a.9.9 0 1 0-.9 1.56c.39.22.79.42 1.2.59M3.83 19.5c.17.21.43.32.68.32.2 0 .41-.08.58-.22.38-.32.42-.89.1-1.27-.25-.3-.49-.62-.71-.94a.9.9 0 0 0-1.49 1.01c.26.38.54.75.84 1.1m-2.48-4.63c.11.39.47.65.86.65v.01a.907.907 0 0 0 .86-1.16c-.1-.36-.19-.72-.25-1.09a.9.9 0 0 0-1.04-.73.89.89 0 0 0-.73 1.04c.08.44.18.87.3 1.28m.41-4.21c.04.01.14.01.14.01v.01c.44 0 .82-.32.89-.76.06-.37.14-.74.24-1.1a.895.895 0 0 0-.62-1.11.903.903 0 0 0-1.11.62c-.12.42-.22.86-.29 1.3-.07.49.26.95.75 1.03"})})});Ye.displayName="RotateLeft";var b6=i(require("react"),1),m0=require("react/jsx-runtime"),_e=b6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,m0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,m0.jsx)("path",{fill:"currentColor",d:"M12.024 1.1C5.993 1.1 1.1 5.978 1.1 12s4.893 10.9 10.924 10.9c4.48 0 8.33-2.69 10.015-6.539a.9.9 0 0 0-1.649-.722 9.13 9.13 0 0 1-8.366 5.461C6.983 21.1 2.9 17.024 2.9 12s4.083-9.1 9.124-9.1c4.3 0 7.905 2.967 8.87 6.957l-1.172-.239a.9.9 0 1 0-.359 1.764l2.457.5a.9.9 0 0 0 1.075-.971C22.347 5.4 17.688 1.1 12.025 1.1"}),(0,m0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m9.337 10.059.004.093a2.65 2.65 0 0 0-1.617 1.77 4.7 4.7 0 0 0-.098.787c-.017.29-.025.624-.026.953a17 17 0 0 0 .053 1.507l.007.073.02.07c.341 1.282 1.251 1.865 2.117 2.042l.05.01.05.004c.495.044 2.217.038 3.128.035h.003l.42-.001c.586.01 1.203-.093 1.742-.448.556-.367.919-.932 1.114-1.633l.013-.046.008-.047c.044-.265.073-.94.076-1.559.001-.313-.004-.64-.02-.931a4.6 4.6 0 0 0-.101-.816l-.008-.033-.01-.032c-.311-.937-.945-1.455-1.594-1.699l.004-.109.003-.066c.005-.13.011-.279.012-.426.003-.338-.015-.776-.17-1.202-.774-2.195-3.836-2.377-4.9-.283-.25.469-.29.986-.296 1.368a10 10 0 0 0 .014.573zm3.483-1.103c-.236-.675-1.24-.782-1.6-.064l-.007.012-.006.012c-.041.076-.082.236-.086.547a8 8 0 0 0 .012.47v.018l.002.029h1.739v-.001q0-.038.003-.073c.005-.131.01-.248.01-.365.003-.283-.02-.457-.062-.571l-.002-.007zM9.707 12a.8.8 0 0 0-.24.367l-.005.03-.013.102q-.015.127-.026.314a17 17 0 0 0-.023.855c-.002.483.013.95.037 1.245.078.25.187.39.286.475q.154.135.386.19c.468.032 1.932.027 2.833.024l.515-.001h.017c.372.007.59-.062.724-.15.113-.075.252-.219.355-.558l.009-.094q.01-.122.018-.303a19 19 0 0 0 .004-1.662 4 4 0 0 0-.044-.449c-.093-.256-.23-.392-.359-.472a.93.93 0 0 0-.484-.134h-3.36c-.305 0-.5.104-.63.22",clipRule:"evenodd"})]})});_e.displayName="RotateLock";var v6=i(require("react"),1),$e=require("react/jsx-runtime"),je=v6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,$e.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,$e.jsx)("path",{fill:"currentColor",d:"M7.14 21.71c.12.06.26.09.39.09h.01c.33 0 .65-.19.81-.51.21-.44.03-.98-.42-1.2A9.04 9.04 0 0 1 2.8 11.9c0-5.02 4.08-9.1 9.09-9.11 2.59 0 5.06 1.11 6.76 3.01.34.4.87.55 1.35.37.48-.17.8-.62.8-1.14V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.74A10.88 10.88 0 0 0 11.9 1C5.89 1 1 5.89 1 11.9c0 4.15 2.41 8 6.14 9.81m3.53.99c.49.07 1 .1 1.5.1h-.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.42 0-.84-.02-1.25-.08a.905.905 0 0 0-1.01.77.9.9 0 0 0 .77 1.01m3.87-.54c.15.34.48.55.83.55.12 0 .24-.02.35-.07.4-.17.8-.37 1.2-.59.44-.25.59-.8.34-1.23a.895.895 0 0 0-1.23-.34c-.34.19-.67.36-1.01.5a.9.9 0 0 0-.48 1.18m4.17-2.55a.9.9 0 0 0 .58.21v.01c.26 0 .51-.11.69-.32.3-.35.58-.72.83-1.1a.9.9 0 0 0-1.49-1.01c-.21.32-.45.64-.71.94-.32.38-.28.95.1 1.27m2.875-4.09h.005-.01zm-.245-.04c.078.03.166.04.245.04a.89.89 0 0 0 .865-.65c.12-.43.22-.86.29-1.28a.89.89 0 0 0-.73-1.04c-.5-.09-.96.24-1.04.73-.06.37-.15.73-.25 1.09-.13.48.14.97.62 1.11m-.33-5.57c.07.44.46.76.89.76q.029 0 .062-.005.038-.004.078-.005c.49-.08.83-.54.75-1.03-.07-.44-.17-.88-.29-1.31a.9.9 0 0 0-1.11-.62c-.48.13-.75.63-.62 1.11.1.36.18.73.24 1.1"})})});je.displayName="RotateRight";var w6=i(require("react"),1),E=require("react/jsx-runtime"),e3=w6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,E.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,E.jsx)("path",{fill:"currentColor",d:"M6 8.9C6 4.54 9.54 1 13.9 1v.01c4.36 0 7.9 3.54 7.9 7.9 0 1.62-.49 3.18-1.42 4.51a.894.894 0 0 1-1.25.23c-.4-.28-.5-.84-.22-1.25A6.13 6.13 0 0 0 20 8.91c0-3.36-2.74-6.1-6.1-6.1s-6.1 2.74-6.1 6.1c0 .91.2 1.79.59 2.61.21.45.02.99-.43 1.2s-.99.02-1.2-.43C6.26 11.22 6 10.08 6 8.9"}),(0,E.jsx)("path",{fill:"currentColor",d:"M13.9 4c-.5 0-.9.4-.9.9v.21c-1.17.31-2 1.2-2 2.29 0 1.35 1.27 2.4 2.9 2.4.67 0 1.1.35 1.1.6s-.43.6-1.1.6c-.55 0-.96-.25-1.07-.48a.903.903 0 0 0-1.2-.43c-.45.21-.64.75-.43 1.2.32.68.99 1.19 1.8 1.4v.21c0 .5.4.9.9.9s.9-.4.9-.9v-.21c1.17-.31 2-1.2 2-2.29 0-1.35-1.27-2.4-2.9-2.4-.67 0-1.1-.35-1.1-.6s.43-.6 1.1-.6c.55 0 .96.25 1.07.48.21.45.75.65 1.2.43.45-.21.64-.75.43-1.2-.32-.68-.99-1.19-1.8-1.4V4.9c0-.5-.4-.9-.9-.9"}),(0,E.jsx)("path",{fill:"currentColor",d:"m16.23 14.13-4.03 1.24c-.5-.61-1.27-.99-2.12-.99H9.04c-.16 0-.31-.04-.46-.1l-2.04-.99a2.8 2.8 0 0 0-1.24-.28H2.9c-.5 0-.9.4-.9.9s.4.9.9.9h2.39c.16 0 .32.04.46.1l2.04.99c.38.18.81.28 1.24.28h1.04c.28 0 .54.12.71.31l-1.73.48c-.25.07-.51.04-.74-.07l-2.18-1.06a.89.89 0 0 0-1.2.42c-.21.45-.03.99.42 1.2l2.18 1.05c.62.3 1.33.37 2 .18l2.54-.7c.42-.12.72-.5.73-.93l3.96-1.22c.44-.14.93.03 1.21.42.04.05.04.11.03.14 0 .03-.02.07-.07.1l-7.51 4.34c-.27.15-.57.19-.86.1l-6.39-1.9a.9.9 0 0 0-1.12.61.9.9 0 0 0 .61 1.12l6.39 1.9a2.9 2.9 0 0 0 2.28-.27l7.51-4.34a1.97 1.97 0 0 0 .6-2.86 2.88 2.88 0 0 0-3.2-1.09z"})]})});e3.displayName="SaveMoneyDollar";var x6=i(require("react"),1),t3=require("react/jsx-runtime"),r3=x6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,t3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,t3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 10.9c0 5.46 4.44 9.9 9.9 9.9a9.86 9.86 0 0 0 6.328-2.292l4.032 4.032a.94.94 0 0 0 .635.26h-.005.01-.005a.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-4.03-4.03a9.86 9.86 0 0 0 2.3-6.34c0-5.46-4.44-9.9-9.9-9.9S1 5.44 1 10.9m1.8 0c0-4.47 3.63-8.1 8.1-8.1S19 6.43 19 10.9 15.37 19 10.9 19s-8.1-3.63-8.1-8.1",clipRule:"evenodd"})})});r3.displayName="Search";var S6=i(require("react"),1),h0=require("react/jsx-runtime"),o3=S6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,h0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,h0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M7.21 11.89a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6",clipRule:"evenodd"}),(0,h0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.09 22.8h1.12l-.02.01c.8 0 1.33 0 1.83-.36s.67-.86.92-1.62l.32-.96c.09-.22.24-.41.4-.51l.3-.17c.24-.11.5-.15.71-.1l1.23.35.033.01c.802.224 1.345.377 1.937.13.61-.25.89-.738 1.318-1.485l.002-.005.49-.86c.41-.7.67-1.16.61-1.78-.06-.61-.42-1.01-.96-1.61l-1-1.11c-.12-.15-.24-.5-.24-.82s.12-.68.2-.78l1.03-1.15c.54-.6.89-.99.96-1.61.07-.6-.19-1.055-.58-1.735l-.02-.035-.78.44.78-.45-.49-.86-.002-.005c-.429-.747-.709-1.236-1.318-1.485-.59-.246-1.13-.096-1.936.128l-.044.012-1.18.33c-.26.06-.52.03-.71-.07l-.3-.17c-.2-.13-.35-.32-.42-.5l-.33-1-.021-.063c-.248-.725-.413-1.207-.899-1.557C13.53.99 13 .99 12.2.99h-1.12c-.8 0-1.33 0-1.83.36s-.67.86-.92 1.62l-.32.96c-.08.22-.24.4-.4.51l-.3.17c-.23.11-.49.15-.7.1l-1.22-.34-.043-.012C4.54 4.134 4 3.984 3.41 4.23c-.608.25-.889.738-1.317 1.486l-.003.004-.49.86-.004.007C1.198 7.283.931 7.752 1 8.36c.066.586.392.967.867 1.522l.083.098 1 1.11c.12.15.24.51.24.82s-.12.67-.2.77l-1.03 1.15c-.54.6-.9 1-.96 1.61s.21 1.08.61 1.77l.49.86.003.005c.428.747.709 1.236 1.317 1.485.61.24 1.15.09 1.98-.15l1.18-.33c.25-.06.52-.03.71.07l.3.17c.2.13.35.31.42.5l.33 1 .022.063c.248.725.412 1.207.898 1.557.5.36 1.03.36 1.83.36m-2.93-5.22a2.9 2.9 0 0 0-1.32-.32l.03.03c-.23 0-.47.03-.7.08l-1.23.35-.132.038c-.31.088-.613.175-.648.192-.085-.066-.267-.38-.438-.676l-.032-.054-.49-.86c-.17-.29-.36-.62-.38-.66.04-.1.29-.38.52-.63l1.07-1.2c.37-.48.62-1.24.62-1.93s-.24-1.45-.66-1.97L3.34 8.81c-.22-.25-.48-.54-.51-.57.02-.1.2-.41.38-.72l.49-.86c.18-.31.38-.67.4-.71.12.01.5.1.85.2l1.26.36c.66.15 1.37.06 2.01-.27l.37-.22c.53-.34.92-.82 1.16-1.44l.33-1c.11-.32.23-.68.24-.72.09-.03.47-.03.8-.03h1.87c.056.064.138.308.225.566l.065.194.35 1.04c.22.57.63 1.07 1.18 1.42l.38.22c.6.31 1.3.39 2.01.23l1.22-.35c.35-.09.74-.2.78-.22.085.066.268.38.439.676l.031.054.49.86.78-.45-.78.46.16.27c.112.192.206.352.22.38-.04.09-.29.38-.52.63l-1.07 1.2c-.37.48-.62 1.23-.62 1.93s.24 1.46.66 1.98l1.03 1.15c.22.25.48.53.51.56-.02.1-.2.41-.38.72l-.49.86c-.18.31-.38.67-.4.71-.11 0-.5-.1-.85-.2l-1.26-.36c-.67-.15-1.36-.06-2.01.27l-.37.21c-.52.33-.93.83-1.16 1.44l-.34 1c-.11.31-.23.67-.24.71-.09.03-.47.03-.8.03h-1.87c-.056-.064-.137-.308-.224-.567l-.066-.193-.35-1.03c-.22-.58-.63-1.08-1.18-1.43z",clipRule:"evenodd"})]})});o3.displayName="Settings";var k6=i(require("react"),1),l3=require("react/jsx-runtime"),c3=k6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,l3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,l3.jsx)("path",{fill:"currentColor",d:"M7.439 17.931c1.84 1.181 2.912 1.869 4.121 1.869v.01h.23a1 1 0 0 0 .108-.01 1 1 0 0 1 .092-.01c1.32-.16 2.26-1.06 3.95-2.7l1.165-1.128c.19.165.387.302.605.418.79.42 1.58.42 3.03.42h1.16l.01.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-1.16c-1.28 0-1.81-.01-2.19-.21-.404-.217-.788-.734-1.546-1.754L16.98 13l-2.32-3.13c-.28-.38-1.03-1.39-2.25-.99-.53.17-.97.54-1.35.87l-.105.09c-.08.068-.158.134-.235.19-.23.17-.5.14-.7-.09-.29-.32-.29-.89 0-1.21l1.47-1.65c.48-.55.9-1.02 1.44-1.17.55-.15 1.28-.11 1.93-.06h.1c.44.03.87.23 1.21.57.83.84 1.8 1.62 3.22 1.62h2.52c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.52c-.64 0-1.15-.28-1.94-1.08-.65-.66-1.5-1.05-2.38-1.11h-.1l-.019-.001c-.775-.05-1.668-.107-2.491.121a3.5 3.5 0 0 0-1.237.643L9.85 4.24C8.5 3.68 6.99 4.11 6 5.34c-.35.42-.79.66-1.24.66H1.9c-.5 0-.9.4-.9.9s.4.9.9.9h2.86v.01c1 0 1.96-.49 2.64-1.34.49-.61 1.15-.81 1.76-.56l.7.292L8.68 7.53c-.9 1.01-.9 2.59 0 3.6.83.93 2.14 1.07 3.12.33l.06-.05q.17-.146.36-.3l.052-.043c.23-.193.506-.423.618-.497.04.02.13.1.32.36l2.32 3.14q.21.285.396.533L14.69 15.8c-1.56 1.5-2.21 2.12-2.91 2.21h-.1c-.7.04-1.48-.43-3.32-1.62l-.1-.064c-.938-.6-1.472-.943-2.11-1.136l-.1-.03c-.67-.19-1.33-.19-2.53-.19H1.9c-.5 0-.9.4-.9.9s.4.9.9.9h1.61c1.08 0 1.62 0 2.11.14.413.115.836.388 1.668.924l.102.066z"})})});c3.displayName="ShakeHands";var R6=i(require("react"),1),s3=require("react/jsx-runtime"),n3=R6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,s3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,s3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.82 9.289A3.9 3.9 0 0 0 17.9 10.8c2.15 0 3.9-1.75 3.9-3.9S20.05 3 17.9 3a3.905 3.905 0 0 0-3.826 4.657l-5.096 2.351A3.9 3.9 0 0 0 5.9 8.5C3.75 8.5 2 10.25 2 12.4s1.75 3.9 3.9 3.9a3.9 3.9 0 0 0 3.07-1.498l5.101 2.355a3.9 3.9 0 1 0 7.729.743c0-2.15-1.75-3.9-3.9-3.9a3.9 3.9 0 0 0-3.089 1.522l-5.088-2.348a3.9 3.9 0 0 0 .003-1.534zM15.8 6.9a2.1 2.1 0 1 1 4.2 0 2.1 2.1 0 0 1-4.2 0m-12 5.5a2.1 2.1 0 1 1 4.2 0 2.1 2.1 0 0 1-4.2 0m14.1 3.4a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2",clipRule:"evenodd"})})});n3.displayName="Share";var N6=i(require("react"),1),a3=require("react/jsx-runtime"),i3=N6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,a3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,a3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.861 1.358c.372-.14.755-.258 1.139-.258.383 0 .766.117 1.138.257.377.143.845.35 1.423.607l.026.012c.848.376 1.909.788 3.11 1.13l.043.012c.877.249 1.595.453 2.142.665.55.213 1.074.487 1.432.96.344.456.472.984.53 1.53.056.525.056 1.18.056 1.959v2.951c0 3.105-1.403 5.563-3.087 7.387-1.678 1.818-3.674 3.052-4.987 3.745l-.07.037c-.552.292-1.036.548-1.756.548-.721 0-1.205-.256-1.756-.547l-.07-.038c-1.313-.693-3.31-1.927-4.988-3.745C3.502 16.746 2.1 14.288 2.1 11.183V8.232c0-.779 0-1.434.055-1.958.058-.547.186-1.075.53-1.531.358-.473.882-.747 1.432-.96.547-.212 1.266-.416 2.142-.665l.044-.013m5.194-.063c-.323.121-.745.308-1.354.579a25.5 25.5 0 0 1-3.348 1.216c-.931.264-1.568.447-2.027.625-.465.18-.6.304-.646.366-.06.079-.134.228-.177.635-.044.419-.045.977-.045 1.817v2.903c0 2.52 1.129 4.563 2.609 6.166 1.486 1.61 3.286 2.732 4.505 3.375.633.334.746.376.986.376s.352-.042.986-.377c1.218-.642 3.018-1.764 4.505-3.374 1.48-1.603 2.609-3.645 2.609-6.166V8.28c0-.84-.002-1.398-.046-1.817-.043-.407-.117-.556-.177-.635-.047-.062-.18-.186-.646-.367-.459-.177-1.096-.36-2.027-.624a25.5 25.5 0 0 1-3.347-1.216c-.61-.27-1.032-.458-1.354-.58-.334-.125-.463-.141-.503-.141-.041 0-.17.016-.503.142",clipRule:"evenodd"})})});i3.displayName="Shield";var W6=i(require("react"),1),u0=require("react/jsx-runtime"),d3=W6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,u0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,u0.jsx)("path",{fill:"currentColor",d:"M15.081 10.104a.9.9 0 0 1 .815.978c-.18 1.947-1.94 3.318-3.897 3.318-1.895 0-3.607-1.286-3.875-3.136l-.021-.182-.004-.092a.901.901 0 0 1 1.783-.164l.014.092.023.163c.164.813.979 1.519 2.08 1.519 1.175 0 2.023-.803 2.104-1.682a.9.9 0 0 1 .978-.814"}),(0,u0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1a5.25 5.25 0 0 1 5.229 4.811l.104 1.267q.093.008.182.02c.815.102 1.528.323 2.139.84l.215.201c.476.485.762 1.083.973 1.775.235.767.405 1.75.617 2.952l.366 2.071.207 1.19c.194 1.132.335 2.087.363 2.885.038 1.088-.126 2.05-.786 2.849-.663.801-1.575 1.137-2.645 1.291-1.043.15-2.396.148-4.066.148H9.103c-1.67 0-3.023.002-4.067-.148-1.07-.154-1.982-.49-2.644-1.291-.66-.8-.824-1.76-.786-2.849.037-1.064.276-2.408.57-4.075l.518-2.932c.148-.819.288-1.516.464-2.091.242-.79.58-1.46 1.189-1.976l.234-.18c.556-.39 1.191-.571 1.905-.66q.088-.012.178-.02L6.77 5.91l.027-.253A5.25 5.25 0 0 1 12 1.1M9.467 8.9c-1.25 0-2.106.002-2.758.083-.547.07-.867.187-1.102.354l-.097.074c-.246.208-.443.515-.63 1.129-.147.478-.27 1.078-.414 1.874l-.153.864-.366 2.072c-.303 1.72-.512 2.917-.543 3.825-.031.884.115 1.326.375 1.64.257.31.655.531 1.513.655.885.127 2.083.13 3.81.13h5.795c1.726 0 2.924-.003 3.81-.13.858-.124 1.256-.345 1.513-.655.259-.314.406-.756.375-1.64-.024-.681-.147-1.524-.335-2.63l-.209-1.195-.365-2.072c-.22-1.246-.372-2.1-.567-2.738-.164-.537-.336-.84-.54-1.046l-.09-.083c-.245-.207-.574-.349-1.2-.428-.651-.082-1.507-.083-2.757-.083zm2.531-6a3.45 3.45 0 0 0-3.417 2.995l-.018.166-.087 1.04q.469-.002.991-.001h5.065q.52 0 .988.002l-.086-1.041a3.447 3.447 0 0 0-3.436-3.16",clipRule:"evenodd"})]})});d3.displayName="ShoppingBag02";var V6=i(require("react"),1),p0=require("react/jsx-runtime"),m3=V6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,p0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,p0.jsx)("path",{fill:"currentColor",d:"M14.598 2.195a.9.9 0 0 1 1.207.402L18.056 7.1h2.14c.3 0 .57 0 .793.015.227.015.482.051.736.163.415.183.739.466.941.843.195.36.24.737.234 1.05-.006.31-.063.611-.117.855l-.15.639a1.38 1.38 0 0 1-.764.962 1.03 1.03 0 0 0-.59.743l-.593 3.374c-.112.64-.223 1.674-.45 2.56-.236.916-.648 1.934-1.524 2.638l-.003.003c-.66.525-1.429.75-2.322.854-.872.103-1.966.102-3.32.102h-2.134c-1.354 0-2.447 0-3.32-.102-.892-.105-1.662-.329-2.322-.854l-.002-.003c-.876-.704-1.288-1.722-1.524-2.639-.227-.885-.338-1.92-.45-2.56l-.593-3.373a1.03 1.03 0 0 0-.589-.743 1.38 1.38 0 0 1-.764-.962c-.05-.233-.08-.32-.15-.64A4.3 4.3 0 0 1 1.1 9.17c-.006-.312.04-.688.233-1.05.203-.376.527-.66.942-.842l.19-.07c.189-.058.376-.082.546-.093.223-.015.493-.015.792-.015h3.421l1.951-4.46a.9.9 0 0 1 1.649.72l-3.5 8a.9.9 0 1 1-1.649-.72l.761-1.74H3.804c-.325 0-.523 0-.67.01-.136.01-.156.025-.136.016a.3.3 0 0 0-.075.044l-.004.004a.4.4 0 0 0-.018.164c.002.127.027.288.073.495.023.102.049.204.076.316q.017.07.033.145a2.82 2.82 0 0 1 1.412 1.964l.592 3.375c.149.844.214 1.614.421 2.422.2.775.481 1.34.905 1.682l.115.084c.283.188.665.316 1.296.39.742.088 1.712.09 3.11.09h2.134c1.397 0 2.367-.002 3.11-.09.72-.085 1.116-.24 1.41-.474.424-.343.706-.907.905-1.682.207-.808.272-1.578.42-2.422l.593-3.375a2.82 2.82 0 0 1 1.41-1.964l.035-.145c.027-.112.053-.214.076-.316.046-.207.07-.368.073-.495a.6.6 0 0 0-.009-.129l-.01-.035-.003-.004A.3.3 0 0 0 21 8.925c.022.01.003-.006-.134-.015-.147-.01-.346-.01-.67-.01H11.5a.9.9 0 0 1 0-1.8h4.544l-1.848-3.698-.037-.084a.9.9 0 0 1 .44-1.123"}),(0,p0.jsx)("path",{fill:"currentColor",d:"M14.091 11.104a.901.901 0 0 1 0 1.791L14 12.9h-4a.901.901 0 0 1 0-1.8h4z"})]})});m3.displayName="ShoppingBasket";var C6=i(require("react"),1),h3=require("react/jsx-runtime"),u3=C6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,h3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,h3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2.966 1.1c1.34 0 2.534.888 2.869 2.191L6.301 5.1H22l.092.004a.9.9 0 0 1 0 1.792L22 6.9h-.194l-.548 4.928c-.15 1.351-.393 2.489-1.179 3.253-.687.669-1.649.915-2.786 1.041l-.498.048-8.21.683c-.056.111-.116.22-.188.325l-.096.133-.393.508c.388.34.684.78.848 1.28h5.488a2.9 2.9 0 1 1 0 1.801H8.756a2.9 2.9 0 1 1-2.57-3.794l.69-.894.07-.103c.128-.21.177-.453.144-.69l-.023-.118L4.092 3.739c-.123-.477-.576-.839-1.126-.839H2a.9.9 0 0 1 0-1.8zM6 18.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2m11 0a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2m-8.19-4.047.037.16v.013l7.798-.65.477-.047c1.024-.119 1.459-.301 1.702-.538.278-.27.493-.792.645-2.161l.525-4.73H6.764z",clipRule:"evenodd"})})});u3.displayName="ShoppingCart02";var G6=i(require("react"),1),f0=require("react/jsx-runtime"),p3=G6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,f0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,f0.jsx)("path",{fill:"currentColor",d:"M16.9 16.8h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9m0-3h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9"}),(0,f0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1.9 22.8h20c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.1v-9.1c0-2.99-.91-3.9-3.9-3.9h-2.1V4.9c0-2.99-.91-3.9-3.9-3.9h-6C2.91 1 2 1.91 2 4.9V21h-.1c-.5 0-.9.4-.9.9s.4.9.9.9M16.8 21v-2.1c0-.5-.4-.9-.9-.9s-.9.4-.9.9V21h-3.2v-9.1c0-1.98.12-2.1 2.1-2.1h4c1.98 0 2.1.12 2.1 2.1V21zM10 11.9V21H3.8v-6.2h2.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H3.8v-2.2h2.1c.5 0 .9-.4.9-.9S6.4 9 5.9 9H3.8V6.8h2.1c.5 0 .9-.4.9-.9S6.4 5 5.9 5H3.8v-.1c0-1.98.12-2.1 2.1-2.1h6c1.98 0 2.1.12 2.1 2.1V8h-.1c-2.99 0-3.9.91-3.9 3.9",clipRule:"evenodd"})]})});p3.displayName="Shopping";var P6=i(require("react"),1),g0=require("react/jsx-runtime"),f3=P6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,g0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,g0.jsx)("path",{fill:"currentColor",d:"M6.592 10.105a.9.9 0 0 1 0 1.79L6.5 11.9H5a.9.9 0 0 1 0-1.8h1.5zm0-4.001a.9.9 0 0 1 0 1.792L6.5 7.9H5a.9.9 0 0 1 0-1.8h1.5z"}),(0,g0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13 2.1c1.855 0 3.318-.001 4.48.125 1.178.127 2.152.394 2.988 1.002l.185.14a6 6 0 0 1 1.12 1.165l.11.158c.53.8.773 1.726.892 2.83.126 1.162.125 2.625.125 4.48s.001 3.318-.125 4.48c-.12 1.104-.362 2.03-.892 2.83l-.11.158a6 6 0 0 1-1.12 1.165l-.185.14c-.836.608-1.81.875-2.988 1.002-1.162.126-2.625.125-4.48.125h-2c-1.855 0-3.318.001-4.48-.125-1.104-.12-2.03-.362-2.83-.892l-.158-.11a6 6 0 0 1-1.165-1.12l-.14-.185c-.608-.836-.875-1.81-1.002-2.988C1.099 15.318 1.1 13.855 1.1 12s-.001-3.318.125-4.48c.127-1.178.394-2.152 1.002-2.988l.14-.185a6 6 0 0 1 1.165-1.12l.158-.11c.8-.53 1.726-.773 2.83-.892C7.683 2.099 9.146 2.1 11 2.1zm-2.6 17.999H13c1.895 0 3.244 0 4.286-.113 1.025-.11 1.646-.321 2.124-.669l.253-.2q.369-.315.654-.707l.123-.186c.275-.454.45-1.04.546-1.938.113-1.042.114-2.391.114-4.286s0-3.244-.114-4.286c-.097-.897-.27-1.484-.546-1.938l-.123-.186a4 4 0 0 0-.654-.707l-.253-.2c-.478-.348-1.099-.558-2.124-.67C16.244 3.902 14.895 3.9 13 3.9h-2.6zM8.6 3.914c-.732.014-1.35.042-1.886.1-.897.097-1.484.27-1.938.546l-.186.123q-.393.287-.707.654l-.2.253c-.348.478-.558 1.099-.67 2.124C2.902 8.756 2.9 10.105 2.9 12s0 3.244.114 4.286c.11 1.025.321 1.646.669 2.124l.2.253a4 4 0 0 0 .707.654l.186.123c.454.275 1.04.45 1.938.546.536.058 1.154.085 1.886.099z",clipRule:"evenodd"})]})});f3.displayName="SidebarFold";var M6=i(require("react"),1),g3=require("react/jsx-runtime"),b3=M6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,g3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,g3.jsx)("path",{fill:"currentColor",d:"M1.9 22.8a.9.9 0 0 1-.67-1.5c1.45-1.62 2.77-3.77 3.82-6.01C1.91 11.22.82 6.96 2.12 3.8c.65-1.6 1.87-2.64 3.25-2.78 1.29-.14 2.54.53 3.43 1.83 1.49 2.18.48 7.32-1.63 12.13.04.02.05.03.05.03.14-.08.61-.74.96-1.23.43-.61.93-1.3 1.56-1.95.73-.75 1.66-.91 2.5-.44.16.09.32.21.47.34.61-.85 1.41-1.52 2.36-1.7 1.29-.25 2.12.75 2.8 1.54.52.61 1.01 1.19 1.57 1.23.48.03 1.12-.29 1.86-.95.37-.33.94-.29 1.27.08s.29.94-.08 1.27c-1.15 1.01-2.19 1.46-3.18 1.39-1.31-.1-2.14-1.08-2.81-1.87-.39-.46-.84-.98-1.08-.94-.53.1-1.12.68-1.59 1.54.43.98.61 2.07.42 2.8-.18.68-.7 1.11-1.35 1.11s-1.38-.41-1.49-1.56c-.06-.59.09-1.43.41-2.27-.13-.19-.28-.35-.44-.45-.1-.06-.15-.09-.34.11-.54.56-.99 1.19-1.39 1.74-.74 1.04-1.39 1.94-2.41 1.98-.31 0-.59-.07-.83-.19-1.12 2.25-2.46 4.34-3.85 5.89-.18.2-.42.3-.67.3zm3.8-20h-.14c-.72.08-1.38.7-1.78 1.67-.77 1.86-.55 5.09 2.1 8.9C7.53 9.24 8.24 5.2 7.32 3.86c-.48-.69-1.04-1.07-1.62-1.07zm13.2 19h-10c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h10c.5 0 .9.4.9.9s-.4.9-.9.9"})})});b3.displayName="Signature";var A6=i(require("react"),1),b0=require("react/jsx-runtime"),v3=A6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,b0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,b0.jsx)("path",{fill:"currentColor",d:"M18.9 13.8c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9"}),(0,b0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.9 19.8h-6c-3.43 0-5.32 0-6.61-1.29S1 15.33 1 11.9s0-5.32 1.29-6.61S5.47 4 8.9 4h6c3.43 0 5.32 0 6.61 1.29s1.29 3.18 1.29 6.61 0 5.32-1.29 6.61-3.18 1.29-6.61 1.29m-6-14c-3.05 0-4.58 0-5.34.76-.344.344-.533.847-.636 1.577 1.077.182 1.758.343 2.266.923.6.68.6 1.53.6 2.82s0 2.08-.53 2.74c-.518.645-1.258.82-2.341 1.004.102.751.29 1.266.641 1.616.76.76 2.29.76 5.34.76h6c3.05 0 4.58 0 5.34-.76s.76-2.29.76-5.34 0-4.58-.76-5.34-2.29-.76-5.34-.76zm-6.09 8.03c.535-.095.953-.192 1.06-.33.13-.16.13-.77.13-1.61 0-.78 0-1.46-.15-1.63-.107-.123-.504-.21-1.04-.308-.01.569-.01 1.214-.01 1.948 0 .726 0 1.367.01 1.93",clipRule:"evenodd"})]})});v3.displayName="SmartphoneLands";var E6=i(require("react"),1),v0=require("react/jsx-runtime"),w3=E6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,v0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,v0.jsx)("path",{fill:"currentColor",d:"M10 18.9c0-.5.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9h-2c-.5 0-.9-.4-.9-.9"}),(0,v0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.66 4.94c-.14-1.05-.44-1.94-1.15-2.65s-1.6-1.01-2.65-1.15C14.85 1 13.56 1 11.97 1h-.13c-1.6 0-2.89 0-3.9.14-1.05.14-1.94.44-2.65 1.15s-1.01 1.6-1.15 2.65C4 5.95 4 7.24 4 8.83v6.14c0 1.59 0 2.88.14 3.89.14 1.05.44 1.94 1.15 2.65s1.6 1.01 2.65 1.15c1.01.14 2.3.14 3.9.14h.13c1.59 0 2.88 0 3.89-.14 1.05-.14 1.94-.44 2.65-1.15s1.01-1.6 1.15-2.65c.14-1.01.14-2.3.14-3.89V8.83c0-1.59 0-2.88-.14-3.89M18 14.9c0 1.68 0 2.84-.12 3.72-.11.85-.32 1.3-.64 1.62s-.77.53-1.62.64c-.88.12-2.04.12-3.72.12s-2.84 0-3.72-.12c-.85-.11-1.3-.32-1.62-.64s-.52-.77-.64-1.62c-.12-.88-.12-2.04-.12-3.72v-6c0-1.68 0-2.84.12-3.72.12-.85.32-1.3.64-1.62.313-.313.75-.52 1.562-.632.1.786.28 1.672.958 2.272.68.6 1.53.6 2.82.6v.01c1.29 0 2.14 0 2.82-.6.68-.602.859-1.493.96-2.282.811.112 1.247.32 1.56.632.32.32.53.77.64 1.62.12.88.12 2.04.12 3.72zM13.879 2.811c-.06.436-.154.867-.349 1.039-.17.15-.85.15-1.63.15s-1.46 0-1.63-.15c-.193-.178-.287-.606-.347-1.039.57-.011 1.222-.011 1.977-.011s1.408 0 1.979.011",clipRule:"evenodd"})]})});w3.displayName="Smartphone";var I6=i(require("react"),1),x3=require("react/jsx-runtime"),S3=I6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,x3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,x3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.56 22.8c-.56 0-1.27-.17-2.14-.7l-2.99-1.79c-.26-.16-.8-.15-1.06 0l-2.98 1.78c-1.83 1.1-2.94.66-3.44.3S3.69 21.1 4.17 19l.71-3.09c.06-.28-.08-.79-.28-.99l-2.48-2.5C.82 11.12.93 9.99 1.11 9.43s.75-1.53 2.54-1.84l3.19-.53c.25-.04.64-.34.75-.56l1.76-3.55C10.2 1.25 11.34 1 11.9 1c.59 0 1.7.26 2.53 1.94l1.76 3.55c.12.24.51.53.76.57l3.19.53c1.8.3 2.37 1.28 2.55 1.84s.29 1.69-1.01 2.99l-2.48 2.5c-.2.2-.34.71-.28 1l.71 3.09c.48 2.11-.28 3.03-.78 3.39-.26.19-.69.4-1.3.4zm-5.66-4.4c.52 0 1.04.12 1.45.37l2.99 1.78c.87.52 1.33.48 1.46.39s.31-.53.08-1.53l-.71-3.09c-.2-.9.12-2.02.76-2.66l2.48-2.5c.44-.44.66-.89.57-1.17s-.52-.51-1.13-.62l-3.19-.53c-.84-.14-1.71-.79-2.08-1.55l-1.76-3.54c-.34-.69-.71-.94-.92-.94s-.58.25-.93.95L9.21 7.31c-.36.74-1.25 1.41-2.06 1.55l-3.19.54c-.61.1-1.04.34-1.13.61-.09.28.13.73.57 1.17l2.48 2.5c.64.64.96 1.76.76 2.65l-.71 3.1c-.23.99-.04 1.43.08 1.53.13.09.6.13 1.46-.38l2.99-1.78c.42-.25.94-.37 1.46-.37z",clipRule:"evenodd"})})});S3.displayName="Star";var y6=i(require("react"),1),w0=require("react/jsx-runtime"),k3=y6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,w0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,w0.jsx)("path",{fill:"currentColor",d:"M10.9 19.28h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9"}),(0,w0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2 12.12a2.8 2.8 0 0 1-.46-.62c-.76-1.41-.82-2.25.43-4.12.99-1.49.99-2.18.99-2.54 0-.59.23-1.44.88-2.05.39-.38 1.13-.81 2.25-.76L17.67 2c.68-.04 1.73.25 2.46.95.61.59.7 1.39.77 2.02.11.96.42 1.71 1.02 2.48 1.4 1.79.98 3.6 0 4.52l-.12.109v3.831c0 2.98 0 4.62-1.14 5.76s-2.78 1.14-5.76 1.14h-6c-2.98 0-4.62 0-5.76-1.14S2 18.89 2 15.91zm15.62.93c.42.17.86.26 1.3.26h.03q.525 0 1.05-.166v2.766c0 2.75-.03 3.9-.62 4.49-.59.6-1.73.62-4.48.62h-6c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.49v-2.776c.323.092.644.15.94.176 1.11.02 2.06-.35 2.81-1.08.2-.19.37-.41.53-.64 1.59 1.86 4.05 1.85 5.37 1.48.84-.23 1.65-.77 2.27-1.47.42.63 1.03 1.09 1.9 1.45",clipRule:"evenodd"})]})});k3.displayName="StoreFill";var B6=i(require("react"),1),x0=require("react/jsx-runtime"),R3=B6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,x0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,x0.jsx)("path",{fill:"currentColor",d:"M10.9 19.28h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9"}),(0,x0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M2 12.12a2.8 2.8 0 0 1-.46-.62c-.76-1.41-.82-2.25.43-4.12.99-1.49.99-2.18.99-2.54 0-.59.23-1.44.88-2.05.39-.38 1.13-.81 2.25-.76L17.67 2c.68-.04 1.73.25 2.46.95.61.59.7 1.39.77 2.02.11.96.42 1.71 1.02 2.48 1.4 1.79.98 3.6 0 4.52l-.12.109v3.831c0 2.98 0 4.62-1.14 5.76s-2.78 1.14-5.76 1.14h-6c-2.98 0-4.62 0-5.76-1.14S2 18.89 2 15.91zm15.62.93c.42.17.86.26 1.3.26h.03q.525 0 1.05-.166v2.766c0 2.75-.03 3.9-.62 4.49-.59.6-1.73.62-4.48.62h-6c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.49v-2.776c.323.092.644.15.94.176 1.11.02 2.06-.35 2.81-1.08.2-.19.37-.41.53-.64 1.59 1.86 4.05 1.85 5.37 1.48.84-.23 1.65-.77 2.27-1.47.42.63 1.03 1.09 1.9 1.45M5.07 4.09c.19-.17.46-.26.84-.26l.02-.01h.13l11.65-.03h.06c.15-.01.73.08 1.11.45.142.132.185.512.232.915l.008.075c.14 1.24.57 2.3 1.38 3.33.8 1.04.49 1.81.18 2.1-.84.79-1.63 1.03-2.36.73-1-.41-1.35-.91-1.48-2.12a.9.9 0 0 0-.84-.8.92.92 0 0 0-.93.7c-.19.82-1.08 1.89-2.09 2.17l-.012.003c-.245.06-3.229.783-4.218-2.253a.902.902 0 0 0-1.76.28c0 .41-.18 1.07-.69 1.57-.4.39-.91.59-1.45.57-.55-.05-1.44-.35-1.72-.87-.45-.83-.52-.96.34-2.26 1.14-1.71 1.29-2.75 1.29-3.54 0-.16.06-.51.31-.75",clipRule:"evenodd"})]})});R3.displayName="Store";var H6=i(require("react"),1),N3=require("react/jsx-runtime"),W3=H6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,N3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,N3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M5.824 2.281A.75.75 0 0 1 6.41 2h3a.75.75 0 0 1 .75.75 2.25 2.25 0 0 0 4.5 0 .75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .586.281l3.44 4.302a1.75 1.75 0 0 1-.128 2.33l-3.148 3.148v7.689a1.75 1.75 0 0 1-1.75 1.75h-10a1.75 1.75 0 0 1-1.75-1.75v-7.69L2.513 8.914a1.75 1.75 0 0 1-.13-2.33z",clipRule:"evenodd"})})});W3.displayName="TShirtFill";var q6=i(require("react"),1),V3=require("react/jsx-runtime"),C3=q6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,V3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,V3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"m5 12.54-2.69-2.6-.047-.046C1.5 9.15.99 8.654.99 7.87c0-.8.52-1.31 1.32-2.07l2-1.94c.37-.36.6-.58.89-.75.272-.169.553-.259 1-.401l.09-.029 1.64-.53c.33-.11.73-.24 1.16 0 .45.26.53.69.6 1.07.19 1.01 1.12 1.74 2.19 1.74s2-.73 2.19-1.74c.07-.38.15-.81.6-1.06.43-.24.84-.11 1.17 0l1.64.53.12.039c.42.137.695.226.97.391.262.154.467.348.778.643l.102.097 2.01 1.95.02.019c.779.76 1.3 1.267 1.3 2.051 0 .79-.52 1.3-1.31 2.07l-2.67 2.59v4.04c0 2 0 3.1-.86 3.93-.94.9-3.36 1.3-5.81 1.3h-.01c-2.68 0-5.41-.48-6.26-1.3C5 19.68 5 18.58 5 16.58zm0-2.478V8.9c0-.5.4-.9.9-.9s.9.4.9.9v7.68c0 1.58.01 2.35.31 2.63.95.91 8.38 1.15 9.58 0 .3-.28.31-1.05.31-2.63V8.9c0-.5.4-.9.9-.9s.9.4.9.9v1.143l1.42-1.373c.3-.29.64-.62.75-.78-.11-.16-.44-.49-.74-.78l-2-1.94c-.31-.3-.45-.43-.56-.5-.119-.07-.307-.13-.71-.257l-.01-.003-1.2-.39c-.52 1.62-2.07 2.75-3.85 2.75S8.57 5.64 8.05 4.02l-1.2.39c-.42.13-.6.2-.72.26-.11.07-.25.2-.56.5L3.56 7.11c-.3.29-.64.62-.75.78.11.16.45.49.75.78z",clipRule:"evenodd"})})});C3.displayName="TShirt";var z6=i(require("react"),1),G3=require("react/jsx-runtime"),P3=z6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,G3.jsx)("path",{fill:"currentColor",d:"M20.75 3.25C19.09 1.6 16.73 1.6 12 1.6s-7.09 0-8.75 1.65S1.6 7.28 1.6 12s0 7.09 1.65 8.75C4.9 22.4 7.27 22.4 12 22.4s7.09 0 8.75-1.65c1.65-1.66 1.65-4.03 1.65-8.75s0-7.09-1.65-8.75M12 3.4c4.22 0 6.34 0 7.47 1.13.71.71.97 1.81 1.07 3.57H3.46c.1-1.76.36-2.86 1.07-3.57C5.66 3.4 7.78 3.4 12 3.4m8.6 8.6v.1h-7.7V9.9h7.69V12zM3.4 12V9.9h7.69v2.2H3.4zm7.7 1.9v2.2H3.47c-.04-.64-.06-1.37-.07-2.2zm1.8 0h7.69c0 .83-.03 1.56-.07 2.2h-7.63v-2.2zm-9.17 4h7.37v2.7c-3.62 0-5.53-.08-6.57-1.13-.39-.39-.64-.9-.8-1.57m9.17 2.7v-2.7h7.37c-.17.67-.41 1.18-.8 1.57-1.04 1.04-2.96 1.12-6.57 1.13"})})});P3.displayName="Table";var L6=i(require("react"),1),S0=require("react/jsx-runtime"),M3=L6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,S0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,S0.jsx)("path",{fill:"currentColor",d:"M12.01 17.75a1.25 1.25 0 0 1 0 2.5H12a1.25 1.25 0 1 1 0-2.5z"}),(0,S0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.5 1.1c1.389 0 2.521-.002 3.412.118.917.123 1.712.39 2.346 1.024.634.635.901 1.43 1.024 2.346.12.89.118 2.023.118 3.412v8c0 1.389.002 2.521-.118 3.412-.123.917-.39 1.712-1.024 2.346s-1.43.9-2.346 1.024c-.89.12-2.023.118-3.412.118h-5c-1.389 0-2.521.002-3.412-.118-.917-.123-1.711-.39-2.346-1.024-.634-.634-.9-1.43-1.024-2.346-.12-.89-.118-2.023-.118-3.412V8c0-1.389-.002-2.521.118-3.412.123-.917.39-1.711 1.024-2.346.635-.634 1.43-.9 2.346-1.024.89-.12 2.023-.118 3.412-.118zm-5 1.8c-1.44 0-2.429.002-3.172.102-.717.096-1.07.268-1.313.513-.245.244-.417.596-.513 1.313C4.402 5.571 4.4 6.56 4.4 8v8c0 1.44.002 2.429.102 3.172.096.717.268 1.07.513 1.313.244.245.596.417 1.313.513.743.1 1.732.102 3.172.102h5c1.44 0 2.429-.002 3.172-.102.717-.096 1.07-.268 1.313-.513.245-.244.417-.596.513-1.313.1-.743.102-1.732.102-3.172V8c0-1.44-.002-2.429-.102-3.172-.096-.717-.268-1.07-.513-1.313-.244-.245-.596-.417-1.313-.513-.743-.1-1.732-.102-3.172-.102z",clipRule:"evenodd"})]})});M3.displayName="Tablet";var F6=i(require("react"),1),k0=require("react/jsx-runtime"),A3=F6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,k0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,k0.jsx)("path",{fill:"currentColor",d:"M11.996 10.75a1.25 1.25 0 1 0 0 2.5h.01a1.25 1.25 0 0 0 0-2.5z"}),(0,k0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12 1.1C5.98 1.1 1.1 5.98 1.1 12S5.98 22.9 12 22.9 22.9 18.02 22.9 12 18.02 1.1 12 1.1M2.944 12.9H6a.9.9 0 1 0 0-1.8H2.944A9.1 9.1 0 0 1 11.1 2.944V6a.9.9 0 0 0 1.8 0V2.944a9.1 9.1 0 0 1 8.156 8.156H18a.9.9 0 0 0 0 1.8h3.056a9.1 9.1 0 0 1-8.156 8.156V18a.9.9 0 0 0-1.8 0v3.056A9.1 9.1 0 0 1 2.944 12.9",clipRule:"evenodd"})]})});A3.displayName="Target";var D6=i(require("react"),1),I=require("react/jsx-runtime"),E3=D6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,I.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,I.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M7.5 7.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6",clipRule:"evenodd"}),(0,I.jsx)("path",{fill:"currentColor",d:"M.566 17.36c.316.379 1.199 1.44 2.564 1.44l-.01.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.23 0-.6-.08-1.18-.8-.147-.183-.142-.283-.14-.321v-.009c.048-.358.732-.865 1.094-1.133l.036-.027.25-.19c.55-.42 1.17-.67 1.8-.73.5-.05.86-.48.82-.98a.913.913 0 0 0-.98-.82c-.97.09-1.91.47-2.73 1.1l-.22.16-.033.024C1.204 13.757.167 14.53.02 15.65c-.06.4-.01 1.03.53 1.69zM2 8.4c0 1.87 1.52 3.4 3.4 3.4.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.88 0-1.6-.72-1.6-1.6s.72-1.6 1.6-1.6c.5 0 .9-.4.9-.9S5.9 5 5.4 5C3.52 5 2 6.53 2 8.4m17.77 9.5c0 .5.4.9.9.9l-.02-.01c1.39 0 2.29-1.1 2.58-1.46.53-.66.58-1.28.53-1.69-.14-1.134-1.199-1.911-1.84-2.382l-.01-.008-.21-.16a5.26 5.26 0 0 0-2.73-1.1.895.895 0 0 0-.98.82.9.9 0 0 0 .82.98c.63.06 1.25.31 1.8.73l.25.19c.35.25 1.08.79 1.13 1.16.01.04.02.13-.14.33-.58.72-.95.8-1.18.8-.5 0-.9.4-.9.9m-2.77-7c0 .5.4.9.9.9 1.88 0 3.4-1.53 3.4-3.4S19.78 5 17.9 5c-.5 0-.9.4-.9.9s.4.9.9.9c.88 0 1.6.72 1.6 1.6s-.72 1.6-1.6 1.6c-.5 0-.9.4-.9.9"}),(0,I.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15.07 20.8H8.71c-1.62 0-2.73-.92-3.43-1.61-.74-.73-.83-1.45-.77-1.92.168-1.345 1.638-2.221 2.628-2.81l.032-.02.33-.2a8.41 8.41 0 0 1 8.78 0l.33.2c.99.58 2.49 1.47 2.66 2.83.06.47-.03 1.19-.77 1.92-.7.69-1.82 1.61-3.43 1.61m-6.61-5.02-.403.24c-.492.293-1.699 1.01-1.757 1.48-.02.14.17.33.25.41.76.76 1.43 1.09 2.17 1.09h6.37c.74 0 1.4-.34 2.17-1.09.08-.08.26-.28.25-.41-.059-.47-1.265-1.187-1.758-1.48l-.402-.24a6.6 6.6 0 0 0-6.88 0z",clipRule:"evenodd"})]})});E3.displayName="Team";var U6=i(require("react"),1),I3=require("react/jsx-runtime"),y3=U6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,I3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,I3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M13.576 2.6c1.163 0 2.099 0 2.86.073.78.075 1.453.232 2.08.592l.167.1q.083.052.163.107l.216.159c.49.385.86.869 1.207 1.452.385.65.772 1.484 1.252 2.517l.37.802c.352.767.638 1.428.81 1.992.218.714.313 1.455-.012 2.157l-.07.14q-.06.106-.127.207l-.143.196c-.522.654-1.282.891-2.08.997-.792.105-1.828.102-3.086.102h-.404a10 10 0 0 0-.805.017 1 1 0 0 0-.123.017l-.006.006q.002.029.013.09c.034.159.1.375.214.744l.267.86c.067.217.11.36.145.5l.051.23a4.7 4.7 0 0 1-.6 3.341l-.29.437q-.052.077-.113.16l-.123.159a1.935 1.935 0 0 1-2.556.295l-.153-.12a2 2 0 0 1-.142-.14l-.134-.146-4.091-4.53c-.934-1.035-1.57-1.718-1.904-2.563-.667.531-1.51.85-2.429.85a2.9 2.9 0 0 1-2.9-2.9v-6A2.9 2.9 0 0 1 4 2.6c1.205 0 2.282.546 2.997 1.405q.12-.15.265-.291c.64-.62 1.439-.88 2.36-1 .896-.116 2.038-.114 3.443-.114zm-.511 1.8c-1.454 0-2.457.002-3.211.1-.731.095-1.091.267-1.34.507-.243.236-.415.574-.511 1.27C7.903 7 7.9 7.964 7.9 9.375v.974c0 1.523.014 2.051.198 2.524.184.475.536.885 1.57 2.031l4.092 4.531.11.12c.022.024.023.024.012.014l.04.024a.14.14 0 0 0 .054.006.12.12 0 0 0 .084-.039l.01-.014.092-.133.233-.348.14-.255a2.9 2.9 0 0 0 .257-1.67l-.055-.284-.118-.397-.267-.86c-.103-.335-.2-.647-.255-.91-.056-.268-.095-.6.01-.952l.057-.16c.149-.368.411-.678.746-.888l.114-.066c.27-.14.549-.186.79-.207.27-.024.602-.023.965-.023h.404c1.31 0 2.204-.002 2.85-.087.637-.085.823-.228.908-.335l.054-.074q.025-.037.046-.076l.04-.102c.033-.13.034-.356-.101-.8-.139-.453-.378-1.01-.718-1.754l-.374-.808c-.495-1.065-.84-1.803-1.167-2.357-.318-.536-.585-.835-.89-1.043l-.21-.13c-.325-.187-.72-.303-1.357-.364-.656-.063-1.491-.064-2.688-.064zM4 4.4a1.1 1.1 0 0 0-1.1 1.1v6A1.1 1.1 0 0 0 4 12.6a2.1 2.1 0 0 0 2.1-2.1v-4A2.1 2.1 0 0 0 4 4.4",clipRule:"evenodd"})})});y3.displayName="ThumbsDown";var T6=i(require("react"),1),B3=require("react/jsx-runtime"),H3=T6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,B3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,B3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.701 3.072a1.934 1.934 0 0 1 2.708.174v.001c.084.097.167.218.236.319l.29.435v.001l.117.203c.52.962.69 2.069.483 3.14l-.05.228c-.035.14-.08.283-.147.499l-.266.861c-.114.369-.18.586-.214.745q-.011.06-.013.088l.006.006c.019.004.057.013.123.018.171.016.41.017.805.017h.404c1.258 0 2.294-.002 3.086.103.798.105 1.558.343 2.08.997l.143.196q.068.1.126.207l.07.14c.326.701.232 1.443.013 2.157-.172.563-.458 1.225-.81 1.991l-.37.803c-.48 1.032-.867 1.867-1.252 2.516-.346.584-.718 1.067-1.206 1.452l-.217.16-.163.106-.167.1c-.627.36-1.3.518-2.08.593-.761.073-1.697.073-2.86.073h-.511c-1.405 0-2.547.001-3.444-.116-.863-.112-1.619-.346-2.237-.886l-.122-.113a3 3 0 0 1-.265-.292A3.9 3.9 0 0 1 4 21.402a2.9 2.9 0 0 1-2.9-2.9v-6A2.9 2.9 0 0 1 4 9.6a3.88 3.88 0 0 1 2.429.85c.335-.845.97-1.528 1.904-2.562l4.09-4.53.135-.146q.07-.076.143-.14M4 11.4a1.1 1.1 0 0 0-1.1 1.1v6A1.1 1.1 0 0 0 4 19.6a2.1 2.1 0 0 0 2.1-2.1v-4A2.1 2.1 0 0 0 4 11.4m9.923-6.993-.041.022c.01-.01.01-.01-.013.015l-.11.119-4.09 4.531c-1.035 1.146-1.387 1.556-1.571 2.031-.184.473-.198 1.002-.198 2.525v.973c0 1.411.003 2.376.103 3.1.096.695.268 1.033.512 1.27l.098.086c.245.195.601.337 1.24.42.755.099 1.758.1 3.212.1h.511c1.197 0 2.032 0 2.688-.064.637-.06 1.032-.177 1.357-.363l.21-.13.112-.084c.26-.204.5-.49.778-.96.328-.553.672-1.292 1.167-2.357l.374-.808c.34-.743.58-1.301.718-1.754.135-.444.134-.67.101-.8l-.04-.102-.046-.076-.054-.073c-.085-.107-.27-.25-.909-.335-.645-.086-1.538-.087-2.85-.087h-.403c-.363 0-.695 0-.966-.024a2.1 2.1 0 0 1-.789-.207l-.114-.065a1.9 1.9 0 0 1-.746-.888l-.057-.16c-.105-.352-.066-.685-.01-.953.055-.262.152-.574.255-.91l.267-.86.118-.397.055-.283a2.92 2.92 0 0 0-.396-1.926l-.234-.348-.092-.133c-.02-.027-.02-.025-.01-.014a.12.12 0 0 0-.084-.038.14.14 0 0 0-.053.007",clipRule:"evenodd"})})});H3.displayName="ThumbsUp";var O6=i(require("react"),1),q3=require("react/jsx-runtime"),z3=O6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,q3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.386 1.127a5 5 0 0 1 1.537.076l.203.047c1.001.26 1.86.9 2.83 1.79l.105.107c.45.514.378 1.235.008 1.688l-.083.092c-.491.491-.518 1.383.093 1.994.61.61 1.502.583 1.993.092l.093-.083c.451-.37 1.173-.442 1.687.008l.107.105.342.382c.767.883 1.301 1.697 1.495 2.65l.04.219c.07.437.082.881.037 1.319l-.028.219c-.128.861-.54 1.589-1.134 2.333-.583.729-1.405 1.55-2.431 2.576l-2.54 2.539c-1.025 1.026-1.846 1.848-2.575 2.43-.652.521-1.29.902-2.017 1.075l-.316.06a5 5 0 0 1-1.539-.01l-.217-.038c-1.09-.223-1.998-.889-3.033-1.838-.564-.517-.51-1.311-.113-1.795l.084-.093c.46-.46.512-1.272.014-1.875l-.108-.118c-.61-.61-1.5-.583-1.992-.093-.47.47-1.337.573-1.888-.028-.89-.971-1.531-1.83-1.79-2.831l-.047-.202a5.1 5.1 0 0 1-.05-1.756l.061-.317c.173-.727.554-1.365 1.075-2.016.582-.73 1.405-1.55 2.43-2.577L7.26 4.72l.732-.73c.698-.692 1.297-1.263 1.844-1.7.743-.595 1.471-1.007 2.332-1.135zM8.531 5.993 5.993 8.53c-1.055 1.055-1.794 1.794-2.3 2.427-.43.54-.64.94-.729 1.315l-.03.16a3.3 3.3 0 0 0 .032 1.131l.057.219c.138.441.438.922 1.023 1.599 1.261-.898 3.025-.699 4.148.423l.113.12c1.022 1.125 1.176 2.81.31 4.027.79.684 1.312.978 1.818 1.08l.285.046q.43.049.847-.013l.16-.03c.374-.088.774-.298 1.315-.73.632-.505 1.371-1.244 2.426-2.299l2.538-2.538.094-.094-9.475-9.476zm4.18-3.088-.279.03c-.422.062-.857.266-1.474.759-.316.252-.657.562-1.051.94l9.459 9.458c.378-.394.687-.735.94-1.05.493-.618.696-1.053.759-1.475l.03-.28a3.3 3.3 0 0 0-.017-.567l-.045-.285c-.103-.505-.397-1.028-1.081-1.818-1.26.897-3.024.698-4.146-.424s-1.322-2.886-.425-4.146c-.677-.586-1.157-.886-1.598-1.024l-.219-.057a3.3 3.3 0 0 0-.853-.061",clipRule:"evenodd"})})});z3.displayName="Ticket02";var Q6=i(require("react"),1),R0=require("react/jsx-runtime"),L3=Q6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,R0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,R0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.5 8.1c.692 0 1.118.517 1.325.933l.457.921.796.134.18.039c.427.112.903.384 1.081.944.204.639-.124 1.196-.457 1.53h.001l-.624.628.176.763.034.18c.068.45.036 1.086-.506 1.484-.623.458-1.341.178-1.73-.054l-.734-.438-.732.437c-.39.235-1.108.511-1.73.053-.618-.454-.574-1.217-.472-1.662l.174-.762-.623-.628V12.6c-.33-.334-.657-.89-.455-1.528.203-.64.794-.907 1.26-.985l.793-.133.457-.922.001-.002.088-.159c.23-.377.634-.772 1.24-.772m-.242 2.79.001.002a1.5 1.5 0 0 1-.45.53 1.5 1.5 0 0 1-.63.28l-.004.001-.356.06.32.321.07.076c.154.182.245.39.295.567.044.154.072.339.058.535l-.03.205-.047.206.257-.152.005-.003.096-.051c.225-.108.46-.146.657-.146.226 0 .503.048.757.2l.257.152-.047-.206v-.006c-.06-.268-.03-.53.027-.734.058-.203.17-.444.368-.643l.317-.321-.355-.06a1.5 1.5 0 0 1-.635-.28 1.5 1.5 0 0 1-.452-.531l-.239-.483z",clipRule:"evenodd"}),(0,R0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14.008 2.6c1.625 0 2.919-.001 3.948.114 1.05.117 1.93.363 2.69.928l.192.148a5.6 5.6 0 0 1 1.133 1.252l.12.192c.573.974.744 2.137.808 3.606v6.321c-.064 1.468-.235 2.631-.808 3.605l-.12.192a5.6 5.6 0 0 1-1.133 1.252l-.191.148c-.762.565-1.642.811-2.69.928-1.03.115-2.324.114-3.949.114H9.993c-.68 0-1.3-.002-1.869-.01A1 1 0 0 1 8 21.4a1 1 0 0 1-.145-.013c-.68-.014-1.28-.042-1.81-.1-.983-.11-1.819-.334-2.547-.826l-.143-.103a5.6 5.6 0 0 1-1.186-1.2l-.138-.2c-.586-.885-.806-1.929-.897-3.226l-.031-.572c-.036-.843.672-1.404 1.363-1.404l.156-.008c.778-.084 1.454-.793 1.454-1.748 0-1.019-.769-1.756-1.61-1.756-.69 0-1.4-.561-1.363-1.404l.031-.572c.091-1.297.311-2.34.897-3.226l.138-.2a5.5 5.5 0 0 1 1.186-1.2l.143-.103c.728-.493 1.564-.715 2.547-.825.53-.06 1.13-.088 1.81-.102a1 1 0 0 1 .27-.003q.851-.011 1.869-.01zM8.9 4.4V7a.9.9 0 0 1-1.801 0V4.44q-.465.02-.854.063c-.778.087-1.278.24-1.662.477l-.158.108q-.39.29-.699.679l-.195.268c-.343.518-.525 1.208-.607 2.442 1.701.236 2.95 1.763 2.95 3.523s-1.25 3.287-2.95 3.523c.082 1.234.264 1.924.607 2.442l.195.268q.309.39.7.68l.157.107c.384.238.884.39 1.662.477.26.03.543.048.854.063V17a.901.901 0 0 1 1.8 0v2.598l1.094.002h4.015c1.666 0 2.841-.002 3.748-.103.888-.099 1.415-.285 1.82-.585l.25-.204c.243-.215.46-.465.643-.743l.135-.228c.29-.555.438-1.322.496-2.638V8.9c-.067-1.505-.25-2.29-.63-2.865a3.8 3.8 0 0 0-.643-.743l-.251-.204c-.405-.3-.932-.486-1.82-.585-.907-.101-2.082-.103-3.748-.103H9.993z",clipRule:"evenodd"})]})});L3.displayName="TicketStar";var Z6=i(require("react"),1),N0=require("react/jsx-runtime"),F3=Z6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,N0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,N0.jsx)("path",{fill:"currentColor",d:"M13.26 14.54c.18.17.41.26.64.26s.46-.08.64-.26a.9.9 0 0 0 0-1.27l-1.74-1.74V7.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v4c0 .24.09.47.26.64z"}),(0,N0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1",clipRule:"evenodd"})]})});F3.displayName="Time";var J6=i(require("react"),1),W0=require("react/jsx-runtime"),D3=J6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,W0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,W0.jsx)("path",{fill:"currentColor",d:"M4.5 18.5c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1"}),(0,W0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M19.88 5.34c.43-.43 1.06-.55 1.61-.32h.01c.56.23.91.76.91 1.36v.58c0 4.87 0 5.62-1.41 7.03-1.36 1.36-3.53 1.41-6.78 1.41h-.34l-5.91 5.91a3.73 3.73 0 0 1-2.64 1.09c-1 0-1.94-.38-2.64-1.09a3.736 3.736 0 0 1 0-5.27l5.91-5.92c0-3.44 0-5.72 1.41-7.12s2.17-1.42 7.03-1.4h.59c.59 0 1.13.36 1.35.92.23.55.1 1.18-.32 1.6l-2.71 2.71c-.16.16-.25.38-.25.61s.09.45.25.61c.33.34.88.34 1.22 0zM3.96 20.04c.73.73 2 .73 2.73 0l4.99-4.99a4.94 4.94 0 0 1-2.73-2.73l-4.99 4.99c-.75.76-.75 1.98 0 2.73m10.074-6.44c2.88-.01 4.822-.016 5.686-.88v-.01c.84-.83.88-1.05.88-5.55l-2.15 2.15a2.67 2.67 0 0 1-3.77 0c-.5-.5-.78-1.17-.78-1.88s.28-1.38.78-1.88l2.15-2.15h-.07c-4.43 0-4.65.05-5.48.88-.88.88-.88 2.86-.88 5.85v.37c0 1.71 1.39 3.1 3.1 3.1z",clipRule:"evenodd"})]})});D3.displayName="Tools2";var K6=i(require("react"),1),U3=require("react/jsx-runtime"),T3=K6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,U3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,U3.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M17.4 21.8c-1.15 0-2.27-.45-3.11-1.29a4.39 4.39 0 0 1-1.17-4.12l-.87-.87-5.12 5.12c-.42.42-.99.66-1.59.66s-1.17-.23-1.59-.66l-.79-.79c-.42-.42-.66-.99-.66-1.59s.23-1.17.66-1.59l5.12-5.12-.87-.87c-1.47.34-3.03-.09-4.12-1.17a4.4 4.4 0 0 1-.99-4.7c.11-.28.36-.49.65-.56.3-.06.61.03.82.24l1.16 1.16h.73v-.73L4.5 3.76a.87.87 0 0 1-.24-.82c.07-.29.27-.54.56-.65 1.62-.63 3.47-.24 4.7.99a4.39 4.39 0 0 1 1.17 4.12l2.217 2.217 3.716-3.714-.363-.363c-.2-.2-.29-.47-.26-.75.03-.27.19-.52.43-.66l2.5-1.5c.35-.21.81-.16 1.1.13l1 1c.29.29.35.75.14 1.1l-1.5 2.5c-.14.24-.39.4-.66.43h-.11v.01a.9.9 0 0 1-.64-.26l-.364-.364-3.716 3.714 2.22 2.22c1.47-.34 3.04.08 4.12 1.17a4.4 4.4 0 0 1 .99 4.7c-.11.28-.36.49-.65.56-.3.06-.61-.03-.82-.24l-1.16-1.16h-.73v.73l1.16 1.16c.22.22.31.52.24.82-.06.3-.27.54-.56.65q-.78.3-1.59.3m-7.85-8.98-5.12 5.12c-.11.12-.13.25-.13.32s.02.2.13.32l.79.79c.12.12.25.13.32.13s.2-.02.32-.13l5.12-5.12zM7.66 8.76c.23 0 .46.09.64.26l6.47 6.47c.25.25.33.63.2.96-.37.96-.14 2.05.59 2.78.3.3.66.51 1.04.64a.9.9 0 0 1-.26-.63v-2c0-.5.4-.9.9-.9h2c.24 0 .46.09.63.26-.12-.38-.34-.74-.64-1.04-.73-.73-1.82-.96-2.78-.59-.33.12-.71.05-.96-.2L9.02 8.3a.9.9 0 0 1-.2-.96c.37-.96.14-2.05-.59-2.78-.3-.3-.65-.51-1.04-.63.17.17.26.39.26.63v2c0 .5-.4.9-.9.9h-2c-.24 0-.46-.09-.63-.26.12.38.34.74.64 1.04.73.73 1.82.96 2.78.59.11-.04.22-.06.32-.06zm11.06-3.31-.37-.37h.01l.91-.54z",clipRule:"evenodd"})})});T3.displayName="Tools";var X6=i(require("react"),1),V0=require("react/jsx-runtime"),O3=X6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,V0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,V0.jsx)("path",{fill:"currentColor",d:"M9.4 9.5c-.5 0-.9.4-.9.9v6c0 .5.4.9.9.9s.9-.4.9-.9v-6c0-.5-.4-.9-.9-.9m4.1.9c0-.5.4-.9.9-.9s.9.4.9.9v6c0 .5-.4.9-.9.9s-.9-.4-.9-.9z"}),(0,V0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M20.89 4.5h-4.37l-.44-.91-.026-.055C15.57 2.54 15.3 1.983 14.74 1.57c-.13-.09-.26-.18-.4-.25-.63-.33-1.26-.33-2.41-.33s-1.82 0-2.47.34c-.14.08-.27.16-.4.26-.57.44-.84 1.03-1.33 2.098v.002l-.37.8H2.9c-.5 0-.9.4-.9.9s.4.9.9.9h.65l.55 9.17c.16 2.73.25 4.1 1.03 5.23.39.56.88 1.03 1.47 1.39 1.17.72 2.55.72 5.28.72s4.1 0 5.28-.72c.58-.36 1.08-.82 1.47-1.38.784-1.121.869-2.479 1.036-5.157L20.24 6.3h.65c.5 0 .9-.4.9-.9s-.4-.9-.9-.9M9.38 4.44l.056-.12c.335-.725.525-1.138.734-1.29.05-.04.1-.07.15-.1.24-.13.73-.13 1.62-.13s1.34 0 1.58.12l.15.09c.21.16.42.59.8 1.37l.06.12H9.36l.03-.06zm8.5 10.93-.005.082c-.147 2.335-.22 3.516-.715 4.218-.25.35-.56.65-.93.87-.74.45-1.95.45-4.34.45s-3.6 0-4.34-.45c-.37-.23-.68-.52-.93-.88-.5-.72-.57-1.919-.71-4.305v-.005l-.55-9.06h13.09l-.56 9.07z",clipRule:"evenodd"})]})});O3.displayName="Trash";var Y6=i(require("react"),1),y=require("react/jsx-runtime"),Q3=Y6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,y.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,y.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M8.445 2.245C9.922 1.562 10.92 1.1 12 1.1s2.078.462 3.554 1.145l1.955.904c1.253.58 2.286 1.057 2.998 1.52.711.465 1.393 1.1 1.393 2.081s-.682 1.617-1.393 2.08c-.712.464-1.745.942-2.998 1.521l-1.955.904C14.077 11.938 13.079 12.4 12 12.4c-1.08 0-2.078-.462-3.555-1.145L6.49 10.35c-1.253-.58-2.286-1.057-2.997-1.52C2.78 8.367 2.1 7.73 2.1 6.75s.68-1.616 1.393-2.08c.711-.464 1.744-.942 2.997-1.521zM12 2.9c-.635 0-1.252.264-2.98 1.063l-1.705.788c-1.34.62-2.251 1.043-2.84 1.426-.583.38-.576.548-.575.571v.004c-.001.023-.008.19.576.57.588.384 1.499.808 2.84 1.427l1.704.788c1.728.799 2.345 1.063 2.98 1.063s1.251-.264 2.979-1.063l1.705-.788c1.34-.62 2.252-1.043 2.84-1.426.583-.38.576-.548.576-.571v-.004c0-.023.007-.19-.576-.57-.588-.384-1.5-.808-2.84-1.427l-1.705-.788c-1.728-.799-2.345-1.063-2.98-1.063",clipRule:"evenodd"}),(0,y.jsx)("path",{fill:"currentColor",d:"M20.266 10.364a.9.9 0 0 1 1.255.212c.238.335.379.721.379 1.155 0 .98-.69 1.61-1.398 2.065-.712.457-1.744.927-2.998 1.499l-1.953.89c-1.478.674-2.475 1.128-3.551 1.128s-2.073-.454-3.552-1.128l-1.953-.89c-1.253-.572-2.286-1.042-2.997-1.5-.709-.454-1.398-1.084-1.398-2.064 0-.434.14-.82.378-1.155a.9.9 0 0 1 1.467 1.043c-.044.062-.045.09-.045.112-.001.007-.023.169.57.55.589.379 1.5.796 2.841 1.407l1.705.777c1.726.787 2.346 1.048 2.984 1.048s1.257-.261 2.983-1.048l1.705-.777c1.34-.61 2.252-1.029 2.84-1.407.594-.381.573-.543.572-.55 0-.022-.002-.05-.046-.112a.9.9 0 0 1 .212-1.255"}),(0,y.jsx)("path",{fill:"currentColor",d:"M4.184 16.97a.9.9 0 0 0-1.122-1.408c-.524.418-.962.98-.962 1.756 0 .98.69 1.61 1.398 2.064.71.458 1.743.928 2.997 1.499l1.952.89c1.48.674 2.476 1.129 3.553 1.129s2.073-.455 3.552-1.13l1.952-.889c1.254-.571 2.286-1.041 2.998-1.498.708-.456 1.398-1.085 1.398-2.065 0-.776-.439-1.338-.963-1.756a.9.9 0 0 0-1.122 1.408 1.1 1.1 0 0 1 .258.264c.024.04.027.06.027.084 0 .007.022.169-.572.55-.588.378-1.5.796-2.84 1.407l-1.705.777C13.257 20.838 12.637 21.1 12 21.1c-.638 0-1.258-.262-2.984-1.048l-1.705-.777c-1.34-.61-2.252-1.029-2.84-1.407-.594-.381-.572-.543-.571-.55 0-.023.002-.044.027-.085.03-.051.101-.14.257-.263"})]})});Q3.displayName="Turnos";var _6=i(require("react"),1),C0=require("react/jsx-runtime"),Z3=_6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,C0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,C0.jsx)("path",{fill:"currentColor",d:"M10.5 11.1a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9m3 0a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9M11.4 16a.9.9 0 1 0-1.8 0v.5a.9.9 0 1 0 1.8 0zm3 0a.9.9 0 1 0-1.8 0v.5a.9.9 0 0 0 1.8 0z"}),(0,C0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.9 5.882H16a.9.9 0 0 0 .9-.9c0-.75-.181-1.93-1.208-2.562a15 15 0 0 0-1.747-.935c-.334-.146-.713-.287-1.07-.35-.282-.049-.91-.118-1.367.342-.267.27-.35.587-.382.822-.027.198-.026.43-.026.634V7.1H6.5a.9.9 0 1 0 0 1.8h.1v3.2H2a.9.9 0 1 0 0 1.8h.1v7.2H2a.9.9 0 0 0 0 1.8h19.5a.9.9 0 0 0 .4-1.706V13.9h.1a.9.9 0 1 0 0-1.8h-4.6V8.9h.1a.9.9 0 1 0 0-1.8h-4.6zM12.469 2.9h.026zm.43.105q.147.052.326.13c.562.246 1.173.603 1.523.819a.5.5 0 0 1 .137.13H12.9zm0 18.096V20a.9.9 0 0 0-1.8 0v1.1H8.4V8.9h7.2v12.2zm-9-7.2h2.7v7.2H3.9zm13.5 0h2.7v7.2h-2.7z",clipRule:"evenodd"})]})});Z3.displayName="University";var $6=i(require("react"),1),J3=require("react/jsx-runtime"),K3=$6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,J3.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,J3.jsx)("path",{fill:"currentColor",d:"M6.9 4.88c.5 0 .9-.4.9-.9V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.08c0 .5.4.9.9.9m9.21 10.26a.9.9 0 0 1 0-1.27v-.01l2.61-2.61A4.35 4.35 0 0 0 20 8.16c0-1.17-.45-2.26-1.28-3.09a4.364 4.364 0 0 0-6.18 0L9.93 7.68a.9.9 0 0 1-1.27 0 .9.9 0 0 1 0-1.27l2.61-2.61a6.174 6.174 0 0 1 8.73 0 6.1 6.1 0 0 1 1.81 4.36c0 1.65-.64 3.2-1.81 4.37l-2.61 2.61c-.18.17-.41.26-.64.26s-.46-.08-.64-.26m-4.85 3.58 2.61-2.61h.01a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a6.15 6.15 0 0 1-4.37 1.81c-1.64 0-3.19-.64-4.36-1.81A6.1 6.1 0 0 1 2 15.63c0-1.64.64-3.19 1.81-4.36l2.61-2.61a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a4.364 4.364 0 0 0 0 6.18A4.35 4.35 0 0 0 8.17 20c1.17 0 2.26-.45 3.09-1.28M21.9 16h-2.08c-.5 0-.9.4-.9.9s.4.9.9.9h2.08c.5 0 .9-.4.9-.9s-.4-.9-.9-.9M16 19.82c0-.5.4-.9.9-.9s.9.4.9.9v2.08c0 .5-.4.9-.9.9s-.9-.4-.9-.9zM3.98 6c.5 0 .9.4.9.9s-.4.9-.9.9H1.9c-.5 0-.9-.4-.9-.9s.4-.9.9-.9z"})})});K3.displayName="Unlink";var j6=i(require("react"),1),G0=require("react/jsx-runtime"),X3=j6.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,G0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,G0.jsx)("path",{fill:"currentColor",d:"M11.89 14.8h.01-.02zm-.89-.9c0 .497.395.895.89.9a.896.896 0 0 0 .89-.9V5.86q.12.148.219.274l.131.166.131.163c.193.24.356.444.48.567.34.36.91.37 1.27.02a.89.89 0 0 0 .02-1.27 5 5 0 0 1-.31-.372l-.17-.218c-1.03-1.31-1.78-2.18-2.66-2.18s-1.62.86-2.66 2.18l-.172.218a5 5 0 0 1-.309.372.89.89 0 0 0 .02 1.27c.35.35.92.34 1.27-.02.124-.123.287-.327.48-.567l.13-.163c.09-.12.21-.27.35-.44z"}),(0,G0.jsx)("path",{fill:"currentColor",d:"M10.68 20.8h2.44c2.83 0 4.39 0 5.66-.9s1.79-2.37 2.73-5.04l.23-.66a.907.907 0 0 0-.55-1.15.9.9 0 0 0-1.15.55l-.24.67c-.84 2.39-1.27 3.59-2.07 4.16s-2.08.57-4.62.57h-2.44c-2.54 0-3.81 0-4.62-.57-.793-.565-1.213-1.75-2.049-4.11l-.02-.06-.23-.66a.9.9 0 0 0-1.15-.55c-.47.17-.72.68-.55 1.15l.24.67c.94 2.66 1.46 4.13 2.73 5.03s2.83.9 5.66.9"})]})});X3.displayName="Upload";var eo=i(require("react"),1),B=require("react/jsx-runtime"),Y3=eo.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,B.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,B.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M9 7.1a2.9 2.9 0 0 1 2.9 2.9c0 .635-.206 1.22-.552 1.697A4.9 4.9 0 0 1 13.9 16a.9.9 0 0 1-1.8 0 3.1 3.1 0 1 0-6.2 0 .9.9 0 0 1-1.8 0 4.9 4.9 0 0 1 2.551-4.303A2.9 2.9 0 0 1 6.1 10 2.9 2.9 0 0 1 9 7.1m0 1.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2",clipRule:"evenodd"}),(0,B.jsx)("path",{fill:"currentColor",d:"M19.092 11.105a.9.9 0 0 1 0 1.79L19 12.9h-4a.9.9 0 0 1 0-1.8h4zm0-3.001a.9.9 0 0 1 0 1.792L19 9.9h-4a.9.9 0 0 1 0-1.8h4z"}),(0,B.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14 3.1c1.86 0 3.346-.001 4.509.155 1.189.16 2.175.5 2.956 1.28l.141.149c.682.756.99 1.692 1.14 2.807.155 1.163.154 2.649.154 4.509s.002 3.346-.155 4.509c-.15 1.114-.457 2.051-1.139 2.807l-.141.149c-.781.78-1.767 1.12-2.956 1.28-1.163.156-2.649.155-4.509.155h-4c-1.86 0-3.346.002-4.509-.155-1.115-.15-2.051-.457-2.807-1.139l-.149-.141c-.78-.781-1.12-1.767-1.28-2.956C1.099 15.346 1.1 13.86 1.1 12s-.001-3.346.155-4.509c.16-1.189.5-2.175 1.28-2.956l.149-.141c.756-.682 1.692-.99 2.807-1.14C6.654 3.1 8.14 3.1 10 3.1zm-4 1.8c-1.911 0-3.254.002-4.27.138-.865.116-1.389.32-1.768.63l-.154.14c-.391.39-.637.933-.77 1.922C2.902 8.746 2.9 10.09 2.9 12s.002 3.254.138 4.27c.133.989.379 1.532.77 1.922l.154.14c.379.31.903.514 1.768.63 1.016.136 2.359.138 4.27.138h4c1.911 0 3.254-.002 4.27-.138.989-.133 1.532-.379 1.922-.77l.14-.154c.31-.379.514-.903.63-1.768.136-1.016.138-2.359.138-4.27s-.002-3.254-.138-4.27c-.116-.865-.32-1.389-.63-1.768l-.14-.154c-.39-.391-.933-.637-1.922-.77C17.254 4.902 15.91 4.9 14 4.9z",clipRule:"evenodd"})]})});Y3.displayName="UserAccount";var to=i(require("react"),1),P0=require("react/jsx-runtime"),_3=to.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,P0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,P0.jsx)("path",{fill:"currentColor",d:"M12.4 22.8H6.49c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56.17-.1.33-.19.46-.27a11.56 11.56 0 0 1 10.22-.76c.46.19.68.71.49 1.17s-.71.68-1.17.49c-.73-.3-1.5-.51-2.29-.62-2.2-.31-4.45.14-6.34 1.26-.15.09-.31.18-.5.29-.82.47-2.54 1.44-2.64 2.22-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9zm-.5-11c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6"}),(0,P0.jsx)("path",{fill:"currentColor",d:"M18.4 22.8c-.5 0-.9-.4-.9-.9v-2.6h-2.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.6v-2.6c0-.5.4-.9.9-.9s.9.4.9.9v2.6h2.6c.5 0 .9.4.9.9s-.4.9-.9.9h-2.6v2.6c0 .5-.4.9-.9.9"})]})});_3.displayName="UserAdd";var ro=i(require("react"),1),H=require("react/jsx-runtime"),$3=ro.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,H.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,H.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6",clipRule:"evenodd"}),(0,H.jsx)("path",{fill:"currentColor",d:"M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.61.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9z"}),(0,H.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M14 18.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-.39.09-.76.24-1.09l3.45 3.45c-.33.15-.7.24-1.09.24-1.43 0-2.6-1.17-2.6-2.6m4.96 1.09-3.45-3.45c.33-.15.7-.24 1.09-.24 1.43 0 2.6 1.17 2.6 2.6 0 .39-.09.76-.24 1.09",clipRule:"evenodd"})]})});$3.displayName="UserBlock";var oo=i(require("react"),1),q=require("react/jsx-runtime"),j3=oo.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,q.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,q.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6",clipRule:"evenodd"}),(0,q.jsx)("path",{fill:"currentColor",d:"M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.6.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9z"}),(0,q.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M18.36 22.8v-.01h1.47c1.9 0 2.59-1.11 2.88-2.17.08-.43.15-2.55-.06-3.37-.31-.95-.94-1.48-1.6-1.72v-.51c0-.41 0-.89-.14-1.26-.35-1.01-1.25-1.68-2.33-1.75a2.61 2.61 0 0 0-2.56 1.45c-.26.483-.26.966-.26 1.359v.701c-.89.3-1.45 1.05-1.64 1.79-.16.66-.14 2.53-.07 3.25l.03.14c.3 1.1 1.05 1.83 2.12 2.06h.1c.33.04 1.13.04 2.06.04m1.02-1.81c-.78.01-2.39.01-2.87-.02h-.01c-.34-.09-.55-.3-.67-.67-.07-.78-.04-2.26.03-2.55.04-.18.21-.58.79-.58h3.51c.577 0 .738.485.77.578v.002c.11.4.08 2.21.04 2.48-.16.58-.43.76-1.11.76zm-.12-5.61h-1.7v-.607c-.001-.197-.002-.367.06-.473.24-.49.71-.5.85-.49.13 0 .58.07.75.56.02.05.04.21.04.64z",clipRule:"evenodd"})]})});j3.displayName="UserLock";var lo=i(require("react"),1),z=require("react/jsx-runtime"),e5=lo.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,z.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,z.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S7.92 1 10.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6",clipRule:"evenodd"}),(0,z.jsx)("path",{fill:"currentColor",d:"M12.39 22.8h-5.9c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165a11.56 11.56 0 0 1 10.22-.76c.46.19.68.71.49 1.17s-.71.68-1.17.49c-.73-.3-1.5-.51-2.29-.62-2.2-.31-4.45.14-6.34 1.26q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9"}),(0,z.jsx)("path",{fill:"currentColor",d:"M14.9 19.3h7c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-7c-.5 0-.9.4-.9.9s.4.9.9.9"})]})});e5.displayName="UserMinus";var co=i(require("react"),1),L=require("react/jsx-runtime"),t5=co.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,L.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,L.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M4.5 6.9c0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9S12.1 2 9.4 2 4.5 4.2 4.5 6.9m1.8 0c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1S11.11 10 9.4 10 6.3 8.61 6.3 6.9",clipRule:"evenodd"}),(0,L.jsx)("path",{fill:"currentColor",d:"M19.51 20.3h-.49c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h.49c.78 0 1.49-.32 2.29-1.03.237-.208.21-.288.2-.32-.3-.78-2.86-1.85-4.09-1.85-.5 0-.9-.4-.9-.9s.4-.9.9-.9c1.41 0 5.06 1.14 5.77 3.01.31.81.06 1.65-.68 2.3-1.14 1.01-2.24 1.48-3.49 1.48zm-2.91-9c-.3 0-.6-.03-.88-.09-.49-.1-.8-.57-.71-1.06a.9.9 0 0 1 1.06-.71c.17.03.35.05.53.05 1.32 0 2.4-.94 2.4-2.1s-1.07-2.1-2.4-2.1c-.18 0-.36.02-.53.05-.48.1-.96-.22-1.06-.71a.9.9 0 0 1 .71-1.06c.29-.06.58-.09.88-.09 2.31 0 4.19 1.75 4.19 3.9s-1.88 3.9-4.19 3.9z"}),(0,L.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M5.72 21.3c-1.36 0-2.57-.5-3.82-1.57-.84-.72-.94-1.45-.89-1.93.168-1.397 1.877-2.274 3.027-2.863l.423-.217c3.05-1.63 6.84-1.63 9.89 0l.422.217c1.15.59 2.86 1.466 3.028 2.863.06.48-.05 1.21-.9 1.93-1.25 1.07-2.46 1.57-3.82 1.57zm-.41-5-.42.22c-1.35.69-2.05 1.19-2.09 1.49 0 .02.04.15.28.35.92.79 1.73 1.14 2.65 1.14h7.35c.91 0 1.73-.35 2.65-1.14.24-.21.28-.33.28-.35-.04-.3-.74-.8-2.09-1.49l-.42-.22c-2.49-1.33-5.7-1.33-8.19 0",clipRule:"evenodd"})]})});t5.displayName="UserMultiple";var so=i(require("react"),1),M0=require("react/jsx-runtime"),r5=so.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,M0.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,M0.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6",clipRule:"evenodd"}),(0,M0.jsx)("path",{fill:"currentColor",d:"M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.61.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9zm15.405 0h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-2.36-2.36 2.36-2.36a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-2.36 2.36-2.36-2.36a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.36 2.36-2.36 2.36a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.36-2.36z"})]})});r5.displayName="UserRemove";var no=i(require("react"),1),F=require("react/jsx-runtime"),o5=no.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,F.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,F.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S7.92 1 10.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6",clipRule:"evenodd"}),(0,F.jsx)("path",{fill:"currentColor",d:"M12.89 22.8h-6.4c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.673 2.194-2.8 3.514-3.55l.016-.01.18-.105q.154-.088.28-.165c2.07-1.23 4.55-1.78 6.97-1.56.49.05.86.48.81.98-.05.49-.47.87-.98.81-2.05-.19-4.14.27-5.88 1.31q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9m9.005 0h.005-.01z"}),(0,F.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M21.26 22.54a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-1.28-1.28c.48-.71.75-1.56.75-2.48 0-2.48-2.02-4.5-4.5-4.5s-4.5 2.02-4.5 4.5 2.02 4.5 4.5 4.5c.92 0 1.77-.28 2.48-.75zM14.8 17.5c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7-1.21 2.7-2.7 2.7-2.7-1.21-2.7-2.7",clipRule:"evenodd"})]})});o5.displayName="UserSearch";var ao=i(require("react"),1),l5=require("react/jsx-runtime"),c5=ao.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,l5.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,l5.jsx)("path",{fill:"currentColor",d:"M16.31 22.8H7.49c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56.17-.1.33-.19.46-.27 3.57-2.13 8.19-2.13 11.76 0 .14.08.29.17.46.27 1.33.75 3.33 1.88 3.54 3.56.07.56-.04 1.42-.98 2.31-1.47 1.4-2.9 2.05-4.5 2.05zm-4.41-7.99c-1.73 0-3.45.45-4.96 1.35-.15.09-.31.18-.5.29-.82.47-2.54 1.44-2.64 2.22-.03.22.12.49.43.78 1.13 1.08 2.13 1.56 3.26 1.56h8.82c1.12 0 2.13-.48 3.26-1.55.31-.3.46-.56.43-.78-.1-.78-1.81-1.75-2.64-2.22-.18-.1-.35-.2-.5-.29a9.7 9.7 0 0 0-4.96-1.35zm0-3.01c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6"})})});c5.displayName="User";var io=i(require("react"),1),s5=require("react/jsx-runtime"),n5=io.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,s5.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,s5.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M15.8 8.001V4.51C15.8 3.13 14.67 2 13.29 2c-.4 0-.8.1-1.15.28L3.25 6.85A2.3 2.3 0 0 0 2 8.9v7c0 2.98 0 4.62 1.14 5.76S5.92 22.8 8.9 22.8h6c2.98 0 4.62 0 5.76-1.14s1.14-2.78 1.14-5.76v-1c0-2.98 0-4.62-1.14-5.76-1.02-1.02-2.44-1.127-4.86-1.139M14.9 9.8H3.8v6.1c0 2.75.02 3.89.62 4.48.59.59 1.73.62 4.48.62h6c2.75 0 3.89-.02 4.48-.61s.62-1.73.62-4.49v-1c0-2.75-.02-3.89-.62-4.48-.59-.59-1.73-.62-4.48-.62M14 4.51V8H4.946l8.024-4.12c.43-.23 1.03.13 1.03.63",clipRule:"evenodd"})})});n5.displayName="Wallet";var mo=i(require("react"),1),a5=require("react/jsx-runtime"),i5=mo.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,a5.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:(0,a5.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M12.002 1.248C6.064 1.248 1.25 6.062 1.25 12c0 1.901.415 3.561 1.289 5.113l-1.262 4.692a.75.75 0 0 0 .92.92l4.667-1.253c1.563.884 3.231 1.28 5.138 1.28 5.938 0 10.752-4.814 10.752-10.752S17.94 1.248 12.002 1.248M7 6.25a.75.75 0 0 0-.75.75c0 1.586.407 3.28 1.207 4.846l.004.007a10.94 10.94 0 0 0 3.752 4.196q.255.167.525.32l.022.012A10.7 10.7 0 0 0 17 17.75a.75.75 0 0 0 .75-.75v-2.619a.75.75 0 0 0-.589-.732l-3.265-.719a.75.75 0 0 0-.751.27l-1.204 1.532a9.4 9.4 0 0 1-2.782-2.915l1.665-.864a.75.75 0 0 0 .376-.873l-.949-3.288a.75.75 0 0 0-.72-.542z",clipRule:"evenodd"})})});i5.displayName="Whatsapp";var ho=i(require("react"),1),D=require("react/jsx-runtime"),d5=ho.forwardRef(({size:e=24,color:r="currentColor",strokeWidth:o=2,absoluteStrokeWidth:c=!1,className:l,...s},n)=>{let t=Number(o),a=c?Number(t)*24/Number(e):t;return(0,D.jsxs)("svg",{xmlns:"http://www.w3.org/2000/svg",width:e,height:e,fill:"none",viewBox:"0 0 24 24",role:"img",stroke:r,strokeWidth:a,className:l,ref:n,...s,children:[(0,D.jsx)("path",{fill:"currentColor",d:"M10 14.4c0 .5.4.9.9.9s.9-.4.9-.9v-2.6h2.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.6V7.4c0-.5-.4-.9-.9-.9s-.9.4-.9.9V10H7.4c-.5 0-.9.4-.9.9s.4.9.9.9H10z"}),(0,D.jsx)("path",{fill:"currentColor",fillRule:"evenodd",d:"M10.9 20.8c-5.46 0-9.9-4.44-9.9-9.9S5.44 1 10.9 1s9.9 4.44 9.9 9.9c0 2.41-.865 4.62-2.3 6.34l4.03 4.03a.9.9 0 0 1 0 1.27.9.9 0 0 1-.635.26.94.94 0 0 1-.635-.26l-4.032-4.032A9.86 9.86 0 0 1 10.9 20.8m0-18c-4.47 0-8.1 3.63-8.1 8.1S6.43 19 10.9 19s8.1-3.63 8.1-8.1-3.63-8.1-8.1-8.1",clipRule:"evenodd"}),(0,D.jsx)("path",{fill:"currentColor",d:"M21.895 22.8h.005-.01z"})]})});d5.displayName="ZoomIn";0&&(module.exports={Activity,Add,AddCircle,AddInvoice,AddMoneyCircle,AddPi,Alert,AlertCircle,AlertFill,AlertInfo,AnalisarNotas,Android,Apple,Apps,Apps2,ArrowDown,ArrowGoBack,ArrowGoForward,ArrowLeft,ArrowLeftDouble,ArrowLeftDown,ArrowMoveUpRight,ArrowRight,ArrowRightDouble,ArrowRightDown,ArrowRightUp,ArrowTurnDown,ArrowUp,ArrowUpSFill,Attachment,Backoffice,BirthdayCake,Briefcase,Calendar2,CalendarEvent,CalendarSchedule2,Call02,Camera,Champion,Change,Chart,ChartUp,Chat,ChatSquare,ChatSquareCheck,Check,CheckDouble,CheckInvoice,CheckList,Checkbox,CheckboxFill,CheckboxIndeterminate,CheckmarkBadge,CheckmarkCircle,CircleArrowMoveDownRight,Close,CloseCircle,Clover,CloverFill,ClubePodi,ClubePodiFill,CodeSSlash,Coffee,Color,Computer,Contract,Copy,CourtLaw,CreditCardAccept,Credits,CreditsSwap,Crmall,Crown03,Cursor,DarkmodeOff,DarkmodeOn,Delete,Descontos,DocumentValidation,Dot,Download,Drag,DragDropVertical,Edit,Emoji,EmojiEmpty,ExpandUpDownFill,ExternalLinkFill,Eye,EyeOff,Female1,FileAdd,FileAttachment,FileDownload,FileExcel,FileSend,FileSync,FileText,FileValidation,Files,Filter,Flash,Folder,FolderFill,FullScreen,Gift,GiftCheck,HandCredit,HelpCircle,Home,Image,ImageAdd,Information,InformationFill,Invoice,Left,Link,Loader,Lock,LockUnlock,Login,Logout,Mail,MailOpen,MailSend,Manager,Map,MapPin,Medal01,Medal02,Meet,Megaphone,Menu,Minus,Mission,Money,MoneyAdd,MoneyReceiveCircle,MoneyReceiveSquare,MoneySecurity,MoneySendSquare,More,MoreH,News,NotaMoney,Notification,NotificationFill,NotificationOff,NumberList,PaintBoard,Pcd,PieChart,PlugSocket,PriceTag,Printer,QrCode,Question,ReceiptPrint,ReceiptSearch,ReceiptWait,ReceiveMoney,Refresh,RemoveCircle,Repeat,Restaurant,Right,RotateLeft,RotateLock,RotateRight,SaveMoneyDollar,Search,Settings,ShakeHands,Share,Shield,Shopping,ShoppingBag02,ShoppingBasket,ShoppingCart02,SidebarFold,Signature,Smartphone,SmartphoneLands,Star,Store,StoreFill,TShirt,TShirtFill,Table,Tablet,Target,Team,ThumbsDown,ThumbsUp,Ticket02,TicketStar,Time,Tools,Tools2,Trash,Turnos,University,Unlink,Upload,User,UserAccount,UserAdd,UserBlock,UserLock,UserMinus,UserMultiple,UserRemove,UserSearch,Wallet,Whatsapp,ZoomIn});
+"use strict";
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/index.ts
+var index_exports = {};
+__export(index_exports, {
+  Activity: () => Activity,
+  Add: () => Add,
+  AddCircle: () => AddCircle,
+  AddInvoice: () => AddInvoice,
+  AddMoneyCircle: () => AddMoneyCircle,
+  AddPi: () => AddPi,
+  Alert: () => Alert,
+  AlertCircle: () => AlertCircle,
+  AlertFill: () => AlertFill,
+  AlertInfo: () => AlertInfo,
+  AnalisarNotas: () => AnalisarNotas,
+  Android: () => Android,
+  Apple: () => Apple,
+  Apps: () => Apps,
+  Apps2: () => Apps2,
+  ArrowDown: () => ArrowDown,
+  ArrowGoBack: () => ArrowGoBack,
+  ArrowGoForward: () => ArrowGoForward,
+  ArrowLeft: () => ArrowLeft,
+  ArrowLeftDouble: () => ArrowLeftDouble,
+  ArrowLeftDown: () => ArrowLeftDown,
+  ArrowMoveUpRight: () => ArrowMoveUpRight,
+  ArrowRight: () => ArrowRight,
+  ArrowRightDouble: () => ArrowRightDouble,
+  ArrowRightDown: () => ArrowRightDown,
+  ArrowRightUp: () => ArrowRightUp,
+  ArrowTurnDown: () => ArrowTurnDown,
+  ArrowUp: () => ArrowUp,
+  ArrowUpSFill: () => ArrowUpSFill,
+  Attachment: () => Attachment,
+  Backoffice: () => Backoffice,
+  BirthdayCake: () => BirthdayCake,
+  Briefcase: () => Briefcase,
+  Calendar2: () => Calendar2,
+  CalendarEvent: () => CalendarEvent,
+  CalendarSchedule2: () => CalendarSchedule2,
+  Call02: () => Call02,
+  Camera: () => Camera,
+  Champion: () => Champion,
+  Change: () => Change,
+  Chart: () => Chart,
+  ChartUp: () => ChartUp,
+  Chat: () => Chat,
+  ChatSquare: () => ChatSquare,
+  ChatSquareCheck: () => ChatSquareCheck,
+  Check: () => Check,
+  CheckDouble: () => CheckDouble,
+  CheckInvoice: () => CheckInvoice,
+  CheckList: () => CheckList,
+  Checkbox: () => Checkbox,
+  CheckboxFill: () => CheckboxFill,
+  CheckboxIndeterminate: () => CheckboxIndeterminate,
+  CheckmarkBadge: () => CheckmarkBadge,
+  CheckmarkCircle: () => CheckmarkCircle,
+  CircleArrowMoveDownRight: () => CircleArrowMoveDownRight,
+  Close: () => Close,
+  CloseCircle: () => CloseCircle,
+  Clover: () => Clover,
+  CloverFill: () => CloverFill,
+  ClubePodi: () => ClubePodi,
+  ClubePodiFill: () => ClubePodiFill,
+  CodeSSlash: () => CodeSSlash,
+  Coffee: () => Coffee,
+  Color: () => Color,
+  Computer: () => Computer,
+  Contract: () => Contract,
+  Copy: () => Copy,
+  CourtLaw: () => CourtLaw,
+  CreditCardAccept: () => CreditCardAccept,
+  Credits: () => Credits,
+  CreditsSwap: () => CreditsSwap,
+  Crmall: () => Crmall,
+  Crown03: () => Crown03,
+  Cursor: () => Cursor,
+  DarkmodeOff: () => DarkmodeOff,
+  DarkmodeOn: () => DarkmodeOn,
+  Delete: () => Delete,
+  Descontos: () => Descontos,
+  DocumentValidation: () => DocumentValidation,
+  Dot: () => Dot,
+  Download: () => Download,
+  Drag: () => Drag,
+  DragDropVertical: () => DragDropVertical,
+  Edit: () => Edit,
+  Emoji: () => Emoji,
+  EmojiEmpty: () => EmojiEmpty,
+  ExpandUpDownFill: () => ExpandUpDownFill,
+  ExternalLinkFill: () => ExternalLinkFill,
+  Eye: () => Eye,
+  EyeOff: () => EyeOff,
+  Female1: () => Female1,
+  FileAdd: () => FileAdd,
+  FileAttachment: () => FileAttachment,
+  FileDownload: () => FileDownload,
+  FileExcel: () => FileExcel,
+  FileSend: () => FileSend,
+  FileSync: () => FileSync,
+  FileText: () => FileText,
+  FileValidation: () => FileValidation,
+  Files: () => Files,
+  Filter: () => Filter,
+  Flash: () => Flash,
+  Folder: () => Folder,
+  FolderFill: () => FolderFill,
+  FullScreen: () => FullScreen,
+  Gift: () => Gift,
+  GiftCheck: () => GiftCheck,
+  HandCredit: () => HandCredit,
+  HelpCircle: () => HelpCircle,
+  Home: () => Home,
+  Image: () => Image,
+  ImageAdd: () => ImageAdd,
+  Information: () => Information,
+  InformationFill: () => InformationFill,
+  Invoice: () => Invoice,
+  Left: () => Left,
+  Link: () => Link,
+  Loader: () => Loader,
+  Lock: () => Lock,
+  LockUnlock: () => LockUnlock,
+  Login: () => Login,
+  Logout: () => Logout,
+  Mail: () => Mail,
+  MailOpen: () => MailOpen,
+  MailSend: () => MailSend,
+  Manager: () => Manager,
+  Map: () => Map,
+  MapPin: () => MapPin,
+  Medal01: () => Medal01,
+  Medal02: () => Medal02,
+  Meet: () => Meet,
+  Megaphone: () => Megaphone,
+  Menu: () => Menu,
+  Minus: () => Minus,
+  Mission: () => Mission,
+  Money: () => Money,
+  MoneyAdd: () => MoneyAdd,
+  MoneyReceiveCircle: () => MoneyReceiveCircle,
+  MoneyReceiveSquare: () => MoneyReceiveSquare,
+  MoneySecurity: () => MoneySecurity,
+  MoneySendSquare: () => MoneySendSquare,
+  More: () => More,
+  MoreH: () => MoreH,
+  News: () => News,
+  NotaMoney: () => NotaMoney,
+  Notification: () => Notification,
+  NotificationFill: () => NotificationFill,
+  NotificationOff: () => NotificationOff,
+  NumberList: () => NumberList,
+  PaintBoard: () => PaintBoard,
+  Pcd: () => Pcd,
+  PieChart: () => PieChart,
+  PlugSocket: () => PlugSocket,
+  PriceTag: () => PriceTag,
+  Printer: () => Printer,
+  QrCode: () => QrCode,
+  Question: () => Question,
+  ReceiptPrint: () => ReceiptPrint,
+  ReceiptSearch: () => ReceiptSearch,
+  ReceiptWait: () => ReceiptWait,
+  ReceiveMoney: () => ReceiveMoney,
+  Refresh: () => Refresh,
+  RemoveCircle: () => RemoveCircle,
+  Repeat: () => Repeat,
+  Restaurant: () => Restaurant,
+  Right: () => Right,
+  RotateLeft: () => RotateLeft,
+  RotateLock: () => RotateLock,
+  RotateRight: () => RotateRight,
+  SaveMoneyDollar: () => SaveMoneyDollar,
+  Search: () => Search,
+  Settings: () => Settings,
+  ShakeHands: () => ShakeHands,
+  Share: () => Share,
+  Shield: () => Shield,
+  Shopping: () => Shopping,
+  ShoppingBag02: () => ShoppingBag02,
+  ShoppingBasket: () => ShoppingBasket,
+  ShoppingCart02: () => ShoppingCart02,
+  SidebarFold: () => SidebarFold,
+  Signature: () => Signature,
+  Smartphone: () => Smartphone,
+  SmartphoneLands: () => SmartphoneLands,
+  Star: () => Star,
+  Store: () => Store,
+  StoreFill: () => StoreFill,
+  TShirt: () => TShirt,
+  TShirtFill: () => TShirtFill,
+  Table: () => Table,
+  Tablet: () => Tablet,
+  Target: () => Target,
+  Team: () => Team,
+  ThumbsDown: () => ThumbsDown,
+  ThumbsUp: () => ThumbsUp,
+  Ticket02: () => Ticket02,
+  TicketStar: () => TicketStar,
+  Time: () => Time,
+  Tools: () => Tools,
+  Tools2: () => Tools2,
+  Trash: () => Trash,
+  Turnos: () => Turnos,
+  University: () => University,
+  Unlink: () => Unlink,
+  Upload: () => Upload,
+  User: () => User,
+  UserAccount: () => UserAccount,
+  UserAdd: () => UserAdd,
+  UserBlock: () => UserBlock,
+  UserLock: () => UserLock,
+  UserMinus: () => UserMinus,
+  UserMultiple: () => UserMultiple,
+  UserRemove: () => UserRemove,
+  UserSearch: () => UserSearch,
+  Wallet: () => Wallet,
+  Whatsapp: () => Whatsapp,
+  ZoomIn: () => ZoomIn
+});
+module.exports = __toCommonJS(index_exports);
+
+// src/icons/Activity.tsx
+var React = __toESM(require("react"), 1);
+var import_jsx_runtime = require("react/jsx-runtime");
+var Activity = React.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", d: "M13.35 16.8h.05c.34 0 .65-.19.8-.5l1.75-3.5h1.94c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.5c-.34 0-.65.2-.8.5l-1.08 2.15-2.28-6.07a.92.92 0 0 0-.8-.58.9.9 0 0 0-.85.5L7.83 11H5.89c-.5 0-.9.4-.9.9s.4.9.9.9h2.5c.34 0 .65-.2.8-.5l1.08-2.15 2.28 6.07c.13.33.44.56.8.58" }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.58 20.22c1.58 1.58 3.83 1.58 8.32 1.58s6.74 0 8.32-1.58 1.58-3.83 1.58-8.32 0-6.74-1.58-8.32S16.38 2 11.9 2 5.16 2 3.58 3.58 2 7.41 2 11.9s0 6.74 1.58 8.32M4.86 4.85C5.91 3.8 7.91 3.8 11.9 3.8v-.01h.11c3.907 0 5.89 0 6.93 1.05 1.05 1.06 1.05 3.06 1.05 7.05s0 5.99-1.05 7.05c-1.05 1.05-3.06 1.05-7.04 1.05s-5.99 0-7.04-1.05-1.05-3.05-1.05-7.04 0-6 1.05-7.05", clipRule: "evenodd" })
+  ] });
+});
+Activity.displayName = "Activity";
+
+// src/icons/AddCircle.tsx
+var React2 = __toESM(require("react"), 1);
+var import_jsx_runtime2 = require("react/jsx-runtime");
+var AddCircle = React2.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", { fill: "currentColor", d: "M12 7c.55 0 1 .45 1 1v3h3c.55 0 1 .45 1 1s-.45 1-1 1h-3v3c0 .55-.45 1-1 1s-1-.45-1-1v-3H8c-.55 0-1-.45-1-1s.45-1 1-1h3V8c0-.55.45-1 1-1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 12C1 5.93 5.92 1 12 1s11 4.93 11 11-4.92 11-11 11S1 18.07 1 12m11-9a9 9 0 1 0 .001 18.001A9 9 0 0 0 12 3", clipRule: "evenodd" })
+  ] });
+});
+AddCircle.displayName = "AddCircle";
+
+// src/icons/AddInvoice.tsx
+var React3 = __toESM(require("react"), 1);
+var import_jsx_runtime3 = require("react/jsx-runtime");
+var AddInvoice = React3.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { fill: "currentColor", d: "M10.9 22.8c-.55 0-.94-.25-1.54-.63l-1.91-1.2c-.24-.15-.49-.31-.57-.33l-.52.33c-.09.05-.19.13-.3.21-.76.53-2.04 1.42-3.17.69-.87-.56-.87-1.6-.87-3.32V7.9C2 4.93 2 3.3 3.07 2.16 4.17 1 5.72 1 8.55 1h4.71c2.83 0 4.38 0 5.47 1.16C19.8 3.3 19.8 4.93 19.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.51 0-3.89-.58-4.5-.54-.57-1.6-.6-4.16-.6H8.55c-2.56 0-3.63.02-4.17.6-.58.62-.58 2-.58 4.5v10.65c0 .74 0 1.5.08 1.79.29-.04.9-.47 1.14-.64.14-.1.26-.19.37-.25.58-.36.98-.64 1.57-.61.51.02.88.25 1.44.6l1.91 1.21c.24.16.52.33.61.35.03-.02.31-.2.55-.35.42-.26.98-.14 1.24.28s.14.98-.28 1.24c-.6.38-.99.63-1.54.63z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", { fill: "currentColor", d: "M10.9 11.8h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m6 11c-.5 0-.9-.4-.9-.9v-3.1h-3.1c-.5 0-.9-.4-.9-.9s.4-.9.9-.9H16v-3.1c0-.5.4-.9.9-.9s.9.4.9.9V17h3.1c.5 0 .9.4.9.9s-.4.9-.9.9h-3.1v3.1c0 .5-.4.9-.9.9m-2-15h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9" })
+  ] });
+});
+AddInvoice.displayName = "AddInvoice";
+
+// src/icons/AddMoneyCircle.tsx
+var React4 = __toESM(require("react"), 1);
+var import_jsx_runtime4 = require("react/jsx-runtime");
+var AddMoneyCircle = React4.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", { fill: "currentColor", d: "M10.9 18.8c-.5 0-.9-.4-.9-.9v-.6h-.6c-1.32 0-2.4-1.08-2.4-2.4 0-.5.4-.9.9-.9s.9.4.9.9c0 .33.27.6.6.6h3c.33 0 .6-.27.6-.6v-.5c0-.33-.27-.6-.6-.6h-3c-1.32 0-2.4-1.08-2.4-2.4v-.5c0-1.32 1.08-2.4 2.4-2.4h.6v-.6c0-.5.4-.9.9-.9s.9.4.9.9v.6h.6c1.32 0 2.4 1.08 2.4 2.4 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.33-.27-.6-.6-.6h-3c-.33 0-.6.27-.6.6v.5c0 .33.27.6.6.6h3c1.32 0 2.4 1.08 2.4 2.4v.5c0 1.32-1.08 2.4-2.4 2.4h-.6v.6c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", { fill: "currentColor", d: "M10.9 22.8c-5.46 0-9.9-4.44-9.9-9.9S5.44 3 10.9 3a10 10 0 0 1 1.1.06c.49.06.85.5.79.99s-.49.85-.99.79c-.3-.03-.6-.05-.9-.05-4.47.01-8.1 3.64-8.1 8.11S6.43 21 10.9 21a8.104 8.104 0 0 0 8.05-9c-.05-.49.3-.94.8-.99.48-.06.94.3.99.8.04.36.06.73.06 1.1 0 5.46-4.44 9.9-9.9 9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("path", { fill: "currentColor", d: "M18.4 9.8c-.5 0-.9-.4-.9-.9V6.3h-2.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.6V1.9c0-.5.4-.9.9-.9s.9.4.9.9v2.6h2.6c.5 0 .9.4.9.9s-.4.9-.9.9h-2.6v2.6c0 .5-.4.9-.9.9" })
+  ] });
+});
+AddMoneyCircle.displayName = "AddMoneyCircle";
+
+// src/icons/AddPi.tsx
+var React5 = __toESM(require("react"), 1);
+var import_jsx_runtime5 = require("react/jsx-runtime");
+var AddPi = React5.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", { fill: "currentColor", d: "M5 3.4a2.1 2.1 0 0 0-2.1 2.1v10c0 1.16.94 2.1 2.1 2.1h14a2.1 2.1 0 0 0 2.1-2.1v-3a.9.9 0 0 1 1.8 0v3a3.9 3.9 0 0 1-3.9 3.9h-6.1v2.1a.9.9 0 1 1-1.8 0v-2.1H5a3.9 3.9 0 0 1-3.9-3.9v-10A3.9 3.9 0 0 1 5 1.6h6a.9.9 0 1 1 0 1.8z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("path", { fill: "currentColor", d: "M18.9 2.5a.9.9 0 1 0-1.8 0v3.1H14a.9.9 0 0 0 0 1.8h3.1v3.1a.9.9 0 0 0 1.8 0V7.4H22a.9.9 0 1 0 0-1.8h-3.1z" })
+  ] });
+});
+AddPi.displayName = "AddPi";
+
+// src/icons/Add.tsx
+var React6 = __toESM(require("react"), 1);
+var import_jsx_runtime6 = require("react/jsx-runtime");
+var Add = React6.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("path", { fill: "currentColor", d: "M13 4c0-.55-.45-1-1-1s-1 .45-1 1v7H4c-.55 0-1 .45-1 1s.45 1 1 1h7v7c0 .55.45 1 1 1s1-.45 1-1v-7h7c.55 0 1-.45 1-1s-.45-1-1-1h-7z" }) });
+});
+Add.displayName = "Add";
+
+// src/icons/AlertCircle.tsx
+var React7 = __toESM(require("react"), 1);
+var import_jsx_runtime7 = require("react/jsx-runtime");
+var AlertCircle = React7.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("path", { fill: "currentColor", d: "M11.9 22.8C5.89 22.8 1 17.91 1 11.9S5.89 1 11.9 1s10.9 4.89 10.9 10.9-4.89 10.9-10.9 10.9m0-20c-5.02 0-9.1 4.08-9.1 9.1S6.88 21 11.9 21s9.1-4.08 9.1-9.1-4.08-9.1-9.1-9.1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("path", { fill: "currentColor", d: "M11.9 15.8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9m0-3c-.5 0-.9-.4-.9-.9v-4c0-.5.4-.9.9-.9s.9.4.9.9v4c0 .5-.4.9-.9.9" })
+  ] });
+});
+AlertCircle.displayName = "AlertCircle";
+
+// src/icons/AlertFill.tsx
+var React8 = __toESM(require("react"), 1);
+var import_jsx_runtime8 = require("react/jsx-runtime");
+var AlertFill = React8.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.324 3.803c1.198-2.07 4.153-2.07 5.351 0l7.645 13.218c1.2 2.075-.258 4.729-2.675 4.729H4.355c-2.419 0-3.877-2.654-2.677-4.73zM10.5 12.5a1 1 0 0 1 1-1h.5a1.5 1.5 0 0 1 1.5 1.5v4.5a1 1 0 1 1-2 0v-4a1 1 0 0 1-1-1m1.5-4a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2z", clipRule: "evenodd" }) });
+});
+AlertFill.displayName = "AlertFill";
+
+// src/icons/AlertInfo.tsx
+var React9 = __toESM(require("react"), 1);
+var import_jsx_runtime9 = require("react/jsx-runtime");
+var AlertInfo = React9.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", { fill: "currentColor", d: "M11.242 11.1c.21 0 .46-.002.67.026.205.028.474.096.718.292l.102.092.092.102c.196.244.264.512.292.719.028.21.027.459.027.669v4a.9.9 0 0 1-1.801 0v-4l-.001-.1h-.099a.9.9 0 0 1 0-1.8m.758-3a.9.9 0 0 1 0 1.8h-.008a.9.9 0 0 1 0-1.8z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.314 1.873a5.35 5.35 0 0 1 3.371 0c1.107.367 1.962 1.234 2.803 2.414.845 1.184 1.777 2.836 2.974 4.953s2.13 3.768 2.712 5.107c.58 1.336.883 2.518.644 3.665l-.049.212a5.55 5.55 0 0 1-1.624 2.747c-.863.794-2.029 1.12-3.456 1.275S14.392 22.4 12 22.4s-4.26.001-5.69-.154c-1.426-.155-2.592-.481-3.455-1.274a5.56 5.56 0 0 1-1.673-2.96c-.24-1.147.064-2.33.644-3.665.582-1.34 1.515-2.99 2.712-5.107s2.13-3.769 2.974-4.953c.84-1.18 1.696-2.047 2.802-2.414m2.804 1.708a3.54 3.54 0 0 0-1.96-.08l-.276.08c-.55.182-1.126.658-1.905 1.75-.777 1.09-1.655 2.641-2.872 4.795s-2.093 3.706-2.628 4.937c-.535 1.234-.656 1.991-.533 2.583a3.76 3.76 0 0 0 1.13 2.001c.432.397 1.12.666 2.43.809 1.31.142 3.061.143 5.496.143s4.187 0 5.495-.143c1.31-.143 2-.412 2.43-.809a3.76 3.76 0 0 0 1.13-2.002c.124-.592.003-1.348-.533-2.582-.534-1.231-1.41-2.784-2.627-4.937-1.218-2.154-2.095-3.706-2.872-4.794-.681-.956-1.208-1.44-1.697-1.668z", clipRule: "evenodd" })
+  ] });
+});
+AlertInfo.displayName = "AlertInfo";
+
+// src/icons/Alert.tsx
+var React10 = __toESM(require("react"), 1);
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var Alert = React10.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", { fill: "currentColor", d: "M11.9 17.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9m-.9-3.9c0 .5.4.9.9.9s.9-.4.9-.9v-4c0-.5-.4-.9-.9-.9s-.9.4-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 22.8c-5.05 0-7.59 0-9.14-1.43a5.44 5.44 0 0 1-1.67-2.96c-.43-2.07.83-4.31 3.36-8.77 2.51-4.46 3.78-6.71 5.77-7.37 1.1-.37 2.27-.37 3.37 0 1.98.657 3.238 2.879 5.743 7.306l.057.1c2.507 4.436 3.769 6.67 3.34 8.734a5.57 5.57 0 0 1-1.67 2.96c-1.55 1.43-4.09 1.43-9.14 1.43zm0-19c-.38 0-.75.06-1.12.18-1.316.435-2.525 2.565-4.712 6.419L6 10.52c-2.23 3.94-3.45 6.11-3.16 7.52.16.78.55 1.47 1.13 2 1.04.95 3.48.95 7.93.95s6.89 0 7.93-.95c.58-.53.97-1.22 1.13-2 .29-1.41-.93-3.58-3.16-7.52-2.22-3.94-3.45-6.11-4.78-6.55-.37-.12-.74-.18-1.12-.18z", clipRule: "evenodd" })
+  ] });
+});
+Alert.displayName = "Alert";
+
+// src/icons/AnalisarNotas.tsx
+var React11 = __toESM(require("react"), 1);
+var import_jsx_runtime11 = require("react/jsx-runtime");
+var AnalisarNotas = React11.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("path", { fill: "currentColor", d: "M11.91 9.9c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.52 9.99c.71-1.01 2.67-3.34 5.38-3.34s4.66 2.34 5.38 3.34l.005.007c.179.248.365.507.365.903s-.186.655-.365.903l-.005.007c-.71 1.01-2.68 3.34-5.38 3.34s-4.66-2.34-5.38-3.34l-.005-.007c-.179-.248-.365-.507-.365-.903s.186-.655.365-.903zm5.38 3.66c2.01 0 3.58-1.9 4.16-2.71.01-.01.03-.03.03-.04-.01-.01-.03-.04-.03-.04-.58-.82-2.15-2.71-4.16-2.71s-3.58 1.9-4.16 2.71c-.01.01-.03.03-.03.04l.015.02.015.02c.58.82 2.15 2.71 4.16 2.71", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.66 2.15C18.52 1 16.88 1 13.9 1h-4C6.92 1 5.28 1 4.14 2.15S3 4.96 3 7.95v10.59c0 1.72 0 2.76.88 3.32 1.13.73 2.41-.16 3.17-.69a9 9 0 0 1 .83-.54c.062.015.23.12.41.231l.16.099 1.92 1.21c.6.38.99.62 1.54.62.545 0 .933-.246 1.525-.62l1.925-1.22c.18-.12.49-.31.53-.33.062.015.23.12.41.231l.16.099q.135.09.3.21c.76.53 2.04 1.42 3.17.69.88-.56.88-1.6.88-3.32V7.95c0-3 0-4.65-1.14-5.8zM19 18.55c0 .74 0 1.5-.08 1.79-.29-.04-.9-.47-1.14-.64-.14-.1-.27-.19-.37-.25l-.046-.028c-.534-.335-.898-.562-1.404-.582-.553-.036-.942.207-1.42.506l-.15.094-1.92 1.21-.388.247-.162.103c-.073-.016-.26-.132-.467-.261l-.143-.089-1.91-1.21-.044-.028c-.536-.335-.9-.562-1.406-.572h-.06c-.55 0-.98.27-1.51.61q-.08.052-.168.114a7 7 0 0 1-.202.136c-.24.17-.85.59-1.14.64-.08-.29-.08-1.05-.08-1.79V7.95c0-2.78.02-3.93.62-4.53.59-.6 1.73-.62 4.48-.62h4c2.75 0 3.89.02 4.48.62s.62 1.75.62 4.53v10.59z", clipRule: "evenodd" })
+  ] });
+});
+AnalisarNotas.displayName = "AnalisarNotas";
+
+// src/icons/Android.tsx
+var React12 = __toESM(require("react"), 1);
+var import_jsx_runtime12 = require("react/jsx-runtime");
+var Android = React12.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.22 1.46a.9.9 0 1 0-1.44 1.08l1.05 1.4A6.4 6.4 0 0 0 5.6 9.5V18c0 1.05.85 1.9 1.9 1.9h.6V22a.9.9 0 1 0 1.8 0v-2.1h4.2V22a.9.9 0 0 0 1.8 0v-2.1h.6a1.9 1.9 0 0 0 1.9-1.9V9.5c0-2.381-1.3-4.458-3.23-5.56l1.05-1.4a.9.9 0 0 0-1.44-1.08l-1.35 1.8a6.4 6.4 0 0 0-2.86 0zM16.5 18.1a.1.1 0 0 0 .1-.1v-7.1H7.4V18a.1.1 0 0 0 .1.1zm-9.083-9h9.166a4.6 4.6 0 0 0-9.166 0", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", { fill: "currentColor", d: "M4 10.1a.9.9 0 0 1 .9.9v6a.9.9 0 1 1-1.8 0v-6a.9.9 0 0 1 .9-.9m16 0a.9.9 0 0 1 .9.9v6a.9.9 0 1 1-1.8 0v-6a.9.9 0 0 1 .9-.9" })
+  ] });
+});
+Android.displayName = "Android";
+
+// src/icons/Apple.tsx
+var React13 = __toESM(require("react"), 1);
+var import_jsx_runtime13 = require("react/jsx-runtime");
+var Apple = React13.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16.3 1.9c0 2.37-1.77 4.9-4.4 4.9-.5 0-.9-.4-.9-.9C11 3.53 12.77 1 15.4 1c.5 0 .9.4.9.9m-2.04 1.23c-.25.64-.67 1.21-1.23 1.55.25-.64.67-1.21 1.23-1.55", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.14 12.9c0 1.5.81 2.77 2.11 3.32l.02.01c.44.19.66.68.5 1.13-1.01 2.87-2.83 5.95-4.96 5.95-.86 0-1.58-.31-2.21-.59-.45-.2-.86-.38-1.19-.38-.312 0-.705.17-1.119.35l-.071.03c-.63.28-1.35.59-2.21.59-2.8 0-6-5.74-6-10.4s3.55-6.4 5.79-6.4c1.22 0 1.98.31 2.59.56l.063.025c.367.147.635.255.957.255.22 0 .32-.04.58-.16l.27-.12c.61-.25 1.37-.56 2.59-.56.63 0 2.81.17 4.3 2.4.13.2.18.45.13.69s-.2.44-.41.57c-1.2.73-1.73 1.57-1.73 2.73m-2.357 8.6c-.478-.002-.966-.211-1.483-.44-.59-.26-1.2-.52-1.9-.52-.666 0-1.25.244-1.822.483l-.088.037c-.52.23-1.01.44-1.49.44-1.18 0-4.2-4.09-4.2-8.6 0-3.35 2.45-4.6 3.99-4.6.855 0 1.353.203 1.882.419l.028.011.01.004c.486.199.994.406 1.68.406.58 0 .955-.16 1.278-.296l.032-.014.23-.1c.53-.22 1.04-.43 1.9-.43.34 0 1.35.08 2.25.93-1.17.97-1.75 2.21-1.75 3.67 0 1.9.94 3.61 2.44 4.58-1.048 2.625-2.366 4.015-2.987 4.02", clipRule: "evenodd" })
+  ] });
+});
+Apple.displayName = "Apple";
+
+// src/icons/Apps2.tsx
+var React14 = __toESM(require("react"), 1);
+var import_jsx_runtime14 = require("react/jsx-runtime");
+var Apps2 = React14.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.25 1.48C8.47 1 7.56 1 5.9 1s-2.56 0-3.35.48c-.44.27-.81.64-1.07 1.07C1 3.33 1 4.24 1 5.9s0 2.56.48 3.35c.27.43.64.81 1.07 1.08.78.48 1.69.48 3.35.48s2.56 0 3.35-.48c.44-.27.81-.64 1.07-1.07.48-.78.48-1.69.48-3.35s0-2.56-.48-3.35a3.2 3.2 0 0 0-1.07-1.07zm-.46 6.83c-.12.19-.29.36-.48.48C7.96 9 7.23 9 5.9 9s-2.06 0-2.41-.21a1.6 1.6 0 0 1-.48-.48C2.8 7.96 2.8 7.23 2.8 5.9s0-2.06.21-2.41c.12-.19.28-.36.48-.48.35-.21 1.08-.21 2.41-.21s2.06 0 2.41.21c.19.12.36.29.48.48C9 3.84 9 4.57 9 5.9s0 2.06-.21 2.41M5.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08C1 20.46 1 19.56 1 17.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C3.34 13 4.24 13 5.9 13m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08-.48-.79-.48-1.69-.48-3.35s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07.79-.48 1.69-.48 3.35-.48m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 10.8c-1.66 0-2.57 0-3.35-.48v.01c-.43-.27-.8-.65-1.07-1.08C13 8.46 13 7.56 13 5.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C15.34 1 16.24 1 17.9 1s2.57 0 3.35.48c.43.26.8.63 1.07 1.07.48.79.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48m-2.41-7.79c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21", clipRule: "evenodd" }) });
+});
+Apps2.displayName = "Apps2";
+
+// src/icons/Apps.tsx
+var React15 = __toESM(require("react"), 1);
+var import_jsx_runtime15 = require("react/jsx-runtime");
+var Apps = React15.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6 1.1a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M2.9 6a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0M6 13.1a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M2.9 18a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0M13.1 6a4.9 4.9 0 1 1 9.8 0 4.9 4.9 0 0 1-9.8 0M18 2.9a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2m0 10.2a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8M14.9 18a3.1 3.1 0 1 1 6.2 0 3.1 3.1 0 0 1-6.2 0", clipRule: "evenodd" }) });
+});
+Apps.displayName = "Apps";
+
+// src/icons/ArrowDown.tsx
+var React16 = __toESM(require("react"), 1);
+var import_jsx_runtime16 = require("react/jsx-runtime");
+var ArrowDown = React16.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m6.805 8.407.003.003.008.012.036.048.139.185a54 54 0 0 0 2.171 2.69c.64.737 1.308 1.449 1.896 1.968q.444.39.747.573c.095.057.159.087.195.101.036-.014.1-.044.195-.101q.302-.18.748-.573c.587-.52 1.255-1.231 1.895-1.969a51 51 0 0 0 2.31-2.874l.036-.048.008-.012.003-.002m-10.39-.001a1 1 0 0 0-1.61 1.186L6 9l-.805.593.004.005.01.014.04.053q.05.07.146.196a55 55 0 0 0 2.257 2.795c.662.762 1.396 1.55 2.081 2.156.342.302.695.58 1.039.787.317.19.752.401 1.228.401s.911-.21 1.228-.401a7.4 7.4 0 0 0 1.039-.787c.685-.606 1.419-1.394 2.081-2.156a53 53 0 0 0 2.404-2.991l.039-.052.01-.014.004-.005L18 9l.805.594a1 1 0 1 0-1.61-1.186", clipRule: "evenodd" }) });
+});
+ArrowDown.displayName = "ArrowDown";
+
+// src/icons/ArrowGoBack.tsx
+var React17 = __toESM(require("react"), 1);
+var import_jsx_runtime17 = require("react/jsx-runtime");
+var ArrowGoBack = React17.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("path", { fill: "currentColor", d: "M5.738 15.8H15.4c2.98 0 5.4-2.42 5.4-5.4S18.38 5 15.4 5h-4.5c-.5 0-.9.4-.9.9s.4.9.9.9h4.5c1.99 0 3.6 1.62 3.6 3.6S17.39 14 15.4 14H5.76a23 23 0 0 1 1.68-1.37c.4-.3.48-.86.19-1.26-.3-.4-.86-.48-1.26-.19C3 13.65 3 14.6 3 14.9s0 1.24 3.37 3.72c.16.12.34.18.53.18v.02c.28 0 .55-.13.73-.37.3-.4.21-.97-.19-1.26a23 23 0 0 1-1.702-1.39" }) });
+});
+ArrowGoBack.displayName = "ArrowGoBack";
+
+// src/icons/ArrowGoForward.tsx
+var React18 = __toESM(require("react"), 1);
+var import_jsx_runtime18 = require("react/jsx-runtime");
+var ArrowGoForward = React18.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", { fill: "currentColor", d: "M20.8 14.922c-.006.343-.145 1.314-3.37 3.678-.16.12-.35.18-.53.18v.02a.91.91 0 0 1-.73-.37c-.29-.4-.21-.96.19-1.26a23 23 0 0 0 1.68-1.37H8.4c-2.98 0-5.4-2.42-5.4-5.4S5.42 5 8.4 5h4.5c.5 0 .9.4.9.9s-.4.9-.9.9H8.4c-1.99 0-3.6 1.62-3.6 3.6S6.41 14 8.4 14h9.662a23 23 0 0 0-1.702-1.39.897.897 0 0 1-.19-1.26c.29-.4.86-.49 1.26-.19 3.37 2.48 3.37 3.42 3.37 3.72z" }) });
+});
+ArrowGoForward.displayName = "ArrowGoForward";
+
+// src/icons/ArrowLeftDouble.tsx
+var React19 = __toESM(require("react"), 1);
+var import_jsx_runtime19 = require("react/jsx-runtime");
+var ArrowLeftDouble = React19.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("path", { fill: "currentColor", d: "M11.043 5.225a.9.9 0 0 1 1.063 1.441l-.072.059-.004.003-.011.008-.048.035-.187.14A55 55 0 0 0 9.09 9.087c-.739.641-1.454 1.312-1.978 1.904a5.6 5.6 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.011.032.041.112.122.247.125.207.322.464.584.762.524.592 1.24 1.263 1.978 1.904a51 51 0 0 0 2.694 2.176l.187.14.048.035.011.009.003.001.001.001.071.059a.9.9 0 0 1-1.062 1.441l-.077-.05-.001-.001-.004-.003-.014-.01-.052-.04q-.069-.05-.195-.146a56 56 0 0 1-2.79-2.252c-.76-.663-1.546-1.393-2.147-2.073a7.3 7.3 0 0 1-.776-1.023c-.164-.274-.337-.627-.378-1.011L4.6 12l.01-.166c.04-.384.214-.737.378-1.01A7 7 0 0 1 5.764 9.8c.6-.68 1.386-1.412 2.147-2.072a53 53 0 0 1 2.79-2.253l.195-.147.052-.039.014-.01q.003 0 .004-.003z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("path", { fill: "currentColor", d: "M18.043 5.225a.9.9 0 0 1 1.063 1.441l-.072.059-.004.003-.011.008-.048.035-.187.14a55 55 0 0 0-2.694 2.176c-.739.641-1.454 1.312-1.978 1.904a5.6 5.6 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.011.032.041.112.122.247.125.207.322.464.584.762.524.592 1.24 1.263 1.978 1.904a51 51 0 0 0 2.694 2.176l.187.14.048.035.011.009.003.001.001.001.072.059a.9.9 0 0 1-1.063 1.441l-.077-.05-.001-.001-.004-.003-.014-.01-.052-.04q-.069-.05-.195-.146a56 56 0 0 1-2.79-2.252c-.761-.662-1.546-1.392-2.147-2.073a7.3 7.3 0 0 1-.776-1.023c-.165-.274-.337-.627-.378-1.011L11.6 12l.01-.166c.04-.384.213-.737.378-1.01a7 7 0 0 1 .776-1.024c.6-.68 1.386-1.412 2.147-2.072a53 53 0 0 1 2.79-2.253l.195-.147.052-.039.014-.01q.003 0 .004-.003z" })
+  ] });
+});
+ArrowLeftDouble.displayName = "ArrowLeftDouble";
+
+// src/icons/ArrowLeftDown.tsx
+var React20 = __toESM(require("react"), 1);
+var import_jsx_runtime20 = require("react/jsx-runtime");
+var ArrowLeftDown = React20.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.636 6.636a.9.9 0 1 0-1.273-1.272L6.96 15.767a20 20 0 0 1-.06-1.836 41 41 0 0 1 .123-2.797l.004-.045v-.01l.001-.004a.9.9 0 1 0-1.794-.15v.005l-.001.013-.004.05a30 30 0 0 0-.057.849c-.032.55-.065 1.297-.071 2.075-.006.771.014 1.599.096 2.301.041.35.1.695.188.998.081.277.219.638.49.909.27.27.632.409.908.49.303.088.648.147.998.187.703.082 1.53.103 2.302.097a43 43 0 0 0 2.924-.128l.05-.004.013-.001h.005L13 17.867l.075.897a.9.9 0 1 0-.151-1.793h-.014l-.045.004a30 30 0 0 1-.81.055 41 41 0 0 1-1.986.068 20 20 0 0 1-1.836-.06M6.13 11l-.897-.075z", clipRule: "evenodd" }) });
+});
+ArrowLeftDown.displayName = "ArrowLeftDown";
+
+// src/icons/ArrowLeft.tsx
+var React21 = __toESM(require("react"), 1);
+var import_jsx_runtime21 = require("react/jsx-runtime");
+var ArrowLeft = React21.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("path", { fill: "currentColor", d: "M8.37 17.62c.16.12.34.18.53.18v.02c.28 0 .55-.13.73-.37.3-.4.21-.97-.19-1.26-1.58-1.173-3.092-2.485-3.942-3.39H19.9c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H5.515c.853-.907 2.355-2.211 3.925-3.37.4-.3.48-.86.19-1.26-.3-.4-.86-.48-1.26-.19C5.92 7.98 3 10.44 3 11.9s2.92 3.92 5.37 5.72" }) });
+});
+ArrowLeft.displayName = "ArrowLeft";
+
+// src/icons/ArrowMoveUpRight.tsx
+var React22 = __toESM(require("react"), 1);
+var import_jsx_runtime22 = require("react/jsx-runtime");
+var ArrowMoveUpRight = React22.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("path", { fill: "currentColor", d: "m18.9 18.155.008-.01c.253-.298.5-.613.732-.908l.053-.068c.231-.294.474-.602.662-.796a.9.9 0 0 1 1.29 1.254 11 11 0 0 0-.536.654l-.057.072c-.228.29-.495.631-.77.956a9 9 0 0 1-.958.993c-.165.14-.352.28-.553.387-.194.104-.46.211-.77.211s-.577-.107-.771-.21a3.2 3.2 0 0 1-.553-.388 9 9 0 0 1-.957-.993c-.276-.325-.543-.666-.771-.956l-.057-.072a10 10 0 0 0-.537-.654.9.9 0 0 1 1.29-1.254c.19.194.432.502.663.796l.053.068c.232.295.48.61.732.909l.007.008c-.002-1.85-.018-3.34-.123-4.068-.68-4.713-4.036-8.328-8.215-9.054-.741-.129-1.646-.132-3.685-.132H3.001a.9.9 0 1 1 0-1.8h2.193c1.89 0 2.962 0 3.876.159 5.037.874 8.91 5.18 9.689 10.57.125.867.14 2.504.141 4.325" }) });
+});
+ArrowMoveUpRight.displayName = "ArrowMoveUpRight";
+
+// src/icons/ArrowRightDouble.tsx
+var React23 = __toESM(require("react"), 1);
+var import_jsx_runtime23 = require("react/jsx-runtime");
+var ArrowRightDouble = React23.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("path", { fill: "currentColor", d: "M11.775 5.466a.9.9 0 0 1 1.182-.241l.077.05v.001l.005.003.013.01.053.04.194.146a56 56 0 0 1 2.79 2.253c.762.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.189.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.147 2.073a53 53 0 0 1-2.79 2.252l-.195.147-.053.039-.013.01q-.003 0-.004.003h-.001a.9.9 0 0 1-1.069-1.449h.001l.003-.002.012-.01.048-.035.187-.14a56 56 0 0 0 2.694-2.175c.738-.641 1.454-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762c-.523-.592-1.239-1.263-1.977-1.904a51 51 0 0 0-2.694-2.176l-.187-.14-.048-.035-.012-.008-.003-.002v-.001l-.072-.059a.9.9 0 0 1-.119-1.2" }),
+    /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("path", { fill: "currentColor", d: "M4.775 5.466a.9.9 0 0 1 1.182-.241l.077.05v.001l.005.003.013.01.053.04.194.146a56 56 0 0 1 2.79 2.253c.762.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.189.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.148 2.073A53 53 0 0 1 6.3 18.525l-.195.147-.053.039-.013.01q-.003 0-.004.003h-.001l-.077.051a.9.9 0 0 1-.99-1.5l.002-.002.012-.01.048-.035.186-.14a56 56 0 0 0 2.695-2.175c.738-.641 1.454-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762C9.364 10.4 8.648 9.728 7.91 9.087A51 51 0 0 0 5.215 6.91l-.186-.14-.048-.035-.012-.008-.003-.002v-.001l-.072-.059a.9.9 0 0 1-.119-1.2" })
+  ] });
+});
+ArrowRightDouble.displayName = "ArrowRightDouble";
+
+// src/icons/ArrowRightDown.tsx
+var React24 = __toESM(require("react"), 1);
+var import_jsx_runtime24 = require("react/jsx-runtime");
+var ArrowRightDown = React24.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.53 5.47a.75.75 0 0 0-1.06 1.06l10.625 10.625-.068.009c-.603.07-1.352.09-2.097.085a41 41 0 0 1-2.807-.123l-.046-.004h-.014a.75.75 0 1 0-.126 1.494h.005l.013.001.05.004a30 30 0 0 0 .846.057c.549.032 1.293.065 2.067.071.77.006 1.59-.014 2.283-.095.346-.04.682-.099.973-.184.27-.078.601-.208.845-.451.243-.244.373-.575.451-.845.085-.291.143-.627.184-.973.08-.694.101-1.514.095-2.283a43 43 0 0 0-.128-2.913l-.004-.05v-.013l-.001-.005-.747.063.747-.063a.75.75 0 1 0-1.495.127l.001.013.004.045.013.176a42 42 0 0 1 .11 2.632c.006.745-.015 1.494-.085 2.097l-.009.068M11 17.869l-.062.747z", clipRule: "evenodd" }) });
+});
+ArrowRightDown.displayName = "ArrowRightDown";
+
+// src/icons/ArrowRightUp.tsx
+var React25 = __toESM(require("react"), 1);
+var import_jsx_runtime25 = require("react/jsx-runtime");
+var ArrowRightUp = React25.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.616 13.063v-.005l.001-.013.004-.05a30 30 0 0 0 .057-.845c.032-.55.065-1.294.071-2.068.006-.77-.014-1.59-.095-2.283a6 6 0 0 0-.184-.973c-.078-.27-.208-.601-.451-.845-.244-.243-.575-.373-.845-.451a6 6 0 0 0-.973-.183c-.694-.081-1.514-.102-2.283-.096a43 43 0 0 0-2.913.128l-.05.004h-.013l-.005.001a.75.75 0 0 0 .126 1.495h.003l.011-.001.046-.004a29 29 0 0 1 .814-.055c.534-.03 1.251-.062 1.993-.068.745-.006 1.494.015 2.097.085l.068.009L5.47 17.47a.75.75 0 1 0 1.06 1.06L17.155 7.905l.009.068c.07.603.091 1.352.085 2.097a41 41 0 0 1-.11 2.632l-.013.176-.004.045v.013a.75.75 0 0 0 1.494.127M11 6.132l-.063-.748zM17.868 13l.748.063z", clipRule: "evenodd" }) });
+});
+ArrowRightUp.displayName = "ArrowRightUp";
+
+// src/icons/ArrowRight.tsx
+var React26 = __toESM(require("react"), 1);
+var import_jsx_runtime26 = require("react/jsx-runtime");
+var ArrowRight = React26.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.533 6.275a.9.9 0 1 0-1.067 1.45l.003.002.01.007.039.03.154.115a45 45 0 0 1 2.238 1.806A20 20 0 0 1 18.4 11.1H4a.9.9 0 1 0 0 1.8h14.4c-.413.446-.942.939-1.49 1.415a43 43 0 0 1-2.392 1.922l-.04.03-.01.006-.002.002a.9.9 0 1 0 1.068 1.45v-.001l.016-.011.044-.033a32 32 0 0 0 .74-.566 44 44 0 0 0 1.756-1.44c.636-.553 1.295-1.167 1.803-1.741a6 6 0 0 0 .662-.875c.16-.265.342-.637.345-1.049v-.02c-.004-.41-.185-.782-.344-1.047a6 6 0 0 0-.663-.875c-.508-.574-1.167-1.188-1.803-1.74a44 44 0 0 0-2.496-2.007l-.044-.033-.012-.008zM15 7l.533-.725zm0 10 .534.724z", clipRule: "evenodd" }) });
+});
+ArrowRight.displayName = "ArrowRight";
+
+// src/icons/ArrowTurnDown.tsx
+var React27 = __toESM(require("react"), 1);
+var import_jsx_runtime27 = require("react/jsx-runtime");
+var ArrowTurnDown = React27.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("path", { fill: "currentColor", d: "M10.5 3.1a5.4 5.4 0 0 1 5.4 5.4v9.654l.217-.244a25 25 0 0 0 1.069-1.323l.067-.09.017-.024.004-.005.001-.001.059-.072a.9.9 0 0 1 1.441 1.062l-.05.077-.001.001-.001.002-.006.007-.02.027-.075.1a30 30 0 0 1-1.146 1.419 12 12 0 0 1-1.078 1.116c-.18.16-.377.314-.578.436a1.7 1.7 0 0 1-.82.258l-.129-.006a1.7 1.7 0 0 1-.691-.252 4 4 0 0 1-.578-.436 12 12 0 0 1-1.078-1.116 27 27 0 0 1-1.146-1.42q-.048-.062-.074-.099l-.02-.027-.007-.007v-.002h-.002l-.05-.078a.9.9 0 0 1 1.441-1.062l.059.07v.003l.005.005.017.023.068.09a28 28 0 0 0 1.285 1.57V8.5a3.6 3.6 0 1 0-7.2 0V20a.9.9 0 0 1-1.8 0V8.5a5.4 5.4 0 0 1 5.4-5.4" }) });
+});
+ArrowTurnDown.displayName = "ArrowTurnDown";
+
+// src/icons/ArrowUpSFill.tsx
+var React28 = __toESM(require("react"), 1);
+var import_jsx_runtime28 = require("react/jsx-runtime");
+var ArrowUpSFill = React28.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.47 8.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1-.53 1.28H6a.75.75 0 0 1-.53-1.28z", clipRule: "evenodd" }) });
+});
+ArrowUpSFill.displayName = "ArrowUpSFill";
+
+// src/icons/ArrowUp.tsx
+var React29 = __toESM(require("react"), 1);
+var import_jsx_runtime29 = require("react/jsx-runtime");
+var ArrowUp = React29.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 3.1c-.416 0-.791.183-1.058.344-.292.176-.59.41-.875.663-.575.507-1.189 1.167-1.741 1.803A44 44 0 0 0 6.32 8.406l-.033.044-.009.012-.003.004a.9.9 0 1 0 1.45 1.067l.001-.002.007-.01.03-.04a31 31 0 0 1 .542-.709c.36-.46.851-1.073 1.38-1.682.476-.548.968-1.077 1.415-1.49V20a.9.9 0 0 0 1.8 0V5.6c.446.413.938.942 1.414 1.49a43 43 0 0 1 1.922 2.392l.03.04.009.012a.9.9 0 1 0 1.449-1.068l-.003-.004-.009-.012-.032-.044a32 32 0 0 0-.567-.741 44 44 0 0 0-1.44-1.755c-.552-.636-1.166-1.296-1.74-1.803a6 6 0 0 0-.876-.663C12.79 3.284 12.415 3.1 12 3.1M17 9l.724-.534zM7 9l-.725-.534z", clipRule: "evenodd" }) });
+});
+ArrowUp.displayName = "ArrowUp";
+
+// src/icons/Attachment.tsx
+var React30 = __toESM(require("react"), 1);
+var import_jsx_runtime30 = require("react/jsx-runtime");
+var Attachment = React30.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime30.jsx)("path", { fill: "currentColor", d: "M12.4 21.8c-4.63 0-8.4-3.77-8.4-8.4V7.9C4 4.65 6.65 2 9.9 2s5.9 2.65 5.9 5.9v5.5c0 1.88-1.52 3.4-3.4 3.4S9 15.27 9 13.4v-4c0-.5.4-.9.9-.9s.9.4.9.9v4c0 .88.72 1.6 1.6 1.6s1.6-.72 1.6-1.6V7.9c0-2.26-1.84-4.1-4.1-4.1S5.8 5.64 5.8 7.9v5.5c0 3.64 2.96 6.6 6.6 6.6s6.6-2.96 6.6-6.6v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 4.63-3.77 8.4-8.4 8.4" }) });
+});
+Attachment.displayName = "Attachment";
+
+// src/icons/Backoffice.tsx
+var React31 = __toESM(require("react"), 1);
+var import_jsx_runtime31 = require("react/jsx-runtime");
+var Backoffice = React31.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime31.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 6.1a.9.9 0 0 1 .9.9v.743a2.9 2.9 0 0 1 1.027.591l.62-.361a.9.9 0 0 1 .906 1.554l-.619.36a2.9 2.9 0 0 1 0 1.224l.62.362.076.05a.9.9 0 0 1-.902 1.546l-.081-.042-.62-.362a2.9 2.9 0 0 1-1.027.59V14a.901.901 0 0 1-1.8 0v-.744a2.9 2.9 0 0 1-1.028-.591l-.619.362a.9.9 0 0 1-.906-1.554l.618-.362a2.9 2.9 0 0 1 0-1.223l-.618-.36-.077-.051a.9.9 0 0 1 .902-1.546l.081.042.62.361a2.9 2.9 0 0 1 1.027-.59V7a.9.9 0 0 1 .9-.9m0 3.3a1.1 1.1 0 0 0-.871.428l-.08.118c-.095.162-.149.35-.149.554s.054.392.149.554l.08.118a1.1 1.1 0 0 0 1.822-.118l.063-.126a1.1 1.1 0 0 0 0-.856l-.063-.126A1.1 1.1 0 0 0 12 9.4", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.9 1c2.98 0 4.62 0 5.76 1.15s1.14 2.8 1.14 5.8v10.59c0 1.72 0 2.76-.88 3.32-1.125.737-2.398-.151-3.16-.682l-.01-.008q-.165-.12-.3-.21l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.105.067-.237.15-.343.214l-1.925 1.22c-.591.374-.98.62-1.525.62s-.934-.246-1.525-.62L8.45 20.96l-.072-.045c-.216-.135-.426-.267-.498-.285-.019.01-.093.057-.187.116-.106.067-.237.15-.343.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.409-3.15.675C3 21.3 3 20.26 3 18.54V7.95c0-2.99 0-4.65 1.14-5.8S6.92 1 9.9 1zm-4 1.8c-2.75 0-3.89.02-4.48.62-.6.6-.62 1.75-.62 4.53v10.6c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.088-.062.168-.114c.55-.35.96-.61 1.51-.61h.06c.506.02.87.247 1.404.582l.046.028 1.91 1.21.2.122c.18.112.343.213.41.228.03-.02.29-.19.55-.35l1.91-1.21c.58-.37 1.01-.63 1.57-.61.506.02.87.247 1.404.582l.046.028q.064.045.14.095.108.069.23.155c.24.17.85.6 1.14.64.08-.29.08-1.05.08-1.79V7.95c0-2.78-.03-3.93-.62-4.53s-1.73-.62-4.48-.62z", clipRule: "evenodd" })
+  ] });
+});
+Backoffice.displayName = "Backoffice";
+
+// src/icons/BirthdayCake.tsx
+var React32 = __toESM(require("react"), 1);
+var import_jsx_runtime32 = require("react/jsx-runtime");
+var BirthdayCake = React32.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.3 6.614a2.41 2.41 0 0 0 1.5-2.224c0-1.06-1.21-2.52-1.73-3.1-.34-.38-1-.38-1.34 0-.52.58-1.73 2.04-1.73 3.1 0 1.002.622 1.866 1.5 2.224V7.99H6.75c-2.06 0-3.73 1.52-3.73 3.4 0 1.121.594 2.115 1.51 2.734l.51 2.526.01.048c.543 2.67.846 4.158 1.96 5.112 1.14.98 2.59.98 5.23.98h.32c2.64 0 4.09 0 5.23-.98 1.117-.957 1.418-2.442 1.965-5.139l.005-.021.504-2.503c.936-.617 1.546-1.622 1.546-2.757 0-1.88-1.67-3.4-3.73-3.4H13.3zm5.003 8.17a4 4 0 0 1-.224.006h-.01c-1.11 0-2.13-.44-2.83-1.14-.7.7-1.72 1.14-2.83 1.14s-2.13-.44-2.83-1.14c-.7.7-1.72 1.14-2.83 1.14q-.128 0-.253-.008L6.8 16.29c.48 2.39.73 3.59 1.38 4.15.61.52 1.62.55 4.06.55h.32c2.43 0 3.45-.02 4.06-.55.65-.56.9-1.76 1.38-4.15zM6.73 9.79h11.34c1.06 0 1.93.72 1.93 1.6s-.86 1.6-1.93 1.6c-.95 0-1.79-.56-1.96-1.3a.91.91 0 0 0-.87-.7h.01-.02.01a.9.9 0 0 0-.87.7c-.17.74-1.01 1.3-1.96 1.3s-1.79-.56-1.96-1.3c-.1-.41-.46-.7-.88-.7a.9.9 0 0 0-.88.7c-.17.74-1.02 1.3-1.96 1.3-1.06 0-1.93-.72-1.93-1.6s.86-1.6 1.93-1.6m5.67-4.8a.6.6 0 0 1-.6-.59c.02-.19.26-.61.6-1.08v.01c.33.46.58.88.6 1.07 0 .33-.27.59-.6.59", clipRule: "evenodd" }) });
+});
+BirthdayCake.displayName = "BirthdayCake";
+
+// src/icons/Briefcase.tsx
+var React33 = __toESM(require("react"), 1);
+var import_jsx_runtime33 = require("react/jsx-runtime");
+var Briefcase = React33.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime33.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.868 1.6a1.9 1.9 0 0 0-1.881 1.631L7.72 5.1H3.5A1.9 1.9 0 0 0 1.6 7v3a.9.9 0 0 0 .095.402c1.573 3.148 5.417 5.234 9.405 5.475v.623a.9.9 0 0 0 1.8 0v-.623c3.987-.24 7.83-2.327 9.405-5.475A.9.9 0 0 0 22.4 10V7a1.9 1.9 0 0 0-1.9-1.9h-4.22l-.266-1.869A1.9 1.9 0 0 0 14.133 1.6zm4.595 3.5-.23-1.614a.1.1 0 0 0-.1-.086H9.868a.1.1 0 0 0-.1.086L9.539 5.1zm-2.453 9c3.718.04 7.211-1.8 8.59-4.32V7a.1.1 0 0 0-.1-.1h-17a.1.1 0 0 0-.1.1v2.78c1.378 2.52 4.87 4.36 8.589 4.32z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("path", { fill: "currentColor", d: "M21.897 15.069a.9.9 0 1 0-1.795-.138l-.358 4.653a1.1 1.1 0 0 1-1.096 1.016H5.352a1.1 1.1 0 0 1-1.097-1.016l-.358-4.653a.9.9 0 1 0-1.795.138l.358 4.653A2.9 2.9 0 0 0 5.352 22.4h13.296a2.9 2.9 0 0 0 2.891-2.678z" })
+  ] });
+});
+Briefcase.displayName = "Briefcase";
+
+// src/icons/Calendar2.tsx
+var React34 = __toESM(require("react"), 1);
+var import_jsx_runtime34 = require("react/jsx-runtime");
+var Calendar2 = React34.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime34.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("path", { fill: "currentColor", d: "M7.51 12.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9m0 4c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9M16.4 12c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9m-4.9.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9m.9 3.1c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.3 2.43c.8.24 1.46.62 2.01 1.21 1.49 1.61 1.49 3.91 1.49 8.5v.51c0 4.59 0 6.89-1.49 8.5-1.52 1.64-3.81 1.64-7.96 1.64h-1.9c-4.15 0-6.44 0-7.96-1.64C2 19.54 2 17.24 2 12.65v-.51c0-4.59 0-6.89 1.49-8.5.55-.59 1.21-.97 2.01-1.21V1.9c0-.5.4-.9.9-.9s.9.4.9.9v.21C8.43 2 9.79 2 11.45 2h1.9c1.66 0 3.02 0 4.15.11V1.9c0-.5.4-.9.9-.9s.9.4.9.9zM6.4 4.8c-.35 0-.64-.2-.79-.49-.32.15-.58.32-.8.56-.45.49-.69 1.18-.83 2.14h16.84c-.14-.96-.38-1.66-.83-2.14-.22-.24-.49-.42-.8-.56-.15.29-.44.49-.79.49-.49 0-.89-.39-.9-.88-1-.11-2.33-.12-4.15-.12h-1.9c-1.82 0-3.14.02-4.15.12-.01.49-.41.88-.9.88m13.59 15.14C21 18.84 21 16.78 21 12.66h.01v-.51c0-1.32-.01-2.41-.04-3.34H3.84c-.04.93-.04 2.02-.04 3.34v.51c0 4.12 0 6.19 1.01 7.28.95 1.02 2.62 1.06 6.64 1.06h1.9c4.02 0 5.69-.04 6.64-1.06", clipRule: "evenodd" })
+  ] });
+});
+Calendar2.displayName = "Calendar2";
+
+// src/icons/CalendarEvent.tsx
+var React35 = __toESM(require("react"), 1);
+var import_jsx_runtime35 = require("react/jsx-runtime");
+var CalendarEvent = React35.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime35.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.74 20.82c1 .16 2.31.18 4.16.18l-.01.03c.5 0 .9.4.9.9s-.4.9-.9.9c-1.82-.01-3.28-.02-4.45-.21-1.2-.2-2.18-.6-2.96-1.44-.81-.88-1.16-1.97-1.33-3.32-.16-1.31-.16-2.99-.16-5.12v-.64c0-2.13 0-3.81.16-5.12.17-1.35.52-2.45 1.33-3.32.56-.61 1.24-.97 2.01-1.21v-.54c0-.5.4-.9.9-.9s.9.4.9.9v.21c1.12-.11 2.46-.11 4.08-.11h2.04c1.62 0 2.96.01 4.08.11v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.54c.78.24 1.45.6 2.01 1.21.76.82 1.12 1.84 1.3 3.08.17 1.22.19 2.75.19 4.67 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-1 0-1.86-.03-2.6H3.83c-.03.92-.03 2.01-.03 3.34v.51c0 2.2 0 3.77.15 4.96.14 1.17.42 1.84.86 2.32.41.45.97.72 1.93.88M6.4 4.8c-.35 0-.64-.21-.79-.5H5.6c-.32.14-.58.33-.79.56-.42.46-.68 1.09-.83 2.14h16.84v-.02c-.15-1.05-.42-1.67-.84-2.12-.21-.23-.46-.41-.79-.56-.14.29-.44.5-.79.5-.5 0-.9-.4-.9-.89-1.03-.11-2.35-.11-4.15-.11h-1.9c-1.79 0-3.12 0-4.15.11-.01.49-.41.89-.9.89", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.19 14.97c.62.11 1.31.44 1.54 1.17h-.04c.23.73-.14 1.4-.58 1.84l-1.09 1.1v.04l.31 1.36c.15.62.17 1.52-.53 2.03s-1.55.22-2.1-.11l-1.31-.78h-.03l-1.31.78c-.55.33-1.4.62-2.1.1-.7-.51-.68-1.4-.54-2.03l.31-1.36v-.04l-1.09-1.1c-.44-.44-.8-1.11-.57-1.84.24-.73.92-1.07 1.54-1.17l1.4-.23h.01l.01-.01.78-1.57c.28-.56.8-1.15 1.59-1.15s1.31.59 1.59 1.15l.78 1.57.01.01.02.01zm-1.87 3.64c.08-.25.21-.54.44-.77l-.02-.01 1.09-1.1-1.39-.23c-.3-.05-.56-.19-.76-.34-.2-.14-.41-.36-.54-.63l-.76-1.54-.77 1.54c-.14.27-.35.49-.54.63-.19.15-.45.29-.75.34l-1.39.23 1.09 1.1c.23.23.37.52.44.77.08.25.11.56.04.88l-.31 1.34 1.3-.77c.29-.17.62-.23.9-.23s.62.06.91.24l1.29.77-.31-1.34c-.07-.31-.03-.63.04-.88", clipRule: "evenodd" })
+  ] });
+});
+CalendarEvent.displayName = "CalendarEvent";
+
+// src/icons/CalendarSchedule2.tsx
+var React36 = __toESM(require("react"), 1);
+var import_jsx_runtime36 = require("react/jsx-runtime");
+var CalendarSchedule2 = React36.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime36.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6 1.1a.9.9 0 0 1 .9.9v.2c1.113-.1 2.463-.1 4.078-.1h2.043c1.616 0 2.965 0 4.079.1V2a.9.9 0 0 1 1.8 0v.523c.778.236 1.446.612 2.008 1.22.76.822 1.118 1.843 1.297 3.083.176 1.22.192 2.756.194 4.673V13a.9.9 0 1 1-1.8 0v-1.5a78 78 0 0 0-.033-2.6H3.433c-.033.922-.033 2.018-.033 3.343v.514c0 2.202.001 3.77.15 4.96.145 1.17.419 1.838.862 2.318.435.47 1.025.752 2.076.905 1.085.158 2.519.16 4.562.16a.9.9 0 1 1 0 1.8h-.072c-1.954 0-3.52 0-4.749-.179-1.277-.185-2.32-.58-3.138-1.463-.808-.874-1.16-1.973-1.328-3.319-.163-1.314-.163-2.994-.163-5.12v-.639c0-2.125 0-3.805.163-5.119.167-1.346.52-2.445 1.328-3.318.562-.608 1.23-.984 2.009-1.22V2a.9.9 0 0 1 .9-.9m-2.426 6h16.852l-.003-.017c-.151-1.048-.418-1.666-.836-2.118a2.4 2.4 0 0 0-.783-.56.9.9 0 0 1-1.704-.396c-1.031-.107-2.356-.109-4.15-.109h-1.9c-1.795 0-3.12.002-4.15.109a.9.9 0 0 1-1.705.395c-.321.147-.57.332-.783.56-.42.455-.687 1.078-.838 2.136", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime36.jsx)("path", { fill: "currentColor", d: "M19.127 15.355a.9.9 0 0 0-1.255 1.29c.169.164.434.372.676.562l.056.045q.217.169.44.348H13a.9.9 0 0 0 0 1.8h6.044l-.439.348-.057.045c-.242.19-.507.398-.676.562a.9.9 0 0 0 1.255 1.29c.084-.081.258-.221.533-.437l.06-.047c.241-.19.528-.414.801-.646.293-.248.602-.53.844-.814.122-.143.245-.308.341-.488.093-.173.194-.42.194-.713 0-.292-.101-.54-.194-.713a2.8 2.8 0 0 0-.34-.488 7.5 7.5 0 0 0-.845-.814c-.273-.232-.56-.456-.801-.646l-.06-.047a9 9 0 0 1-.533-.437" })
+  ] });
+});
+CalendarSchedule2.displayName = "CalendarSchedule2";
+
+// src/icons/Call02.tsx
+var React37 = __toESM(require("react"), 1);
+var import_jsx_runtime37 = require("react/jsx-runtime");
+var Call02 = React37.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime37.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime37.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.91 21.8c-.32 0-.68-.03-1.13-.08C8.28 20.8 3 15.52 2.08 6.03c-.09-.92-.14-1.47.06-2.07.26-.73.84-1.38 1.54-1.7C4.26 2 4.83 2 5.88 2c.71 0 1.11 0 1.52.13.52.16.99.46 1.34.87.28.33.44.69.73 1.34l.4.91-.82.37.83-.36c.31.7.48 1.09.53 1.56.04.45-.02.91-.19 1.33-.17.44-.44.77-.94 1.36-.4.48-.57.69-.64.87-.05.15-.08.38-.06.54.03.18.12.36.38.85.8 1.49 1.57 2.27 3.06 3.06.49.26.66.35.85.38.16.03.39 0 .54-.05.17-.06.39-.24.86-.63.61-.5.93-.77 1.37-.94.42-.16.88-.23 1.33-.19.47.05.86.22 1.57.53l.91.4c.66.29 1.01.45 1.34.74.41.36.71.82.87 1.34.13.42.13.81.13 1.52 0 1.04 0 1.62-.26 2.2-.32.7-.97 1.29-1.69 1.54-.31.11-.6.14-.94.14zM5.88 3.8c-.79 0-1.23 0-1.45.1-.24.11-.5.39-.58.64-.08.22-.05.54.03 1.31.83 8.64 5.44 13.24 14.08 14.08.77.07 1.09.1 1.31.03.25-.09.53-.34.64-.59.1-.22.1-.68.1-1.45 0-.54 0-.84-.05-1-.06-.2-.18-.37-.33-.51-.12-.11-.41-.23-.88-.44l-.92-.41c-.53-.24-.83-.37-1.01-.39-.17-.02-.35 0-.5.07-.17.07-.43.28-.85.63-.59.49-.94.78-1.41.96-.44.16-.97.21-1.42.14-.5-.07-.87-.27-1.43-.57-1.81-.97-2.84-2-3.8-3.8-.31-.58-.5-.93-.57-1.43-.07-.46-.01-.99.15-1.42.17-.48.46-.83.95-1.4.36-.43.58-.7.65-.86.06-.16.09-.34.07-.51-.02-.18-.15-.47-.38-1l-.4-.91c-.21-.48-.34-.77-.45-.89q-.21-.24-.51-.33c-.16-.05-.48-.05-1-.05z", clipRule: "evenodd" }) });
+});
+Call02.displayName = "Call02";
+
+// src/icons/Camera.tsx
+var React38 = __toESM(require("react"), 1);
+var import_jsx_runtime38 = require("react/jsx-runtime");
+var Camera = React38.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime38.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 9.5a4.4 4.4 0 1 0 0 8.8 4.4 4.4 0 0 0 0-8.8m0 7c-1.43 0-2.6-1.17-2.6-2.6s1.17-2.6 2.6-2.6 2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("path", { fill: "currentColor", d: "M12.81 5.9c0 .5-.4.9-.9.9-.49 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime38.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.99 6.53q-.315-.405-.72-.72c-1.02-.78-1.91-.8-4.16-.8l-.37-.93-.005-.013c-.37-.938-.83-2.11-2.015-2.697-.71-.35-1.46-.35-2.82-.35s-2.1 0-2.82.35c-1.183.581-1.637 1.736-2.004 2.67l-.016.04-.37.93c-2.25 0-3.15.02-4.16.81q-.405.315-.72.72C1 7.59 1 8.95 1 11.41v4.5c0 2.98 0 4.62 1.14 5.76s2.78 1.14 5.76 1.14h8c2.98 0 4.62 0 5.76-1.14s1.14-2.78 1.14-5.76v-4.5c0-2.47 0-3.82-.81-4.87zM21 15.9c0 2.75-.02 3.89-.61 4.48s-1.73.62-4.49.62h-8c-2.75 0-3.89-.02-4.48-.62-.59-.59-.62-1.73-.62-4.48v-4.5c0-2.07 0-3.21.43-3.78q.165-.225.39-.39c.47-.36.87-.42 2.4-.43-.04.39.16.78.54.93q.165.06.33.06c.36 0 .7-.21.84-.57l1-2.52c.29-.76.57-1.47 1.14-1.75.34-.17.93-.17 2.02-.17s1.68 0 2.02.17c.57.28.85 1 1.14 1.75l1 2.51c.18.46.71.69 1.17.5.38-.15.59-.54.54-.93 1.53.01 1.93.07 2.4.43q.225.165.39.39c.43.57.43 1.71.43 3.78v4.5z", clipRule: "evenodd" })
+  ] });
+});
+Camera.displayName = "Camera";
+
+// src/icons/Champion.tsx
+var React39 = __toESM(require("react"), 1);
+var import_jsx_runtime39 = require("react/jsx-runtime");
+var Champion = React39.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime39.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime39.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.813 1.1c.874 0 1.638-.003 2.25.096.656.107 1.255.349 1.718.91l.153.206c.328.486.444 1.02.463 1.59q.002.097.001.198h.305c.573 0 1.098-.002 1.514.055.435.06.928.209 1.292.648l.125.17c.257.403.288.845.257 1.23a6 6 0 0 1-.102.679l-.172.773-.39 1.7c-.649 2.817-2.942 4.915-5.74 5.471-.544.86-1.177 1.602-1.893 2.142.929.673 1.66 1.681 2.123 2.827l.088.26c.172.61.1 1.23-.14 1.732-.262.551-.82 1.113-1.624 1.113H8.959c-.804 0-1.363-.562-1.625-1.113a2.5 2.5 0 0 1-.051-1.992l.166-.383c.463-.987 1.133-1.847 1.957-2.444-.715-.54-1.35-1.282-1.894-2.14-2.706-.539-4.94-2.52-5.67-5.2l-.068-.274-.39-1.699c-.124-.538-.242-1.04-.275-1.452-.035-.44.012-.954.382-1.4l.141-.152c.345-.323.77-.443 1.152-.496.416-.057.94-.055 1.514-.055H4.6q0-.102.002-.199c.022-.65.171-1.255.616-1.795l.18-.196c.434-.424.964-.62 1.54-.714.61-.099 1.375-.096 2.248-.096zM12 17.9c-1.105 0-2.228.796-2.916 2.265l-.132.303a.7.7 0 0 0 .007.545.4.4 0 0 0 .055.087h5.971a.4.4 0 0 0 .056-.087.68.68 0 0 0 .032-.47l-.026-.075C14.378 18.806 13.179 17.9 12 17.9m-2.814-15c-.934 0-1.527.003-1.96.074-.29.047-.44.114-.536.194l-.083.084c-.114.139-.192.313-.205.709-.014.439.052 1.016.161 1.922l.075.575c.4 2.845 1.165 5.262 2.134 6.974 1.06 1.87 2.216 2.667 3.228 2.668 1.012 0 2.168-.798 3.227-2.668 1.034-1.826 1.836-4.455 2.21-7.55l.072-.62c.065-.565.1-.972.088-1.301-.01-.297-.055-.47-.126-.596l-.079-.113c-.096-.117-.231-.215-.618-.278-.433-.07-1.026-.074-1.96-.074zm-4.888 3c-.628 0-1.004.002-1.267.038a1 1 0 0 0-.13.025q-.002.036.003.099c.02.247.097.595.233 1.19l.391 1.7.05.201c.402 1.475 1.427 2.685 2.773 3.38-.68-1.674-1.192-3.66-1.496-5.829L4.776 6.1l-.023-.2zm14.925.199c-.29 2.405-.832 4.604-1.574 6.432 1.407-.727 2.463-2.014 2.823-3.58l.39-1.699.162-.725a4 4 0 0 0 .072-.465q.005-.063.003-.1a1 1 0 0 0-.13-.024c-.262-.036-.639-.038-1.266-.038h-.456z", clipRule: "evenodd" }) });
+});
+Champion.displayName = "Champion";
+
+// src/icons/Change.tsx
+var React40 = __toESM(require("react"), 1);
+var import_jsx_runtime40 = require("react/jsx-runtime");
+var Change = React40.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime40.jsx)("path", { fill: "currentColor", d: "M8.854 5.63a.9.9 0 0 0-1.286-1.26L5.282 6.705c-.32.327-.624.638-.825.91-.19.258-.52.789-.266 1.415.257.635.874.776 1.192.822.332.048.765.048 1.216.048H19a.9.9 0 0 0 0-1.8H6.436l.174-.178zm8.709 10.27-.173.178-2.244 2.292a.9.9 0 1 0 1.286 1.26l2.285-2.335c.32-.327.625-.638.825-.91.19-.258.52-.789.267-1.414-.258-.636-.874-.777-1.192-.823-.333-.048-.765-.048-1.216-.048H5a.9.9 0 1 0 0 1.8z" }) });
+});
+Change.displayName = "Change";
+
+// src/icons/ChartUp.tsx
+var React41 = __toESM(require("react"), 1);
+var import_jsx_runtime41 = require("react/jsx-runtime");
+var ChartUp = React41.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime41.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("path", { fill: "currentColor", d: "M15.6 3a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-.791c-.561.525-1.346 1.2-2.382 1.956-2.385 1.74-6.092 3.908-11.434 5.689a.9.9 0 1 1-.569-1.708c5.16-1.72 8.702-3.8 10.942-5.436a24 24 0 0 0 2.207-1.81H16.5a.9.9 0 0 1-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime41.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.975 8.1h.05c.21 0 .412 0 .583.012.185.012.399.042.619.133a1.9 1.9 0 0 1 1.028 1.028c.091.22.12.433.133.619.012.17.012.372.012.583v9.05c0 .211 0 .413-.012.583a2 2 0 0 1-.133.619 1.9 1.9 0 0 1-1.028 1.028 2 2 0 0 1-.619.133c-.17.012-.372.012-.584.012h-.05c-.21 0-.412 0-.583-.012a2 2 0 0 1-.618-.133 1.9 1.9 0 0 1-1.029-1.028 2 2 0 0 1-.133-.619c-.011-.17-.011-.372-.011-.583v-9.05c0-.211 0-.413.011-.583a2 2 0 0 1 .133-.619 1.9 1.9 0 0 1 1.029-1.028c.22-.091.433-.12.618-.133.17-.012.372-.012.584-.012m-.526 1.814a.1.1 0 0 0-.036.035l-.006.065a8 8 0 0 0-.007.486v9c0 .245 0 .384.007.486l.006.065a.1.1 0 0 0 .036.035l.065.007c.102.006.24.007.486.007.245 0 .384 0 .485-.007l.066-.007a.1.1 0 0 0 .035-.035l.006-.065a8 8 0 0 0 .008-.486v-9c0-.245 0-.384-.008-.486l-.006-.065a.1.1 0 0 0-.035-.035l-.066-.007A8 8 0 0 0 19 9.9a8 8 0 0 0-.486.007zM11.975 11.6h.05c.21 0 .412 0 .583.012.185.012.399.042.619.133a1.9 1.9 0 0 1 1.028 1.028c.091.22.12.433.133.619.012.17.012.372.012.583v5.55c0 .211 0 .413-.012.583a2 2 0 0 1-.133.619 1.9 1.9 0 0 1-1.028 1.028 2 2 0 0 1-.619.133c-.17.012-.372.012-.584.012h-.05c-.21 0-.412 0-.583-.012a2 2 0 0 1-.618-.133 1.9 1.9 0 0 1-1.029-1.028 2 2 0 0 1-.133-.619 9 9 0 0 1-.011-.583v-5.55c0-.211 0-.413.011-.583a2 2 0 0 1 .133-.619 1.9 1.9 0 0 1 1.028-1.028c.22-.091.434-.12.62-.133.17-.012.371-.012.583-.012m-.526 1.814a.1.1 0 0 0-.035.035l-.007.065A8 8 0 0 0 11.4 14v5.5c0 .245 0 .384.007.486l.007.065a.1.1 0 0 0 .035.035l.065.007c.102.006.24.007.486.007.245 0 .384 0 .486-.007l.064-.007a.1.1 0 0 0 .036-.035l.006-.065a8 8 0 0 0 .008-.486V14c0-.245 0-.384-.008-.486l-.006-.065a.1.1 0 0 0-.036-.035l-.065-.007A8 8 0 0 0 12 13.4c-.246 0-.384 0-.486.007zm-6.474.686c-.212 0-.413 0-.584.012a2 2 0 0 0-.618.133 1.9 1.9 0 0 0-1.029 1.028 2 2 0 0 0-.133.619c-.011.17-.011.372-.011.583v3.05c0 .211 0 .413.011.583.013.186.042.4.133.62a1.9 1.9 0 0 0 1.029 1.027c.22.091.433.12.618.133.17.012.372.012.584.012h.05c.211 0 .412 0 .583-.012a2 2 0 0 0 .619-.133 1.9 1.9 0 0 0 1.028-1.028c.091-.22.12-.433.133-.619.012-.17.012-.372.012-.583v-3.05c0-.211 0-.413-.012-.583a2 2 0 0 0-.133-.62 1.9 1.9 0 0 0-1.028-1.027 2 2 0 0 0-.619-.133c-.17-.012-.372-.012-.584-.012zm-.561 1.85a.1.1 0 0 1 .035-.036l.065-.007c.101-.007.24-.007.486-.007.245 0 .384 0 .486.007l.064.007a.1.1 0 0 1 .036.035l.006.065a8 8 0 0 1 .008.486v3c0 .245 0 .384-.008.486l-.006.065a.1.1 0 0 1-.036.035l-.064.007A9 9 0 0 1 5 20.1c-.246 0-.385 0-.486-.007l-.065-.007a.1.1 0 0 1-.035-.035l-.007-.065A8 8 0 0 1 4.4 19.5v-3c0-.245 0-.384.007-.486z", clipRule: "evenodd" })
+  ] });
+});
+ChartUp.displayName = "ChartUp";
+
+// src/icons/Chart.tsx
+var React42 = __toESM(require("react"), 1);
+var import_jsx_runtime42 = require("react/jsx-runtime");
+var Chart = React42.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime42.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("path", { fill: "currentColor", d: "M11.5 17.4c0 .5.4.9.9.9s.9-.4.9-.9v-10c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm-5 0c0 .5.4.9.9.9s.9-.4.9-.9v-4c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm10.9.9c-.5 0-.9-.4-.9-.9v-6c0-.5.4-.9.9-.9s.9.4.9.9v6c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime42.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.65 21.15c1.66 1.65 4.03 1.65 8.75 1.65s7.09 0 8.75-1.65c1.65-1.66 1.65-4.02 1.65-8.75s0-7.09-1.65-8.75C19.49 2 17.12 2 12.4 2S5.31 2 3.66 3.65C2 5.31 1.99 7.67 1.99 12.4s0 7.1 1.66 8.75M4.93 4.93C6.06 3.8 8.18 3.8 12.4 3.8s6.34 0 7.47 1.13S21 8.18 21 12.4s0 6.34-1.13 7.47S16.62 21 12.4 21s-6.34 0-7.47-1.13S3.8 16.62 3.8 12.4s0-6.34 1.13-7.47", clipRule: "evenodd" })
+  ] });
+});
+Chart.displayName = "Chart";
+
+// src/icons/ChatSquareCheck.tsx
+var React43 = __toESM(require("react"), 1);
+var import_jsx_runtime43 = require("react/jsx-runtime");
+var ChatSquareCheck = React43.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime43.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.75 12c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5H8c-.69 0-1.25-.56-1.25-1.25m3.996 0c0-.69.56-1.25 1.25-1.25h.008a1.25 1.25 0 1 1 0 2.5h-.008c-.69 0-1.25-.56-1.25-1.25m3.995 0c0-.69.56-1.25 1.25-1.25H16a1.25 1.25 0 1 1 0 2.5h-.009c-.69 0-1.25-.56-1.25-1.25", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("path", { fill: "currentColor", d: "M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1c.5 0 .9.4.9.9s-.4.9-.9.9c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67 0-.79-.11-1.57-.33-2.32-.14-.48.14-.98.61-1.12.48-.14.98.14 1.12.61.27.91.4 1.86.4 2.82 0 5.77-4.89 10.47-10.9 10.47-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime43.jsx)("path", { fill: "currentColor", d: "M15.9 8.8h-.05a.93.93 0 0 1-.76-.5c-.68-1.37-1.27-1.51-1.28-1.51-.5 0-.86-.4-.86-.9s.44-.9.94-.9c.2 0 1.09.07 2.03 1.26 1.17-1.63 3.44-4.42 5.67-5.21.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-2.07.73-4.7 4.32-5.54 5.63-.17.26-.45.42-.76.42z" })
+  ] });
+});
+ChatSquareCheck.displayName = "ChatSquareCheck";
+
+// src/icons/ChatSquare.tsx
+var React44 = __toESM(require("react"), 1);
+var import_jsx_runtime44 = require("react/jsx-runtime");
+var ChatSquare = React44.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime44.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("path", { fill: "currentColor", d: "M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1s10.9 4.7 10.9 10.47-4.89 10.47-10.9 10.47c-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87m6.68-20c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67S16.92 2.8 11.9 2.8" }),
+    /* @__PURE__ */ (0, import_jsx_runtime44.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.65 11.9a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0m4 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0m3.99 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0", clipRule: "evenodd" })
+  ] });
+});
+ChatSquare.displayName = "ChatSquare";
+
+// src/icons/Chat.tsx
+var React45 = __toESM(require("react"), 1);
+var import_jsx_runtime45 = require("react/jsx-runtime");
+var Chat = React45.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime45.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("path", { fill: "currentColor", d: "M5.22 22.8c-.44 0-.89-.04-1.33-.12a.92.92 0 0 1-.68-.57c-.11-.3-.05-.63.15-.88.45-.56.76-1.23.9-1.95.03-.18-.07-.41-.28-.62C2.06 16.71 1 14.16 1 11.47 1 5.7 5.89 1 11.9 1s10.9 4.7 10.9 10.47-4.89 10.47-10.9 10.47c-.68.04-1.41-.07-2.1-.2-.25-.05-.51-.1-.58-.1 0 .01-.26.15-.51.29-1.08.58-2.28.87-3.49.87m6.68-20c-5.02 0-9.1 3.89-9.1 8.67 0 2.21.87 4.31 2.46 5.92.63.64.91 1.45.76 2.22-.09.48-.24.94-.43 1.38.78-.05 1.56-.27 2.26-.65.55-.29.82-.43 1.13-.48s.59 0 1.15.11c.58.11 1.17.16 1.75.16h.01c5.02 0 9.1-3.89 9.1-8.67S16.92 2.8 11.9 2.8" }),
+    /* @__PURE__ */ (0, import_jsx_runtime45.jsx)("path", { fill: "currentColor", d: "M15.9 13.15a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5m-4 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5m-3.99 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5" })
+  ] });
+});
+Chat.displayName = "Chat";
+
+// src/icons/CheckDouble.tsx
+var React46 = __toESM(require("react"), 1);
+var import_jsx_runtime46 = require("react/jsx-runtime");
+var CheckDouble = React46.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime46.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.223 7.19a1 1 0 0 0-1.446-1.38l-6.063 6.35a1 1 0 0 0 1.446 1.381zm-14 5.953a1 1 0 0 0-1.446 1.38l3.5 3.668a1 1 0 0 0 1.446 0l1.024-1.073a1 1 0 0 0-1.446-1.381L6 16.052zm19-5.953a1 1 0 0 0-1.446-1.38L11 16.052l-2.777-2.91a1 1 0 0 0-1.446 1.382l3.5 3.667a1 1 0 0 0 1.446 0z", clipRule: "evenodd" }) });
+});
+CheckDouble.displayName = "CheckDouble";
+
+// src/icons/CheckInvoice.tsx
+var React47 = __toESM(require("react"), 1);
+var import_jsx_runtime47 = require("react/jsx-runtime");
+var CheckInvoice = React47.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime47.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("path", { fill: "currentColor", d: "M10.9 22.8c-.55 0-.94-.25-1.54-.63l-1.91-1.2c-.24-.15-.49-.31-.57-.33l-.52.33c-.09.05-.19.13-.3.21-.76.53-2.04 1.42-3.17.69-.87-.56-.87-1.6-.87-3.32V7.9C2 4.93 2 3.3 3.07 2.16 4.17 1 5.72 1 8.55 1h4.71c2.83 0 4.38 0 5.47 1.16C19.8 3.3 19.8 4.93 19.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.51 0-3.89-.58-4.5-.54-.57-1.6-.6-4.16-.6H8.55c-2.56 0-3.63.02-4.17.6-.58.62-.58 2-.58 4.5v10.65c0 .74 0 1.5.08 1.79.29-.04.9-.47 1.14-.64.14-.1.26-.19.37-.25.58-.36.98-.64 1.57-.61.51.02.88.25 1.44.6l1.91 1.21c.24.16.52.33.61.35.03-.02.31-.2.55-.35.42-.26.98-.14 1.24.28.27.42.14.98-.28 1.24-.6.38-.99.63-1.54.63z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime47.jsx)("path", { fill: "currentColor", d: "M10.9 11.8h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m4-4h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m1 14.5h-.03a.875.875 0 0 1-.8-.57c-.85-2.13-2.55-3.02-2.57-3.03a.9.9 0 0 1-.39-1.21c.22-.44.76-.62 1.2-.4.07.04 1.46.75 2.59 2.39 1.18-2.1 3.44-5.64 5.71-6.44.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-1.8.64-4.33 4.66-5.49 7.05-.15.31-.47.5-.81.5z" })
+  ] });
+});
+CheckInvoice.displayName = "CheckInvoice";
+
+// src/icons/CheckList.tsx
+var React48 = __toESM(require("react"), 1);
+var import_jsx_runtime48 = require("react/jsx-runtime");
+var CheckList = React48.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime48.jsx)("path", { fill: "currentColor", d: "M7.524 14.237a.9.9 0 0 1 .953 1.527c-.796.498-1.578 1.572-2.195 2.651a18 18 0 0 0-.886 1.776l-.046.11-.012.027-.002.006-.057.117a.9.9 0 0 1-1.507.078l-.07-.112c-.18-.345-.47-.664-.743-.91a5 5 0 0 0-.428-.344l-.022-.015-.003-.002h.003a.9.9 0 1 1 .983-1.507l-.277.425.277-.425v.001l.004.002.004.003.014.009.044.03q.055.038.146.105c.119.09.282.22.462.382q.065.06.133.127.187-.365.42-.775c.633-1.108 1.6-2.534 2.805-3.286m13.567 2.868a.9.9 0 0 1 0 1.79l-.092.006H11a.901.901 0 0 1 0-1.801h10zm0-6a.9.9 0 0 1 0 1.79l-.092.006H11a.901.901 0 0 1 0-1.801h10zM7.524 3.237a.9.9 0 0 1 .953 1.527c-.796.498-1.578 1.572-2.195 2.651a18 18 0 0 0-.886 1.776l-.046.11-.012.027-.002.006-.057.118a.9.9 0 0 1-1.507.077l-.07-.112c-.18-.345-.47-.664-.743-.91a5 5 0 0 0-.45-.36l-.003-.001h.003a.9.9 0 1 1 .983-1.507l-.277.425.277-.425v.001l.004.001.004.004.014.009a4 4 0 0 1 .19.135c.119.09.282.218.462.381q.065.061.133.128c.124-.242.265-.504.42-.775.633-1.108 1.6-2.534 2.805-3.286m13.567 1.868a.9.9 0 0 1 0 1.79L21 6.902H11A.901.901 0 0 1 11 5.1h10z" }) });
+});
+CheckList.displayName = "CheckList";
+
+// src/icons/Check.tsx
+var React49 = __toESM(require("react"), 1);
+var import_jsx_runtime49 = require("react/jsx-runtime");
+var Check = React49.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime49.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.69 5.777a1 1 0 0 1 .033 1.413l-10.5 11a1 1 0 0 1-1.43.017l-3.5-3.5a1 1 0 1 1 1.414-1.414l2.776 2.776 9.794-10.26a1 1 0 0 1 1.413-.032", clipRule: "evenodd" }) });
+});
+Check.displayName = "Check";
+
+// src/icons/CheckboxFill.tsx
+var React50 = __toESM(require("react"), 1);
+var import_jsx_runtime50 = require("react/jsx-runtime");
+var CheckboxFill = React50.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime50.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.932 1.6h.135c2.182 0 3.911 0 5.265.182 1.393.187 2.522.582 3.413 1.473.89.89 1.285 2.02 1.473 3.413.182 1.353.182 3.083.182 5.264v.136c0 2.181 0 3.91-.182 5.264-.188 1.393-.582 2.522-1.473 3.413-.89.89-2.02 1.286-3.413 1.473-1.354.182-3.083.182-5.265.182h-.135c-2.182 0-3.91 0-5.264-.182-1.394-.187-2.523-.582-3.414-1.473-.89-.89-1.285-2.02-1.472-3.413-.182-1.354-.182-3.083-.182-5.264v-.136c0-2.181 0-3.91.182-5.264.187-1.393.582-2.522 1.472-3.413.891-.89 2.02-1.286 3.414-1.473C8.02 1.6 9.75 1.6 11.932 1.6m4.731 8.008a.9.9 0 1 0-1.327-1.216l-4.865 5.307-1.835-1.835a.9.9 0 1 0-1.273 1.272l2.5 2.5a.9.9 0 0 0 1.3-.028z", clipRule: "evenodd" }) });
+});
+CheckboxFill.displayName = "CheckboxFill";
+
+// src/icons/CheckboxIndeterminate.tsx
+var React51 = __toESM(require("react"), 1);
+var import_jsx_runtime51 = require("react/jsx-runtime");
+var CheckboxIndeterminate = React51.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime51.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("path", { fill: "currentColor", d: "M16.092 11.105a.9.9 0 0 1 0 1.79L16 12.9H8a.9.9 0 0 1 0-1.8h8z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime51.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.6c2.214 0 3.965-.002 5.332.182 1.393.188 2.522.582 3.413 1.473l.161.17c.778.863 1.136 1.937 1.312 3.243.184 1.367.182 3.118.182 5.332s.002 3.965-.182 5.332c-.176 1.306-.534 2.38-1.312 3.243l-.16.17c-.892.89-2.02 1.285-3.414 1.473-1.367.184-3.118.182-5.332.182s-3.965.002-5.332-.182c-1.306-.176-2.38-.534-3.243-1.312l-.17-.16c-.89-.892-1.285-2.02-1.473-3.414C1.598 15.965 1.6 14.214 1.6 12s-.002-3.965.182-5.332c.188-1.393.582-2.522 1.473-3.413l.17-.161c.863-.778 1.937-1.136 3.243-1.312C8.035 1.598 9.786 1.6 12 1.6m0 1.8c-2.264 0-3.872.002-5.092.165-1.044.14-1.7.39-2.183.785l-.198.177c-.5.5-.801 1.188-.962 2.381C3.402 8.128 3.4 9.736 3.4 12s.002 3.872.165 5.092c.16 1.194.462 1.88.962 2.38l.198.178c.483.396 1.139.644 2.183.785 1.22.164 2.828.165 5.092.165s3.872-.002 5.092-.165c1.194-.16 1.88-.462 2.38-.962l.178-.198c.396-.483.644-1.139.785-2.183.164-1.22.165-2.828.165-5.092s-.002-3.872-.165-5.092c-.14-1.044-.39-1.7-.785-2.183l-.177-.198c-.5-.5-1.187-.801-2.381-.962C15.872 3.402 14.264 3.4 12 3.4", clipRule: "evenodd" })
+  ] });
+});
+CheckboxIndeterminate.displayName = "CheckboxIndeterminate";
+
+// src/icons/Checkbox.tsx
+var React52 = __toESM(require("react"), 1);
+var import_jsx_runtime52 = require("react/jsx-runtime");
+var Checkbox = React52.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime52.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("path", { fill: "currentColor", d: "M10.26 16.04c.17.17.4.26.64.26v.01h.02c.24 0 .47-.11.64-.29l5.5-6A.9.9 0 0 0 17 8.75a.89.89 0 0 0-1.27.05l-4.86 5.31-1.84-1.84a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime52.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.65 21.14c1.66 1.66 4.03 1.66 8.75 1.66v.01c4.73 0 7.1 0 8.75-1.66s1.65-4.02 1.65-8.75 0-7.1-1.65-8.75C19.49 2 17.12 2 12.4 2h-.084C7.652 2 5.29 2 3.65 3.65 2 5.31 2 7.66 2 12.39s0 7.1 1.65 8.75M4.93 4.93C6.05 3.8 8.18 3.8 12.4 3.8s6.34 0 7.47 1.13C21 6.05 21 8.18 21 12.4s-.01 6.34-1.13 7.47S16.62 21 12.4 21s-6.34 0-7.47-1.13S3.8 16.62 3.8 12.4s.01-6.34 1.13-7.47", clipRule: "evenodd" })
+  ] });
+});
+Checkbox.displayName = "Checkbox";
+
+// src/icons/CheckmarkBadge.tsx
+var React53 = __toESM(require("react"), 1);
+var import_jsx_runtime53 = require("react/jsx-runtime");
+var CheckmarkBadge = React53.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime53.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("path", { fill: "currentColor", d: "M10.1 15.07a.9.9 0 0 0 .6.23h.07a.9.9 0 0 0 .62-.32l4.2-5c.32-.38.27-.95-.11-1.27a.903.903 0 0 0-1.27.11l-3.6 4.29-1.11-.99a.9.9 0 0 0-1.2 1.34z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime53.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.25 21.2c.63.68 1.49 1.6 2.65 1.6h-.01c1.147 0 1.986-.893 2.612-1.56l.038-.04c.1-.12.2-.22.3-.32.52-.52.76-.62 1.5-.62h.38c.84.03 2 .06 2.8-.73.799-.788.771-1.936.751-2.783v-.417c0-.74.1-.98.67-1.55 1.16-1.16 1.86-1.86 1.86-2.9s-.7-1.74-1.86-2.9c-.56-.57-.67-.81-.67-1.55v-.39c.02-.858.046-2.013-.75-2.81-.788-.778-1.915-.751-2.761-.73h-.04c-.85.02-1.35-.09-1.93-.67-1.16-1.16-1.86-1.86-2.9-1.86s-1.74.7-2.9 1.86c-.58.59-1.08.7-1.92.67h-.04c-.855-.021-1.992-.048-2.78.75-.79.8-.76 1.95-.73 2.8v.38c0 .64-.18 1.06-.67 1.55-1.16 1.16-1.86 1.86-1.86 2.9s.7 1.74 1.86 2.9c.56.57.67.81.67 1.55v.39c-.02.858-.047 2.013.75 2.81.788.778 1.926.751 2.763.73h.417c.74 0 .98.1 1.5.62.09.1.19.21.3.32m.97-1.59c-.86-.86-1.56-1.15-2.77-1.15h-.4c-.52.02-1.23.04-1.48-.21-.236-.236-.222-.892-.212-1.402l.002-.088v-.43c0-1.23-.29-1.91-1.2-2.82-.78-.77-1.34-1.33-1.34-1.62s.56-.85 1.34-1.63c.83-.83 1.2-1.7 1.2-2.82v-.43c-.02-.52-.03-1.24.21-1.48.235-.234.926-.22 1.443-.21h.467c1.12 0 1.99-.37 2.82-1.2.77-.78 1.33-1.34 1.62-1.34s.85.56 1.62 1.34c.83.83 1.7 1.2 2.82 1.2h.43l.09-.002c.508-.01 1.154-.024 1.39.212s.223.892.212 1.402l-.002.088v.43c0 1.22.29 1.91 1.2 2.82.77.77 1.33 1.33 1.33 1.62s-.55.85-1.33 1.63c-.91.91-1.2 1.59-1.2 2.82v.43l.001.04c.01.524.023 1.206-.22 1.45-.237.236-.883.223-1.392.212l-.089-.002c-1.5-.04-2.25.19-3.2 1.14-.11.11-.23.24-.35.37l-.052.055c-.378.399-.915.965-1.278.965-.38 0-.95-.61-1.33-1.02-.12-.14-.24-.26-.35-.37", clipRule: "evenodd" })
+  ] });
+});
+CheckmarkBadge.displayName = "CheckmarkBadge";
+
+// src/icons/CheckmarkCircle.tsx
+var React54 = __toESM(require("react"), 1);
+var import_jsx_runtime54 = require("react/jsx-runtime");
+var CheckmarkCircle = React54.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime54.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)("path", { fill: "currentColor", d: "M9.76 15.54c.17.17.4.26.64.26l-.01-.01h.02c.24 0 .47-.11.64-.29l5.5-6c.34-.36.32-.93-.05-1.27a.9.9 0 0 0-1.27.06l-4.87 5.31-1.83-1.83a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime54.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1", clipRule: "evenodd" })
+  ] });
+});
+CheckmarkCircle.displayName = "CheckmarkCircle";
+
+// src/icons/CircleArrowMoveDownRight.tsx
+var React55 = __toESM(require("react"), 1);
+var import_jsx_runtime55 = require("react/jsx-runtime");
+var CircleArrowMoveDownRight = React55.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime55.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.18 1.471C3.363 3.03-.087 9.006 1.471 14.821s7.535 9.266 13.35 7.708 9.265-7.535 7.707-13.35S14.994-.087 9.179 1.47M3.21 14.355a9.1 9.1 0 1 1 17.58-4.71 9.1 9.1 0 0 1-17.58 4.71", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime55.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.503 10.425a.9.9 0 0 0 1.13.583c2.036-.649 3.12-.711 4.347 0 .63.365 1.034.77 1.343 1.283q.125.209.237.454a5 5 0 0 0-.266-.128.9.9 0 0 0-.729 1.646q.209.094.512.269l.15.085c.153.088.321.185.477.268.203.108.457.232.71.302.157.043.537.127.912-.045.336-.101.558-.337.652-.442.165-.185.309-.41.423-.6.107-.177.195-.334.274-.474.124-.22.225-.401.34-.56a.9.9 0 0 0-1.457-1.057 5 5 0 0 0-.216.328 7 7 0 0 0-.477-.973c-.477-.794-1.11-1.407-1.982-1.913-1.901-1.103-3.619-.852-5.796-.157a.9.9 0 0 0-.584 1.13", clipRule: "evenodd" })
+  ] });
+});
+CircleArrowMoveDownRight.displayName = "CircleArrowMoveDownRight";
+
+// src/icons/CloseCircle.tsx
+var React56 = __toESM(require("react"), 1);
+var import_jsx_runtime56 = require("react/jsx-runtime");
+var CloseCircle = React56.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime56.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("path", { fill: "currentColor", d: "M14.895 15.8h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-2.36-2.36 2.36-2.36a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-2.36 2.36-2.36-2.36a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.36 2.36-2.36 2.36a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.36-2.36z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime56.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1", clipRule: "evenodd" })
+  ] });
+});
+CloseCircle.displayName = "CloseCircle";
+
+// src/icons/Close.tsx
+var React57 = __toESM(require("react"), 1);
+var import_jsx_runtime57 = require("react/jsx-runtime");
+var Close = React57.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime57.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime57.jsx)("path", { fill: "currentColor", d: "M18.9 19.8c-.23 0-.46-.09-.64-.26l-6.36-6.36-6.36 6.36a.9.9 0 0 1-1.27 0 .9.9 0 0 1 0-1.27l6.36-6.36-6.37-6.37a.91.91 0 0 1 0-1.28c.36-.35.93-.35 1.28 0l6.36 6.36 6.36-6.36a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-6.36 6.36 6.36 6.36a.9.9 0 0 1 0 1.27c-.18.18-.41.26-.64.26z" }) });
+});
+Close.displayName = "Close";
+
+// src/icons/CloverFill.tsx
+var React58 = __toESM(require("react"), 1);
+var import_jsx_runtime58 = require("react/jsx-runtime");
+var CloverFill = React58.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime58.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime58.jsx)("path", { fill: "currentColor", d: "m12.1 10.83 4.24-4.24c.4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49c-.82-.82-2.15-.82-2.98 0L12.1 4.87l-1.26-1.26c-.4-.4-.93-.62-1.49-.62s-1.09.22-1.49.62c-.82.82-.82 2.15 0 2.98zm0 2.54-4.24 4.24c-.82.82-.82 2.16 0 2.98s2.15.82 2.98 0l1.26-1.26 1.26 1.26c.82.82 2.16.82 2.98 0s.82-2.16 0-2.98zm7.22-1.27 1.26-1.26c.4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49c-.82-.82-2.16-.82-2.98 0l-4.24 4.24 4.24 4.24c.79.8 2.18.79 2.97 0 .4-.4.62-.93.62-1.49s-.22-1.09-.62-1.49l-1.26-1.26zM6.59 7.86c-.82-.82-2.16-.82-2.98 0s-.82 2.15 0 2.98l1.26 1.26-1.26 1.26c-.4.4-.62.93-.62 1.49s.22 1.09.62 1.49c.79.79 2.18.79 2.98 0l4.24-4.24z" }) });
+});
+CloverFill.displayName = "CloverFill";
+
+// src/icons/Clover.tsx
+var React59 = __toESM(require("react"), 1);
+var import_jsx_runtime59 = require("react/jsx-runtime");
+var Clover = React59.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime59.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime59.jsx)("path", { fill: "currentColor", d: "M21.66 6.39c-.83-.83-2.01-1.18-3.15-1.07.01-.14.04-.27.04-.42 0-1.04-.41-2.02-1.14-2.76C15.94.67 13.38.66 11.9 2.13a3.91 3.91 0 0 0-5.51.01c-.87.87-1.22 2.04-1.1 3.18-1.14-.11-2.31.24-3.15 1.07a3.91 3.91 0 0 0-.01 5.51 3.91 3.91 0 0 0 .01 5.51c.74.74 1.72 1.14 2.76 1.14.13 0 .25-.02.38-.04-.11 1.12.25 2.28 1.1 3.14a3.91 3.91 0 0 0 5.51.01 3.914 3.914 0 0 0 5.51-.01c.74-.74 1.14-1.72 1.14-2.76 0-.13-.02-.25-.04-.38.13.01.25.04.38.04 1 0 2-.38 2.76-1.14a3.91 3.91 0 0 0 .01-5.51 3.91 3.91 0 0 0-.01-5.51zm-14-2.97c.41-.41.95-.62 1.49-.62s1.08.21 1.49.61l.62.63c.17.17.4.26.64.26a.9.9 0 0 0 .64-.26l.63-.63a2.112 2.112 0 0 1 3.6 1.49c0 .56-.22 1.09-.62 1.49l-4.24 4.24-4.24-4.24c-.82-.82-.82-2.16 0-2.98zM3.41 16.14c-.82-.82-.82-2.16 0-2.98l.62-.62a.9.9 0 0 0 0-1.27l-.62-.63c-.4-.4-.62-.93-.62-1.49s.22-1.09.62-1.49.93-.62 1.49-.62 1.09.22 1.49.62l4.24 4.24-4.24 4.24a2.1 2.1 0 0 1-2.97 0zm13.34 2.76c0 .56-.22 1.09-.62 1.49-.8.79-2.18.79-2.97 0l-.63-.63a.9.9 0 0 0-.64-.26c-.24 0-.47.1-.64.26l-.62.63a2.1 2.1 0 0 1-2.97 0c-.82-.82-.82-2.16 0-2.98l4.24-4.24 4.24 4.24c.4.4.62.93.62 1.49zm3.01-6.36.62.62c.82.82.82 2.16 0 2.98s-2.15.82-2.98 0l-4.24-4.24 4.24-4.24c.79-.8 2.18-.79 2.98 0 .4.4.62.93.62 1.49s-.22 1.09-.62 1.49l-.62.63a.9.9 0 0 0 0 1.27" }) });
+});
+Clover.displayName = "Clover";
+
+// src/icons/ClubePodiFill.tsx
+var React60 = __toESM(require("react"), 1);
+var import_jsx_runtime60 = require("react/jsx-runtime");
+var ClubePodiFill = React60.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime60.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime60.jsx)("path", { fill: "currentColor", d: "M20.366 4.505c-2.47-2.1-6.01-2.02-8.35.12a6.3 6.3 0 0 0-8.35-.12 6.267 6.267 0 0 0-.18 9.36c1.27 1.16 2.52 2.38 3.79 3.61l.5.49c.42.41.98.64 1.55.64.13 0 .26-.01.39-.04.7-.13 1.27-.58 1.58-1.23.39-.83.16-1.58-.04-2.07-.1-.23-.18-.46-.27-.69a8 8 0 0 0 .79-.57 6.23 6.23 0 0 0 2.25-4.54c.06-1.24-.26-2.44-.87-3.46a4.49 4.49 0 0 1 6.03-.13c.96.82 1.53 2.03 1.55 3.31s-.5 2.51-1.44 3.38l-4.78 4.55a.9.9 0 0 0 1.24 1.3l4.76-4.54a6.28 6.28 0 0 0 2.01-4.72 6.26 6.26 0 0 0-2.18-4.64z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime60.jsx)("path", { fill: "currentColor", d: "M12.126 18.315h-.02c-.36 0-.7.15-.95.41-.25.25-.39.6-.38.95 0 .36.14.7.39.95s.59.39.95.4c.18 0 .36-.04.53-.11a1.37 1.37 0 0 0 .85-1.28c-.02-.71-.65-1.31-1.37-1.31z" })
+  ] });
+});
+ClubePodiFill.displayName = "ClubePodiFill";
+
+// src/icons/ClubePodi.tsx
+var React61 = __toESM(require("react"), 1);
+var import_jsx_runtime61 = require("react/jsx-runtime");
+var ClubePodi = React61.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime61.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("path", { fill: "currentColor", d: "M20.35 4.51c-2.47-2.1-6.01-2.02-8.35.12a6.3 6.3 0 0 0-8.35-.12 6.267 6.267 0 0 0-.18 9.36c1.28 1.18 2.56 2.42 3.79 3.62l.5.49c.42.41.98.63 1.55.63.13 0 .26-.01.39-.04.7-.13 1.27-.58 1.58-1.23.39-.83.16-1.58-.04-2.07q-.15-.345-.27-.69c.03-.02.06-.03.08-.05.25-.16.49-.34.71-.52a6.23 6.23 0 0 0 2.25-4.54c.06-1.24-.26-2.44-.87-3.46a4.49 4.49 0 0 1 6.03-.13c.96.82 1.53 2.03 1.55 3.31s-.5 2.51-1.44 3.38l-4.77 4.55a.9.9 0 0 0 1.24 1.3l4.76-4.54a6.28 6.28 0 0 0 2.01-4.72 6.26 6.26 0 0 0-2.18-4.64zm-9.74 8.12c-.17.14-.35.28-.54.4-.12.08-.25.14-.4.22l-.96.5.46 1.19c.13.35.26.69.41 1.03.16.38.12.51.07.62-.07.15-.19.21-.27.22s-.22.02-.36-.12l-.53-.52c-1.23-1.2-2.51-2.44-3.8-3.62a4.44 4.44 0 0 1-1.43-3.36c.02-1.28.59-2.48 1.56-3.3.88-.75 1.93-1.12 2.97-1.12 1.14 0 2.26.44 3.16 1.32.86.85 1.33 2.06 1.27 3.31a4.48 4.48 0 0 1-1.6 3.24z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime61.jsx)("path", { fill: "currentColor", d: "M12.11 18.32h-.02c-.36 0-.7.15-.95.41-.25.25-.39.6-.38.95 0 .36.14.7.39.95s.59.39.95.4c.18 0 .36-.04.53-.11a1.37 1.37 0 0 0 .85-1.28c-.02-.71-.65-1.31-1.37-1.31z" })
+  ] });
+});
+ClubePodi.displayName = "ClubePodi";
+
+// src/icons/CodeSSlash.tsx
+var React62 = __toESM(require("react"), 1);
+var import_jsx_runtime62 = require("react/jsx-runtime");
+var CodeSSlash = React62.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime62.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16.365 7.362a.9.9 0 0 1 1.273.003l1.84 1.85.037.038c.354.356.681.685.912.989.254.335.473.742.473 1.258s-.22.923-.473 1.258c-.23.304-.558.633-.912.989l-.037.037-1.84 1.85a.9.9 0 1 1-1.277-1.269l1.84-1.85c.405-.407.643-.649.792-.844a.8.8 0 0 0 .103-.163l.003-.008-.003-.008a.8.8 0 0 0-.103-.163c-.149-.195-.387-.437-.792-.844l-1.84-1.85a.9.9 0 0 1 .004-1.273m-8.731 0a.9.9 0 0 1 .004 1.273l-1.84 1.85c-.405.407-.643.649-.791.845a.8.8 0 0 0-.106.17l.002.008a1 1 0 0 0 .104.163c.148.195.386.437.791.844l1.84 1.85a.9.9 0 1 1-1.277 1.27l-1.84-1.85-.037-.038c-.354-.357-.681-.685-.911-.989-.255-.335-.473-.742-.473-1.258s.218-.923.473-1.258c.23-.304.557-.632.911-.989l.038-.038 1.84-1.85a.9.9 0 0 1 1.272-.003m7.134-4.221a.9.9 0 0 1 .59 1.127l-5 16a.9.9 0 1 1-1.717-.536l5-16a.9.9 0 0 1 1.127-.591", clipRule: "evenodd" }) });
+});
+CodeSSlash.displayName = "CodeSSlash";
+
+// src/icons/Coffee.tsx
+var React63 = __toESM(require("react"), 1);
+var import_jsx_runtime63 = require("react/jsx-runtime");
+var Coffee = React63.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime63.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.34 7.6c.566 0 1.069.021 1.497.091.425.07.852.198 1.21.465.504.375.717.897.801 1.443h.793c.477 0 .91.018 1.286.073.371.054.753.154 1.086.366.78.496.91 1.325.885 2.076-.04 1.206-.335 2.587-1.23 3.776-.901 1.198-2.335 2.1-4.46 2.486a10 10 0 0 1-2.606 2.952c-.562.432-1.112.713-1.736.877-.606.158-1.242.195-1.947.195H9.08c-.705 0-1.342-.037-1.947-.195-.624-.164-1.175-.445-1.737-.877-3.728-2.867-4.222-6.937-4.296-10.81-.016-.838.067-1.777.85-2.362.36-.268.786-.395 1.212-.465.428-.07.93-.092 1.496-.092zM4.66 9.4c-.538 0-.924.021-1.206.067-.284.047-.391.107-.425.132-.01.005-.142.089-.127.884.073 3.806.574 7.096 3.594 9.418.397.306.733.468 1.095.563.38.1.832.135 1.49.135h1.839c.658 0 1.11-.036 1.49-.135.363-.095.698-.257 1.096-.563 3.02-2.322 3.52-5.612 3.593-9.418.016-.803-.12-.88-.127-.884-.034-.025-.141-.085-.424-.132-.283-.045-.669-.067-1.206-.067zm14.214 2c-.065 1.645-.243 3.305-.745 4.877 1.017-.368 1.672-.899 2.101-1.469.6-.798.836-1.777.87-2.755.009-.278-.018-.415-.039-.473-.01-.03-.008-.021-.012-.024-.031-.02-.131-.068-.381-.104a7.5 7.5 0 0 0-1.026-.052z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime63.jsx)("path", { fill: "currentColor", d: "M6.928 3.34a.901.901 0 0 1 1.225 1.319l.002-.001.017-.017-.016.019a1 1 0 0 0-.094.142 1.45 1.45 0 0 0-.16.698.9.9 0 0 1-1.802 0c0-.669.182-1.19.378-1.553a2.7 2.7 0 0 1 .385-.542q.022-.024.04-.04l.014-.015.007-.006zl.305.329zm3.908-1.605a.9.9 0 0 1 .948 1.53c-.083.05-.314.27-.527.7a3.5 3.5 0 0 0-.355 1.535.9.9 0 0 1-1.8 0c0-.902.229-1.703.543-2.336.303-.61.727-1.142 1.19-1.429M13.61 3.19a.9.9 0 0 1 .984 1.486 1.4 1.4 0 0 0-.086.218 2.3 2.3 0 0 0-.107.606.9.9 0 0 1-1.8 0c0-.36.077-.785.189-1.143.057-.182.132-.377.228-.554a1.5 1.5 0 0 1 .51-.568z" })
+  ] });
+});
+Coffee.displayName = "Coffee";
+
+// src/icons/Color.tsx
+var React64 = __toESM(require("react"), 1);
+var import_jsx_runtime64 = require("react/jsx-runtime");
+var Color = React64.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime64.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime64.jsx)("path", { fill: "currentColor", d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10" }) });
+});
+Color.displayName = "Color";
+
+// src/icons/Computer.tsx
+var React65 = __toESM(require("react"), 1);
+var import_jsx_runtime65 = require("react/jsx-runtime");
+var Computer = React65.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime65.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("path", { fill: "currentColor", d: "M21.82 3.3a5.4 5.4 0 0 0-1.33-1.33c-1.4-.98-3.13-.98-6.6-.98h-4C6.44 1 4.7 1 3.3 1.98c-.52.36-.96.81-1.33 1.33C.99 4.7.99 6.44.99 9.91s0 5.2.98 6.6c.36.52.81.96 1.33 1.33 1.33.93 2.99.97 6.15.98.12.77-.03 1.58-.45 2.14l-.04.06H6.91c-.5 0-.9.4-.9.9s.4.9.9.9h10c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.05l-.04-.06c-.42-.55-.57-1.37-.45-2.14 3.16 0 4.82-.04 6.15-.98.52-.36.96-.81 1.33-1.33.98-1.39.98-3.13.98-6.6s0-5.2-.98-6.6zM10.99 21c.26-.68.35-1.45.28-2.2h1.26c-.07.75.03 1.52.28 2.2zm9.36-5.54c-.24.34-.54.64-.88.88-.93.65-2.48.65-5.56.65h-4c-3.09 0-4.63 0-5.57-.65-.34-.24-.64-.54-.88-.88-.65-.93-.65-2.48-.65-5.56s0-4.64.65-5.56c.24-.35.54-.64.88-.88.93-.65 2.48-.65 5.56-.65h4c3.09 0 4.63 0 5.56.65.35.24.64.54.88.88.65.93.65 2.48.65 5.56s0 4.63-.65 5.56z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime65.jsx)("path", { fill: "currentColor", d: "M12.9 14h-2c-.5 0-.9.4-.9.9s.4.9.9.9h2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9" })
+  ] });
+});
+Computer.displayName = "Computer";
+
+// src/icons/Contract.tsx
+var React66 = __toESM(require("react"), 1);
+var import_jsx_runtime66 = require("react/jsx-runtime");
+var Contract = React66.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime66.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("path", { fill: "currentColor", d: "M11.91 22.8h-4c-2.98 0-4.62 0-5.76-1.14s-1.14-2.78-1.14-5.76v-8C1 4.92 1 3.28 2.14 2.14 3.29 1 4.93 1 7.91 1h4c2.98 0 4.62 0 5.76 1.14.87.87 1.07 2.03 1.13 3.73.02.5-.38.91-.87.93-.49 0-.91-.38-.93-.87-.04-1.46-.2-2.11-.6-2.51-.59-.59-1.73-.62-4.49-.62h-4c-2.76 0-3.9.02-4.49.62-.59.59-.62 1.73-.62 4.48v8c0 2.75.02 3.89.62 4.48s1.73.62 4.49.62h4c2.76 0 3.9-.02 4.49-.62.4-.4.56-1.05.6-2.51.02-.5.44-.87.93-.87.5.01.89.43.87.93-.05 1.7-.25 2.86-1.13 3.73-1.14 1.14-2.78 1.14-5.76 1.14" }),
+    /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 18.8h-.005c.089 0 .187-.02.275-.05l2.98-.99c.13-.05.25-.12.35-.22l6.44-6.44c.32-.32.51-.51.65-.79.26-.53.26-1.16 0-1.68-.122-.263-.315-.456-.595-.735l-.055-.055c-.31-.31-.5-.5-.78-.64-.53-.26-1.15-.26-1.68 0-.28.14-.47.33-.79.65l-6.44 6.44c-.1.1-.18.22-.22.35l-.99 2.98c-.11.32-.02.68.22.92a.94.94 0 0 0 .635.26h-.005zm1.78-3.39-.36 1.07 1.07-.36 4.48-4.48-.71-.71zm5.75-5.75.71.71.54-.54.12-.118c.093-.09.157-.154.2-.212-.053-.115-.137-.199-.266-.327l-.054-.053-.094-.095a1.7 1.7 0 0 0-.246-.225c-.115.053-.198.137-.32.26l-.05.05-.55.55z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime66.jsx)("path", { fill: "currentColor", d: "M8.4 19.8h.99c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.44l-1-2c-.31-.61-1.3-.61-1.61 0l-1 2H4.9c-.5 0-.9.4-.9.9s.4.9.9.9h1c.35 0 .66-.2.81-.5l.44-.89.44.89c.16.31.47.5.81.5m5.5-13h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m-8 4h6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-6c-.5 0-.9.4-.9.9s.4.9.9.9" })
+  ] });
+});
+Contract.displayName = "Contract";
+
+// src/icons/Copy.tsx
+var React67 = __toESM(require("react"), 1);
+var import_jsx_runtime67 = require("react/jsx-runtime");
+var Copy = React67.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime67.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("path", { fill: "currentColor", d: "m8 15.967.02-2.037c0-.5.44-.9.91-.89.5 0 .9.41.89.91l-.03 2.96a.9.9 0 0 1-.9.89h-.01a.9.9 0 0 1-.265-.04c-2.952-.004-4.582-.08-5.835-1.11-.25-.2-.47-.43-.68-.68C.99 14.61.99 12.86.99 9.37S1 4.14 2.11 2.79c.2-.25.43-.48.68-.68C4.14 1 5.89 1 9.39 1s5.24 0 6.59 1.11c.25.2.47.43.68.68 1.033 1.256 1.107 2.892 1.11 5.86q.03.109.03.23c0 .5-.39.91-.89.91l-2.97.04h-.01a.9.9 0 0 1-.01-1.8l2.047-.028c-.018-2.298-.135-3.375-.697-4.062-.13-.16-.27-.3-.43-.43-.86-.7-2.39-.7-5.45-.7s-4.6 0-5.45.7c-.16.13-.3.27-.43.43-.7.85-.7 2.39-.7 5.45s0 4.6.7 5.45c.13.16.27.3.43.43.687.562 1.77.678 4.06.697m5.02 5.943c.01.5.41.89.9.89h.01l2.96-.04c.5 0 .89-.41.89-.91s-.4-.87-.91-.89l-2.96.04c-.5 0-.89.41-.89.91m5.49.1c.08.44.46.75.89.75v.01c.05 0 .15-.01.15-.01l.11-.02.016-.002c.875-.141 2.677-.431 3.114-2.678a.9.9 0 0 0-.71-1.06.907.907 0 0 0-1.06.71c-.19.97-.75 1.11-1.65 1.25l-.12.02c-.49.08-.82.54-.74 1.03m-7.27.74c.05.01.11.01.16.01a.896.896 0 0 0 .16-1.78l-.12-.02c-.9-.15-1.46-.3-1.63-1.27a.89.89 0 0 0-1.04-.73.89.89 0 0 0-.73 1.04c.4 2.26 2.22 2.58 3.09 2.73zm9.72-5.88c-.01.5.39.91.89.91h.01c.49 0 .9-.4.9-.89l.03-2.96a.89.89 0 0 0-.89-.91c-.53 0-.91.39-.91.89zm.904-5.02h.006-.01zm-.874-.74a.89.89 0 0 0 .95.735l.08-.005a.89.89 0 0 0 .73-1.04c-.4-2.26-2.22-2.58-3.09-2.73l-.11-.02a.91.91 0 0 0-1.04.73c-.09.49.24.95.73 1.04l.12.02c.9.15 1.46.3 1.63 1.27" }),
+    /* @__PURE__ */ (0, import_jsx_runtime67.jsx)("path", { fill: "currentColor", d: "M8.75 11.84c.05.01.11.01.16.01H8.9c.42 0 .8-.3.88-.74.18-.97.73-1.11 1.63-1.27l.12-.02a.89.89 0 0 0 .73-1.04.89.89 0 0 0-1.04-.73l-.11.02c-.87.15-2.69.47-3.09 2.73-.09.49.24.95.73 1.04" })
+  ] });
+});
+Copy.displayName = "Copy";
+
+// src/icons/CourtLaw.tsx
+var React68 = __toESM(require("react"), 1);
+var import_jsx_runtime68 = require("react/jsx-runtime");
+var CourtLaw = React68.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime68.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.789 7.302a.9.9 0 0 1 1.445.892l.273.223a29 29 0 0 1 1.88 1.696l.461.479c.458.487.892.99 1.235 1.401q.118.143.221.272a.9.9 0 0 1 .833 1.514l-2.858 2.858-.068.061a.9.9 0 0 1-1.447-.893l-.271-.222a34 34 0 0 1-1.228-1.076l-3.129 3.13a.901.901 0 0 1-1.273-1.274l3.129-3.13a34 34 0 0 1-1.074-1.226q-.119-.144-.223-.273a.9.9 0 0 1-.832-1.513l2.857-2.858zm-.726 3.263q.11.136.237.289c.442.53 1.02 1.194 1.586 1.76.566.565 1.23 1.144 1.76 1.586l.287.236 1.002-1.002q-.108-.135-.235-.287a31 31 0 0 0-1.162-1.322l-.425-.438a28 28 0 0 0-1.76-1.587l-.288-.237z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime68.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1c.9 0 1.701.29 2.55.765.827.465 1.774 1.152 2.956 2.006l1.44 1.041 1.285.94c.382.288.718.555 1.007.811.592.525 1.045 1.058 1.333 1.733l.099.255c.206.597.253 1.211.22 1.894-.027.57-.114 1.227-.23 1.997l-.122.809-.3 1.959c-.247 1.604-.444 2.893-.735 3.898-.3 1.032-.726 1.87-1.498 2.513-.77.64-1.681.92-2.77 1.052-1.066.129-2.412.127-4.097.127h-2.277c-1.685 0-3.03.002-4.097-.127-1.088-.133-2-.413-2.77-1.052-.772-.643-1.198-1.481-1.497-2.513-.219-.754-.384-1.667-.557-2.754l-.178-1.144-.3-1.96c-.174-1.13-.316-2.046-.353-2.805-.038-.78.03-1.471.32-2.149l.115-.247c.288-.561.7-1.026 1.217-1.486.578-.512 1.344-1.065 2.292-1.75l2.285-1.651c.803-.575 1.491-1.048 2.112-1.397.848-.476 1.649-.765 2.55-.765m0 1.8c-.482 0-.974.144-1.67.535-.536.301-1.15.722-1.935 1.284l-.847.61-1.44 1.041c-.978.707-1.658 1.2-2.152 1.639-.42.373-.661.668-.813.966l-.06.128c-.145.34-.206.733-.176 1.355.031.644.155 1.452.334 2.62l.3 1.958.18 1.149c.169 1.061.316 1.872.504 2.522.243.839.526 1.301.921 1.63.4.332.926.538 1.836.648.933.114 2.15.115 3.88.115h2.276c1.73 0 2.947-.001 3.88-.115.91-.11 1.436-.316 1.835-.648.395-.329.678-.791.921-1.63.251-.866.43-2.02.684-3.67l.3-1.96.223-1.506c.057-.428.096-.791.111-1.113.027-.544-.017-.913-.125-1.225l-.051-.13c-.146-.343-.392-.668-.872-1.094-.247-.22-.541-.453-.895-.719l-1.258-.92-1.44-1.04c-1.214-.88-2.066-1.493-2.782-1.895-.696-.39-1.187-.535-1.67-.535", clipRule: "evenodd" })
+  ] });
+});
+CourtLaw.displayName = "CourtLaw";
+
+// src/icons/CreditCardAccept.tsx
+var React69 = __toESM(require("react"), 1);
+var import_jsx_runtime69 = require("react/jsx-runtime");
+var CreditCardAccept = React69.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime69.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime69.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.9 20.8h-.5c-3.96 0-5.95 0-7.45-1.19-.24-.19-.46-.4-.67-.63C1 17.54 1 15.65 1 11.89s0-5.64 1.28-7.08c.2-.23.43-.44.67-.63C4.45 3 6.44 3 10.4 3h3c3.96 0 5.95 0 7.45 1.19.24.19.46.4.67.63 1.2 1.35 1.27 3.19 1.28 6.08 0 .5-.4.9-.9.9s-.9-.4-.9-.9q0-.59-.007-1.1H2.82c-.011.617-.011 1.316-.011 2.11 0 3.31 0 4.96.82 5.89.13.15.28.29.44.41 1.01.8 2.79.8 6.34.8h.5c.5 0 .9.4.9.9s-.4.9-.9.9zM2.92 8h17.977c-.106-.92-.314-1.537-.717-1.99-.13-.15-.28-.29-.44-.41-1.01-.8-2.79-.8-6.34-.8h-3c-3.55 0-5.33 0-6.33.8-.16.13-.31.27-.44.42-.4.449-.605 1.074-.71 1.98", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime69.jsx)("path", { fill: "currentColor", d: "M15.85 20.8h.05l-.01-.01c.31 0 .59-.16.76-.42.84-1.31 3.47-4.9 5.54-5.63.47-.17.72-.68.55-1.15a.9.9 0 0 0-1.15-.55c-2.23.79-4.5 3.58-5.67 5.21-.94-1.18-1.83-1.26-2.03-1.26-.5 0-.94.4-.94.9s.36.9.86.9c.01 0 .6.14 1.28 1.51.15.29.44.48.76.5" })
+  ] });
+});
+CreditCardAccept.displayName = "CreditCardAccept";
+
+// src/icons/CreditsSwap.tsx
+var React70 = __toESM(require("react"), 1);
+var import_jsx_runtime70 = require("react/jsx-runtime");
+var CreditsSwap = React70.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime70.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8 9.1a6.9 6.9 0 1 1 0 13.8A6.9 6.9 0 0 1 8 9.1m0 1.8a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("path", { fill: "currentColor", d: "M22 14.1a.9.9 0 0 1 .9.9 6.896 6.896 0 0 1-6.544 6.89L16 21.9a.9.9 0 0 1-.805-1.302l.857-1.715.046-.08a.9.9 0 0 1 1.564.886l-.08.16A5.095 5.095 0 0 0 21.1 15a.9.9 0 0 1 .9-.9m-4.877.788a.9.9 0 0 1-.3-1.776z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("path", { fill: "currentColor", d: "M15.957 1.1a6.944 6.944 0 0 1 1.166 13.788l-.15-.888-.15-.888a5.144 5.144 0 1 0-5.935-5.935L10 7.027l-.888-.15A6.945 6.945 0 0 1 15.957 1.1M8.116 2.107a.9.9 0 0 1 .689 1.295l-.857 1.715a.9.9 0 0 1-1.61-.805l.08-.162A5.1 5.1 0 0 0 2.9 9a.9.9 0 0 1-1.8 0c0-3.814 3.086-6.9 6.9-6.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime70.jsx)("path", { fill: "currentColor", d: "M10.888 7.177a.9.9 0 0 1-1.776-.3z" })
+  ] });
+});
+CreditsSwap.displayName = "CreditsSwap";
+
+// src/icons/Credits.tsx
+var React71 = __toESM(require("react"), 1);
+var import_jsx_runtime71 = require("react/jsx-runtime");
+var Credits = React71.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime71.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 1a9 9 0 1 0 0 18 9 9 0 0 0 0-18m-7 9a7 7 0 1 1 14 0 7 7 0 0 1-14 0", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime71.jsx)("path", { fill: "currentColor", d: "M3.891 11.343a1 1 0 0 0-1.72-1.02 8.398 8.398 0 0 0 11.506 11.506 1 1 0 1 0-1.02-1.72 6.398 6.398 0 0 1-8.766-8.765" })
+  ] });
+});
+Credits.displayName = "Credits";
+
+// src/icons/Crmall.tsx
+var React72 = __toESM(require("react"), 1);
+var import_jsx_runtime72 = require("react/jsx-runtime");
+var Crmall = React72.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime72.jsx)("path", { fill: "currentColor", d: "M4 4a1 1 0 0 1 1-1h10.044a1 1 0 0 1 1 1v1.706a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm0 7.147a1 1 0 0 1 1-1h13.618a1 1 0 0 1 1 1v1.706a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm5.824 7.147a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1V20a1 1 0 0 0 1 1h3.824a1 1 0 0 0 1-1z" }) });
+});
+Crmall.displayName = "Crmall";
+
+// src/icons/Crown03.tsx
+var React73 = __toESM(require("react"), 1);
+var import_jsx_runtime73 = require("react/jsx-runtime");
+var Crown03 = React73.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime73.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("path", { fill: "currentColor", d: "M19.092 19.605a.9.9 0 0 1 0 1.79L19 21.4H5a.9.9 0 0 1 0-1.8h14z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime73.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.117 2.604c.546.035 1.05.32 1.358.778l.062.1 2.215 3.822.488.827a6 6 0 0 0 .362.538c.202.26.293.282.327.29l.038.006c.053.002.161-.013.385-.12.32-.152.727-.417 1.37-.84l1.232-.81.144-.086a1.91 1.91 0 0 1 2.242.32l.092.097c.44.5.586 1.2.37 1.84l-.004.008-2.245 6.415c-.163.466-.31.886-.47 1.22-.17.354-.395.69-.759.948s-.756.358-1.146.402c-.368.042-.813.041-1.306.041H7.128c-.493 0-.938 0-1.306-.04-.342-.04-.684-.12-1.009-.313l-.137-.09c-.364-.258-.588-.594-.759-.948a7 7 0 0 1-.234-.56l-.236-.66-2.245-6.415-.004-.009A1.87 1.87 0 0 1 1.66 7.43l.124-.113a1.91 1.91 0 0 1 2.262-.122l1.231.81.808.521c.222.138.403.243.563.32.298.141.39.12.423.113l.037-.012c.05-.022.139-.083.29-.278.219-.28.464-.699.85-1.365l2.215-3.822.062-.1c.33-.49.884-.782 1.475-.782zM9.806 8.206c-.36.621-.676 1.169-.988 1.57-.287.368-.636.7-1.118.872l-.215.063c-.595.14-1.13-.01-1.611-.24a8 8 0 0 1-.74-.415L4.29 9.51 3.057 8.7a.11.11 0 0 0-.104-.009l-.03.02a.08.08 0 0 0-.02.076l2.243 6.406.222.623c.063.168.117.3.17.41.096.2.153.245.179.263l.08.038c.047.015.117.032.227.044.244.028.57.029 1.104.029h9.744c.534 0 .86-.001 1.104-.029.22-.025.281-.063.307-.082.026-.018.083-.063.179-.262.106-.221.215-.53.392-1.034l2.243-6.406a.1.1 0 0 0 0-.038l-.02-.038a.11.11 0 0 0-.1-.026l-.034.014-1.232.81c-.6.395-1.127.743-1.585.962-.422.2-.883.341-1.39.279l-.221-.04c-.595-.14-1.005-.514-1.333-.935a8 8 0 0 1-.476-.702l-.512-.867L12 4.419z", clipRule: "evenodd" })
+  ] });
+});
+Crown03.displayName = "Crown03";
+
+// src/icons/Cursor.tsx
+var React74 = __toESM(require("react"), 1);
+var import_jsx_runtime74 = require("react/jsx-runtime");
+var Cursor = React74.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime74.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.99 22.81c-.51 0-.98-.21-1.34-.57-.26-.27-.38-.57-.58-1.07l-1.49-3.71c-.15-.38-.31-.77-.38-.86-.08.04-.41.3-.72.54-1.63 1.25-2.45 1.88-3.39 1.78-.63-.06-1.22-.39-1.62-.89-.58-.73-.5-1.76-.35-3.81l.56-7.72c.19-2.9.3-4.65 1.93-5.32 1.63-.66 2.93.52 5.07 2.48l5.73 5.16c1.53 1.37 2.29 2.06 2.38 2.99.06.63-.14 1.28-.55 1.77-.61.72-1.62.84-3.66 1.09-.4.05-.81.1-.92.15.02.1.18.49.33.87l1.48 3.7c.19.48.32.8.32 1.18 0 .51-.21.99-.57 1.34-.26.26-.56.38-1.05.58-.51.21-.81.33-1.18.33zm-3.8-7.98c.37 0 .74.11 1.05.32.48.32.68.82 1.01 1.65l1.48 3.7c.09.23.18.45.22.51.08 0 .31-.1.53-.19s.45-.18.5-.22c0-.1-.1-.33-.18-.54l-1.48-3.7c-.33-.83-.53-1.32-.41-1.89.09-.41.3-.76.6-1.03.44-.39.97-.45 1.85-.56 1.13-.14 2.3-.28 2.5-.46.1-.12.15-.28.13-.43-.06-.27-.94-1.06-1.79-1.82L10.47 5C8.76 3.44 7.85 2.63 7.29 2.86s-.66 1.45-.82 3.78l-.57 7.73c-.09 1.2-.17 2.33-.03 2.57.09.12.24.2.39.21.27 0 1.2-.72 2.11-1.42.71-.54 1.14-.87 1.72-.9z", clipRule: "evenodd" }) });
+});
+Cursor.displayName = "Cursor";
+
+// src/icons/DarkmodeOff.tsx
+var React75 = __toESM(require("react"), 1);
+var import_jsx_runtime75 = require("react/jsx-runtime");
+var DarkmodeOff = React75.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime75.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("path", { fill: "currentColor", d: "M11 21.9c0 .5.4.9.9.9s.9-.4.9-.9v-1.5c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm7.965-2.03h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-1.06-1.06a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27zm-13.505.26h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26l1.06-1.06a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-1.06 1.06a.9.9 0 0 0 0 1.27M20.4 12.8h1.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-1.5c-.5 0-.9.4-.9.9s.4.9.9.9m-18.5 0h1.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H1.9c-.5 0-.9.4-.9.9s.4.9.9.9m16.005-6.01h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26l1.06-1.06a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-1.06 1.06a.9.9 0 0 0 0 1.27m-11.385.26h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27L5.46 4.2a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27zM11 3.4c0 .5.4.9.9.9s.9-.4.9-.9V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime75.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6 11.9c0 3.25 2.65 5.9 5.9 5.9s5.9-2.65 5.9-5.9S15.15 6 11.9 6A5.91 5.91 0 0 0 6 11.9m1.8 0c0-2.26 1.84-4.1 4.1-4.1S16 9.64 16 11.9 14.16 16 11.9 16s-4.1-1.84-4.1-4.1", clipRule: "evenodd" })
+  ] });
+});
+DarkmodeOff.displayName = "DarkmodeOff";
+
+// src/icons/DarkmodeOn.tsx
+var React76 = __toESM(require("react"), 1);
+var import_jsx_runtime76 = require("react/jsx-runtime");
+var DarkmodeOn = React76.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime76.jsx)("path", { fill: "currentColor", d: "M12.53 22.8C6.72 22.8 2 18.08 2 12.27c0-4.91 3.34-9.13 8.12-10.25a.9.9 0 0 1 1 1.3c-.59 1.1-.9 2.35-.9 3.6 0 4.22 3.43 7.66 7.66 7.66 1.26 0 2.5-.31 3.6-.9a.88.88 0 0 1 .97.08c.28.22.41.58.33.92a10.48 10.48 0 0 1-10.25 8.12M8.76 4.39a8.7 8.7 0 0 0-4.96 7.88c0 4.81 3.92 8.73 8.73 8.73 3.44 0 6.46-1.97 7.88-4.96-.82.23-1.68.35-2.53.35-5.21 0-9.46-4.24-9.46-9.46 0-.86.12-1.71.35-2.53z" }) });
+});
+DarkmodeOn.displayName = "DarkmodeOn";
+
+// src/icons/Delete.tsx
+var React77 = __toESM(require("react"), 1);
+var import_jsx_runtime77 = require("react/jsx-runtime");
+var Delete = React77.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime77.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime77.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.034 1.1c.504 0 .94 0 1.304.032.38.034.746.108 1.103.294l.204.117q.1.063.195.133l.117.093c.262.222.457.485.629.771.188.313.377.706.597 1.16l.436.9H21a.9.9 0 0 1 0 1.8h-.654l-.568 9.181c-.078 1.263-.14 2.274-.267 3.082-.114.72-.29 1.346-.62 1.904l-.152.236a4.9 4.9 0 0 1-1.47 1.382c-.642.39-1.355.559-2.183.638-.814.078-1.828.077-3.093.077-1.267 0-2.281 0-3.097-.078-.83-.08-1.543-.246-2.186-.638a4.9 4.9 0 0 1-1.32-1.18l-.15-.205c-.43-.618-.64-1.32-.77-2.143-.127-.809-.188-1.822-.264-3.087L3.652 6.4H3a.9.9 0 0 1 0-1.8h4.475l.365-.802.303-.655q.143-.303.28-.546c.194-.34.42-.647.747-.898l.196-.138q.101-.066.207-.122l.137-.067c.32-.145.65-.208.99-.24.37-.033.818-.032 1.334-.032M5.456 6.4l.547 9.06c.078 1.3.134 2.212.245 2.916.108.69.258 1.09.47 1.394l.095.13a3.1 3.1 0 0 0 .7.659l.134.087.124.07c.3.154.69.257 1.297.315.71.068 1.623.069 2.925.069 1.3 0 2.213 0 2.921-.069.693-.066 1.102-.191 1.418-.383.367-.224.685-.522.93-.875l.077-.119c.172-.29.299-.67.394-1.273.112-.703.17-1.613.25-2.911l.56-9.07zm6.578-3.5c-.549 0-.9.001-1.172.026-.19.017-.302.044-.378.073l-.066.03-.078.046-.075.052c-.069.053-.151.14-.278.361a7 7 0 0 0-.22.43l-.29.627-.025.055h5.167l-.056-.116c-.233-.482-.384-.79-.521-1.018a1.4 1.4 0 0 0-.225-.302l-.053-.046-.152-.095c-.075-.039-.187-.076-.434-.098-.265-.024-.608-.025-1.144-.025", clipRule: "evenodd" }) });
+});
+Delete.displayName = "Delete";
+
+// src/icons/Descontos.tsx
+var React78 = __toESM(require("react"), 1);
+var import_jsx_runtime78 = require("react/jsx-runtime");
+var Descontos = React78.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime78.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("path", { fill: "currentColor", d: "M15.112 13.905a1.1 1.1 0 0 1 0 2.19L15 16.1h-.01a1.1 1.1 0 1 1 0-2.2H15zm-.749-5.542a.9.9 0 0 1 1.274 1.274l-6 6a.9.9 0 0 1-1.274-1.274zm-5.24-.458a1.1 1.1 0 0 1 0 2.19l-.112.005H9a1.1 1.1 0 1 1 0-2.2h.01z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime78.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m12.187 1.107.199.025c.454.078.83.3 1.167.563.368.288.773.696 1.238 1.16s.546.528.626.565l.049.02.074.02c.095.017.277.024.769.024h.108c.728 0 1.366-.002 1.875.067.535.072 1.063.236 1.492.665l.149.166c.32.396.453.858.516 1.326.069.51.067 1.147.067 1.875v.108c0 .492.008.674.024.769l.02.074v.002l.02.047.038.066c.056.08.18.212.527.56l.646.656q.296.308.514.582c.3.385.547.82.588 1.366L22.9 12q-.001.094-.008.188c-.041.544-.287.98-.588 1.365-.288.367-.696.773-1.16 1.238l-.001-.001c-.463.463-.527.547-.564.627l-.02.047v.002c-.03.082-.044.187-.044.843v.108c0 .728.002 1.366-.067 1.875-.063.469-.196.931-.516 1.327l-.149.165c-.429.43-.957.593-1.492.665-.51.069-1.147.067-1.875.067h-.108c-.656 0-.76.013-.843.044h-.002l-.048.02h.001c-.08.037-.164.1-.627.564h.001c-.465.465-.87.873-1.238 1.16-.385.302-.821.547-1.366.588q-.187.015-.374 0c-.545-.04-.981-.287-1.366-.587a8 8 0 0 1-.582-.514l-.656-.646c-.347-.348-.48-.471-.56-.527l-.066-.038-.047-.02h-.002c-.082-.03-.187-.044-.842-.044h-.109c-.728 0-1.365.002-1.875-.067-.468-.063-.93-.197-1.326-.516l-.166-.149c-.43-.43-.593-.957-.665-1.492-.069-.51-.066-1.147-.066-1.875v-.108c0-.492-.008-.674-.025-.769l-.02-.074-.02-.049c-.037-.08-.1-.163-.564-.627-.465-.465-.873-.87-1.16-1.237-.264-.337-.485-.713-.564-1.167l-.024-.2a2.5 2.5 0 0 1 0-.373l.024-.199c.079-.454.3-.83.563-1.167.288-.367.696-.773 1.16-1.238l.28-.282c.215-.222.258-.284.285-.344l.02-.049.02-.074c.017-.095.025-.276.025-.769v-.108c0-.728-.003-1.366.066-1.875.072-.535.236-1.063.665-1.492l.166-.149c.396-.32.858-.453 1.326-.516.51-.069 1.147-.067 1.875-.067h.109c.655 0 .76-.013.842-.044l.05-.02.066-.038c.078-.055.211-.179.56-.527l.655-.646q.308-.296.582-.514c.385-.3.822-.547 1.367-.588L12 1.1q.093 0 .187.007m-.239 1.795c-.046.004-.147.02-.391.211a6 6 0 0 0-.45.398l-.624.617c-.325.325-.623.637-.989.846l-.16.083-.174.07c-.455.17-.944.157-1.468.157h-.109c-.78 0-1.274.001-1.636.05-.25.034-.36.082-.417.12l-.04.035c-.04.04-.11.123-.156.458-.048.362-.05.857-.05 1.636v.448c-.002.334-.017.653-.1.957l-.056.172-.071.173c-.152.331-.39.603-.655.875l-.274.274c-.497.497-.81.814-1.015 1.075-.143.183-.189.285-.204.344l-.007.047a1 1 0 0 0 0 .104l.007.047c.015.059.061.161.204.344.103.13.232.276.398.45l.617.625.274.274c.265.272.503.544.655.875l.071.173.056.172c.083.304.098.623.1.957v.448c0 .78.002 1.274.05 1.636.045.334.115.418.154.458h.001l.041.035c.056.038.167.086.417.12.362.049.857.05 1.636.05h.109c.524 0 1.013-.013 1.468.156q.09.033.173.071l.161.083c.366.209.664.521.989.846l.625.617c.174.166.318.296.449.398.243.19.343.207.39.21h.106l.046-.006c.059-.015.161-.06.345-.204.26-.204.577-.518 1.074-1.015l.274-.273c.272-.266.544-.504.875-.656l.173-.07.172-.056c.304-.083.624-.099.958-.101h.447c.78 0 1.274-.001 1.636-.05.334-.045.419-.115.458-.154v-.001l.035-.041c.038-.056.086-.166.12-.417.049-.362.05-.857.05-1.636v-.108c0-.525-.013-1.013.156-1.47q.033-.088.072-.171l.082-.162c.21-.366.521-.663.846-.988l.617-.626c.166-.174.296-.318.398-.449.19-.243.207-.343.21-.39v-.106c-.003-.046-.02-.147-.21-.39a6 6 0 0 0-.398-.449l-.617-.626c-.325-.325-.637-.622-.846-.988l-.082-.161a3 3 0 0 1-.072-.173l-.055-.172c-.11-.406-.101-.837-.101-1.297v-.108c0-.78-.001-1.274-.05-1.636-.045-.334-.115-.418-.154-.458h-.001c-.04-.04-.124-.11-.458-.155-.362-.049-.857-.05-1.636-.05h-.447c-.334-.002-.654-.017-.958-.1l-.172-.056-.173-.071c-.331-.152-.603-.39-.875-.656l-.274-.273c-.497-.497-.814-.81-1.075-1.015-.183-.143-.285-.189-.344-.204l-.047-.007z", clipRule: "evenodd" })
+  ] });
+});
+Descontos.displayName = "Descontos";
+
+// src/icons/DocumentValidation.tsx
+var React79 = __toESM(require("react"), 1);
+var import_jsx_runtime79 = require("react/jsx-runtime");
+var DocumentValidation = React79.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime79.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("path", { fill: "currentColor", d: "M15.88 9.32h-.05a.93.93 0 0 1-.76-.5c-.42-.84-.83-1.27-.84-1.27a.91.91 0 0 1 .01-1.27.9.9 0 0 1 1.27 0c.03.03.2.2.43.51.67-.84 1.64-1.87 2.64-2.22.47-.17.98.08 1.15.55s-.08.98-.55 1.15c-.77.27-1.95 1.7-2.54 2.63-.17.26-.45.42-.76.42" }),
+    /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("path", { fill: "currentColor", d: "M11.32 22.8c-2.21 0-4.54-.06-6.18-.15-3.12-.18-4.13-3.45-4.13-5C1 16.38 1 13.84 1 11.12V6.87c.01-4.96 3.37-5.59 4.4-5.66.01 0 1.98-.29 4.53-.18.5.02.88.44.86.94s-.48.88-.94.86C7.48 2.73 5.61 3 5.59 3c-1.31.1-2.79.84-2.79 3.87v4.26c-.01 2.71-.02 5.24 0 6.51 0 .66.41 3.1 2.43 3.22 3.06.18 8.58.22 11.1 0 .05 0 2.19-.15 2.44-2.26.26-2.24.24-3.87.23-4.48v-.19c0-.5.4-.9.9-.9s.9.4.9.9v.17c0 .65.03 2.36-.25 4.71-.31 2.68-2.62 3.77-4.1 3.85-1.22.11-3.14.15-5.15.15z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime79.jsx)("path", { fill: "currentColor", d: "M16.9 12.82c-3.26 0-5.91-2.65-5.91-5.9s2.65-5.9 5.91-5.9 5.91 2.65 5.91 5.9-2.65 5.9-5.91 5.9m0-10c-2.26 0-4.1 1.84-4.1 4.1s1.84 4.1 4.1 4.1S21 9.18 21 6.92s-1.84-4.1-4.1-4.1m-6.02 11h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9m4 4h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9" })
+  ] });
+});
+DocumentValidation.displayName = "DocumentValidation";
+
+// src/icons/Dot.tsx
+var React80 = __toESM(require("react"), 1);
+var import_jsx_runtime80 = require("react/jsx-runtime");
+var Dot = React80.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime80.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1", clipRule: "evenodd" }) });
+});
+Dot.displayName = "Dot";
+
+// src/icons/Download.tsx
+var React81 = __toESM(require("react"), 1);
+var import_jsx_runtime81 = require("react/jsx-runtime");
+var Download = React81.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime81.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("path", { fill: "currentColor", d: "M9.24 12.62c1.03 1.32 1.78 2.18 2.66 2.18v-.01c.88 0 1.63-.86 2.66-2.18.19-.25.36-.47.48-.59a.9.9 0 0 0-.02-1.27.9.9 0 0 0-1.27.02c-.15.16-.36.42-.61.74-.041.057-.097.125-.158.201q-.087.106-.182.229V3.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v8.05l-.194-.246q-.081-.105-.146-.184l-.02-.026c-.241-.309-.444-.568-.59-.714a.9.9 0 0 0-1.27-.02.89.89 0 0 0-.02 1.27c.084.091.202.24.341.415l.14.175" }),
+    /* @__PURE__ */ (0, import_jsx_runtime81.jsx)("path", { fill: "currentColor", d: "M10.68 20.8h2.44c2.83 0 4.39 0 5.66-.9s1.79-2.37 2.73-5.04l.23-.66a.907.907 0 0 0-.55-1.15.907.907 0 0 0-1.15.55l-.23.66c-.84 2.4-1.27 3.6-2.07 4.17s-2.08.57-4.62.57h-2.44c-2.54 0-3.82 0-4.62-.57-.793-.565-1.213-1.75-2.049-4.11l-.02-.06-.23-.66a.9.9 0 0 0-1.15-.55c-.47.17-.72.68-.55 1.15l.23.66c.94 2.67 1.46 4.14 2.73 5.04s2.83.9 5.66.9" })
+  ] });
+});
+Download.displayName = "Download";
+
+// src/icons/DragDropVertical.tsx
+var React82 = __toESM(require("react"), 1);
+var import_jsx_runtime82 = require("react/jsx-runtime");
+var DragDropVertical = React82.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime82.jsx)("path", { fill: "currentColor", d: "m8.007 16.5.153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 0 1 0-3zm7.993 0a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3zm-7.993-6 .153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 0 1 0-3zm7.993 0a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3zm-7.993-6 .153.008a1.5 1.5 0 0 1 0 2.984l-.153.008H8a1.5 1.5 0 1 1 0-3zM16 4.5a1.5 1.5 0 0 1 0 3h-.006a1.5 1.5 0 0 1 0-3z" }) });
+});
+DragDropVertical.displayName = "DragDropVertical";
+
+// src/icons/Drag.tsx
+var React83 = __toESM(require("react"), 1);
+var import_jsx_runtime83 = require("react/jsx-runtime");
+var Drag = React83.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime83.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("path", { fill: "currentColor", d: "M15.334 16.395a.901.901 0 0 1 1.44 1.062l-.05.077v.001l-.003.003-.007.009-.026.036-.099.13a38 38 0 0 1-1.514 1.877c-.444.511-.941 1.046-1.41 1.46-.232.206-.48.4-.726.549-.222.133-.557.301-.94.301s-.717-.168-.939-.301a5 5 0 0 1-.726-.55c-.469-.413-.966-.948-1.41-1.46a36 36 0 0 1-1.514-1.875l-.099-.131-.026-.036-.007-.01-.003-.003-.05-.077a.9.9 0 0 1 1.44-1.062l.06.07.001.003.005.008.023.03.092.124a38 38 0 0 0 1.438 1.78c.424.489.861.954 1.242 1.29q.287.253.464.358l.01.005.01-.005q.175-.105.463-.358c.38-.336.818-.801 1.242-1.29a34 34 0 0 0 1.438-1.78l.092-.123.023-.031.005-.008.002-.001z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 9.1a2.9 2.9 0 1 1 0 5.801A2.9 2.9 0 0 1 12 9.1m0 1.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime83.jsx)("path", { fill: "currentColor", d: "M12.14 2.107c.324.034.605.177.799.294.246.149.494.343.727.55.468.413.965.948 1.409 1.46a36 36 0 0 1 1.514 1.875l.099.131.026.036.007.01.003.003.05.077a.9.9 0 0 1-1.44 1.062l-.06-.07-.001-.003-.005-.008-.023-.03-.092-.124a37 37 0 0 0-1.438-1.78 14 14 0 0 0-1.242-1.29 3.4 3.4 0 0 0-.464-.358L12 3.937l-.01.005q-.175.105-.463.358c-.38.336-.818.801-1.242 1.29a34 34 0 0 0-1.438 1.78l-.092.123-.023.031-.005.008-.002.001a.901.901 0 0 1-1.45-1.067l.002-.001.002-.003.007-.009.026-.036.099-.13A38 38 0 0 1 8.924 4.41c.444-.511.941-1.046 1.41-1.46.232-.206.48-.4.726-.549.222-.133.557-.301.94-.301z" })
+  ] });
+});
+Drag.displayName = "Drag";
+
+// src/icons/Edit.tsx
+var React84 = __toESM(require("react"), 1);
+var import_jsx_runtime84 = require("react/jsx-runtime");
+var Edit = React84.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime84.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("path", { fill: "currentColor", d: "M17.008 2.733a1.9 1.9 0 0 1 2.543.13l1.586 1.586.13.145a1.9 1.9 0 0 1 0 2.398l-.13.145-7.902 7.9a2.9 2.9 0 0 1-1.158.71l-.19.053-3.461.866a.9.9 0 0 1-1.092-1.092l.865-3.462.055-.19a2.9 2.9 0 0 1 .708-1.157l7.901-7.902zm-6.773 9.304a1.1 1.1 0 0 0-.244.37l-.046.142-.502 2.007 2.008-.502.142-.046a1.1 1.1 0 0 0 .369-.243l5.472-5.472-1.728-1.727zm7.934-7.923-.032.023-1.157 1.156 1.727 1.727 1.156-1.157.023-.033a.1.1 0 0 0 0-.075l-.023-.033-1.586-1.585a.1.1 0 0 0-.108-.023" }),
+    /* @__PURE__ */ (0, import_jsx_runtime84.jsx)("path", { fill: "currentColor", d: "M2.307 18.793v-12a2.9 2.9 0 0 1 2.9-2.9h5.5l.092.004a.9.9 0 0 1 0 1.791l-.092.005h-5.5a1.1 1.1 0 0 0-1.1 1.1v12a1.1 1.1 0 0 0 1.1 1.1h12a1.1 1.1 0 0 0 1.1-1.1v-5.5a.9.9 0 0 1 1.8 0v5.5a2.9 2.9 0 0 1-2.9 2.9h-12a2.9 2.9 0 0 1-2.9-2.9" })
+  ] });
+});
+Edit.displayName = "Edit";
+
+// src/icons/EmojiEmpty.tsx
+var React85 = __toESM(require("react"), 1);
+var import_jsx_runtime85 = require("react/jsx-runtime");
+var EmojiEmpty = React85.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime85.jsx)("path", { fill: "currentColor", d: "M10.575 20.99a9.2 9.2 0 0 0 2.85 0 .9.9 0 1 1 .28 1.778 11 11 0 0 1-3.41 0 .901.901 0 0 1 .28-1.779M3.38 17.15a.9.9 0 0 1 1.257.199 9.2 9.2 0 0 0 2.014 2.014.9.9 0 1 1-1.06 1.455 11 11 0 0 1-2.41-2.41.9.9 0 0 1 .199-1.258m15.983.199a.9.9 0 1 1 1.455 1.06 11 11 0 0 1-2.41 2.41.9.9 0 0 1-1.06-1.456 9.2 9.2 0 0 0 2.015-2.014M7.46 14.28a.9.9 0 0 1 1.26.18c.75.997 1.94 1.64 3.28 1.64s2.53-.643 3.28-1.64a.9.9 0 0 1 1.44 1.08A5.9 5.9 0 0 1 12 17.9c-1.93 0-3.645-.93-4.72-2.36a.9.9 0 0 1 .18-1.26M2.262 9.546a.9.9 0 0 1 .749 1.03 9.2 9.2 0 0 0 0 2.849.9.9 0 1 1-1.779.28 11 11 0 0 1 0-3.41.9.9 0 0 1 1.03-.75m19.476.001a.9.9 0 0 1 1.03.75 11 11 0 0 1 0 3.408.901.901 0 0 1-1.779-.28 9.2 9.2 0 0 0 0-2.849.9.9 0 0 1 .75-1.03M8.009 7.75a1.25 1.25 0 0 1 0 2.5H8a1.25 1.25 0 1 1 0-2.5zm7.991 0a1.25 1.25 0 1 1 0 2.5h-.009a1.25 1.25 0 0 1 0-2.5zM5.592 3.182a.9.9 0 0 1 1.06 1.455A9.2 9.2 0 0 0 4.636 6.65a.9.9 0 1 1-1.455-1.06 11 11 0 0 1 2.41-2.41m11.559.2a.9.9 0 0 1 1.258-.198 11 11 0 0 1 2.41 2.41.9.9 0 0 1-1.455 1.06 9.2 9.2 0 0 0-2.014-2.015.9.9 0 0 1-.199-1.257M12 1.1q.87 0 1.704.132a.9.9 0 0 1-.28 1.779 9.2 9.2 0 0 0-2.849 0 .9.9 0 1 1-.28-1.779A11 11 0 0 1 12 1.1" }) });
+});
+EmojiEmpty.displayName = "EmojiEmpty";
+
+// src/icons/Emoji.tsx
+var React86 = __toESM(require("react"), 1);
+var import_jsx_runtime86 = require("react/jsx-runtime");
+var Emoji = React86.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime86.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2.9a9.1 9.1 0 1 0 0 18.2 9.1 9.1 0 0 0 0-18.2M1.1 12C1.1 5.98 5.98 1.1 12 1.1S22.9 5.98 22.9 12 18.02 22.9 12 22.9 1.1 18.02 1.1 12", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime86.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16.54 14.28a.9.9 0 0 1 .18 1.26A5.9 5.9 0 0 1 12 17.9a5.9 5.9 0 0 1-4.72-2.36.9.9 0 1 1 1.44-1.08c.749.997 1.939 1.64 3.28 1.64s2.53-.643 3.28-1.64a.9.9 0 0 1 1.26-.18M6.75 9c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m7.99 0c0-.69.56-1.25 1.25-1.25H16a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25", clipRule: "evenodd" })
+  ] });
+});
+Emoji.displayName = "Emoji";
+
+// src/icons/ExpandUpDownFill.tsx
+var React87 = __toESM(require("react"), 1);
+var import_jsx_runtime87 = require("react/jsx-runtime");
+var ExpandUpDownFill = React87.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime87.jsx)("path", { fill: "currentColor", d: "m18 9-6-6-6 6zm0 6-6 6-6-6z" }) });
+});
+ExpandUpDownFill.displayName = "ExpandUpDownFill";
+
+// src/icons/ExternalLinkFill.tsx
+var React88 = __toESM(require("react"), 1);
+var import_jsx_runtime88 = require("react/jsx-runtime");
+var ExternalLinkFill = React88.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime88.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("path", { fill: "currentColor", d: "M3.58 20.22c1.58 1.58 3.83 1.58 8.32 1.58l-.02-.01c4.49 0 6.74 0 8.32-1.58 1.5-1.5 1.58-3.69 1.58-7.42 0-.49-.4-.9-.9-.9s-.9.4-.9.9c0 3.55-.1 5.2-1.05 6.15-1.05 1.05-3.06 1.05-7.04 1.05s-5.99 0-7.04-1.05S3.8 15.89 3.8 11.9s0-5.99 1.05-7.05C5.8 3.91 7.45 3.8 11 3.8c.5 0 .9-.4.9-.9S11.5 2 11 2c-3.74 0-5.92.08-7.42 1.58C2 5.16 2 7.41 2 11.9s0 6.74 1.58 8.32" }),
+    /* @__PURE__ */ (0, import_jsx_runtime88.jsx)("path", { fill: "currentColor", d: "M10.32 13.6c.17.17.4.26.63.26l-.01.01c.23 0 .46-.09.64-.27l8.35-8.4c.05.6.08 1.47.06 2.72 0 .49.39.91.89.91h.01c.49 0 .9-.4.9-.89.06-4.41-.41-4.89-.7-5.18-.28-.28-.75-.75-5.17-.7-.5 0-.89.41-.89.91.01.49.41.89.9.89h.01c1.26-.02 2.13.02 2.73.06l-8.35 8.41a.9.9 0 0 0 0 1.27" })
+  ] });
+});
+ExternalLinkFill.displayName = "ExternalLinkFill";
+
+// src/icons/EyeOff.tsx
+var React89 = __toESM(require("react"), 1);
+var import_jsx_runtime89 = require("react/jsx-runtime");
+var EyeOff = React89.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime89.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.363 2.357a.9.9 0 0 1 1.205-.061l.069.061L17.88 16.6l.018.019 3.739 3.738.061.068a.901.901 0 0 1-1.266 1.267l-.069-.061-3.238-3.239c-1.462.87-3.19 1.502-5.125 1.502-2.616 0-4.851-1.151-6.572-2.495-1.723-1.345-2.994-2.932-3.704-3.928-.24-.336-.578-.761-.62-1.356l-.004-.121.004-.121c.042-.595.38-1.02.62-1.357.699-.98 1.949-2.543 3.644-3.88L2.363 3.63l-.061-.069a.9.9 0 0 1 .061-1.205M6.651 7.92c-1.59 1.213-2.788 2.696-3.463 3.642-.077.11-.136.192-.184.264a2 2 0 0 0-.092.148l-.01.02.01.021c.016.031.044.077.092.149s.107.154.184.263c.656.92 1.813 2.355 3.348 3.554 1.537 1.2 3.39 2.113 5.464 2.113 1.374 0 2.65-.401 3.804-1.022l-1.794-1.794a3.83 3.83 0 0 1-5.294-5.294zm3.394 3.393a2.028 2.028 0 0 0 2.636 2.636z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime89.jsx)("path", { fill: "currentColor", d: "M12 4.093c2.616 0 4.851 1.152 6.572 2.496 1.723 1.344 2.994 2.931 3.704 3.927.256.36.624.819.624 1.478s-.368 1.119-.624 1.477a20.4 20.4 0 0 1-2.203 2.6.901.901 0 0 1-1.268-1.277 18.6 18.6 0 0 0 2.191-2.631 2 2 0 0 0 .092-.149l.01-.02-.01-.02a2 2 0 0 0-.092-.15 12 12 0 0 0-.184-.263c-.656-.92-1.813-2.355-3.348-3.554-1.537-1.2-3.39-2.113-5.464-2.113-.804 0-1.573.137-2.304.374l-.089.024a.9.9 0 0 1-.466-1.736l.337-.103A9.2 9.2 0 0 1 12 4.093" })
+  ] });
+});
+EyeOff.displayName = "EyeOff";
+
+// src/icons/Eye.tsx
+var React90 = __toESM(require("react"), 1);
+var import_jsx_runtime90 = require("react/jsx-runtime");
+var Eye = React90.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime90.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("path", { fill: "currentColor", d: "M12 4.1c2.616 0 4.851 1.151 6.572 2.495 1.723 1.345 2.994 2.931 3.704 3.928.256.358.624.818.624 1.477s-.368 1.119-.624 1.477c-.71.997-1.981 2.583-3.704 3.928C16.852 18.75 14.616 19.9 12 19.9s-4.851-1.151-6.572-2.495c-1.723-1.345-2.994-2.931-3.704-3.928-.24-.336-.578-.76-.62-1.356L1.1 12l.004-.121c.042-.595.38-1.02.62-1.356.71-.997 1.981-2.583 3.704-3.928C7.148 5.25 9.384 4.1 12 4.1m0 1.8c-2.073 0-3.927.914-5.464 2.114-1.535 1.198-2.692 2.634-3.348 3.553-.077.11-.136.192-.184.264a2 2 0 0 0-.092.149l-.01.02.01.02c.016.032.044.077.092.149s.107.154.184.264c.656.919 1.813 2.355 3.348 3.553C8.073 17.186 9.926 18.1 12 18.1c2.073 0 3.927-.914 5.464-2.114 1.535-1.198 2.692-2.634 3.348-3.553.077-.11.136-.192.184-.264s.076-.117.092-.149l.01-.02-.01-.02a2 2 0 0 0-.092-.149 12 12 0 0 0-.184-.264c-.656-.919-1.813-2.355-3.348-3.553C15.927 6.814 14.074 5.9 12 5.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime90.jsx)("path", { fill: "currentColor", d: "M14.1 12a2.1 2.1 0 1 0-4.2 0 2.1 2.1 0 0 0 4.199 0m1.8 0a3.9 3.9 0 1 1-7.8 0 3.9 3.9 0 0 1 7.8 0" })
+  ] });
+});
+Eye.displayName = "Eye";
+
+// src/icons/Female1.tsx
+var React91 = __toESM(require("react"), 1);
+var import_jsx_runtime91 = require("react/jsx-runtime");
+var Female1 = React91.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime91.jsx)("path", { fill: "currentColor", d: "M20.156 8.906C20.156 4.41 16.497.75 12 .75S3.844 4.41 3.844 8.906c0 4.148 3.112 7.583 7.125 8.091v1.472H9.28a1.031 1.031 0 1 0 0 2.062h1.688v1.688a1.031 1.031 0 1 0 2.062 0V20.53h1.688a1.031 1.031 0 1 0 0-2.062H13.03v-1.472c4.013-.508 7.125-3.943 7.125-8.09m-14.25 0A6.1 6.1 0 0 1 12 2.812a6.1 6.1 0 0 1 6.094 6.094A6.1 6.1 0 0 1 12 15a6.1 6.1 0 0 1-6.094-6.094" }) });
+});
+Female1.displayName = "Female1";
+
+// src/icons/FileAdd.tsx
+var React92 = __toESM(require("react"), 1);
+var import_jsx_runtime92 = require("react/jsx-runtime");
+var FileAdd = React92.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime92.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("path", { fill: "currentColor", d: "M7 9.9c0 .5.4.9.9.9s.9-.4.9-.9V6.8h3.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H8.8V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9V5H3.9c-.5 0-.9.4-.9.9s.4.9.9.9H7z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime92.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.01c.78 0 1.22 0 1.68-.17.09-.03.19-.07.29-.12.44-.21.76-.53 1.3-1.07l4.74-4.74c.65-.64 1-1 1.22-1.53.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.02-1.44-7.46-1.35-1.35-3.33-1.42-6.43-1.43-.5 0-.9.4-.9.9 0 .49.4.9.9.9 2.9.01 4.35.11 5.16.91.91.91.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4v-2.55c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.55c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31", clipRule: "evenodd" })
+  ] });
+});
+FileAdd.displayName = "FileAdd";
+
+// src/icons/FileAttachment.tsx
+var React93 = __toESM(require("react"), 1);
+var import_jsx_runtime93 = require("react/jsx-runtime");
+var FileAttachment = React93.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime93.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("path", { fill: "currentColor", d: "M6.5 9.17c0 1.45 1.19 2.63 2.65 2.63s2.65-1.18 2.65-2.63V5.36C11.8 2.96 9.83 1 7.4 1S3 2.96 3 5.36v2.77c0 .5.4.9.9.9s.9-.4.9-.9V5.36c0-1.41 1.17-2.56 2.6-2.56S10 3.95 10 5.36v3.81c0 .46-.38.83-.85.83s-.85-.37-.85-.83V5.36c0-.5-.4-.9-.9-.9s-.9.4-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime93.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.01c.78 0 1.22 0 1.68-.17.09-.03.19-.07.29-.12.44-.21.76-.53 1.3-1.07l4.74-4.74c.65-.64 1-1 1.22-1.53.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.02-1.44-7.46-1.35-1.35-3.33-1.42-6.43-1.43-.5 0-.9.4-.9.9 0 .49.4.9.9.9 2.9.01 4.35.11 5.16.91.91.91.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4v-2.55c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.55c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31", clipRule: "evenodd" })
+  ] });
+});
+FileAttachment.displayName = "FileAttachment";
+
+// src/icons/FileDownload.tsx
+var React94 = __toESM(require("react"), 1);
+var import_jsx_runtime94 = require("react/jsx-runtime");
+var FileDownload = React94.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime94.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("path", { fill: "currentColor", d: "M3.85 8.25C5.02 9.74 5.92 10.8 6.9 10.8l.02-.01c.97 0 1.88-1.06 3.05-2.55l.135-.17c.184-.23.342-.429.455-.55a.9.9 0 0 0-.02-1.27.9.9 0 0 0-1.27.02c-.176.176-.42.487-.703.848l-.017.022q-.09.11-.204.254c-.156.195-.341.428-.536.656V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v6.16c-.29-.34-.57-.69-.74-.91-.29-.37-.55-.69-.72-.87a.89.89 0 0 0-1.27-.02.89.89 0 0 0-.02 1.27c.14.14.35.41.59.72" }),
+    /* @__PURE__ */ (0, import_jsx_runtime94.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.02c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.91c0-4.01 0-6.03-1.44-7.46-1.43-1.44-3.45-1.44-7.46-1.44-.5 0-.9.4-.9.9s.4.9.9.9c3.52 0 5.28 0 6.19.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.54c0 3.45 0 5.18 1.09 6.53.22.28.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31", clipRule: "evenodd" })
+  ] });
+});
+FileDownload.displayName = "FileDownload";
+
+// src/icons/FileExcel.tsx
+var React95 = __toESM(require("react"), 1);
+var import_jsx_runtime95 = require("react/jsx-runtime");
+var FileExcel = React95.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime95.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.63 21h4.27l-.01-.01c.5 0 .9.4.9.9s-.4.9-.9.9h-4.27c-3.45 0-5.17 0-6.54-.96-.39-.27-.74-.61-1.04-.98C2 19.54 2 17.9 2 14.62V11.9c0-2.95.01-4.46.53-5.78.85-2.14 2.64-3.83 4.93-4.62 1.27-.45 2.75-.49 5.45-.49h.81c1.89 0 2.85 0 3.71.3 1.41.49 2.51 1.54 3.04 2.87.33.84.33 1.75.33 3.55v2.18c0 .5-.4.9-.9.9s-.9-.4-.9-.9V7.73c0-1.57 0-2.36-.21-2.88-.34-.84-1.05-1.51-1.96-1.83-.58-.2-1.43-.2-3.12-.2h-.82c-1.34 0-2.43 1.09-2.43 2.43q.001.125.01.255.009.138.01.285l.002.064c.02.544.042 1.149-.112 1.726-.23.88-.93 1.57-1.81 1.81-.6.16-1.23.14-1.79.11-.18-.02-.37-.02-.54-.02-1.34 0-2.43 1.09-2.43 2.43v2.72c0 2.86 0 4.29.65 5.11.19.24.42.45.67.63.9.63 2.44.63 5.51.63M9.37 2.91c-.52.06-.95.15-1.33.28l-.01.01c-1.78.62-3.17 1.93-3.83 3.59-.17.43-.26.95-.32 1.6a4.2 4.2 0 0 1 2.35-.72c.19 0 .39.01.6.019l.03.001c.45.02.91.04 1.24-.05.26-.07.47-.28.54-.54.09-.33.07-.79.05-1.24-.02-.22-.02-.43-.02-.63 0-.86.26-1.65.7-2.32", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime95.jsx)("path", { fill: "currentColor", d: "M19.68 14.5c.45 0 .75 0 1.07.14v-.01c1.05.45 1.05 1.5 1.05 2 0 .54 0 1.58-1.05 2.03-.32.14-.62.14-1.07.14h-1.03c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h1.34v-.7h-.31c-.45 0-.75 0-1.07-.14-1.05-.45-1.05-1.5-1.05-2 0-.54 0-1.58 1.05-2.03.32-.13.62-.13 1.07-.13h.95c.5 0 .9.4.9.9s-.4.9-.9.9h-1.26v.7zm-9.11-2.1a.9.9 0 0 1 1.25-.24v-.01a.9.9 0 0 1 .24 1.25l-1.36 1.99 1.36 1.99a.9.9 0 0 1-.24 1.25c-.16.11-.34.16-.51.16-.28 0-.57-.14-.74-.39l-.96-1.41-.96 1.41a.9.9 0 0 1-1.49-1.01l1.36-1.99-1.36-1.99a.9.9 0 0 1 1.49-1.01l.96 1.41zm5.89 4.6h-1.64c-.02-.17-.02-.49-.02-.77V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v3.33c0 .9 0 1.56.52 2.07.51.5 1.14.5 2.09.5h.85c.5 0 .9-.4.9-.9s-.4-.9-.9-.9" })
+  ] });
+});
+FileExcel.displayName = "FileExcel";
+
+// src/icons/FileSend.tsx
+var React96 = __toESM(require("react"), 1);
+var import_jsx_runtime96 = require("react/jsx-runtime");
+var FileSend = React96.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime96.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("path", { fill: "currentColor", d: "M9.966 3.55C8.796 2.06 7.896 1 6.916 1l-.02.01c-.97 0-1.88 1.06-3.05 2.55l-.135.17c-.183.23-.342.429-.455.55a.9.9 0 0 0 .02 1.27.9.9 0 0 0 1.27-.02c.177-.176.42-.487.703-.848l.017-.022.205-.254c.155-.195.34-.428.535-.656V9.9c0 .5.4.9.9.9s.9-.4.9-.9V3.74c.29.34.57.69.74.91.29.37.55.69.72.87.34.36.91.37 1.27.02a.89.89 0 0 0 .02-1.27c-.14-.14-.35-.41-.59-.72" }),
+    /* @__PURE__ */ (0, import_jsx_runtime96.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.02c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.91c0-4.01 0-6.03-1.44-7.46-1.43-1.44-2.94-1.44-6.95-1.44-.5 0-.9.4-.9.9s.4.9.9.9c3.52 0 4.77 0 5.68.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V12.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.54c0 3.45 0 5.18 1.09 6.53.22.28.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31", clipRule: "evenodd" })
+  ] });
+});
+FileSend.displayName = "FileSend";
+
+// src/icons/FileSync.tsx
+var React97 = __toESM(require("react"), 1);
+var import_jsx_runtime97 = require("react/jsx-runtime");
+var FileSync = React97.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime97.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("path", { fill: "currentColor", d: "M9.9 22.8h-.01c-2.31-.03-4.19-.16-5.45-1.43C3 19.93 3 17.92 3 13.9V9.35c0-3.44 0-5.18 1.09-6.52.22-.27.47-.52.74-.74C6.18 1 7.91 1 11.36 1c.78 0 1.21 0 1.68.17.1.03.19.07.29.12.44.21.74.51 1.29 1.06l4.75 4.75c.64.64.99.99 1.21 1.53.22.53.22 1.03.22 1.94v3.34c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4.1h-.09c-2.98 0-4.62 0-5.76-1.14s-1.14-2.78-1.14-5.76v-.09h-.64c-3.03 0-4.55 0-5.4.69-.17.14-.33.3-.47.47-.69.85-.69 2.38-.69 5.41v4.55c0 3.52 0 5.29.91 6.2.64.64 1.67.86 4.21.9.5 0 .89.42.89.91a.9.9 0 0 1-.9.89zm3.9-18.72c.02 1.92.11 2.81.61 3.31s1.39.59 3.31.61z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime97.jsx)("path", { fill: "currentColor", d: "M15.4 22.8c-1.44 0-2.79-.71-3.61-1.89a.905.905 0 0 1 .22-1.25c.41-.28.97-.18 1.25.22.49.7 1.28 1.11 2.13 1.11 1.31 0 2.43-.96 2.61-2.23a.902.902 0 0 1 1.7-.27l1 2c.22.44.04.99-.4 1.21s-.99.04-1.21-.4l-.14-.28a4.48 4.48 0 0 1-3.56 1.78zm-3.5-4c-.34 0-.65-.19-.8-.5l-1-2a.91.91 0 0 1 .4-1.21c.44-.22.98-.04 1.21.4l.14.28a4.48 4.48 0 0 1 3.56-1.78c1.44 0 2.79.71 3.61 1.89.28.41.18.97-.22 1.25-.41.28-.97.18-1.25-.22a2.59 2.59 0 0 0-2.13-1.11c-1.31 0-2.43.96-2.61 2.23-.06.39-.36.7-.75.76-.05 0-.1.01-.14.01z" })
+  ] });
+});
+FileSync.displayName = "FileSync";
+
+// src/icons/FileText.tsx
+var React98 = __toESM(require("react"), 1);
+var import_jsx_runtime98 = require("react/jsx-runtime");
+var FileText = React98.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime98.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime98.jsx)("path", { fill: "currentColor", d: "M15.9 7.8h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9m-4 4h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime98.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.01.01c.78 0 1.22 0 1.69-.17l.14-.06.14-.06c.44-.21.75-.52 1.3-1.07l4.74-4.74.056-.056c.605-.605.95-.95 1.164-1.474.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.03-1.44-7.46C17.93 1 15.91 1 11.9 1S5.87 1 4.44 2.44C3 3.87 3 5.89 3 9.9v4.54c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m.88-18c.91-.91 2.67-.91 6.19-.91l-.01.01c3.52 0 5.28 0 6.19.91s.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4V9.9c0-3.52 0-5.28.91-6.19m8.7 12.7c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31", clipRule: "evenodd" })
+  ] });
+});
+FileText.displayName = "FileText";
+
+// src/icons/FileValidation.tsx
+var React99 = __toESM(require("react"), 1);
+var import_jsx_runtime99 = require("react/jsx-runtime");
+var FileValidation = React99.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime99.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("path", { fill: "currentColor", d: "M18.9 14.5c-.5 0-.9.4-.9.9v.68c0 1.58 0 2.37-.21 2.88-.33.85-1.05 1.51-1.96 1.83-.57.2-1.42.2-3.12.2h-.82c-1.34 0-2.43-1.09-2.43-2.43 0-.17 0-.36.02-.54.03-.56.06-1.19-.1-1.79-.24-.88-.93-1.58-1.82-1.82-.6-.16-1.23-.13-1.79-.11-.19 0-.37.02-.54.02-1.34 0-2.43-1.09-2.43-2.43V9.16c0-2.86 0-4.29.65-5.11.19-.24.42-.45.67-.63.9-.63 2.44-.63 5.51-.63.5 0 .9-.4.9-.9s-.4-.9-.9-.9C6.18 1 4.45 1 3.08 1.96c-.39.28-.75.61-1.04.98C1 4.25 1 5.9 1 9.17v2.73c0 2.95.01 4.46.53 5.78.85 2.14 2.64 3.83 4.91 4.63 1.28.45 2.75.49 5.45.49h.81c1.9 0 2.85 0 3.71-.3 1.4-.49 2.51-1.54 3.04-2.87.33-.84.33-1.74.33-3.55v-.68c0-.5-.4-.9-.9-.9zM3.21 17.01c-.17-.43-.27-.95-.32-1.6.67.45 1.48.72 2.35.72.2 0 .41 0 .63-.02.45-.02.91-.04 1.24.04.26.07.47.28.54.54.09.33.07.79.05 1.24-.01.21-.02.43-.02.63 0 .86.26 1.65.7 2.32-.52-.06-.95-.14-1.33-.28-1.78-.62-3.17-1.93-3.83-3.59z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("path", { fill: "currentColor", d: "M18.6 4.55c-1.04.37-2.07 1.49-2.73 2.34-.43-.35-.82-.39-.97-.39-.5 0-.9.4-.9.9 0 .44.31.8.73.88.05.04.19.17.37.52.15.29.44.48.76.5h.05c.31 0 .59-.16.76-.42.59-.93 1.77-2.36 2.54-2.63.47-.17.71-.68.55-1.15a.907.907 0 0 0-1.15-.55z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime99.jsx)("path", { fill: "currentColor", d: "M16.9 1A5.91 5.91 0 0 0 11 6.9c0 3.25 2.65 5.9 5.9 5.9s5.9-2.65 5.9-5.9S20.15 1 16.9 1m0 10c-2.26 0-4.1-1.84-4.1-4.1s1.84-4.1 4.1-4.1S21 4.64 21 6.9 19.16 11 16.9 11" })
+  ] });
+});
+FileValidation.displayName = "FileValidation";
+
+// src/icons/Files.tsx
+var React100 = __toESM(require("react"), 1);
+var import_jsx_runtime100 = require("react/jsx-runtime");
+var Files = React100.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime100.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("path", { fill: "currentColor", d: "M10.4 15.8h7c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-7c-.5 0-.9.4-.9.9s.4.9.9.9m0-4h4c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-4c-.5 0-.9.4-.9.9s.4.9.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime100.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.65 18.66c-.512.512-1.125.794-1.915.95A3.91 3.91 0 0 1 14.9 22.8h-5c-2.98 0-4.62 0-5.76-1.14S3 18.88 3 15.9v-8c0-1.907 1.377-3.5 3.189-3.835.154-.795.437-1.41.951-1.925C8.28 1 9.92 1 12.9 1h1.34c.91 0 1.4 0 1.94.22.53.22.9.59 1.52 1.21l2.66 2.66c.62.62.99.99 1.21 1.53s.22 1.03.22 1.94v4.34c0 2.98 0 4.62-1.14 5.76M12.9 19.8h1.99c.71 0 1.345 0 1.915-.015A2.1 2.1 0 0 1 14.9 21h-5c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.48v-8a2.1 2.1 0 0 1 1.215-1.905C6 6.562 6 7.193 6 7.9v5c0 2.98 0 4.62 1.14 5.76s2.78 1.14 5.76 1.14M8.42 3.41c.59-.59 1.73-.61 4.48-.61h1.6v.6c0 2.06 0 3.2.85 4.05s1.99.85 4.05.85h.6v4.6c0 2.75-.02 3.89-.61 4.48-.6.6-1.74.62-4.49.62h-2c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.48v-5c0-2.76.03-3.9.62-4.49M19.23 6.5l-.13-.13-2.8-2.8c0 1.43.012 2.302.32 2.61s1.18.32 2.61.32", clipRule: "evenodd" })
+  ] });
+});
+Files.displayName = "Files";
+
+// src/icons/Filter.tsx
+var React101 = __toESM(require("react"), 1);
+var import_jsx_runtime101 = require("react/jsx-runtime");
+var Filter = React101.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime101.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.69 21.8c-.23 0-.46-.05-.67-.14-.59-.26-1-.83-1.08-1.47-.13-1.1-.39-3.46-.68-6.95 0-.06-.03-.1-.04-.11-2.4-1.79-4.13-3.72-5.38-5.2-.46-.54-.59-.99-.66-1.54-.23-1.73-.36-2.77.38-3.59C3.29 2 4.3 2 6.13 2h11.53c1.83 0 2.84 0 3.57.8.74.82.61 1.86.38 3.59-.08.65-.26 1.07-.66 1.54-1.24 1.48-2.98 3.41-5.39 5.21-.01 0-.04.05-.04.11-.25 2.74-.48 4.27-.63 5.07-.25 1.34-1.54 2.12-2.58 2.75-.25.15-.48.29-.67.43-.29.2-.62.31-.96.31zm-1.4-10.11c.44.33.71.84.76 1.4.28 3.42.54 5.75.67 6.85.2-.13.43-.27.66-.42.69-.42 1.64-1 1.74-1.55.14-.76.36-2.23.6-4.9.05-.56.33-1.07.76-1.39 2.26-1.69 3.91-3.52 5.09-4.92.18-.21.21-.3.25-.61.14-1.09.25-1.95.07-2.15-.19-.21-1.1-.21-2.24-.21H6.13c-1.14 0-2.05 0-2.24.21-.18.2-.07 1.06.07 2.15.04.31.08.4.25.61 1.18 1.4 2.83 3.23 5.08 4.92z", clipRule: "evenodd" }) });
+});
+Filter.displayName = "Filter";
+
+// src/icons/Flash.tsx
+var React102 = __toESM(require("react"), 1);
+var import_jsx_runtime102 = require("react/jsx-runtime");
+var Flash = React102.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime102.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m12.797 3.238-6.783 8.706A.1.1 0 0 0 6 11.98a.1.1 0 0 0 .001.035h3.303c1.16 0 1.899 1.02 1.899 2.015v6.732l6.782-8.706a.1.1 0 0 0 .014-.037.1.1 0 0 0 0-.034h-3.303c-1.16 0-1.9-1.02-1.9-2.015zm.81-2.09c.707.3 1.19 1.015 1.19 1.87v6.967H18.1c.886 0 1.496.598 1.748 1.225.25.627.217 1.432-.284 2.075l-6.998 8.983c-.562.72-1.444.895-2.173.584-.707-.3-1.19-1.015-1.19-1.87v-6.967H5.9c-.886 0-1.496-.598-1.747-1.225a2.1 2.1 0 0 1 .284-2.075l6.998-8.983c.561-.72 1.444-.895 2.173-.585", clipRule: "evenodd" }) });
+});
+Flash.displayName = "Flash";
+
+// src/icons/FolderFill.tsx
+var React103 = __toESM(require("react"), 1);
+var import_jsx_runtime103 = require("react/jsx-runtime");
+var FolderFill = React103.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime103.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.15 21.8H11.9c-4.96 0-7.44 0-9.17-1.73S1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4c.35-.63.87-1.15 1.51-1.51C3.89 2 4.88 2 6.84 2c1.23 0 1.91 0 2.57.25 1.44.54 2.05 1.76 2.58 2.83l.46.92h4.19c2.29 0 3.43 0 4.42.66.42.28.79.64 1.07 1.07.66.99.66 2.13.66 4.42 0 3.69 0 5.54-.99 7.03-.43.65-.98 1.2-1.63 1.63-1.49 1-3.34 1-7.03 1z", clipRule: "evenodd" }) });
+});
+FolderFill.displayName = "FolderFill";
+
+// src/icons/Folder.tsx
+var React104 = __toESM(require("react"), 1);
+var import_jsx_runtime104 = require("react/jsx-runtime");
+var Folder = React104.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime104.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.15 21.8H11.9c-4.96 0-7.44 0-9.17-1.73S1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4c.35-.63.87-1.15 1.51-1.51C3.89 2 4.88 2 6.84 2c1.23 0 1.91 0 2.57.25 1.44.54 2.05 1.76 2.58 2.83l.46.92h4.19c2.29 0 3.43 0 4.42.66.42.28.79.64 1.07 1.07.66.99.66 2.13.66 4.42 0 3.69 0 5.54-.99 7.03-.43.65-.98 1.2-1.63 1.63-1.49 1-3.34 1-7.03 1zm-6.31-18c-1.61 0-2.49 0-2.97.27-.34.19-.62.47-.81.81-.27.48-.27 1.36-.27 2.97v3.06c0 4.46 0 6.7 1.2 7.9s3.44 1.2 7.9 1.2h1.25c3.32 0 4.99 0 6.03-.69.45-.3.83-.68 1.13-1.13.69-1.03.69-2.7.69-6.03 0-1.86 0-2.89-.35-3.42-.15-.23-.35-.43-.58-.58-.53-.36-1.56-.36-3.42-.36H7.89c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.54l-.06-.12c-.51-1.03-.86-1.67-1.6-1.95-.36-.13-.89-.13-1.94-.13z", clipRule: "evenodd" }) });
+});
+Folder.displayName = "Folder";
+
+// src/icons/FullScreen.tsx
+var React105 = __toESM(require("react"), 1);
+var import_jsx_runtime105 = require("react/jsx-runtime");
+var FullScreen = React105.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime105.jsx)("path", { fill: "currentColor", d: "M2.1 15.5a.9.9 0 0 1 1.8 0c0 1.46.01 1.992.133 2.4l.063.183A3.1 3.1 0 0 0 6.1 19.967c.306.093.68.121 1.465.13l.934.003.092.005a.9.9 0 0 1 0 1.79L8.5 21.9l-.915-.002c-.838-.007-1.461-.043-2.007-.209a4.9 4.9 0 0 1-3.169-2.977l-.098-.29C2.09 17.694 2.1 16.83 2.1 15.5m18 0a.9.9 0 0 1 1.8 0c0 1.164.008 1.971-.138 2.643l-.073.279a4.9 4.9 0 0 1-2.977 3.169l-.29.098c-.728.221-1.592.211-2.922.211a.9.9 0 0 1 0-1.8c1.46 0 1.992-.01 2.4-.133l.183-.063a3.1 3.1 0 0 0 1.884-2.005l.04-.16c.085-.395.093-.96.093-2.239m-18-7c0-1.33-.01-2.195.21-2.923l.1-.289a4.9 4.9 0 0 1 3.167-2.977l.28-.073C6.53 2.092 7.337 2.1 8.5 2.1a.9.9 0 0 1 0 1.8c-1.278 0-1.844.008-2.24.092l-.16.041a3.1 3.1 0 0 0-2.004 1.884l-.063.184C3.91 6.508 3.9 7.04 3.9 8.5a.9.9 0 0 1-1.8 0m18 0c0-1.46-.01-1.992-.133-2.4l-.063-.183a3.1 3.1 0 0 0-1.82-1.821l-.184-.063c-.306-.092-.682-.121-1.466-.13L15.5 3.9l-.092-.004A.9.9 0 0 1 15.5 2.1l.915.002c.838.007 1.461.043 2.007.209l.29.098a4.9 4.9 0 0 1 2.879 2.88l.098.288.073.28c.146.672.139 1.48.139 2.643a.9.9 0 0 1-1.801 0" }) });
+});
+FullScreen.displayName = "FullScreen";
+
+// src/icons/GiftCheck.tsx
+var React106 = __toESM(require("react"), 1);
+var import_jsx_runtime106 = require("react/jsx-runtime");
+var GiftCheck = React106.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime106.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime106.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.143 1.1A4.75 4.75 0 0 1 12 3.073 4.75 4.75 0 0 1 15.857 1.1h.357A2.687 2.687 0 0 1 18.9 3.786a4.1 4.1 0 0 1-.712 2.314h.312c.454 0 .843 0 1.16.022.324.024.651.076.967.222l.13.064c.3.16.569.383.772.665.225.311.305.643.34.95.032.284.031.624.031.977s.001.693-.03.978c-.036.306-.118.637-.342.948h.001c-.17.237-.387.429-.629.58V13a.9.9 0 0 1-1.8 0v-1.102q-.277.002-.6.002h-5.6V17a.9.9 0 0 1-1.8 0v-5.1H5.5q-.322 0-.6-.002V15c0 1.675.002 2.842.12 3.72.115.854.324 1.301.641 1.619l.126.113c.31.254.746.427 1.492.527.66.09 1.48.113 2.557.119L11 21.1l.092.005a.9.9 0 0 1 0 1.79L11 22.9l-1.16-.002c-1.101-.006-2.03-.03-2.8-.134-.987-.133-1.832-.408-2.517-1.025l-.134-.128c-.708-.707-1.011-1.598-1.153-2.651C3.098 17.933 3.1 16.624 3.1 15v-3.494a2.3 2.3 0 0 1-.538-.462l-.091-.117c-.224-.311-.305-.643-.34-.95C2.099 9.694 2.1 9.354 2.1 9s-.001-.693.03-.978c.036-.306.116-.638.34-.949l.092-.117c.222-.265.503-.47.811-.612l.118-.051c.28-.108.565-.15.849-.17.317-.024.706-.023 1.16-.023h.313A4.1 4.1 0 0 1 5.1 3.786 2.687 2.687 0 0 1 7.786 1.1zM5.5 7.9c-.48 0-.793 0-1.03.018a2 2 0 0 0-.245.03l-.098.03a.5.5 0 0 0-.19.141 1 1 0 0 0-.018.107c-.018.159-.019.38-.019.774s0 .615.019.774c.006.058.014.09.018.106a.5.5 0 0 0 .19.143l.098.029c.052.01.13.022.245.03.237.017.55.018 1.03.018h13c.48 0 .793 0 1.03-.018.23-.017.311-.045.343-.06l.07-.038a.4.4 0 0 0 .118-.104 1 1 0 0 0 .02-.106c.018-.159.019-.38.019-.774s0-.615-.019-.774a1 1 0 0 0-.02-.107.4.4 0 0 0-.118-.103l-.07-.038c-.032-.015-.113-.043-.343-.06A16 16 0 0 0 18.5 7.9zm2.286-5a.886.886 0 0 0-.886.886A2.314 2.314 0 0 0 9.214 6.1H11.1v-.243A2.957 2.957 0 0 0 8.143 2.9zm8.071 0A2.957 2.957 0 0 0 12.9 5.857V6.1h1.886A2.314 2.314 0 0 0 17.1 3.786a.886.886 0 0 0-.886-.886z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime106.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.7 15.151a.9.9 0 0 1 .6 1.698c-.55.195-1.178.61-1.835 1.187-.648.568-1.277 1.249-1.833 1.915a28 28 0 0 0-1.841 2.483l-.024.038-.006.008-.001.002a.9.9 0 0 1-1.565-.08c-.446-.893-.852-1.258-1.069-1.403a.8.8 0 0 0-.201-.102q-.016-.005 0 0A.9.9 0 0 1 13 19.1v.718c0-.717.001-.718.002-.718h.029a2 2 0 0 1 .133.011q.107.014.255.055c.198.057.44.158.705.335.291.194.598.473.91.864.326-.45.741-.997 1.216-1.566.591-.709 1.287-1.466 2.028-2.116.733-.643 1.56-1.227 2.421-1.532m-7.707 5.75h.005l.001-.002h-.01zm-.068-.005.028.002.022.001h.006q-.028 0-.055-.004z", clipRule: "evenodd" })
+  ] });
+});
+GiftCheck.displayName = "GiftCheck";
+
+// src/icons/Gift.tsx
+var React107 = __toESM(require("react"), 1);
+var import_jsx_runtime107 = require("react/jsx-runtime");
+var Gift = React107.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime107.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime107.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.143 1.1A4.75 4.75 0 0 1 12 3.073 4.75 4.75 0 0 1 15.857 1.1h.357A2.687 2.687 0 0 1 18.9 3.786a4.1 4.1 0 0 1-.712 2.314h.312c.454 0 .843 0 1.16.022.324.024.651.076.967.222l.13.064c.3.16.569.383.772.665.225.311.305.643.34.95.032.284.031.624.031.977s.001.693-.03.978c-.036.306-.118.637-.342.948h.001c-.17.237-.387.429-.629.58V15c0 1.624.002 2.933-.136 3.96-.133.987-.408 1.832-1.025 2.517l-.128.134c-.707.708-1.598 1.011-2.651 1.153-1.027.138-2.336.136-3.96.136h-2c-1.624 0-2.933.002-3.96-.136-.987-.133-1.832-.408-2.517-1.025l-.134-.128c-.708-.707-1.011-1.598-1.153-2.651C3.098 17.933 3.1 16.624 3.1 15v-3.494a2.3 2.3 0 0 1-.538-.462l-.091-.117c-.224-.311-.305-.643-.34-.95C2.099 9.694 2.1 9.354 2.1 9s-.001-.693.03-.978c.036-.306.116-.638.34-.949l.092-.117c.222-.265.503-.47.811-.612l.118-.051c.28-.108.565-.15.849-.17.317-.024.706-.023 1.16-.023h.313A4.1 4.1 0 0 1 5.1 3.786 2.687 2.687 0 0 1 7.786 1.1zM18.5 11.9h-5.6v9.2h.1c1.675 0 2.842-.002 3.72-.12.854-.115 1.301-.324 1.619-.641l.113-.126c.254-.31.427-.746.527-1.492.119-.88.12-2.046.12-3.721v-3.102q-.276.002-.599.002M4.9 15c0 1.675.002 2.842.12 3.72.115.854.324 1.301.641 1.619l.126.113c.31.254.746.427 1.492.527.88.119 2.046.12 3.721.12h.1V11.9H5.5q-.322 0-.6-.002zm.6-7.1c-.48 0-.793 0-1.03.018a2 2 0 0 0-.245.03l-.098.03a.5.5 0 0 0-.19.141 1 1 0 0 0-.018.107c-.018.159-.019.38-.019.774s0 .615.019.774c.006.058.014.09.018.106a.5.5 0 0 0 .19.143l.098.029c.052.01.13.022.245.03.237.017.55.018 1.03.018h13c.48 0 .793 0 1.03-.018.23-.017.311-.045.343-.06l.07-.038a.4.4 0 0 0 .118-.104 1 1 0 0 0 .02-.106c.018-.159.019-.38.019-.774s0-.615-.019-.774a1 1 0 0 0-.02-.107.4.4 0 0 0-.118-.103l-.07-.038c-.032-.015-.113-.043-.343-.06A16 16 0 0 0 18.5 7.9zm2.286-5a.886.886 0 0 0-.886.886A2.314 2.314 0 0 0 9.214 6.1H11.1v-.243A2.957 2.957 0 0 0 8.143 2.9zm8.071 0A2.957 2.957 0 0 0 12.9 5.857V6.1h1.886A2.314 2.314 0 0 0 17.1 3.786a.886.886 0 0 0-.886-.886z", clipRule: "evenodd" }) });
+});
+Gift.displayName = "Gift";
+
+// src/icons/HandCredit.tsx
+var React108 = __toESM(require("react"), 1);
+var import_jsx_runtime108 = require("react/jsx-runtime");
+var HandCredit = React108.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime108.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("path", { fill: "currentColor", d: "M6.25 9a7.75 7.75 0 1 1 14.11 4.43.75.75 0 0 1-1.23-.86 6.25 6.25 0 1 0-10.78-.893.75.75 0 0 1-1.354.645A7.7 7.7 0 0 1 6.25 9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 4.25a.75.75 0 0 1 .75.75v.583h.813c.976 0 1.687.83 1.687 1.75V8c0 .362-.11.71-.303 1 .193.29.303.638.303 1v.667c0 .92-.71 1.75-1.687 1.75h-.813V13a.75.75 0 0 1-1.5 0v-.583H11.5a.75.75 0 0 1 0-1.5h.188V7.083H11.5a.75.75 0 0 1 0-1.5h1.75V5a.75.75 0 0 1 .75-.75m-.812 2.833V8.25h2.374c.06 0 .188-.066.188-.25v-.667c0-.184-.129-.25-.187-.25zm0 2.667v1.167h2.374c.06 0 .188-.066.188-.25V10c0-.184-.129-.25-.187-.25z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime108.jsx)("path", { fill: "currentColor", d: "M3 13.25a.75.75 0 0 0 0 1.5h2.395c.182 0 .36.041.52.119l2.043.988c.365.177.767.268 1.174.268h1.042c.427 0 .777.228.953.547l-1.934.535c-.28.077-.582.05-.841-.076l-2.183-1.056a.75.75 0 1 0-.653 1.35l2.183 1.056a2.7 2.7 0 0 0 1.894.171l2.54-.702a.84.84 0 0 0 .617-.808l-.001-.087 4.064-1.25h.003a1.24 1.24 0 0 1 1.373.476c.116.161.056.382-.085.464l-7.516 4.336a1.24 1.24 0 0 1-.98.118L3.215 19.3a.75.75 0 1 0-.427 1.438l6.395 1.898c.724.215 1.5.121 2.156-.257l7.516-4.336c.933-.539 1.173-1.78.551-2.64a2.735 2.735 0 0 0-3.034-1.032h-.001l-4.127 1.269a2.6 2.6 0 0 0-2.069-1.016H9.132c-.182 0-.36-.04-.521-.118l-2.042-.989a2.7 2.7 0 0 0-1.174-.268z" })
+  ] });
+});
+HandCredit.displayName = "HandCredit";
+
+// src/icons/HelpCircle.tsx
+var React109 = __toESM(require("react"), 1);
+var import_jsx_runtime109 = require("react/jsx-runtime");
+var HelpCircle = React109.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime109.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("path", { fill: "currentColor", d: "M12.113 15.905a1.1 1.1 0 0 1 0 2.19l-.112.005h-.009a1.1 1.1 0 1 1 0-2.2h.009zM12 6.1a2.9 2.9 0 0 1 2.44 4.466v.001a9 9 0 0 1-.57.77c-.197.244-.369.452-.525.667-.32.438-.445.74-.445.996v.5a.9.9 0 0 1-1.8 0V13c0-.849.417-1.542.79-2.055.19-.26.401-.518.577-.736a8 8 0 0 0 .459-.615L13 9.46q.098-.211.1-.46a1.1 1.1 0 1 0-2.2 0 .9.9 0 0 1-1.8 0A2.9 2.9 0 0 1 12 6.1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime109.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9", clipRule: "evenodd" })
+  ] });
+});
+HelpCircle.displayName = "HelpCircle";
+
+// src/icons/Home.tsx
+var React110 = __toESM(require("react"), 1);
+var import_jsx_runtime110 = require("react/jsx-runtime");
+var Home = React110.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime110.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime110.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.9 22.8h2c4.02 0 6.04 0 7.47-1.44s1.43-3.46 1.43-7.49v-2.09c0-2 0-3.1-.5-4.12s-1.36-1.7-2.94-2.93l-1.036-.808C14.907 2.04 13.572 1 11.9 1S8.893 2.04 6.476 3.922l-.036.028-1.038.812C3.85 5.978 2.997 6.646 2.5 7.66 2 8.68 2 9.78 2 11.78v2.09c0 4.03 0 6.05 1.43 7.49 1.44 1.44 3.45 1.44 7.47 1.44M7.58 5.34C9.753 3.65 10.846 2.8 11.9 2.8l-.01-.01c1.054 0 2.147.85 4.32 2.54l.04.03 1.01.79c1.4 1.09 2.1 1.64 2.42 2.29s.32 1.54.32 3.33v2.09c0 3.53 0 5.31-.91 6.22-.615.615-1.618.814-3.29.879V17.9c0-1.02 0-1.58-.22-2.11-.29-.71-.86-1.28-1.57-1.57-.53-.22-1.09-.22-2.11-.22s-1.58 0-2.11.22c-.72.3-1.27.85-1.57 1.57C8 16.33 8 16.89 8 17.9v3.059c-1.672-.065-2.675-.264-3.29-.879-.91-.92-.91-2.69-.91-6.22v-2.09c0-1.78 0-2.68.32-3.33.31-.64 1.01-1.19 2.42-2.29l1-.78zM9.8 20.988V17.9c0-.73 0-1.22.08-1.42.12-.28.33-.49.6-.6.2-.08.66-.08 1.42-.08s1.22 0 1.42.08c.27.11.49.33.6.6.08.2.08.66.08 1.42v3.089l-1.1.001h-2z", clipRule: "evenodd" }) });
+});
+Home.displayName = "Home";
+
+// src/icons/ImageAdd.tsx
+var React111 = __toESM(require("react"), 1);
+var import_jsx_runtime111 = require("react/jsx-runtime");
+var ImageAdd = React111.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime111.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)("path", { fill: "currentColor", d: "M22.65 5.75c0 .41-.34.75-.75.75h-3.25v3.25c0 .41-.34.75-.75.75s-.75-.34-.75-.75V6.5H13.9c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.25V1.75c0-.41.34-.75.75-.75s.75.34.75.75V5h3.25c.41 0 .75.34.75.75" }),
+    /* @__PURE__ */ (0, import_jsx_runtime111.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.65 21c1.66 1.65 4.03 1.65 8.75 1.65h-.01c4.73 0 7.1 0 8.75-1.65 1.66-1.66 1.66-4.03 1.66-8.75v-.5c0-.5-.4-.9-.9-.9s-.9.4-.9.9v.5c0 1.165 0 2.17-.024 3.037a8.5 8.5 0 0 0-2.686-.437h-.04c-1.61 0-3.176.452-4.671 1.34q-.46-.434-.97-.82c-2.22-1.68-5-2.56-7.84-2.51a20 20 0 0 0-.969.035v-.645c0-4.22 0-6.34 1.13-7.47 1.12-1.13 3.25-1.13 7.47-1.13.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-4.72 0-7.09 0-8.75 1.65C1 5.16 1 7.53 1 12.25v.084C1 16.998 1 19.36 2.65 21m11.166-3.439c.75.978 1.335 2.066 1.727 3.216 1.621-.11 2.651-.381 3.327-1.057.562-.562.845-1.369.986-2.557a6.8 6.8 0 0 0-2.566-.513h-.03c-1.17 0-2.323.306-3.444.912M11.4 20.85c.829 0 1.577 0 2.252-.009a9.7 9.7 0 0 0-3.122-4.031c-1.9-1.44-4.28-2.2-6.74-2.15a8 8 0 0 0-.979.029c.041 2.649.232 4.151 1.119 5.031 1.13 1.12 3.25 1.13 7.47 1.13", clipRule: "evenodd" })
+  ] });
+});
+ImageAdd.displayName = "ImageAdd";
+
+// src/icons/Image.tsx
+var React112 = __toESM(require("react"), 1);
+var import_jsx_runtime112 = require("react/jsx-runtime");
+var Image = React112.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime112.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime112.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.4 10.8C7.08 10.8 6 9.72 6 8.4S7.08 6 8.4 6s2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime112.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.9 21.8h-4c-4.01 0-6.03 0-7.46-1.44C1 18.93 1 16.91 1 12.9v-2c0-4.01 0-6.03 1.43-7.46C3.87 2 5.88 2 9.9 2h4c4.01 0 6.03 0 7.46 1.44 1.44 1.44 1.44 3.45 1.44 7.46v2c0 4.01 0 6.03-1.44 7.46-1.43 1.44-3.45 1.44-7.46 1.44m-4-18c-3.52 0-5.28 0-6.19.91S2.8 7.38 2.8 10.9v2c0 1.261 0 2.297.042 3.148L5.38 13.19c.76-.85 2.19-.89 2.99-.09l1.52 1.53 4.02-4.02c.8-.8 2.23-.77 2.99.07l4.088 4.46C21 14.488 21 13.745 21 12.9v-2c0-3.52 0-5.28-.91-6.19s-2.67-.91-6.19-.91zm10.894 13.783c-.133.668-.349 1.152-.704 1.507-.91.91-2.67.91-6.19.91h-4c-3.52 0-5.28 0-6.19-.91a2.2 2.2 0 0 1-.487-.754L6.71 14.41c.1-.11.28-.11.38-.01l2.16 2.16c.17.16.4.26.64.26a.9.9 0 0 0 .64-.26l4.66-4.66c.1-.11.29-.11.39 0l5.15 5.62a1 1 0 0 0 .064.063", clipRule: "evenodd" })
+  ] });
+});
+Image.displayName = "Image";
+
+// src/icons/InformationFill.tsx
+var React113 = __toESM(require("react"), 1);
+var import_jsx_runtime113 = require("react/jsx-runtime");
+var InformationFill = React113.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime113.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime113.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 22.75C6.063 22.75 1.25 17.937 1.25 12S6.063 1.25 12 1.25 22.75 6.063 22.75 12 17.937 22.75 12 22.75M11 6.5V8h2V6.5zM10 11h1v6h2V9h-3z", clipRule: "evenodd" }) });
+});
+InformationFill.displayName = "InformationFill";
+
+// src/icons/Information.tsx
+var React114 = __toESM(require("react"), 1);
+var import_jsx_runtime114 = require("react/jsx-runtime");
+var Information = React114.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime114.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime114.jsx)("path", { fill: "currentColor", d: "M12.14 17.8c-.5 0-.9-.4-.9-.9v-5.1h-.1c-.5 0-.9-.4-.9-.9s.4-.9.9-.9c.58 0 1.08 0 1.49.41.41.42.41.92.41 1.49v5c0 .5-.4.9-.9.9M11 7.9c0 .5.4.9.9.9s.9-.4.9-.9-.4-.9-.9-.9-.9.4-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime114.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 22.8C5.89 22.8 1 17.91 1 11.9S5.89 1 11.9 1s10.9 4.89 10.9 10.9-4.89 10.9-10.9 10.9m0-20c-5.02 0-9.1 4.08-9.1 9.1S6.88 21 11.9 21s9.1-4.08 9.1-9.1-4.08-9.1-9.1-9.1", clipRule: "evenodd" })
+  ] });
+});
+Information.displayName = "Information";
+
+// src/icons/Invoice.tsx
+var React115 = __toESM(require("react"), 1);
+var import_jsx_runtime115 = require("react/jsx-runtime");
+var Invoice = React115.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime115.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime115.jsx)("path", { fill: "currentColor", d: "M11.36 22.8c-3.45 0-5.19 0-6.53-1.08-.27-.22-.52-.47-.74-.74-1.08-1.34-1.08-3.08-1.08-6.53V9.91C3 5.89 3 3.87 4.44 2.44 5.87 1 7.89 1 11.9 1s6.03 0 7.47 1.44C20.8 3.88 20.8 5.89 20.8 9.9v3.34c0 .91 0 1.41-.22 1.94s-.57.89-1.21 1.53l-4.74 4.74c-.55.55-.86.86-1.3 1.07-.09.04-.19.08-.28.12-.47.17-.9.17-1.68.17zm.54-20c-3.52 0-5.28 0-6.19.91S4.8 6.38 4.8 9.9v4.54c0 3.03 0 4.55.69 5.4.14.17.29.33.47.47.85.69 2.37.69 5.4.69H12v-.09c0-2.98 0-4.61 1.14-5.76 1.14-1.14 2.78-1.14 5.76-1.14h.09v-4.1c0-3.52 0-5.28-.91-6.19s-2.67-.91-6.19-.91zm5.82 13c-1.92.02-2.81.11-3.31.61s-.59 1.39-.61 3.31z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime115.jsx)("path", { fill: "currentColor", d: "M11.9 14.8c-.5 0-.9-.4-.9-.9v-.22c-.81-.21-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.36 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.22c.81.22 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.36-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9" })
+  ] });
+});
+Invoice.displayName = "Invoice";
+
+// src/icons/Left.tsx
+var React116 = __toESM(require("react"), 1);
+var import_jsx_runtime116 = require("react/jsx-runtime");
+var Left = React116.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime116.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m15.533 6.725-.003.002-.012.009-.048.036-.186.14a54 54 0 0 0-2.694 2.175c-.74.641-1.455 1.312-1.978 1.904a5.5 5.5 0 0 0-.584.762 1.3 1.3 0 0 0-.122.247c.01.032.04.112.122.247.125.207.32.464.584.762.523.592 1.239 1.263 1.978 1.904a51 51 0 0 0 2.88 2.315l.048.036.012.009.003.002a.9.9 0 0 1-1.067 1.45L15 18l-.534.725-.005-.004-.014-.01-.053-.04-.195-.146a55 55 0 0 1-2.79-2.252c-.76-.661-1.545-1.392-2.146-2.072a7.3 7.3 0 0 1-.776-1.025C8.298 12.864 8.1 12.448 8.1 12s.198-.864.387-1.176A7.3 7.3 0 0 1 9.263 9.8c.6-.68 1.385-1.412 2.147-2.073a53 53 0 0 1 2.984-2.399l.053-.038.014-.01.004-.004L15 6l-.535-.724a.9.9 0 0 1 1.068 1.449", clipRule: "evenodd" }) });
+});
+Left.displayName = "Left";
+
+// src/icons/Link.tsx
+var React117 = __toESM(require("react"), 1);
+var import_jsx_runtime117 = require("react/jsx-runtime");
+var Link = React117.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime117.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("path", { fill: "currentColor", d: "M19.99 3.81A6.13 6.13 0 0 0 15.63 2c-1.64 0-3.2.64-4.37 1.81L8.65 6.42a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.61-2.61c.83-.83 1.92-1.28 3.09-1.28s2.27.46 3.09 1.28a4.364 4.364 0 0 1 0 6.18l-2.61 2.61a.9.9 0 0 0 0 1.27c.18.18.41.26.64.26s.46-.09.64-.26l2.61-2.61a6.174 6.174 0 0 0 0-8.73z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("path", { fill: "currentColor", d: "m10.03 15.04 5-5a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-5 5a.9.9 0 0 0 0 1.27c.18.18.41.26.64.26s.46-.09.64-.26z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime117.jsx)("path", { fill: "currentColor", d: "m11.26 18.72 2.61-2.61.01.01a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27L12.54 20a6.1 6.1 0 0 1-4.36 1.81c-1.65 0-3.2-.64-4.37-1.81a6.174 6.174 0 0 1 0-8.73l2.61-2.61a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a4.364 4.364 0 0 0 0 6.18A4.35 4.35 0 0 0 8.17 20c1.17 0 2.26-.45 3.09-1.28" })
+  ] });
+});
+Link.displayName = "Link";
+
+// src/icons/Loader.tsx
+var React118 = __toESM(require("react"), 1);
+var import_jsx_runtime118 = require("react/jsx-runtime");
+var Loader = React118.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime118.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2.1a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0V3a.9.9 0 0 1 .9-.9m0 15a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-3a.9.9 0 0 1 .9-.9m5.1-5.1a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8h-3a.9.9 0 0 1-.9-.9m-15 0a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8H3a.9.9 0 0 1-.9-.9M19 5a.9.9 0 0 1 0 1.273l-2.122 2.121a.9.9 0 0 1-1.273-1.272L17.727 5A.9.9 0 0 1 19 5M8.394 15.606a.9.9 0 0 1 0 1.273l-2.121 2.12A.9.9 0 1 1 5 17.728l2.121-2.121a.9.9 0 0 1 1.273 0m7.211-.001a.9.9 0 0 1 1.273 0L19 17.727A.9.9 0 1 1 17.727 19l-2.122-2.121a.9.9 0 0 1 0-1.273M5 5a.9.9 0 0 1 1.273 0l2.121 2.122a.9.9 0 1 1-1.273 1.272L5 6.274A.9.9 0 0 1 5 5", clipRule: "evenodd" }) });
+});
+Loader.displayName = "Loader";
+
+// src/icons/LockUnlock.tsx
+var React119 = __toESM(require("react"), 1);
+var import_jsx_runtime119 = require("react/jsx-runtime");
+var LockUnlock = React119.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime119.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime119.jsx)("path", { fill: "currentColor", d: "M11.9 17.3c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime119.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.29 8.085c2.675-.094 5.448-.082 8.09.035 2.11.1 3.86 1.71 4.14 3.83.14 1.01.28 2.22.28 3.46s-.14 2.45-.28 3.46c-.29 2.12-2.03 3.74-4.14 3.83-1.46.07-2.92.1-4.48.1s-3.02-.03-4.48-.1c-2.11-.1-3.86-1.71-4.14-3.83-.14-1.01-.28-2.22-.28-3.46s.14-2.45.28-3.46c.247-1.802 1.541-3.243 3.22-3.69V6.4C6.5 3.42 8.92 1 11.9 1c2.4 0 4.25 1.82 4.85 3.62.16.47-.1.98-.57 1.14s-.98-.1-1.14-.57c-.39-1.16-1.62-2.38-3.15-2.38a3.61 3.61 0 0 0-3.6 3.6zM11.9 9.8c-1.52 0-2.96.03-4.4.1-1.24.06-2.27 1.02-2.44 2.28-.13.95-.26 2.08-.26 3.22s.13 2.27.26 3.22c.17 1.26 1.2 2.22 2.44 2.28 2.86.13 5.94.13 8.8 0 1.24-.06 2.27-1.02 2.44-2.28.13-.95.26-2.08.26-3.22s-.13-2.27-.26-3.22c-.17-1.26-1.2-2.22-2.44-2.28-1.44-.07-2.88-.1-4.4-.1", clipRule: "evenodd" })
+  ] });
+});
+LockUnlock.displayName = "LockUnlock";
+
+// src/icons/Lock.tsx
+var React120 = __toESM(require("react"), 1);
+var import_jsx_runtime120 = require("react/jsx-runtime");
+var Lock = React120.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime120.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime120.jsx)("path", { fill: "currentColor", d: "M11.9 17.3c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime120.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.3 8.263a4.41 4.41 0 0 1 3.22 3.687c.14 1.02.28 2.22.28 3.47s-.14 2.45-.28 3.46c-.29 2.12-2.03 3.74-4.14 3.83-1.46.07-2.92.1-4.48.1v-.01c-1.56 0-3.02-.03-4.48-.1-2.11-.1-3.86-1.71-4.14-3.83-.14-1.01-.28-2.22-.28-3.46s.14-2.45.28-3.46c.247-1.802 1.541-3.243 3.22-3.69V6.4C6.5 3.42 8.92 1 11.9 1s5.4 2.42 5.4 5.4zm-1.8-.178V6.4c0-1.98-1.61-3.6-3.6-3.6S8.3 4.42 8.3 6.4v1.685c2.377-.083 4.83-.083 7.2 0M11.9 9.8c-1.52 0-2.96.03-4.4.1-1.24.06-2.27 1.02-2.44 2.28-.13.95-.26 2.08-.26 3.22s.13 2.27.26 3.22c.17 1.26 1.2 2.22 2.44 2.28 2.86.13 5.94.13 8.8 0 1.25-.06 2.27-1.02 2.44-2.28.13-.95.26-2.08.26-3.22s-.13-2.27-.26-3.23c-.17-1.26-1.2-2.22-2.44-2.28-1.44-.07-2.88-.1-4.4-.1z", clipRule: "evenodd" })
+  ] });
+});
+Lock.displayName = "Lock";
+
+// src/icons/Login.tsx
+var React121 = __toESM(require("react"), 1);
+var import_jsx_runtime121 = require("react/jsx-runtime");
+var Login = React121.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime121.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime121.jsx)("path", { fill: "currentColor", d: "M12.598 2.25c-5.67 0-10.35 4.32-10.35 9.75s4.68 9.75 10.35 9.75q.765 0 1.502-.102l-.204-1.486a10 10 0 0 1-1.298.088c-4.934 0-8.85-3.738-8.85-8.25 0-4.511 3.916-8.25 8.85-8.25q.663 0 1.298.088l.204-1.486q-.736-.101-1.502-.102" }),
+    /* @__PURE__ */ (0, import_jsx_runtime121.jsx)("path", { fill: "currentColor", d: "m14.529 9.53-1.06-1.06L9.937 12l3.53 3.53 1.06-1.06-1.719-1.72h8.19v-1.5h-8.19z" })
+  ] });
+});
+Login.displayName = "Login";
+
+// src/icons/Logout.tsx
+var React122 = __toESM(require("react"), 1);
+var import_jsx_runtime122 = require("react/jsx-runtime");
+var Logout = React122.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime122.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime122.jsx)("path", { fill: "currentColor", d: "M12.6 2.25C6.93 2.25 2.25 6.57 2.25 12s4.68 9.75 10.35 9.75q.765 0 1.502-.102l-.204-1.486a10 10 0 0 1-1.298.088c-4.934 0-8.85-3.738-8.85-8.25 0-4.511 3.916-8.25 8.85-8.25q.662 0 1.298.088l.204-1.486q-.736-.101-1.502-.102" }),
+    /* @__PURE__ */ (0, import_jsx_runtime122.jsx)("path", { fill: "currentColor", d: "m17.47 9.53 1.72 1.72H11v1.5h8.19l-1.72 1.72 1.06 1.06L22.06 12l-3.53-3.53z" })
+  ] });
+});
+Logout.displayName = "Logout";
+
+// src/icons/MailOpen.tsx
+var React123 = __toESM(require("react"), 1);
+var import_jsx_runtime123 = require("react/jsx-runtime");
+var MailOpen = React123.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime123.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime123.jsx)("path", { fill: "currentColor", d: "M14 9.1a.9.9 0 0 1 0 1.8h-4a.9.9 0 0 1 0-1.8zm0-4a.9.9 0 0 1 0 1.8h-4a.9.9 0 0 1 0-1.8z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime123.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15 1.1c.917 0 1.696-.002 2.314.082.645.086 1.249.28 1.737.767.488.488.68 1.092.767 1.737.083.618.082 1.397.082 2.314v.518l.819.545c.423.282.791.528 1.08.761.302.246.567.518.761.883l.068.137c.145.32.21.646.24.985.034.368.032.81.03 1.315-.004 1.26-.016 2.548-.049 3.853-.037 1.51-.066 2.742-.24 3.733-.183 1.034-.537 1.89-1.268 2.622-.734.734-1.598 1.087-2.64 1.27-1.001.174-2.248.203-3.78.241-1.952.049-3.889.049-5.842 0-1.53-.038-2.78-.067-3.78-.242-1.042-.182-1.905-.535-2.639-1.268-.732-.732-1.085-1.588-1.268-2.623-.174-.991-.203-2.224-.24-3.734a178 178 0 0 1-.05-3.852c-.001-.506-.004-.947.03-1.315.035-.387.114-.758.308-1.122.195-.365.46-.637.762-.883.288-.233.657-.479 1.08-.76l.817-.545V6c0-.917 0-1.696.082-2.314.087-.645.28-1.249.768-1.737s1.092-.68 1.736-.767C7.304 1.099 8.083 1.1 9 1.1zm.55 13.82c-.737.442-1.346.808-1.876 1.057-.55.259-1.08.424-1.674.424s-1.125-.165-1.674-.424c-.53-.249-1.14-.615-1.876-1.057l-5.545-3.328c.006 1.106.018 2.228.046 3.36.04 1.564.068 2.638.214 3.466.138.786.369 1.264.767 1.662.397.397.88.63 1.677.769.84.146 1.93.176 3.515.215 1.923.049 3.83.049 5.753 0 1.585-.04 2.675-.069 3.515-.215.797-.14 1.279-.372 1.675-.769.399-.398.63-.876.769-1.662.146-.828.175-1.902.214-3.467.028-1.131.038-2.253.044-3.36zM9 2.9c-.968 0-1.604.002-2.074.065-.445.06-.606.16-.703.258-.098.097-.198.258-.258.703C5.9 4.396 5.9 5.032 5.9 6v5.29l3.476 2.086c.767.46 1.287.77 1.716.973.41.193.671.253.908.253.236 0 .498-.06.908-.253.43-.202.949-.513 1.716-.973l3.475-2.086V6c0-.968 0-1.604-.064-2.074-.06-.444-.16-.605-.257-.703-.098-.098-.26-.198-.704-.258-.47-.063-1.106-.065-2.074-.065zM4.1 8.684c-.349.233-.586.394-.764.539-.193.156-.265.251-.308.33l-.006.011 1.077.646zm15.8 1.525 1.076-.646-.003-.01c-.043-.079-.115-.174-.308-.33a11 11 0 0 0-.765-.54z", clipRule: "evenodd" })
+  ] });
+});
+MailOpen.displayName = "MailOpen";
+
+// src/icons/MailSend.tsx
+var React124 = __toESM(require("react"), 1);
+var import_jsx_runtime124 = require("react/jsx-runtime");
+var MailSend = React124.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime124.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.076 2.637c1.955-.05 3.892-.05 5.847 0l.069.002c1.516.038 2.752.069 3.747.242 1.05.183 1.918.537 2.653 1.274.732.735 1.084 1.591 1.264 2.625.17.975.195 2.182.226 3.657l.002.068c.01.503.016 1.502.016 1.995a.9.9 0 1 1-1.8 0c0-.49-.006-1.474-.016-1.956-.026-1.241-.048-2.172-.128-2.917l-5.425 3.08C14.241 11.44 13.157 11.9 12 11.9s-2.241-.46-3.531-1.193l-5.426-3.08c-.08.745-.101 1.675-.128 2.917-.02.973-.02 1.94 0 2.912.033 1.56.059 2.63.202 3.456.136.783.366 1.261.765 1.662.396.398.88.631 1.687.772.848.148 1.95.177 3.552.218q1.195.03 2.383.035a.9.9 0 0 1-.008 1.8q-1.208-.005-2.42-.036l-.069-.002c-1.516-.038-2.752-.069-3.746-.242-1.05-.183-1.919-.537-2.654-1.274-.732-.735-1.084-1.591-1.263-2.625-.17-.975-.196-2.182-.227-3.656l-.001-.07a70 70 0 0 1 0-2.989l.001-.069c.031-1.474.057-2.68.227-3.656.18-1.034.531-1.89 1.263-2.625.735-.737 1.604-1.091 2.654-1.274.994-.173 2.23-.204 3.746-.242zm11.041 2.789q.192.192.335.418l-5.81 3.298c-1.235.701-1.975.958-2.642.958s-1.407-.257-2.643-.958l-5.81-3.298q.143-.228.335-.418c.396-.398.88-.631 1.687-.772.848-.148 1.95-.177 3.552-.218 1.925-.048 3.832-.048 5.757 0 1.601.04 2.704.07 3.552.218.807.14 1.291.374 1.687.772", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime124.jsx)("path", { fill: "currentColor", d: "M20.127 14.355a.9.9 0 0 0-1.255 1.29c.169.164.434.372.676.562l.056.045q.217.169.44.348H14a.9.9 0 0 0 0 1.8h6.044q-.223.18-.44.348l-.056.045c-.242.19-.507.398-.676.562a.9.9 0 0 0 1.255 1.29c.084-.081.258-.221.533-.437l.06-.047c.241-.19.528-.414.801-.646.293-.248.602-.53.844-.814.122-.143.245-.308.341-.488.093-.173.194-.42.194-.713 0-.292-.101-.54-.194-.713a2.8 2.8 0 0 0-.34-.488 7.5 7.5 0 0 0-.845-.814 28 28 0 0 0-.801-.646l-.06-.047a9 9 0 0 1-.533-.437" })
+  ] });
+});
+MailSend.displayName = "MailSend";
+
+// src/icons/Mail.tsx
+var React125 = __toESM(require("react"), 1);
+var import_jsx_runtime125 = require("react/jsx-runtime");
+var Mail = React125.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime125.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.54 2.61a116 116 0 0 1 4.384.027l1.108.03c1.053.033 1.95.083 2.708.214 1.049.183 1.918.537 2.653 1.275l.133.14c.642.702.962 1.515 1.13 2.484.173.99.196 2.22.228 3.725l.013.748q.008.747 0 1.495l-.013.748c-.032 1.505-.055 2.734-.227 3.725-.169.969-.49 1.782-1.131 2.485l-.133.14c-.735.737-1.604 1.09-2.653 1.274-.757.131-1.655.18-2.708.213l-1.108.03c-1.466.038-2.922.047-4.384.028l-1.463-.027c-1.548-.04-2.807-.069-3.816-.244-.984-.172-1.809-.494-2.514-1.141l-.14-.134c-.73-.734-1.083-1.59-1.263-2.624-.129-.743-.175-1.621-.203-2.648l-.024-1.077a70 70 0 0 1 0-2.99l.024-1.078c.028-1.027.074-1.905.203-2.648.18-1.034.532-1.89 1.264-2.624l.14-.134c.704-.647 1.53-.97 2.513-1.14 1.01-.176 2.268-.206 3.816-.245zm4.99 8.09c-1.297.735-2.377 1.2-3.53 1.2-1.01 0-1.963-.355-3.054-.937l-.477-.262-5.426-3.075c-.054.511-.081 1.11-.101 1.836l-.026 1.082c-.02.973-.02 1.94 0 2.912l.026 1.083c.028.997.068 1.754.176 2.374.135.782.366 1.26.765 1.662l.152.141c.37.313.829.507 1.535.63.847.148 1.95.178 3.551.218l1.442.027c1.438.018 2.872.01 4.316-.027l1.112-.03c1.025-.033 1.804-.077 2.44-.188.807-.14 1.29-.374 1.686-.771l.143-.155c.313-.37.504-.823.623-1.507.143-.826.168-1.897.201-3.456l.012-.729q.007-.728 0-1.455l-.012-.729c-.026-1.242-.05-2.174-.13-2.919zm-4.967-6.29-1.442.027c-1.6.04-2.704.07-3.551.218-.707.123-1.166.317-1.535.63l-.152.141a2.4 2.4 0 0 0-.334.418l5.807 3.29.446.245c.988.524 1.62.721 2.197.721.66 0 1.393-.257 2.644-.966l5.808-3.292a2 2 0 0 0-.19-.261l-.143-.155c-.396-.397-.88-.63-1.687-.771-.636-.11-1.415-.155-2.44-.188l-1.112-.03a114 114 0 0 0-4.316-.027", clipRule: "evenodd" }) });
+});
+Mail.displayName = "Mail";
+
+// src/icons/Manager.tsx
+var React126 = __toESM(require("react"), 1);
+var import_jsx_runtime126 = require("react/jsx-runtime");
+var Manager = React126.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime126.jsx)("path", { fill: "currentColor", d: "M19.95 12.85C19.1 12 17.96 12 15.9 12c-.36 0-.68.21-.82.53l-2 4.51-.25-1.98.88-1.76a.907.907 0 0 0-.81-1.31h-2c-.31 0-.6.16-.77.43-.16.27-.18.6-.04.88l.88 1.76-.25 1.98-2-4.51A.89.89 0 0 0 7.9 12c-2.06 0-3.2 0-4.05.85S3 14.84 3 16.9v5c0 .5.4.9.9.9s.9-.4.9-.9v-5c0-1.53 0-2.46.32-2.78.28-.28 1.01-.32 2.19-.32l3.76 8.46c.29.65 1.36.65 1.64 0l3.76-8.46c1.18 0 1.91.04 2.19.32.32.32.32 1.25.32 2.78v5c0 .5.4.9.9.9s.9-.4.9-.9v-5c0-2.06 0-3.2-.85-4.05zM11.9 10.8a4.4 4.4 0 0 0 4.4-4.4v-1a4.4 4.4 0 0 0-8.8 0v1a4.4 4.4 0 0 0 4.4 4.4M9.3 5.4c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6v1c0 1.43-1.17 2.6-2.6 2.6S9.3 7.83 9.3 6.4z" }) });
+});
+Manager.displayName = "Manager";
+
+// src/icons/MapPin.tsx
+var React127 = __toESM(require("react"), 1);
+var import_jsx_runtime127 = require("react/jsx-runtime");
+var MapPin = React127.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime127.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.5 10.9a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime127.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.67 21.92c.6.57 1.39.88 2.23.88v.01c.83 0 1.63-.32 2.23-.88l.92-.86c3.85-3.54 8.64-7.96 5.99-14.14C19.53 3.38 15.85 1 11.9 1S4.28 3.38 2.76 6.93C.133 13.082 4.868 17.469 8.675 20.997l.015.013c.31.282.621.573.923.857zM4.41 7.63C5.65 4.74 8.66 2.8 11.9 2.8l-.01.01c3.24 0 6.25 1.94 7.49 4.83 2.147 5.003-1.76 8.61-5.535 12.096l-.945.874c-.53.5-1.47.5-2 0l-.06-.056q-.451-.426-.93-.864l-.002-.002C6.148 16.208 2.27 12.62 4.41 7.63", clipRule: "evenodd" })
+  ] });
+});
+MapPin.displayName = "MapPin";
+
+// src/icons/Map.tsx
+var React128 = __toESM(require("react"), 1);
+var import_jsx_runtime128 = require("react/jsx-runtime");
+var Map = React128.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime128.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)("path", { fill: "currentColor", d: "M14.9 16.3c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9m0-4c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9m-7.9.1c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9zm0-4c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime128.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.9 21.8h-2.08c-1.06 0-1.2-.03-2.15-.51l-3.81-1.9-.135-.067c-.74-.366-1.124-.555-1.435-.593-.66-.09-1.23.21-2.09.71l-.12.07c-1.49.86-2.24 1.29-3.09 1.14-.57-.1-1.08-.4-1.44-.86-.54-.67-.54-1.54-.54-3.28V8.36c0-1.28 0-1.98.39-2.67s.99-1.04 2.08-1.67l1.23-.71.45.78-.44-.78.004-.003C6.131 2.49 6.921 2.03 7.88 2c.96-.04 1.78.37 3.26 1.11l3.33 1.66q.639.32 1.35.32h2.08c2.07 0 3.21 0 4.06.87.84.86.84 2.02.84 4.12v6.74c0 2.1 0 3.26-.84 4.12-.85.87-1.99.87-4.06.87zm-9.294-4.84a.9.9 0 0 0 .194-.56v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1c0 .23.084.439.224.597-.725.17-1.354.535-1.934.873l-.13.08-.092.053c-.782.454-1.576.915-1.768.867a.58.58 0 0 1-.36-.21c-.14-.18-.14-1.18-.14-2.15V8.35c0-1.04 0-1.51.15-1.77.14-.25.54-.49 1.42-1l1.23-.71-.45-.78.46.77c.6-.35 1.041-.601 1.39-.772V4.4c0 .5.4.9.9.9s.9-.4.9-.9v-.413c.374.147.857.382 1.54.723l3.33 1.66q.181.093.33.164V7.4c0 .5.4.9.9.9s.9-.4.9-.9v-.52h2.1c1.65 0 2.46.02 2.77.33.33.34.33 1.29.33 2.86v6.74c0 1.57 0 2.52-.33 2.86-.31.32-1.12.33-2.77.33h-2.08q-.12 0-.24-.01a.9.9 0 0 0 .22-.59v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.047l-3.35-1.667c-.92-.46-1.455-.728-2.044-.82", clipRule: "evenodd" })
+  ] });
+});
+Map.displayName = "Map";
+
+// src/icons/Medal01.tsx
+var React129 = __toESM(require("react"), 1);
+var import_jsx_runtime129 = require("react/jsx-runtime");
+var Medal01 = React129.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime129.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.5 1.1q.07.001.137.011h2.279c.36 0 1.026-.04 1.598.035.615.083 1.351.319 1.866 1.014l.105.158c.228.373.322.78.367 1.192.05.454.048 1.016.048 1.669 0 .558.001 1.032-.032 1.425-.03.357-.09.695-.225 1.026l-.064.141c-.294.612-.756 1.02-1.2 1.312-.42.277-.913.505-1.24.673l-3.71 1.904c-.726.373-1.323.68-1.84.889l-.122.045q.22.126.462.27l.999.59c.357.212.685.403.942.593.275.202.525.441.711.775l.064.125c.139.293.197.59.225.889.03.323.03.71.03 1.143v1.043c0 .432 0 .819-.03 1.142a2.6 2.6 0 0 1-.225.889l-.064.125a2.4 2.4 0 0 1-.71.775c-.258.19-.585.381-.942.593l-.001-.001-1 .592c-.343.203-.657.39-.936.52A2.3 2.3 0 0 1 12 22.9c-.374 0-.696-.105-.992-.243a6 6 0 0 1-.444-.232l-.493-.288-1-.592c-.357-.212-.684-.402-.941-.592a2.5 2.5 0 0 1-.639-.654l-.072-.121c-.185-.332-.257-.673-.29-1.014-.03-.323-.03-.71-.03-1.143v-1.043c0-.432 0-.819.03-1.142.033-.341.105-.682.29-1.014l.072-.12a2.5 2.5 0 0 1 .639-.655q.195-.142.433-.288l.508-.305 1-.59.46-.271-.12-.044a13 13 0 0 1-.842-.383l-.999-.506-3.708-1.904c-.327-.168-.821-.395-1.242-.673-.388-.256-.79-.6-1.082-1.092l-.117-.22c-.18-.376-.255-.76-.29-1.167C2.1 6.21 2.1 5.737 2.1 5.179c0-.653-.001-1.215.048-1.67.052-.47.166-.935.472-1.349l.1-.125c.507-.6 1.19-.811 1.766-.889.572-.076 1.238-.035 1.598-.035h2.28A1 1 0 0 1 8.5 1.1q.07.001.137.011h6.726A1 1 0 0 1 15.5 1.1M12 13.9c-.019 0-.073 0-.234.076-.09.041-.19.095-.316.166l-.463.27-1 .592c-.388.23-.622.369-.789.492a1 1 0 0 0-.152.129l-.054.072c-.02.037-.051.107-.07.308-.02.219-.022.507-.022.974v1.043c0 .466.001.754.022.973.019.2.05.271.07.308l.054.072q.043.047.152.129c.084.061.184.127.312.206l.477.286 1 .592.463.27c.125.071.226.125.316.166.16.075.215.076.234.076s.073 0 .234-.076c.18-.083.404-.215.779-.436l1-.592.477-.286a5 5 0 0 0 .312-.206c.149-.11.187-.167.206-.201l.036-.093c.012-.047.025-.115.034-.215.02-.219.022-.507.022-.974v-1.043c0-.466-.001-.754-.022-.973-.01-.1-.021-.168-.034-.215l-.036-.093c-.02-.034-.057-.091-.206-.2a5 5 0 0 0-.312-.207l-.477-.286-1-.592a10 10 0 0 0-.779-.436c-.16-.075-.215-.076-.234-.076m-2.6-3.838.963.489c.276.135.51.244.722.33.407.165.672.219.915.219s.508-.054.915-.22c.422-.17.934-.432 1.685-.818v-7.15H9.4zm-3.316-7.15c-.551 0-.945-.037-1.36.019-.324.043-.501.129-.613.248l-.044.052c-.037.052-.095.156-.13.474-.036.334-.037.781-.037 1.474 0 .588 0 .974.026 1.275.024.286.066.431.117.538l.042.08c.107.18.275.342.527.508.311.205.64.353 1.072.574l1.916.984V2.912zm11.832 0H16.4v6.226l1.916-.984.582-.293c.175-.09.334-.178.49-.28.288-.191.466-.375.569-.589l.036-.089c.035-.1.063-.234.081-.449.025-.3.026-.687.026-1.275 0-.693-.001-1.14-.038-1.474-.026-.238-.065-.357-.098-.423l-.031-.05c-.108-.147-.287-.252-.658-.301-.414-.056-.808-.019-1.359-.019", clipRule: "evenodd" }) });
+});
+Medal01.displayName = "Medal01";
+
+// src/icons/Medal02.tsx
+var React130 = __toESM(require("react"), 1);
+var import_jsx_runtime130 = require("react/jsx-runtime");
+var Medal02 = React130.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime130.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("path", { fill: "currentColor", d: "M12 4.1a.9.9 0 0 1 .9.9v3a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9m-4 0a.9.9 0 0 1 .9.9v1a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9m8 0a.9.9 0 0 1 .9.9v1a.9.9 0 0 1-1.8 0V5a.9.9 0 0 1 .9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime130.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.91 1.1c.507 0 .886-.004 1.218.06l.256.058a3.41 3.41 0 0 1 2.458 2.67l.035.26c.025.271.023.581.023.965 0 .39.001.676-.015.93l-.024.247A4.94 4.94 0 0 1 20.1 9.491l-.199.155a5 5 0 0 1-.43.28l-.573.326-2.573 1.44c-.934.522-1.69.947-2.343 1.234a8 8 0 0 1-.471.188q.04.068.074.136l.778 1.57.013.011.013.009 1.404.236.234.05c.549.143 1.1.48 1.303 1.118.232.73-.132 1.4-.576 1.844l-.001-.001-1.09 1.1-.01.04-.002.002.313 1.36.047.247c.09.597.028 1.336-.582 1.785-.702.516-1.549.223-2.099-.104v-.001l-1.313-.785H12l-.018.001-1.313.784c-.552.33-1.398.62-2.099.104-.696-.512-.68-1.404-.536-2.031l.312-1.36v-.002a.2.2 0 0 0-.012-.04l-.001-.002-1.09-1.1c-.441-.444-.804-1.113-.574-1.84.231-.73.917-1.065 1.535-1.169l1.399-.235.013-.009.013-.012.78-1.57.001-.002.073-.136a8 8 0 0 1-.465-.186 16 16 0 0 1-1.067-.53l-1.276-.705-2.572-1.44c-.338-.188-.588-.326-.801-.465l-.203-.14A4.93 4.93 0 0 1 2.177 6.54l-.038-.249c-.04-.32-.04-.658-.04-1.177 0-.512-.003-.892.06-1.224l.057-.255A3.41 3.41 0 0 1 4.872 1.16l.259-.036c.27-.025.58-.023.96-.023zm-6.68 14.547v-.002a1.8 1.8 0 0 1-.536.628 1.8 1.8 0 0 1-.753.337H9.94l-1.392.234 1.09 1.1.082.088c.18.213.291.46.354.682.072.254.107.567.037.879v.006l-.308 1.338 1.29-.77.007-.003.111-.06a1.84 1.84 0 0 1 .791-.172c.28 0 .61.06.904.235l1.29.77-.306-1.338-.001-.006a1.8 1.8 0 0 1 .037-.88c.072-.252.208-.54.436-.77l1.09-1.1-1.391-.233a1.8 1.8 0 0 1-.76-.335 1.8 1.8 0 0 1-.537-.63l-.767-1.543zM6.09 2.9c-.44 0-.647.002-.776.013l-.108.015a1.61 1.61 0 0 0-1.25 1.169l-.028.122c-.024.128-.028.301-.028.894 0 .566.002.77.025.952l.023.16a3.13 3.13 0 0 0 1.221 1.973l.12.082c.134.087.325.195.693.402l2.573 1.438 1.247.69c.357.19.663.345.941.467.538.237.907.323 1.257.323s.719-.086 1.257-.323c.555-.244 1.224-.617 2.188-1.157l2.573-1.438.536-.305a3 3 0 0 0 .277-.179l.126-.098a3.14 3.14 0 0 0 1.118-2.035l.014-.145c.01-.161.01-.382.01-.807 0-.444 0-.653-.012-.784l-.015-.11a1.61 1.61 0 0 0-1.159-1.264l-.119-.027c-.125-.024-.295-.028-.885-.028z", clipRule: "evenodd" })
+  ] });
+});
+Medal02.displayName = "Medal02";
+
+// src/icons/Meet.tsx
+var React131 = __toESM(require("react"), 1);
+var import_jsx_runtime131 = require("react/jsx-runtime");
+var Meet = React131.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime131.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M6.9 2a.9.9 0 1 0-1.8 0v.523c-.778.236-1.447.612-2.009 1.22-.808.873-1.16 1.972-1.328 3.318-.163 1.314-.163 2.994-.163 5.12v.639c0 2.125 0 3.805.163 5.119.167 1.346.52 2.445 1.328 3.319.818.883 1.86 1.278 3.138 1.463 1.23.18 2.795.179 4.749.179h.072a.9.9 0 1 0 0-1.8c-2.043 0-3.477-.002-4.562-.16-1.05-.153-1.641-.435-2.076-.905-.443-.48-.717-1.147-.863-2.318-.148-1.19-.15-2.758-.15-4.96v-.514c0-1.325.001-2.421.034-3.343h17.133c.03.864.034 1.882.034 3.1a.9.9 0 0 0 1.8 0c0-2.077-.005-3.723-.173-5.015-.172-1.312-.526-2.385-1.319-3.242-.562-.608-1.23-.984-2.008-1.22V2a.9.9 0 1 0-1.8 0v.2c-1.114-.1-2.463-.1-4.079-.1h-2.043c-1.615 0-2.965 0-4.078.1zm13.526 5.1H3.574c.15-1.058.418-1.681.838-2.135.212-.23.462-.414.783-.56A.9.9 0 0 0 6.9 4.008c1.03-.107 2.355-.109 4.15-.109h1.9c1.794 0 3.119.002 4.15.109a.9.9 0 0 0 1.704.395c.322.147.57.332.783.56.42.455.688 1.078.839 2.136", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime131.jsx)("path", { fill: "currentColor", d: "M17.9 14a.9.9 0 1 0-1.8 0v3.1H13a.9.9 0 0 0 0 1.8h3.1V22a.9.9 0 0 0 1.8 0v-3.1H21a.9.9 0 1 0 0-1.8h-3.1z" })
+  ] });
+});
+Meet.displayName = "Meet";
+
+// src/icons/Megaphone.tsx
+var React132 = __toESM(require("react"), 1);
+var import_jsx_runtime132 = require("react/jsx-runtime");
+var Megaphone = React132.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime132.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.586 3.1c.274 0 .597-.01.895.063l.126.036.206.083a1.9 1.9 0 0 1 .987 1.11l.037.126c.052.213.062.44.063.65v13.663c-.002.253-.017.527-.1.775v.001a1.9 1.9 0 0 1-1.193 1.193c-.248.084-.522.098-.776.1h-.413a3 3 0 0 1-.185-.01l-.127-.015a1.9 1.9 0 0 1-.8-.332c-.139-.1-.258-.222-.357-.32l-.168-.17c-.73-.73-.994-.986-1.298-1.169l-.02-.011c-.228-.135-.483-.232-1.01-.396l-.632-.191-1.33-.4-1.162 1.742a2.855 2.855 0 0 1-5.215-1.29l-.014-.293V15.97l-.232-.069H6c-.453 0-.839 0-1.155-.021a3.4 3.4 0 0 1-.72-.118l-.234-.082a2.9 2.9 0 0 1-1.448-1.31l-.123-.26a3 3 0 0 1-.199-.954C2.1 12.838 2.1 12.453 2.1 12s0-.84.021-1.156c.022-.324.07-.642.2-.954l.122-.26a2.9 2.9 0 0 1 1.448-1.31l.234-.082c.236-.07.476-.1.72-.117.316-.022.702-.022 1.155-.022h.868l7.953-2.385.632-.192c.529-.164.783-.261 1.01-.396l.021-.012c.304-.183.568-.439 1.297-1.168l.168-.169.163-.16q.09-.084.195-.161a1.9 1.9 0 0 1 .8-.331l.126-.016c.126-.01.248-.01.353-.01M8.9 18.045l.005.107a1.054 1.054 0 0 0 1.926.478l.857-1.286L8.9 16.51zM19.414 4.9h-.016a.1.1 0 0 0-.042.018c.01-.007.01-.008-.011.011l-.122.12-.17.168c-.67.67-1.107 1.117-1.644 1.44h-.002l-.02.013-.002.001c-.404.24-.842.397-1.42.576l-.627.19L7.9 9.668v4.662l7.438 2.231.628.19c.48.15.865.283 1.214.462l.205.114.003.002.02.012h.002l.196.127c.453.311.86.726 1.448 1.313l.169.168.12.12c.022.02.022.019.012.012l.043.017h.016l.172.001c.203 0 .318 0 .402-.005q.037-.002.051-.005a.1.1 0 0 0 .05-.05l.006-.051c.005-.084.005-.2.005-.402V5.414c0-.203 0-.318-.005-.403l-.005-.051a.1.1 0 0 0-.05-.051l-.052-.004a8 8 0 0 0-.402-.005zM6 9.9c-.478 0-.792 0-1.033.017-.117.008-.2.018-.26.03l-.128.036a1.1 1.1 0 0 0-.549.497l-.047.099c-.023.056-.05.155-.066.387A17 17 0 0 0 3.9 12c0 .478 0 .792.017 1.033.016.232.043.332.066.388l.047.098c.12.223.313.4.55.497l.126.036q.088.019.26.03c.242.017.556.017 1.034.017h.1V9.9z", clipRule: "evenodd" }) });
+});
+Megaphone.displayName = "Megaphone";
+
+// src/icons/Menu.tsx
+var React133 = __toESM(require("react"), 1);
+var import_jsx_runtime133 = require("react/jsx-runtime");
+var Menu = React133.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime133.jsx)("path", { fill: "currentColor", d: "M20 4.1a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8zm0 7a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8zm0 7a.9.9 0 0 1 0 1.8H4a.9.9 0 0 1 0-1.8z" }) });
+});
+Menu.displayName = "Menu";
+
+// src/icons/Minus.tsx
+var React134 = __toESM(require("react"), 1);
+var import_jsx_runtime134 = require("react/jsx-runtime");
+var Minus = React134.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime134.jsx)("path", { fill: "currentColor", d: "m20 11.1.092.005a.9.9 0 0 1 0 1.79L20 12.9H4a.9.9 0 0 1 0-1.8z" }) });
+});
+Minus.displayName = "Minus";
+
+// src/icons/Mission.tsx
+var React135 = __toESM(require("react"), 1);
+var import_jsx_runtime135 = require("react/jsx-runtime");
+var Mission = React135.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime135.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("path", { fill: "currentColor", d: "M12 1.1q.841 0 1.646.124l.533.094.09.023a.9.9 0 0 1-.357 1.755l-.09-.014-.446-.08A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 8.997-10.475l-.079-.445-.014-.091a.9.9 0 0 1 1.755-.357l.023.09.094.533q.124.806.124 1.646c0 6.02-4.88 10.9-10.9 10.9S1.1 18.02 1.1 12 5.98 1.1 12 1.1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("path", { fill: "currentColor", d: "M12 6.1a.9.9 0 0 1 0 1.8 4.1 4.1 0 1 0 4.1 4.1.9.9 0 0 1 1.8 0A5.9 5.9 0 1 1 12 6.1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime135.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.008 1.31c.724-.45 1.644-.113 1.976.618l.063.162.008.026.41 1.48 1.376.34.034.01.168.06c.754.327 1.094 1.27.635 2l-.112.153c-.554.67-1.309 1.557-2.325 2.077-.958.49-2.082.625-3.378.165L12.667 12.6l-.068.061a.9.9 0 0 1-1.205-1.334l4.217-4.219c-.441-1.216-.33-2.305.125-3.252.505-1.047 1.395-1.842 2.12-2.435zm.49 1.927c-.492.444-.9.9-1.14 1.399-.257.533-.35 1.173.013 2.033.895.344 1.533.23 2.05-.035.48-.246.903-.643 1.324-1.114l-1.22-.302a.9.9 0 0 1-.652-.632z", clipRule: "evenodd" })
+  ] });
+});
+Mission.displayName = "Mission";
+
+// src/icons/MoneyAdd.tsx
+var React136 = __toESM(require("react"), 1);
+var import_jsx_runtime136 = require("react/jsx-runtime");
+var MoneyAdd = React136.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime136.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.317 4.68c1.218-.57 2.857-.93 4.683-.93 1.417 0 2.597.236 3.419.471.344.098.624.196.831.275V11.5h1.5V3.536l-.416-.207-.003-.002-.008-.004-.024-.011-.082-.038a8 8 0 0 0-.298-.127 11 11 0 0 0-1.088-.368A14 14 0 0 0 17 2.25c-2.008 0-3.87.395-5.317 1.07-1.218.57-2.857.93-4.683.93h-.018c-1.009 0-2.337 0-4.703-.946L1.25 2.892v16.616l.471.188C4.341 20.744 5.88 20.75 7 20.75c2.008 0 3.87-.395 5.317-1.07l-.634-1.36c-1.218.57-2.857.93-4.683.93h-.018c-.94 0-2.157 0-4.232-.765V5.075c2.01.67 3.284.675 4.25.675 2.008 0 3.87-.395 5.317-1.07M22 4c.335-.67.335-.671.334-.671zm-2.75 17v-2.75H22v-1.5h-2.75V14h-1.5v2.75H15v1.5h2.75V21zM12 9.75a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 0 0-3.5M8.75 11.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0M6.5 13.509V11.5h-2v2.009z", clipRule: "evenodd" }) });
+});
+MoneyAdd.displayName = "MoneyAdd";
+
+// src/icons/MoneyReceiveCircle.tsx
+var React137 = __toESM(require("react"), 1);
+var import_jsx_runtime137 = require("react/jsx-runtime");
+var MoneyReceiveCircle = React137.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime137.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("path", { fill: "currentColor", d: "M11.9 22.8C5.89 22.8 1 17.91 1 11.91S5.89 1.02 11.9 1.02c.73 0 1.47.07 2.18.22.49.1.8.57.7 1.06s-.57.81-1.06.7c-.6-.12-1.21-.18-1.82-.18-5.02 0-9.1 4.08-9.1 9.09S6.88 21 11.9 21s9.1-4.08 9.1-9.09c0-.61-.06-1.22-.18-1.82a.9.9 0 0 1 .7-1.06c.49-.1.96.21 1.06.7.15.71.22 1.44.22 2.18 0 6-4.89 10.89-10.9 10.89" }),
+    /* @__PURE__ */ (0, import_jsx_runtime137.jsx)("path", { fill: "currentColor", d: "M11.9 16.81c-.5 0-.9-.4-.9-.9v-.21c-.81-.21-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.35 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.21c.81.21 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.35-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9m9.47-9.02h-.04l-3.12-.15c-1.28-.09-2.08-.93-2.08-2.14l-.12-3.05c-.02-.5.37-.91.87-.93.47 0 .92.37.93.87l.09 2.25 3.38-3.38a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-3.36 3.35 2.23.1a.902.902 0 0 1-.04 1.8z" })
+  ] });
+});
+MoneyReceiveCircle.displayName = "MoneyReceiveCircle";
+
+// src/icons/MoneyReceiveSquare.tsx
+var React138 = __toESM(require("react"), 1);
+var import_jsx_runtime138 = require("react/jsx-runtime");
+var MoneyReceiveSquare = React138.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime138.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime138.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.75 2.5a.75.75 0 0 1 .75-.75h11v1.5H3.25v17.5h17.5V10.5h1.5v11a.75.75 0 0 1-.75.75h-19a.75.75 0 0 1-.75-.75zm9.5 5.834a2.95 2.95 0 0 0-1.114.505c-.504.378-.886.958-.886 1.661s.382 1.283.886 1.66c.504.379 1.165.59 1.864.59.406 0 .744.124.964.29.22.164.286.335.286.46s-.066.296-.286.46c-.22.166-.558.29-.964.29-.668 0-1.09-.321-1.208-.57l-1.357.64c.33.7 1.026 1.165 1.815 1.345v.835h1.5v-.834a2.95 2.95 0 0 0 1.114-.505c.504-.378.886-.958.886-1.661s-.382-1.283-.886-1.66c-.504-.379-1.165-.59-1.864-.59-.406 0-.744-.124-.964-.29-.22-.164-.286-.335-.286-.46s.066-.296.286-.46c.22-.166.558-.29.964-.29.668 0 1.09.321 1.208.57l1.357-.64c-.33-.7-1.026-1.165-1.815-1.345V7.5h-1.5zm9.72-6.34-3.708 3.698V2.998h-1.5V8.25H21v-1.5h-2.674l3.704-3.695z", clipRule: "evenodd" }) });
+});
+MoneyReceiveSquare.displayName = "MoneyReceiveSquare";
+
+// src/icons/MoneySecurity.tsx
+var React139 = __toESM(require("react"), 1);
+var import_jsx_runtime139 = require("react/jsx-runtime");
+var MoneySecurity = React139.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime139.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime139.jsx)("path", { fill: "currentColor", d: "M11 15.93c0 .5.4.9.9.9s.9-.4.9-.9v-.21c1.17-.31 2-1.21 2-2.29 0-1.35-1.27-2.4-2.9-2.4-.67 0-1.1-.36-1.1-.6s.43-.6 1.1-.6c.55 0 .96.25 1.07.48.21.45.75.64 1.2.43s.64-.75.43-1.2c-.32-.68-.99-1.19-1.8-1.4v-.22c0-.5-.4-.9-.9-.9s-.9.4-.9.9v.21c-1.17.31-2 1.21-2 2.29 0 1.35 1.27 2.4 2.9 2.4.67 0 1.1.36 1.1.6s-.43.6-1.1.6c-.55 0-.96-.25-1.07-.48a.903.903 0 0 0-1.2-.43c-.45.21-.64.75-.43 1.2.32.68.99 1.18 1.8 1.4z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime139.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.116 22.264c.626.328 1.081.566 1.784.566v-.01c.72 0 1.19-.24 1.83-.58 2.42-1.28 8.07-4.93 8.07-11.13v-2.9c0-1.78 0-2.76-.59-3.54s-1.6-1.07-3.62-1.64c-1.04-.3-2.09-.67-3.11-1.13-1.348-.6-1.963-.9-2.579-.9s-1.234.3-2.591.9c-1.02.45-2.07.83-3.11 1.13l-.043.012c-1.981.572-2.991.863-3.567 1.628C2 5.45 2 6.43 2 8.21v2.9c0 6.2 5.65 9.85 8.07 11.13zm.013-18.753c.868-.382 1.549-.681 1.771-.681.224 0 .858.279 1.682.642l.178.078c1.1.49 2.23.9 3.35 1.22 1.42.4 2.45.7 2.67.99S20 6.91 20 8.21v2.9c0 5.03-4.45 8.14-7.11 9.54-.6.32-.73.38-.99.38-.255 0-.385-.067-.954-.361l-.036-.019c-2.65-1.4-7.11-4.51-7.11-9.54v-2.9c0-1.3 0-2.16.22-2.45s1.25-.59 2.67-.99a25.5 25.5 0 0 0 3.439-1.259", clipRule: "evenodd" })
+  ] });
+});
+MoneySecurity.displayName = "MoneySecurity";
+
+// src/icons/MoneySendSquare.tsx
+var React140 = __toESM(require("react"), 1);
+var import_jsx_runtime140 = require("react/jsx-runtime");
+var MoneySendSquare = React140.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime140.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime140.jsx)("path", { fill: "currentColor", d: "M12.4 17.3c-.5 0-.9-.4-.9-.9v-.22c-.81-.22-1.48-.72-1.8-1.4a.903.903 0 0 1 .43-1.2c.45-.21.99-.02 1.2.43.11.23.52.48 1.07.48.67 0 1.1-.36 1.1-.6s-.43-.6-1.1-.6c-1.63 0-2.9-1.05-2.9-2.4 0-1.08.83-1.98 2-2.29v-.21c0-.5.4-.9.9-.9s.9.4.9.9v.22c.81.22 1.48.72 1.8 1.4.21.45.02.99-.43 1.2s-.99.02-1.2-.43c-.11-.23-.52-.48-1.07-.48-.67 0-1.1.36-1.1.6s.43.6 1.1.6c1.63 0 2.9 1.05 2.9 2.4 0 1.08-.83 1.98-2 2.29v.21c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime140.jsx)("path", { fill: "currentColor", d: "M12.4 22.8c-4.72 0-7.09 0-8.75-1.65s-1.66-4.02-1.66-8.75S2 5.31 3.66 3.66C5.31 2 7.68 2 12.4 2h1.5c.5 0 .9.4.9.9s-.4.9-.9.9h-1.5c-4.22 0-6.34 0-7.47 1.13S3.8 8.18 3.8 12.4s0 6.34 1.13 7.47S8.18 21 12.4 21s6.34 0 7.47-1.13S21 16.62 21 12.4v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 4.72 0 7.09-1.65 8.75-1.66 1.65-4.03 1.65-8.75 1.65" }),
+    /* @__PURE__ */ (0, import_jsx_runtime140.jsx)("path", { fill: "currentColor", d: "M16.9 8.8c-.23 0-.46-.09-.64-.26a.9.9 0 0 1 0-1.27l3.36-3.36-2.23-.1a.897.897 0 0 1-.86-.94c.02-.5.46-.88.94-.86l3.12.15c1.28.09 2.09.93 2.09 2.14l.12 3.06c.02.5-.37.91-.87.93-.49.04-.91-.37-.93-.87l-.09-2.26-3.38 3.38c-.18.18-.41.26-.64.26z" })
+  ] });
+});
+MoneySendSquare.displayName = "MoneySendSquare";
+
+// src/icons/Money.tsx
+var React141 = __toESM(require("react"), 1);
+var import_jsx_runtime141 = require("react/jsx-runtime");
+var Money = React141.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime141.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime141.jsx)("path", { fill: "currentColor", d: "M12.902 7.507a.9.9 0 0 0-1.8 0v.33c-.457.11-.878.304-1.231.57-.578.433-1.02 1.1-1.02 1.913s.442 1.48 1.02 1.913c.577.433 1.333.674 2.13.674.446 0 .815.137 1.052.314.236.178.299.354.299.474 0 .119-.063.295-.3.473-.236.178-.605.314-1.05.314-.737 0-1.188-.354-1.308-.608a.9.9 0 1 0-1.629.767c.374.793 1.154 1.32 2.037 1.534v.332a.9.9 0 0 0 1.8 0v-.33c.456-.11.877-.304 1.23-.57.578-.432 1.02-1.1 1.02-1.912 0-.813-.442-1.48-1.02-1.914-.577-.433-1.333-.674-2.13-.674-.446 0-.815-.136-1.051-.314-.237-.178-.3-.354-.3-.473 0-.12.063-.296.3-.474.236-.177.605-.314 1.05-.314.737 0 1.188.354 1.308.609a.9.9 0 0 0 1.629-.767c-.374-.794-1.154-1.322-2.036-1.535z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime141.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1C5.98 1.1 1.1 5.98 1.1 12S5.98 22.9 12 22.9 22.9 18.02 22.9 12 18.02 1.1 12 1.1M2.9 12a9.1 9.1 0 1 1 18.2 0 9.1 9.1 0 0 1-18.2 0", clipRule: "evenodd" })
+  ] });
+});
+Money.displayName = "Money";
+
+// src/icons/MoreH.tsx
+var React142 = __toESM(require("react"), 1);
+var import_jsx_runtime142 = require("react/jsx-runtime");
+var MoreH = React142.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime142.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime142.jsx)("path", { fill: "currentColor", d: "M6 10.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zM10.746 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m6.004 0c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5H18c-.69 0-1.25-.56-1.25-1.25" }) });
+});
+MoreH.displayName = "MoreH";
+
+// src/icons/More.tsx
+var React143 = __toESM(require("react"), 1);
+var import_jsx_runtime143 = require("react/jsx-runtime");
+var More = React143.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime143.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime143.jsx)("path", { fill: "currentColor", d: "M12 4.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zM10.742 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m-.008 6c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25" }) });
+});
+More.displayName = "More";
+
+// src/icons/News.tsx
+var React144 = __toESM(require("react"), 1);
+var import_jsx_runtime144 = require("react/jsx-runtime");
+var News = React144.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime144.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime144.jsx)("path", { fill: "currentColor", d: "M10.092 15.105a.9.9 0 0 1 0 1.79L10 16.9H6a.9.9 0 0 1 0-1.8h4zm4-4a.9.9 0 0 1 0 1.79L14 12.9H6a.9.9 0 0 1 0-1.8h8zm0-4.001a.9.9 0 0 1 0 1.792L14 8.9H6a.9.9 0 0 1 0-1.8h8z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime144.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 2.1c1.389 0 2.521-.002 3.412.118.917.123 1.711.39 2.346 1.024.634.635.901 1.43 1.024 2.346.06.443.09.947.104 1.512H19c.682 0 1.283-.002 1.766.063.444.06.89.187 1.271.496l.16.144.144.16c.309.382.436.827.496 1.271.065.483.063 1.084.063 1.766v8a2.9 2.9 0 0 1-2.75 2.896L20 21.9H8c-1.389 0-2.521.002-3.412-.118-.917-.123-1.711-.39-2.346-1.024-.634-.634-.9-1.43-1.024-2.346-.12-.89-.118-2.023-.118-3.412V9c0-1.389-.002-2.521.118-3.412.123-.917.39-1.711 1.024-2.346.635-.634 1.43-.9 2.346-1.024C5.478 2.098 6.61 2.1 8 2.1zM8 3.9c-1.44 0-2.429.002-3.172.102-.717.096-1.07.268-1.313.513-.245.244-.417.596-.513 1.313C2.902 6.571 2.9 7.56 2.9 9v6c0 1.44.002 2.429.102 3.172.096.717.268 1.07.513 1.313.244.245.596.417 1.313.513.743.1 1.732.102 3.172.102h9.316A2.9 2.9 0 0 1 17.1 19V8.792c0-1.328-.007-2.257-.102-2.964-.096-.717-.268-1.07-.513-1.313-.244-.245-.596-.417-1.313-.513-.743-.1-1.732-.102-3.172-.102zM18.9 19a1.1 1.1 0 1 0 2.2 0v-8c0-.732-.002-1.192-.047-1.526-.042-.309-.105-.373-.13-.398-.024-.025-.09-.088-.397-.129-.334-.045-.793-.047-1.526-.047h-.1z", clipRule: "evenodd" })
+  ] });
+});
+News.displayName = "News";
+
+// src/icons/NotaMoney.tsx
+var React145 = __toESM(require("react"), 1);
+var import_jsx_runtime145 = require("react/jsx-runtime");
+var NotaMoney = React145.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime145.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime145.jsx)("path", { fill: "currentColor", d: "M7.9 5h8c.5 0 .9.4.9.9s-.4.9-.9.9h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9m2 4h-2c-.5 0-.9.4-.9.9s.4.9.9.9h2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9m3.9 2.09c0 .19.25.41.6.41 1.32 0 2.4.99 2.4 2.21 0 .93-.62 1.72-1.5 2.05v.14c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-.14c-.61-.22-1.11-.68-1.35-1.27-.18-.46.04-.98.5-1.17.46-.18.98.04 1.17.5.06.15.28.31.58.31.35 0 .6-.22.6-.41s-.25-.41-.6-.41c-1.32 0-2.4-.99-2.4-2.21 0-.93.62-1.72 1.5-2.05v-.14c0-.5.4-.9.9-.9s.9.4.9.9v.14c.61.22 1.11.68 1.35 1.27.18.46-.04.98-.5 1.17a.907.907 0 0 1-1.17-.5c-.06-.15-.28-.31-.58-.31-.35 0-.6.22-.6.41" }),
+    /* @__PURE__ */ (0, import_jsx_runtime145.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.9 1c2.98 0 4.62 0 5.76 1.15s1.14 2.8 1.14 5.8v10.59c0 1.72 0 2.76-.88 3.32-1.125.736-2.398-.151-3.16-.682l-.01-.008q-.165-.12-.3-.21l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214l-1.925 1.22c-.592.374-.98.62-1.525.62s-.933-.246-1.525-.62L8.45 20.96l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.408-3.15.675C3 21.3 3 20.26 3 18.54V7.95c0-2.99 0-4.65 1.14-5.8S6.92 1 9.9 1zm5.02 19.34c.08-.29.08-1.05.08-1.79V7.95c0-2.78-.03-3.93-.62-4.53s-1.73-.62-4.48-.62h-4c-2.75 0-3.89.02-4.48.62-.6.6-.62 1.75-.62 4.53v10.6c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.089-.062.168-.114c.55-.35.96-.61 1.51-.61h.06c.506.02.87.247 1.404.582l.046.028 1.91 1.21.2.122c.18.112.344.213.41.228.03-.02.29-.19.55-.35l1.91-1.21c.58-.37 1.01-.63 1.57-.61.506.02.87.247 1.404.582l.046.028.14.095q.108.069.23.155c.24.17.85.6 1.14.64", clipRule: "evenodd" })
+  ] });
+});
+NotaMoney.displayName = "NotaMoney";
+
+// src/icons/NotificationFill.tsx
+var React146 = __toESM(require("react"), 1);
+var import_jsx_runtime146 = require("react/jsx-runtime");
+var NotificationFill = React146.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime146.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime146.jsx)("path", { fill: "currentColor", d: "M15.75 20a4.249 4.249 0 0 1-7.5 0zM12 1.75a7.75 7.75 0 0 1 7.75 7.75v2.756c0 .597.237 1.169.66 1.59l.603.604a2.52 2.52 0 0 1-1.782 4.3H4.77a2.519 2.519 0 0 1-1.782-4.3l.604-.603.15-.165c.327-.4.509-.904.509-1.426V9.5A7.75 7.75 0 0 1 12 1.75" }) });
+});
+NotificationFill.displayName = "NotificationFill";
+
+// src/icons/NotificationOff.tsx
+var React147 = __toESM(require("react"), 1);
+var import_jsx_runtime147 = require("react/jsx-runtime");
+var NotificationOff = React147.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime147.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime147.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.363 1.363a.9.9 0 0 1 1.205-.061l.069.061 20 20 .061.069a.901.901 0 0 1-1.267 1.266l-.068-.061-3.736-3.736h-1.32a4.402 4.402 0 0 1-8.616 0H4.768a2.67 2.67 0 0 1-1.886-4.557l.603-.604a2.1 2.1 0 0 0 .614-1.484V9.5c0-1.205.27-2.35.754-3.373l-3.49-3.49-.061-.068a.9.9 0 0 1 .061-1.206m8.2 17.538a2.598 2.598 0 0 0 4.873 0zM6.233 7.507A6.1 6.1 0 0 0 5.9 9.5v2.756a3.9 3.9 0 0 1-1.142 2.758l-.604.603a.87.87 0 0 0 .614 1.483h11.058z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime147.jsx)("path", { fill: "currentColor", d: "M12 1.6a7.9 7.9 0 0 1 7.9 7.9v2.756c0 .557.221 1.09.615 1.484l.603.604c.5.5.782 1.18.782 1.888a.9.9 0 0 1-1.8 0 .87.87 0 0 0-.254-.616l-.604-.602a3.9 3.9 0 0 1-1.143-2.758V9.5A6.1 6.1 0 0 0 8.39 4.582l-.077.051a.9.9 0 0 1-.989-1.501l.25-.176A7.87 7.87 0 0 1 12 1.6" })
+  ] });
+});
+NotificationOff.displayName = "NotificationOff";
+
+// src/icons/Notification.tsx
+var React148 = __toESM(require("react"), 1);
+var import_jsx_runtime148 = require("react/jsx-runtime");
+var Notification = React148.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime148.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime148.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.6a7.9 7.9 0 0 1 7.9 7.9v2.756c0 .556.221 1.09.615 1.484l.603.604a2.67 2.67 0 0 1-1.887 4.557h-2.923a4.402 4.402 0 0 1-8.616 0H4.77a2.67 2.67 0 0 1-1.887-4.557l.603-.604a2.1 2.1 0 0 0 .615-1.484V9.5A7.9 7.9 0 0 1 12 1.6M9.563 18.9a2.598 2.598 0 0 0 4.874 0zM12 3.4a6.1 6.1 0 0 0-6.1 6.1v2.756a3.9 3.9 0 0 1-1.142 2.758l-.604.603A.87.87 0 0 0 4.77 17.1h14.46a.868.868 0 0 0 .615-1.484l-.604-.602a3.9 3.9 0 0 1-1.142-2.758V9.5A6.1 6.1 0 0 0 12 3.4", clipRule: "evenodd" }) });
+});
+Notification.displayName = "Notification";
+
+// src/icons/NumberList.tsx
+var React149 = __toESM(require("react"), 1);
+var import_jsx_runtime149 = require("react/jsx-runtime");
+var NumberList = React149.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime149.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime149.jsx)("path", { fill: "currentColor", d: "M4.5 14.1c.236 0 .485-.004.71.04l.153.037A2.1 2.1 0 0 1 6.86 15.79l.026.173c.017.176.015.36.015.537s.002.361-.015.537l-.026.173a2.1 2.1 0 0 1-1.496 1.613l-.153.036c-.225.045-.474.041-.71.041-.145 0-.232 0-.297.002-.06.002-.071.005-.061.003a.3.3 0 0 0-.236.237c.002-.01-.001 0-.004.061-.002.065-.002.152-.002.297v.6H6l.092.005a.9.9 0 0 1 0 1.79L6 21.9H3.6c-.116 0-.294.002-.45-.02a1.2 1.2 0 0 1-.699-.331l.001-.001a1.2 1.2 0 0 1-.333-.7c-.02-.155-.02-.332-.02-.448v-.9c0-.236-.003-.485.042-.71l.036-.153A2.1 2.1 0 0 1 3.79 17.14l.173-.026c.176-.017.36-.015.537-.015.145 0 .232 0 .297-.002.061-.002.071-.005.061-.003l.084-.03a.3.3 0 0 0 .152-.207l.004-.061c.002-.065.002-.152.002-.297s0-.232-.002-.297c-.002-.062-.005-.071-.003-.061a.3.3 0 0 0-.237-.236c.01.002 0-.002-.061-.004-.065-.002-.152-.002-.297-.002H3a.9.9 0 0 1 0-1.8zm16.592 3.005a.9.9 0 0 1 0 1.79L21 18.9H11a.9.9 0 0 1 0-1.8h10zm0-6a.9.9 0 0 1 0 1.79L21 12.9H11a.9.9 0 0 1 0-1.8h10zM4.322 2.106A1.2 1.2 0 0 1 5.4 3.3v4.8H6l.092.004a.9.9 0 0 1 0 1.792L6 9.9H3a.9.9 0 0 1 0-1.8h.6V3.9H3a.9.9 0 0 1 0-1.8h1.2zm16.77 2.998a.9.9 0 0 1 0 1.792L21 6.9H11a.9.9 0 0 1 0-1.8h10z" }) });
+});
+NumberList.displayName = "NumberList";
+
+// src/icons/PaintBoard.tsx
+var React150 = __toESM(require("react"), 1);
+var import_jsx_runtime150 = require("react/jsx-runtime");
+var PaintBoard = React150.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime150.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime150.jsx)("path", { fill: "currentColor", d: "M6.905 15.8h.005-.01zm.172-.017c-.06.009-.112.017-.172.017a.91.91 0 0 1-.875-.7c-.11-.49.19-.96.68-1.07.48-.11.97.2 1.07.68.11.49-.2.97-.68 1.07z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime150.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.4 10.8C8.08 10.8 7 9.72 7 8.4S8.08 6 9.4 6s2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6M14 9.4c0 1.32 1.08 2.4 2.4 2.4s2.4-1.08 2.4-2.4S17.72 7 16.4 7 14 8.08 14 9.4m1.8 0c0-.33.27-.6.6-.6s.6.27.6.6-.27.6-.6.6-.6-.27-.6-.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime150.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.34 22.8c.64 0 1.41-.05 1.95-.58.23-.23.51-.65.51-1.32 0-.855-.416-1.484-.76-2.005l-.03-.045c-.46-.69-.61-.96-.31-1.55.38-.75.85-.83 2.68-.83.86 0 1.92 0 3.15-.18 3.27-.47 3.27-3.22 3.27-4.39C22.8 5.89 17.91 1 11.9 1S1 5.89 1 11.9s4.89 10.9 10.9 10.9zM2.8 11.9c0-5.02 4.08-9.1 9.1-9.1h.01c5.02 0 9.1 4.08 9.1 9.1 0 1.86-.37 2.42-1.73 2.61-1.1.16-2.05.16-2.89.16-1.74 0-3.37 0-4.29 1.83-.78 1.57-.06 2.65.43 3.37.29.43.47.72.51 1.06-.118.073-.547.071-.828.07H11.9c-5.02 0-9.1-4.08-9.1-9.1", clipRule: "evenodd" })
+  ] });
+});
+PaintBoard.displayName = "PaintBoard";
+
+// src/icons/Pcd.tsx
+var React151 = __toESM(require("react"), 1);
+var import_jsx_runtime151 = require("react/jsx-runtime");
+var Pcd = React151.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime151.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime151.jsx)("path", { fill: "currentColor", d: "M15.537 8.229a.9.9 0 0 1 .926 1.542c-.73.438-1.605.762-2.563.948v3.172l.973 3.89.018.091a.9.9 0 0 1-1.738.435l-.026-.088-.83-3.319h-.594l-.83 3.319a.9.9 0 0 1-1.746-.438l.973-3.89V10.72a8.1 8.1 0 0 1-2.335-.818l-.228-.13-.077-.051a.9.9 0 0 1 .922-1.536l.08.044.169.095c.859.469 2.038.776 3.369.776 1.42 0 2.667-.35 3.537-.871" }),
+    /* @__PURE__ */ (0, import_jsx_runtime151.jsx)("path", { fill: "currentColor", d: "M12.169 5.108a1.65 1.65 0 1 1-1.81 1.811l-.01-.169.01-.169A1.65 1.65 0 0 1 12 5.1z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime151.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9", clipRule: "evenodd" })
+  ] });
+});
+Pcd.displayName = "Pcd";
+
+// src/icons/PieChart.tsx
+var React152 = __toESM(require("react"), 1);
+var import_jsx_runtime152 = require("react/jsx-runtime");
+var PieChart = React152.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime152.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime152.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.74 5.07a11 11 0 0 1 2.4 3.59v.01l.011.026c.584 1.426 1.005 2.452.22 3.724-.016.02-.036.05-.056.08s-.04.06-.055.08c-.89 1.23-2.2 1.23-4.18 1.23h-2.11c-2.09 0-3.25 0-4.11-.86S11 10.94 11 8.84V6.73c0-1.98 0-3.29 1.22-4.17.03-.03.12-.09.17-.12 1.28-.79 2.319-.36 3.747.229l.003.001c1.35.56 2.57 1.37 3.6 2.4M18.09 12c1.89 0 2.4-.05 2.71-.47l.01-.01c.33-.53.25-.81-.32-2.18a9.1 9.1 0 0 0-2.01-3.01 9.4 9.4 0 0 0-3.01-2.01c-.87-.36-1.3-.52-1.62-.52-.19 0-.33.06-.5.16-.49.36-.54.87-.54 2.76v2.11c0 1.56 0 2.51.33 2.84s1.28.33 2.84.33z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime152.jsx)("path", { fill: "currentColor", d: "M20.07 15.88a.9.9 0 0 1 1.18-.48h-.01a.9.9 0 0 1 .48 1.18c-1.3 3.09-4.12 5.34-7.54 6.02-.7.13-1.39.2-2.08.2-2.68 0-5.25-1.01-7.14-2.89-2.38-2.36-3.42-5.82-2.78-9.25.64-3.41 2.85-6.24 5.91-7.57.45-.2.98 0 1.18.46.2.45 0 .98-.46 1.18-2.52 1.1-4.34 3.44-4.86 6.26-.53 2.85.32 5.7 2.28 7.64 1.95 1.93 4.79 2.76 7.6 2.2 2.84-.56 5.17-2.41 6.24-4.95" })
+  ] });
+});
+PieChart.displayName = "PieChart";
+
+// src/icons/PlugSocket.tsx
+var React153 = __toESM(require("react"), 1);
+var import_jsx_runtime153 = require("react/jsx-runtime");
+var PlugSocket = React153.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime153.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime153.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m21.26 2.27-1.52 1.52a3.14 3.14 0 0 0-2.56-.75l-.72.12c-1.33.22-2.56.79-3.57 1.65l-1.23 1.05c-.4.34-.63.83-.65 1.36-.03.55.19 1.1.59 1.5l4.48 4.48c.38.39.89.6 1.42.6l.01-.01h.08c.53-.02 1.02-.25 1.36-.65L20 11.91a7.34 7.34 0 0 0 1.65-3.57l.12-.72a3.11 3.11 0 0 0-.76-2.561l1.52-1.519a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0M17.51 12l.013.01a.2.2 0 0 1-.153-.07l-4.48-4.48c-.07-.07-.07-.14-.05-.22l1.23-1.05a5.56 5.56 0 0 1 2.7-1.25l.72-.12c.4-.06.82.08 1.13.39l.99.99c.3.31.45.73.38 1.13l-.12.72a5.56 5.56 0 0 1-1.25 2.7l-1.05 1.23.69.58-.737-.55h.007z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime153.jsx)("path", { fill: "currentColor", d: "M2.895 22.8H2.9h-.01z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime153.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M3.53 22.54a.9.9 0 0 1-.635.26.94.94 0 0 1-.635-.26.9.9 0 0 1 0-1.27l1.534-1.534a3.12 3.12 0 0 1-.754-2.566l.12-.72c.22-1.33.79-2.56 1.65-3.57l1.05-1.23c.34-.4.82-.63 1.36-.66.55-.04 1.1.19 1.5.59l.115.115 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425 1.73 1.73 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425.095.095c.4.4.62.95.59 1.5-.02.53-.25 1.02-.66 1.36l-1.23 1.05a7.34 7.34 0 0 1-3.57 1.65l-.72.12c-.16.03-.33.04-.5.04l.02.02c-.747 0-1.485-.28-2.066-.794zM7.3 12.8l-.06.02-1.05 1.23a5.56 5.56 0 0 0-1.25 2.7l-.12.72c-.07.4.08.82.38 1.13l.99.99c.31.31.73.46 1.13.39l.73-.12a5.56 5.56 0 0 0 2.7-1.25l1.23-1.05c.02-.08.02-.15-.05-.22l-4.48-4.48a.22.22 0 0 0-.15-.07z", clipRule: "evenodd" })
+  ] });
+});
+PlugSocket.displayName = "PlugSocket";
+
+// src/icons/PriceTag.tsx
+var React154 = __toESM(require("react"), 1);
+var import_jsx_runtime154 = require("react/jsx-runtime");
+var PriceTag = React154.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime154.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime154.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.4 8.81c-1.32 0-2.4-1.08-2.4-2.4s1.08-2.4 2.4-2.4 2.4 1.08 2.4 2.4-1.08 2.4-2.4 2.4m0-3c-.33 0-.6.27-.6.6s.27.6.6.6.6-.27.6-.6-.27-.6-.6-.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime154.jsx)("path", { fill: "currentColor", d: "M9.896 17.81H9.9h-.01zm-.636-.26a.94.94 0 0 0 .636.26.9.9 0 0 0 .634-.26.9.9 0 0 0 0-1.27l-3-3a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime154.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.71 22.81c-.88 0-1.76-.29-2.5-.86a35 35 0 0 1-6.35-6.35c-1.2-1.55-1.14-3.72.15-5.15 2.74-3.07 5.62-5.88 8.78-8.6.46-.39 1.01-.63 1.6-.68 3.31-.3 7.58-.35 9.09 1.16s1.46 5.78 1.16 9.09c-.05.59-.29 1.14-.68 1.6a93 93 0 0 1-8.6 8.78c-.75.67-1.69 1.01-2.65 1.01M3.35 11.65c-.71.79-.73 1.99-.06 2.85 1.77 2.28 3.74 4.25 6.03 6.03.87.67 2.06.64 2.85-.06a91 91 0 0 0 8.43-8.61c.15-.17.24-.38.25-.59.35-3.84.1-6.92-.64-7.66-.73-.73-3.81-.99-7.66-.64-.21.02-.42.11-.59.26-3.1 2.66-5.92 5.42-8.61 8.43z", clipRule: "evenodd" })
+  ] });
+});
+PriceTag.displayName = "PriceTag";
+
+// src/icons/Printer.tsx
+var React155 = __toESM(require("react"), 1);
+var import_jsx_runtime155 = require("react/jsx-runtime");
+var Printer = React155.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime155.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime155.jsx)("path", { fill: "currentColor", d: "M17.01 11.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime155.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m22.604 12.254.006.056h.02c.23 2.21.34 3.32-.17 4.33-.34.65-.85 1.2-1.49 1.58-.81.48-1.74.57-3.32.58.16.73.21 1.21.12 1.69-.17.87-.71 1.6-1.46 2-.58.31-1.23.31-2.41.31H9.92c-1.18 0-1.83 0-2.41-.31-.76-.39-1.29-1.12-1.46-2-.1-.48-.04-.95.12-1.69-1.58-.02-2.51-.1-3.31-.58-.64-.38-1.16-.93-1.49-1.58-.51-1-.4-2.11-.17-4.31l.003-.032c.188-1.79.29-2.763.857-3.578.37-.52.87-.96 1.45-1.26.66-.35 1.37-.43 2.5-.45V5.9c0-2.06 0-3.2.85-4.05S8.85 1 10.91 1h2c2.06 0 3.2 0 4.05.85s.85 1.99.85 4.05v1.11c1.13.02 1.84.11 2.5.45.58.29 1.08.73 1.45 1.26.554.801.658 1.78.844 3.534M10.9 2.8c-1.53 0-2.46 0-2.78.32S7.8 4.37 7.8 5.9V7H16V5.9c0-1.53 0-2.46-.32-2.78s-1.25-.32-2.78-.32zm4.56 18.1c.27-.14.47-.43.53-.76.058-.262-.072-.825-.272-1.69l-.018-.08c-.13-.59-.21-.94-.31-1.1a.95.95 0 0 0-.49-.42c-.13-.05-.48-.05-1-.05H9.92c-.53 0-.87 0-1.01.05-.2.07-.37.22-.49.42-.09.16-.18.52-.31 1.1l-.009.037c-.205.89-.34 1.477-.291 1.733.06.34.26.62.53.76.19.1.77.1 1.57.1h3.98c.81 0 1.39 0 1.57-.1m4.56-4.22c.35-.21.63-.51.81-.86.27-.53.17-1.52-.02-3.32-.15-1.49-.24-2.32-.54-2.75-.2-.29-.47-.53-.79-.69-.5-.25-1.37-.25-2.94-.25H7.25c-1.57 0-2.44 0-2.93.25-.32.16-.59.4-.79.69-.3.43-.39 1.26-.54 2.75-.19 1.8-.29 2.79-.02 3.32.18.35.46.65.81.86.48.28 1.34.32 2.82.32.08-.25.16-.45.28-.65.32-.55.82-.96 1.4-1.18.44-.17.86-.17 1.63-.17h3.98c.76 0 1.19 0 1.63.17.57.22 1.07.64 1.4 1.18.12.19.2.4.28.65 1.48 0 2.34-.04 2.82-.32", clipRule: "evenodd" })
+  ] });
+});
+Printer.displayName = "Printer";
+
+// src/icons/QrCode.tsx
+var React156 = __toESM(require("react"), 1);
+var import_jsx_runtime156 = require("react/jsx-runtime");
+var QrCode = React156.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime156.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime156.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.7 2.7C3.41 2 4.34 2 5.9 2s2.5 0 3.2.7.7 1.64.7 3.2 0 2.5-.7 3.2c-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7C2 8.39 2 7.46 2 5.9s0-2.5.7-3.2M5.9 8c.97 0 1.74 0 1.92-.18C8 7.65 8 6.87 8 5.9s0-1.75-.18-1.92c-.17-.18-.95-.18-1.92-.18s-1.74 0-1.92.18c-.18.17-.18.95-.18 1.92s.01 1.74.18 1.92S4.93 8 5.9 8m-3.2 6.7c.71-.7 1.65-.7 3.2-.7 1.56 0 2.5 0 3.2.7.7.71.7 1.64.7 3.2s0 2.5-.7 3.2c-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7-.7-.71-.7-1.64-.7-3.2s0-2.5.7-3.2M5.9 20c.97 0 1.74 0 1.92-.18v.01c.18-.17.18-.94.18-1.92s0-1.75-.18-1.93c-.17-.17-.95-.17-1.92-.17s-1.74 0-1.92.17-.18.95-.18 1.92.01 1.74.18 1.92.95.18 1.92.18", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime156.jsx)("path", { fill: "currentColor", d: "M8.9 11h-6c-.5 0-.9.4-.9.9s.4.9.9.9h6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9m3.9-3.1c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-5c0-.5.4-.9.9-.9s.9.4.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime156.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.9 9.8c1.56 0 2.49 0 3.2-.7.7-.7.7-1.64.7-3.2s0-2.5-.7-3.2-1.64-.7-3.2-.7-2.49 0-3.2.7c-.7.7-.7 1.64-.7 3.2s0 2.49.7 3.2c.69.7 1.614.7 3.136.7zm-1.92-5.82c.18-.18.95-.18 1.92-.18s1.75 0 1.92.18c.18.17.18.95.18 1.92s0 1.75-.18 1.92c-.18.18-.95.18-1.92.18s-1.75 0-1.92-.18-.18-.95-.18-1.92 0-1.75.18-1.92", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime156.jsx)("path", { fill: "currentColor", d: "M11 17.67c0-.5.4-.9.9-.9s.9.4.9.9v2.77c0 .5-.4.9-.9.9s-.9-.4-.9-.9zM17.9 14c-.5 0-.9.4-.9.9s.4.9.9.9c.98 0 1.75 0 1.92.17.18.18.18.95.18 1.93s0 1.75-.18 1.93c-.1.1-.39.15-.95.17a.89.89 0 0 0-.87.93c.01.49.41.87.9.87h.03c.77-.02 1.57-.1 2.17-.7.7-.7.7-1.64.7-3.2s0-2.5-.7-3.2-1.64-.7-3.2-.7m-3-3h6v.01c.5 0 .9.4.9.9s-.4.9-.9.9h-6c-.97 0-1.74 0-1.92.17s-.18.94-.18 1.92c0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-1.56 0-2.5.7-3.2.71-.7 1.65-.7 3.2-.7m1 9h-1c-.5 0-.9.4-.9.9s.4.9.9.9h1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime156.jsx)("path", { fill: "currentColor", d: "M16.9 17c1.05 0 1.9.85 1.9 1.9 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.06-.04-.1-.1-.1-1.01 0-2.9 0-2.9-2.4v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 .39.08.5.08.5.12.1.77.1 1.02.1" })
+  ] });
+});
+QrCode.displayName = "QrCode";
+
+// src/icons/Question.tsx
+var React157 = __toESM(require("react"), 1);
+var import_jsx_runtime157 = require("react/jsx-runtime");
+var Question = React157.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime157.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime157.jsx)("path", { fill: "currentColor", d: "M15.4 7c-.5 0-.9.4-.9.9s.41.9.9.9.9-.4.9-.9-.4-.9-.9-.9m2.1.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9-.9-.4-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime157.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M16.9 2C13.65 2 11 4.55 11 7.68c0 1.45.57 2.83 1.62 3.91-.06.25-.18.49-.34.68a.93.93 0 0 0-.15.88c.1.3.37.52.68.57.25.05.5.07.75.07.68 0 1.35-.17 1.96-.49q.053-.03.1-.05l.04-.02q.036.001.09.014l.03.006c.37.07.75.11 1.14.11 3.25 0 5.9-2.55 5.9-5.68S20.15 2 16.9 2m0 9.57c-.27 0-.54-.02-.8-.07-.3-.06-.5-.09-.72-.06-.238.03-.417.129-.704.287l-.005.003c-.08.05-.17.09-.26.12.1-.54-.08-1.09-.5-1.51-.71-.72-1.1-1.66-1.1-2.65 0-2.14 1.84-3.88 4.1-3.88s4.1 1.74 4.1 3.88-1.84 3.88-4.1 3.88zM7.4 16.5c-1.99 0-4.81 1.03-6.11 2.74-.37.49-.4 1.17-.06 1.67.32.47.93 1.14 2.08 1.63.38.16.82.25 1.3.25h5.57c.48 0 .92-.08 1.3-.25 1.15-.49 1.76-1.16 2.08-1.64.34-.51.31-1.18-.06-1.67-1.29-1.72-4.12-2.75-6.1-2.75zm3.38 4.4c-.16.07-.35.1-.59.1H4.62c-.24 0-.43-.03-.59-.1-.57-.25-.92-.54-1.13-.77.99-1.09 3.1-1.83 4.5-1.83s3.51.74 4.5 1.83c-.2.23-.55.52-1.13.77zm.3-8.71a3.681 3.681 0 0 1-7.36 0 3.681 3.681 0 0 1 7.36 0m-1.8 0c0-1.03-.84-1.87-1.88-1.87s-1.88.84-1.88 1.87.84 1.87 1.88 1.87 1.88-.84 1.88-1.87", clipRule: "evenodd" })
+  ] });
+});
+Question.displayName = "Question";
+
+// src/icons/ReceiptPrint.tsx
+var React158 = __toESM(require("react"), 1);
+var import_jsx_runtime158 = require("react/jsx-runtime");
+var ReceiptPrint = React158.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime158.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime158.jsx)("path", { fill: "currentColor", d: "M22.8 6.06v.78l-.03.01c.02 1.5.02 2.41-.73 3.19a.89.89 0 0 1-1.27.02.91.91 0 0 1-.02-1.27c.22-.24.24-.68.22-1.92v-.8c0-1.6 0-2.57-.33-2.92-.3-.32-1.11-.33-2.76-.33H5.89c-1.65 0-2.45.01-2.76.33-.34.35-.34 1.32-.34 2.92v.8c-.01 1.24 0 1.68.23 1.92.35.36.34.93-.02 1.27-.17.17-.38.25-.62.25s-.47-.1-.65-.28C.97 9.24.98 8.34 1 6.84v-.79c0-2.13 0-3.29.85-4.17S3.84 1 5.9 1.01h12c2.07 0 3.21 0 4.06.88.84.87.84 2.04.84 4.17" }),
+    /* @__PURE__ */ (0, import_jsx_runtime158.jsx)("path", { fill: "currentColor", d: "M8.9 10.8h3c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-3c-.5 0-.9.4-.9.9s.4.9.9.9m-1 2.2h6c.5 0 .9.4.9.9s-.4.9-.9.9h-6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime158.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.96 5.87c1.08.87 1.36 2.19 1.87 4.6h-.03l1.92 9.09c.06.25.07.43.02.83v.08a.83.83 0 0 1-.09.49c-.29.63-.96 1.06-1.73 1.11-.78.04-1.48-.31-1.88-.94-.03-.06-.12-.1-.21-.1a.29.29 0 0 0-.25.09l-.55.69c-.5.63-1.28.99-2.12.99s-1.62-.36-2.12-.99l-.09-.11c-.17-.22-.47-.35-.8-.35s-.63.13-.81.35l-.09.11c-.51.63-1.28.99-2.13.99-.84 0-1.62-.36-2.12-.99l-.55-.69c-.06-.07-.16-.09-.25-.09-.09.01-.18.05-.21.1-.4.63-1.1.98-1.88.93-.77-.04-1.44-.47-1.74-1.12-.07-.15-.09-.31-.09-.47v-.08c-.05-.4-.03-.57.02-.83l1.92-9.08c.51-2.42.79-3.74 1.87-4.61S8.29 5 10.76 5h2.28c2.48 0 3.84 0 4.92.87m2.02 14.36v-.04l.02-.01c.02-.1.02-.2.02-.2l-1.93-9.14c-.47-2.21-.68-3.13-1.24-3.58s-1.51-.47-3.79-.47h-2.28c-2.28 0-3.23.02-3.79.47s-.77 1.36-1.24 3.56l-1.93 9.1a.6.6 0 0 0-.004.213l.004.037v.05c.04.02.09.04.15.04.07 0 .19 0 .25-.1.35-.54.96-.89 1.64-.93h.12c.64 0 1.24.29 1.63.77l.55.69c.16.19.43.31.72.31s.56-.11.72-.31l.09-.11c.52-.65 1.33-1.03 2.21-1.03s1.69.38 2.21 1.03l.09.11c.31.39 1.12.39 1.44 0l.55-.69c.42-.51 1.08-.79 1.76-.76.67.03 1.28.38 1.63.93.06.1.18.1.25.1.06 0 .11-.02.15-.04", clipRule: "evenodd" })
+  ] });
+});
+ReceiptPrint.displayName = "ReceiptPrint";
+
+// src/icons/ReceiptSearch.tsx
+var React159 = __toESM(require("react"), 1);
+var import_jsx_runtime159 = require("react/jsx-runtime");
+var ReceiptSearch = React159.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime159.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime159.jsx)("path", { fill: "currentColor", d: "M11.52 20.773c.18.111.344.212.41.227l-.01.01c.5 0 .89.4.89.9s-.41.9-.91.9c-.545 0-.933-.246-1.525-.62L8.45 20.97l-.072-.045c-.216-.136-.426-.267-.498-.285-.019.01-.093.056-.186.116-.106.067-.238.15-.344.214q-.135.09-.3.21l-.02.015c-.763.531-2.02 1.408-3.15.675C3 21.31 3 20.27 3 18.55V7.9c0-2.97 0-4.6 1.07-5.74C5.17 1 6.72 1 9.55 1h4.71c2.82 0 4.38 0 5.47 1.16C20.8 3.3 20.8 4.93 20.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.5 0-3.88-.58-4.5-.54-.58-1.6-.6-4.16-.6H9.55c-2.57 0-3.63.03-4.17.6-.58.61-.58 1.99-.58 4.5v10.64c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.089-.062.168-.114c.57-.37 1-.63 1.57-.61.506.02.87.247 1.404.582l.046.028 1.91 1.21z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime159.jsx)("path", { fill: "currentColor", d: "M7 10.9c0-.5.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9h-4c-.5 0-.9-.4-.9-.9m9.8-4c0-.5-.4-.9-.9-.9h-8c-.5 0-.9.4-.9.9s.4.9.9.9h8c.5 0 .9-.4.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime159.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m19.96 19.68 1.58 1.58h.01a.9.9 0 0 1 0 1.27c-.18.17-.41.26-.64.26s-.46-.08-.64-.26l-1.58-1.58A4.332 4.332 0 0 1 12 17.32c0-2.39 1.94-4.33 4.33-4.33a4.332 4.332 0 0 1 3.63 6.69m-1.85-.56q.135-.12.24-.27h-.01c.34-.44.51-.97.51-1.52 0-1.4-1.13-2.53-2.53-2.53s-2.53 1.13-2.53 2.53a2.533 2.533 0 0 0 4.32 1.79", clipRule: "evenodd" })
+  ] });
+});
+ReceiptSearch.displayName = "ReceiptSearch";
+
+// src/icons/ReceiptWait.tsx
+var React160 = __toESM(require("react"), 1);
+var import_jsx_runtime160 = require("react/jsx-runtime");
+var ReceiptWait = React160.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime160.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime160.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M20 13.1a1.9 1.9 0 0 1 1.9 1.9 3.9 3.9 0 0 1-1.409 3 3.9 3.9 0 0 1 1.41 3A1.9 1.9 0 0 1 20 22.9h-4a1.9 1.9 0 0 1-1.9-1.9c0-1.206.548-2.285 1.408-3a3.9 3.9 0 0 1-1.408-3 1.9 1.9 0 0 1 1.9-1.9zm-2 5.8a2.1 2.1 0 0 0-2.1 2.1.1.1 0 0 0 .1.1h4a.1.1 0 0 0 .1-.1 2.1 2.1 0 0 0-2.1-2.1m-2-4a.1.1 0 0 0-.1.1 2.1 2.1 0 0 0 1.885 2.089l.215.01.215-.01A2.1 2.1 0 0 0 20.1 15a.1.1 0 0 0-.1-.1z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime160.jsx)("path", { fill: "currentColor", d: "M14.26 1c2.82 0 4.38 0 5.47 1.16C20.8 3.3 20.8 4.93 20.8 7.9v3c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3c0-2.5 0-3.88-.58-4.5-.54-.58-1.6-.6-4.16-.6H9.55c-2.57 0-3.63.03-4.17.6-.58.61-.58 1.99-.58 4.5v10.64c0 .74 0 1.5.08 1.79.29-.05.9-.47 1.14-.64q.108-.07.202-.136.088-.062.168-.114c.57-.37 1-.63 1.57-.61.506.02.87.247 1.404.581l.046.03 1.91 1.21.2.122c.18.111.343.212.41.227l-.01.01c.5 0 .89.4.89.9s-.41.9-.91.9c-.545 0-.934-.246-1.525-.62L8.45 20.97l-.072-.045c-.216-.136-.426-.267-.498-.285a4 4 0 0 0-.187.116c-.106.067-.237.15-.343.214q-.135.09-.3.21l-.02.014c-.763.532-2.02 1.41-3.15.676C3 21.31 3 20.27 3 18.55V7.9c0-2.97 0-4.6 1.07-5.74C5.17 1 6.72 1 9.55 1z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime160.jsx)("path", { fill: "currentColor", d: "M11.9 10c.5 0 .9.4.9.9s-.4.9-.9.9h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9zm4-4c.5 0 .9.4.9.9s-.4.9-.9.9h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9z" })
+  ] });
+});
+ReceiptWait.displayName = "ReceiptWait";
+
+// src/icons/ReceiveMoney.tsx
+var React161 = __toESM(require("react"), 1);
+var import_jsx_runtime161 = require("react/jsx-runtime");
+var ReceiveMoney = React161.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime161.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime161.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.249 12c0-5.937 4.813-10.75 10.75-10.75q1.104.002 2.15.215l-.3 1.47a9.25 9.25 0 1 0 7.214 7.214l1.471-.298A11 11 0 0 1 22.749 12c0 5.937-4.813 10.75-10.75 10.75S1.249 17.937 1.249 12m10-3.666a2.95 2.95 0 0 0-1.114.505c-.504.378-.886.958-.886 1.661s.382 1.283.886 1.66c.504.379 1.165.59 1.864.59.406 0 .744.124.964.29.22.164.286.335.286.46s-.066.296-.286.46c-.22.166-.558.29-.964.29-.668 0-1.09-.321-1.208-.57l-1.357.64c.33.7 1.026 1.165 1.815 1.345v.835h1.5v-.834a2.95 2.95 0 0 0 1.114-.505c.504-.378.886-.958.886-1.661s-.382-1.283-.886-1.66c-.503-.379-1.165-.59-1.864-.59-.406 0-.744-.124-.964-.29-.22-.164-.286-.335-.286-.46s.066-.296.286-.46c.22-.166.558-.29.964-.29.668 0 1.09.321 1.208.57l1.357-.64c-.33-.7-1.026-1.165-1.815-1.345V7.5h-1.5zm10.222-6.86-3.708 3.699V2.479h-1.5V7.73H21.5v-1.5h-2.674l3.704-3.694z", clipRule: "evenodd" }) });
+});
+ReceiveMoney.displayName = "ReceiveMoney";
+
+// src/icons/Refresh.tsx
+var React162 = __toESM(require("react"), 1);
+var import_jsx_runtime162 = require("react/jsx-runtime");
+var Refresh = React162.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime162.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime162.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.1 12C1.1 5.98 5.98 1.1 12 1.1c2.72 0 5.2.99 7.11 2.64V2c0-.5.4-.9.9-.9s.9.4.9.9v3.13c0 1.13-1.4 1.64-2.13.79A9.07 9.07 0 0 0 12 2.89C6.97 2.9 2.9 6.97 2.9 12s4.07 9.1 9.1 9.1 9.1-4.07 9.1-9.1c0-.5.4-.9.9-.9s.9.4.9.9c0 6.02-4.88 10.9-10.9 10.9S1.1 18.02 1.1 12", clipRule: "evenodd" }) });
+});
+Refresh.displayName = "Refresh";
+
+// src/icons/RemoveCircle.tsx
+var React163 = __toESM(require("react"), 1);
+var import_jsx_runtime163 = require("react/jsx-runtime");
+var RemoveCircle = React163.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime163.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime163.jsx)("path", { fill: "currentColor", d: "M12 1.1c6.02 0 10.9 4.88 10.9 10.9S18.02 22.9 12 22.9 1.1 18.02 1.1 12 5.98 1.1 12 1.1m0 1.8A9.1 9.1 0 0 0 2.9 12a9.1 9.1 0 0 0 9.1 9.1 9.1 9.1 0 0 0 9.1-9.1A9.1 9.1 0 0 0 12 2.9m4.092 8.205a.9.9 0 0 1 0 1.79L16 12.9H8a.9.9 0 0 1 0-1.8h8z" }) });
+});
+RemoveCircle.displayName = "RemoveCircle";
+
+// src/icons/Repeat.tsx
+var React164 = __toESM(require("react"), 1);
+var import_jsx_runtime164 = require("react/jsx-runtime");
+var Repeat = React164.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime164.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime164.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.71 5.07c-.24.57-.81.67-1.01.7-.23.03-.52.03-.8.03H9.1c-3.5 0-6.3 2.76-6.3 6.1 0 1.29.41 2.49 1.12 3.48.29.4.2.97-.2 1.25-.41.29-.97.2-1.26-.2A7.73 7.73 0 0 1 1 11.9C1 7.52 4.65 4 9.1 4h7.03l-.47-.45a.9.9 0 0 1-.01-1.27.89.89 0 0 1 1.27-.02l1 .97s.02.03.04.04c.19.19.4.39.54.57.13.17.46.64.21 1.23m1.38 2.1a.9.9 0 0 1 1.26.21 7.7 7.7 0 0 1 1.46 4.52c0 4.39-3.65 7.9-8.09 7.9H7.69l.47.45a.9.9 0 0 1 .02 1.27.9.9 0 0 1-1.27.02l-1-.98s-.02-.02-.04-.03c-.19-.19-.4-.39-.54-.57-.13-.16-.46-.64-.22-1.23.24-.57.81-.67 1.01-.7.23-.03.52-.03.8-.03h7.81c3.5 0 6.29-2.75 6.29-6.1 0-1.29-.41-2.49-1.12-3.48a.9.9 0 0 1 .21-1.26z", clipRule: "evenodd" }) });
+});
+Repeat.displayName = "Repeat";
+
+// src/icons/Restaurant.tsx
+var React165 = __toESM(require("react"), 1);
+var import_jsx_runtime165 = require("react/jsx-runtime");
+var Restaurant = React165.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime165.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime165.jsx)("path", { fill: "currentColor", d: "M6.433 17.301a.9.9 0 0 1 1.204 1.335l-3 3.001a.9.9 0 0 1-1.274-1.273l3.001-3.001z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime165.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.655 2.169a.9.9 0 0 1 .982.194l18 18 .061.068a.901.901 0 0 1-1.266 1.267l-.069-.062L12 14.273l-2.363 2.363a.9.9 0 0 1-1.274 0L5.606 13.88A15.4 15.4 0 0 1 1.1 2.999a.9.9 0 0 1 .555-.83m1.456 3.215a13.6 13.6 0 0 0 3.768 7.222l2.12 2.12L10.727 13z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime165.jsx)("path", { fill: "currentColor", d: "M17.432 2.302a.9.9 0 0 1 1.204 1.335l-3 3c-.596.596-.73.747-.793.875a1.1 1.1 0 0 0 0 .977l.066.107c.092.124.278.319.719.76l.009.008.008.009c.589.588.738.722.866.785.308.152.67.152.977 0 .128-.064.279-.198.875-.794l3-3a.9.9 0 0 1 1.273 1.273l-3.354 3.354c-.34.335-.65.61-.995.78a2.9 2.9 0 0 1-2.575 0 3.2 3.2 0 0 1-.704-.506l-.371.372a.9.9 0 0 1-1.274-1.273l.371-.372a3.2 3.2 0 0 1-.505-.703 2.9 2.9 0 0 1 0-2.576c.228-.46.64-.855 1.134-1.35l3-3z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime165.jsx)("path", { fill: "currentColor", d: "M19.363 4.363a.901.901 0 0 1 1.274 1.273l-3 3a.9.9 0 0 1-1.274-1.273z" })
+  ] });
+});
+Restaurant.displayName = "Restaurant";
+
+// src/icons/Right.tsx
+var React166 = __toESM(require("react"), 1);
+var import_jsx_runtime166 = require("react/jsx-runtime");
+var Right = React166.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime166.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime166.jsx)("path", { fill: "currentColor", d: "M8.276 5.466a.9.9 0 0 1 1.181-.241l.078.05v.001l.004.003.014.01.053.04a38 38 0 0 1 .886.677 53 53 0 0 1 2.098 1.722c.761.66 1.547 1.391 2.148 2.072.3.339.572.686.775 1.023.188.313.388.729.388 1.177s-.2.864-.388 1.177a7.3 7.3 0 0 1-.775 1.023c-.601.68-1.386 1.412-2.148 2.073a53 53 0 0 1-2.79 2.252l-.194.147-.053.039-.014.01-.003.003h-.001a.9.9 0 0 1-1.068-1.449l.003-.002.012-.01.048-.035q.065-.047.186-.14a56 56 0 0 0 2.695-2.175c.738-.641 1.453-1.312 1.977-1.904.263-.298.46-.555.584-.762.082-.135.111-.215.122-.247a1.3 1.3 0 0 0-.122-.247 5.6 5.6 0 0 0-.584-.762c-.524-.592-1.239-1.263-1.977-1.904A51 51 0 0 0 8.716 6.91l-.186-.14-.048-.035-.012-.008-.003-.002v-.001a.9.9 0 0 1-.191-1.26" }) });
+});
+Right.displayName = "Right";
+
+// src/icons/RotateLeft.tsx
+var React167 = __toESM(require("react"), 1);
+var import_jsx_runtime167 = require("react/jsx-runtime");
+var RotateLeft = React167.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime167.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime167.jsx)("path", { fill: "currentColor", d: "M15.46 21.29c.16.32.48.51.81.51h.01q.195 0 .39-.09c3.79-1.84 6.14-5.6 6.14-9.81 0-6.01-4.89-10.9-10.9-10.9-2.62 0-5.13.94-7.09 2.64V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v3.13c0 .52.31.96.8 1.14s1.01.03 1.32-.34a9.15 9.15 0 0 1 6.78-3.03c5.01 0 9.09 4.08 9.09 9.1 0 3.51-1.97 6.65-5.13 8.19a.89.89 0 0 0-.42 1.2m-4.72.61c0 .5.4.899.898.9h-.008.01-.002c.498 0 1.005-.03 1.492-.1.49-.06.84-.52.77-1.01a.883.883 0 0 0-1.01-.77c-.41.05-.83.08-1.25.08-.5 0-.9.4-.9.9m-2.66.74c.11.05.23.07.35.07l.01.01a.9.9 0 0 0 .35-1.73c-.34-.14-.68-.31-1.01-.5a.9.9 0 1 0-.9 1.56c.39.22.79.42 1.2.59M3.83 19.5c.17.21.43.32.68.32.2 0 .41-.08.58-.22.38-.32.42-.89.1-1.27-.25-.3-.49-.62-.71-.94a.9.9 0 0 0-1.49 1.01c.26.38.54.75.84 1.1m-2.48-4.63c.11.39.47.65.86.65v.01a.907.907 0 0 0 .86-1.16c-.1-.36-.19-.72-.25-1.09a.9.9 0 0 0-1.04-.73.89.89 0 0 0-.73 1.04c.08.44.18.87.3 1.28m.41-4.21c.04.01.14.01.14.01v.01c.44 0 .82-.32.89-.76.06-.37.14-.74.24-1.1a.895.895 0 0 0-.62-1.11.903.903 0 0 0-1.11.62c-.12.42-.22.86-.29 1.3-.07.49.26.95.75 1.03" }) });
+});
+RotateLeft.displayName = "RotateLeft";
+
+// src/icons/RotateLock.tsx
+var React168 = __toESM(require("react"), 1);
+var import_jsx_runtime168 = require("react/jsx-runtime");
+var RotateLock = React168.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime168.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime168.jsx)("path", { fill: "currentColor", d: "M12.024 1.1C5.993 1.1 1.1 5.978 1.1 12s4.893 10.9 10.924 10.9c4.48 0 8.33-2.69 10.015-6.539a.9.9 0 0 0-1.649-.722 9.13 9.13 0 0 1-8.366 5.461C6.983 21.1 2.9 17.024 2.9 12s4.083-9.1 9.124-9.1c4.3 0 7.905 2.967 8.87 6.957l-1.172-.239a.9.9 0 1 0-.359 1.764l2.457.5a.9.9 0 0 0 1.075-.971C22.347 5.4 17.688 1.1 12.025 1.1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime168.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m9.337 10.059.004.093a2.65 2.65 0 0 0-1.617 1.77 4.7 4.7 0 0 0-.098.787c-.017.29-.025.624-.026.953a17 17 0 0 0 .053 1.507l.007.073.02.07c.341 1.282 1.251 1.865 2.117 2.042l.05.01.05.004c.495.044 2.217.038 3.128.035h.003l.42-.001c.586.01 1.203-.093 1.742-.448.556-.367.919-.932 1.114-1.633l.013-.046.008-.047c.044-.265.073-.94.076-1.559.001-.313-.004-.64-.02-.931a4.6 4.6 0 0 0-.101-.816l-.008-.033-.01-.032c-.311-.937-.945-1.455-1.594-1.699l.004-.109.003-.066c.005-.13.011-.279.012-.426.003-.338-.015-.776-.17-1.202-.774-2.195-3.836-2.377-4.9-.283-.25.469-.29.986-.296 1.368a10 10 0 0 0 .014.573zm3.483-1.103c-.236-.675-1.24-.782-1.6-.064l-.007.012-.006.012c-.041.076-.082.236-.086.547a8 8 0 0 0 .012.47v.018l.002.029h1.739v-.001q0-.038.003-.073c.005-.131.01-.248.01-.365.003-.283-.02-.457-.062-.571l-.002-.007zM9.707 12a.8.8 0 0 0-.24.367l-.005.03-.013.102q-.015.127-.026.314a17 17 0 0 0-.023.855c-.002.483.013.95.037 1.245.078.25.187.39.286.475q.154.135.386.19c.468.032 1.932.027 2.833.024l.515-.001h.017c.372.007.59-.062.724-.15.113-.075.252-.219.355-.558l.009-.094q.01-.122.018-.303a19 19 0 0 0 .004-1.662 4 4 0 0 0-.044-.449c-.093-.256-.23-.392-.359-.472a.93.93 0 0 0-.484-.134h-3.36c-.305 0-.5.104-.63.22", clipRule: "evenodd" })
+  ] });
+});
+RotateLock.displayName = "RotateLock";
+
+// src/icons/RotateRight.tsx
+var React169 = __toESM(require("react"), 1);
+var import_jsx_runtime169 = require("react/jsx-runtime");
+var RotateRight = React169.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime169.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime169.jsx)("path", { fill: "currentColor", d: "M7.14 21.71c.12.06.26.09.39.09h.01c.33 0 .65-.19.81-.51.21-.44.03-.98-.42-1.2A9.04 9.04 0 0 1 2.8 11.9c0-5.02 4.08-9.1 9.09-9.11 2.59 0 5.06 1.11 6.76 3.01.34.4.87.55 1.35.37.48-.17.8-.62.8-1.14V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1.74A10.88 10.88 0 0 0 11.9 1C5.89 1 1 5.89 1 11.9c0 4.15 2.41 8 6.14 9.81m3.53.99c.49.07 1 .1 1.5.1h-.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.42 0-.84-.02-1.25-.08a.905.905 0 0 0-1.01.77.9.9 0 0 0 .77 1.01m3.87-.54c.15.34.48.55.83.55.12 0 .24-.02.35-.07.4-.17.8-.37 1.2-.59.44-.25.59-.8.34-1.23a.895.895 0 0 0-1.23-.34c-.34.19-.67.36-1.01.5a.9.9 0 0 0-.48 1.18m4.17-2.55a.9.9 0 0 0 .58.21v.01c.26 0 .51-.11.69-.32.3-.35.58-.72.83-1.1a.9.9 0 0 0-1.49-1.01c-.21.32-.45.64-.71.94-.32.38-.28.95.1 1.27m2.875-4.09h.005-.01zm-.245-.04c.078.03.166.04.245.04a.89.89 0 0 0 .865-.65c.12-.43.22-.86.29-1.28a.89.89 0 0 0-.73-1.04c-.5-.09-.96.24-1.04.73-.06.37-.15.73-.25 1.09-.13.48.14.97.62 1.11m-.33-5.57c.07.44.46.76.89.76q.029 0 .062-.005.038-.004.078-.005c.49-.08.83-.54.75-1.03-.07-.44-.17-.88-.29-1.31a.9.9 0 0 0-1.11-.62c-.48.13-.75.63-.62 1.11.1.36.18.73.24 1.1" }) });
+});
+RotateRight.displayName = "RotateRight";
+
+// src/icons/SaveMoneyDollar.tsx
+var React170 = __toESM(require("react"), 1);
+var import_jsx_runtime170 = require("react/jsx-runtime");
+var SaveMoneyDollar = React170.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime170.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime170.jsx)("path", { fill: "currentColor", d: "M6 8.9C6 4.54 9.54 1 13.9 1v.01c4.36 0 7.9 3.54 7.9 7.9 0 1.62-.49 3.18-1.42 4.51a.894.894 0 0 1-1.25.23c-.4-.28-.5-.84-.22-1.25A6.13 6.13 0 0 0 20 8.91c0-3.36-2.74-6.1-6.1-6.1s-6.1 2.74-6.1 6.1c0 .91.2 1.79.59 2.61.21.45.02.99-.43 1.2s-.99.02-1.2-.43C6.26 11.22 6 10.08 6 8.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime170.jsx)("path", { fill: "currentColor", d: "M13.9 4c-.5 0-.9.4-.9.9v.21c-1.17.31-2 1.2-2 2.29 0 1.35 1.27 2.4 2.9 2.4.67 0 1.1.35 1.1.6s-.43.6-1.1.6c-.55 0-.96-.25-1.07-.48a.903.903 0 0 0-1.2-.43c-.45.21-.64.75-.43 1.2.32.68.99 1.19 1.8 1.4v.21c0 .5.4.9.9.9s.9-.4.9-.9v-.21c1.17-.31 2-1.2 2-2.29 0-1.35-1.27-2.4-2.9-2.4-.67 0-1.1-.35-1.1-.6s.43-.6 1.1-.6c.55 0 .96.25 1.07.48.21.45.75.65 1.2.43.45-.21.64-.75.43-1.2-.32-.68-.99-1.19-1.8-1.4V4.9c0-.5-.4-.9-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime170.jsx)("path", { fill: "currentColor", d: "m16.23 14.13-4.03 1.24c-.5-.61-1.27-.99-2.12-.99H9.04c-.16 0-.31-.04-.46-.1l-2.04-.99a2.8 2.8 0 0 0-1.24-.28H2.9c-.5 0-.9.4-.9.9s.4.9.9.9h2.39c.16 0 .32.04.46.1l2.04.99c.38.18.81.28 1.24.28h1.04c.28 0 .54.12.71.31l-1.73.48c-.25.07-.51.04-.74-.07l-2.18-1.06a.89.89 0 0 0-1.2.42c-.21.45-.03.99.42 1.2l2.18 1.05c.62.3 1.33.37 2 .18l2.54-.7c.42-.12.72-.5.73-.93l3.96-1.22c.44-.14.93.03 1.21.42.04.05.04.11.03.14 0 .03-.02.07-.07.1l-7.51 4.34c-.27.15-.57.19-.86.1l-6.39-1.9a.9.9 0 0 0-1.12.61.9.9 0 0 0 .61 1.12l6.39 1.9a2.9 2.9 0 0 0 2.28-.27l7.51-4.34a1.97 1.97 0 0 0 .6-2.86 2.88 2.88 0 0 0-3.2-1.09z" })
+  ] });
+});
+SaveMoneyDollar.displayName = "SaveMoneyDollar";
+
+// src/icons/Search.tsx
+var React171 = __toESM(require("react"), 1);
+var import_jsx_runtime171 = require("react/jsx-runtime");
+var Search = React171.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime171.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime171.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 10.9c0 5.46 4.44 9.9 9.9 9.9a9.86 9.86 0 0 0 6.328-2.292l4.032 4.032a.94.94 0 0 0 .635.26h-.005.01-.005a.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-4.03-4.03a9.86 9.86 0 0 0 2.3-6.34c0-5.46-4.44-9.9-9.9-9.9S1 5.44 1 10.9m1.8 0c0-4.47 3.63-8.1 8.1-8.1S19 6.43 19 10.9 15.37 19 10.9 19s-8.1-3.63-8.1-8.1", clipRule: "evenodd" }) });
+});
+Search.displayName = "Search";
+
+// src/icons/Settings.tsx
+var React172 = __toESM(require("react"), 1);
+var import_jsx_runtime172 = require("react/jsx-runtime");
+var Settings = React172.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime172.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime172.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.21 11.89a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime172.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.09 22.8h1.12l-.02.01c.8 0 1.33 0 1.83-.36s.67-.86.92-1.62l.32-.96c.09-.22.24-.41.4-.51l.3-.17c.24-.11.5-.15.71-.1l1.23.35.033.01c.802.224 1.345.377 1.937.13.61-.25.89-.738 1.318-1.485l.002-.005.49-.86c.41-.7.67-1.16.61-1.78-.06-.61-.42-1.01-.96-1.61l-1-1.11c-.12-.15-.24-.5-.24-.82s.12-.68.2-.78l1.03-1.15c.54-.6.89-.99.96-1.61.07-.6-.19-1.055-.58-1.735l-.02-.035-.78.44.78-.45-.49-.86-.002-.005c-.429-.747-.709-1.236-1.318-1.485-.59-.246-1.13-.096-1.936.128l-.044.012-1.18.33c-.26.06-.52.03-.71-.07l-.3-.17c-.2-.13-.35-.32-.42-.5l-.33-1-.021-.063c-.248-.725-.413-1.207-.899-1.557C13.53.99 13 .99 12.2.99h-1.12c-.8 0-1.33 0-1.83.36s-.67.86-.92 1.62l-.32.96c-.08.22-.24.4-.4.51l-.3.17c-.23.11-.49.15-.7.1l-1.22-.34-.043-.012C4.54 4.134 4 3.984 3.41 4.23c-.608.25-.889.738-1.317 1.486l-.003.004-.49.86-.004.007C1.198 7.283.931 7.752 1 8.36c.066.586.392.967.867 1.522l.083.098 1 1.11c.12.15.24.51.24.82s-.12.67-.2.77l-1.03 1.15c-.54.6-.9 1-.96 1.61s.21 1.08.61 1.77l.49.86.003.005c.428.747.709 1.236 1.317 1.485.61.24 1.15.09 1.98-.15l1.18-.33c.25-.06.52-.03.71.07l.3.17c.2.13.35.31.42.5l.33 1 .022.063c.248.725.412 1.207.898 1.557.5.36 1.03.36 1.83.36m-2.93-5.22a2.9 2.9 0 0 0-1.32-.32l.03.03c-.23 0-.47.03-.7.08l-1.23.35-.132.038c-.31.088-.613.175-.648.192-.085-.066-.267-.38-.438-.676l-.032-.054-.49-.86c-.17-.29-.36-.62-.38-.66.04-.1.29-.38.52-.63l1.07-1.2c.37-.48.62-1.24.62-1.93s-.24-1.45-.66-1.97L3.34 8.81c-.22-.25-.48-.54-.51-.57.02-.1.2-.41.38-.72l.49-.86c.18-.31.38-.67.4-.71.12.01.5.1.85.2l1.26.36c.66.15 1.37.06 2.01-.27l.37-.22c.53-.34.92-.82 1.16-1.44l.33-1c.11-.32.23-.68.24-.72.09-.03.47-.03.8-.03h1.87c.056.064.138.308.225.566l.065.194.35 1.04c.22.57.63 1.07 1.18 1.42l.38.22c.6.31 1.3.39 2.01.23l1.22-.35c.35-.09.74-.2.78-.22.085.066.268.38.439.676l.031.054.49.86.78-.45-.78.46.16.27c.112.192.206.352.22.38-.04.09-.29.38-.52.63l-1.07 1.2c-.37.48-.62 1.23-.62 1.93s.24 1.46.66 1.98l1.03 1.15c.22.25.48.53.51.56-.02.1-.2.41-.38.72l-.49.86c-.18.31-.38.67-.4.71-.11 0-.5-.1-.85-.2l-1.26-.36c-.67-.15-1.36-.06-2.01.27l-.37.21c-.52.33-.93.83-1.16 1.44l-.34 1c-.11.31-.23.67-.24.71-.09.03-.47.03-.8.03h-1.87c-.056-.064-.137-.308-.224-.567l-.066-.193-.35-1.03c-.22-.58-.63-1.08-1.18-1.43z", clipRule: "evenodd" })
+  ] });
+});
+Settings.displayName = "Settings";
+
+// src/icons/ShakeHands.tsx
+var React173 = __toESM(require("react"), 1);
+var import_jsx_runtime173 = require("react/jsx-runtime");
+var ShakeHands = React173.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime173.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime173.jsx)("path", { fill: "currentColor", d: "M7.439 17.931c1.84 1.181 2.912 1.869 4.121 1.869v.01h.23a1 1 0 0 0 .108-.01 1 1 0 0 1 .092-.01c1.32-.16 2.26-1.06 3.95-2.7l1.165-1.128c.19.165.387.302.605.418.79.42 1.58.42 3.03.42h1.16l.01.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-1.16c-1.28 0-1.81-.01-2.19-.21-.404-.217-.788-.734-1.546-1.754L16.98 13l-2.32-3.13c-.28-.38-1.03-1.39-2.25-.99-.53.17-.97.54-1.35.87l-.105.09c-.08.068-.158.134-.235.19-.23.17-.5.14-.7-.09-.29-.32-.29-.89 0-1.21l1.47-1.65c.48-.55.9-1.02 1.44-1.17.55-.15 1.28-.11 1.93-.06h.1c.44.03.87.23 1.21.57.83.84 1.8 1.62 3.22 1.62h2.52c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.52c-.64 0-1.15-.28-1.94-1.08-.65-.66-1.5-1.05-2.38-1.11h-.1l-.019-.001c-.775-.05-1.668-.107-2.491.121a3.5 3.5 0 0 0-1.237.643L9.85 4.24C8.5 3.68 6.99 4.11 6 5.34c-.35.42-.79.66-1.24.66H1.9c-.5 0-.9.4-.9.9s.4.9.9.9h2.86v.01c1 0 1.96-.49 2.64-1.34.49-.61 1.15-.81 1.76-.56l.7.292L8.68 7.53c-.9 1.01-.9 2.59 0 3.6.83.93 2.14 1.07 3.12.33l.06-.05q.17-.146.36-.3l.052-.043c.23-.193.506-.423.618-.497.04.02.13.1.32.36l2.32 3.14q.21.285.396.533L14.69 15.8c-1.56 1.5-2.21 2.12-2.91 2.21h-.1c-.7.04-1.48-.43-3.32-1.62l-.1-.064c-.938-.6-1.472-.943-2.11-1.136l-.1-.03c-.67-.19-1.33-.19-2.53-.19H1.9c-.5 0-.9.4-.9.9s.4.9.9.9h1.61c1.08 0 1.62 0 2.11.14.413.115.836.388 1.668.924l.102.066z" }) });
+});
+ShakeHands.displayName = "ShakeHands";
+
+// src/icons/Share.tsx
+var React174 = __toESM(require("react"), 1);
+var import_jsx_runtime174 = require("react/jsx-runtime");
+var Share = React174.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime174.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime174.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.82 9.289A3.9 3.9 0 0 0 17.9 10.8c2.15 0 3.9-1.75 3.9-3.9S20.05 3 17.9 3a3.905 3.905 0 0 0-3.826 4.657l-5.096 2.351A3.9 3.9 0 0 0 5.9 8.5C3.75 8.5 2 10.25 2 12.4s1.75 3.9 3.9 3.9a3.9 3.9 0 0 0 3.07-1.498l5.101 2.355a3.9 3.9 0 1 0 7.729.743c0-2.15-1.75-3.9-3.9-3.9a3.9 3.9 0 0 0-3.089 1.522l-5.088-2.348a3.9 3.9 0 0 0 .003-1.534zM15.8 6.9a2.1 2.1 0 1 1 4.2 0 2.1 2.1 0 0 1-4.2 0m-12 5.5a2.1 2.1 0 1 1 4.2 0 2.1 2.1 0 0 1-4.2 0m14.1 3.4a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2", clipRule: "evenodd" }) });
+});
+Share.displayName = "Share";
+
+// src/icons/Shield.tsx
+var React175 = __toESM(require("react"), 1);
+var import_jsx_runtime175 = require("react/jsx-runtime");
+var Shield = React175.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime175.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime175.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.861 1.358c.372-.14.755-.258 1.139-.258.383 0 .766.117 1.138.257.377.143.845.35 1.423.607l.026.012c.848.376 1.909.788 3.11 1.13l.043.012c.877.249 1.595.453 2.142.665.55.213 1.074.487 1.432.96.344.456.472.984.53 1.53.056.525.056 1.18.056 1.959v2.951c0 3.105-1.403 5.563-3.087 7.387-1.678 1.818-3.674 3.052-4.987 3.745l-.07.037c-.552.292-1.036.548-1.756.548-.721 0-1.205-.256-1.756-.547l-.07-.038c-1.313-.693-3.31-1.927-4.988-3.745C3.502 16.746 2.1 14.288 2.1 11.183V8.232c0-.779 0-1.434.055-1.958.058-.547.186-1.075.53-1.531.358-.473.882-.747 1.432-.96.547-.212 1.266-.416 2.142-.665l.044-.013m5.194-.063c-.323.121-.745.308-1.354.579a25.5 25.5 0 0 1-3.348 1.216c-.931.264-1.568.447-2.027.625-.465.18-.6.304-.646.366-.06.079-.134.228-.177.635-.044.419-.045.977-.045 1.817v2.903c0 2.52 1.129 4.563 2.609 6.166 1.486 1.61 3.286 2.732 4.505 3.375.633.334.746.376.986.376s.352-.042.986-.377c1.218-.642 3.018-1.764 4.505-3.374 1.48-1.603 2.609-3.645 2.609-6.166V8.28c0-.84-.002-1.398-.046-1.817-.043-.407-.117-.556-.177-.635-.047-.062-.18-.186-.646-.367-.459-.177-1.096-.36-2.027-.624a25.5 25.5 0 0 1-3.347-1.216c-.61-.27-1.032-.458-1.354-.58-.334-.125-.463-.141-.503-.141-.041 0-.17.016-.503.142", clipRule: "evenodd" }) });
+});
+Shield.displayName = "Shield";
+
+// src/icons/ShoppingBag02.tsx
+var React176 = __toESM(require("react"), 1);
+var import_jsx_runtime176 = require("react/jsx-runtime");
+var ShoppingBag02 = React176.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime176.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime176.jsx)("path", { fill: "currentColor", d: "M15.081 10.104a.9.9 0 0 1 .815.978c-.18 1.947-1.94 3.318-3.897 3.318-1.895 0-3.607-1.286-3.875-3.136l-.021-.182-.004-.092a.901.901 0 0 1 1.783-.164l.014.092.023.163c.164.813.979 1.519 2.08 1.519 1.175 0 2.023-.803 2.104-1.682a.9.9 0 0 1 .978-.814" }),
+    /* @__PURE__ */ (0, import_jsx_runtime176.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1a5.25 5.25 0 0 1 5.229 4.811l.104 1.267q.093.008.182.02c.815.102 1.528.323 2.139.84l.215.201c.476.485.762 1.083.973 1.775.235.767.405 1.75.617 2.952l.366 2.071.207 1.19c.194 1.132.335 2.087.363 2.885.038 1.088-.126 2.05-.786 2.849-.663.801-1.575 1.137-2.645 1.291-1.043.15-2.396.148-4.066.148H9.103c-1.67 0-3.023.002-4.067-.148-1.07-.154-1.982-.49-2.644-1.291-.66-.8-.824-1.76-.786-2.849.037-1.064.276-2.408.57-4.075l.518-2.932c.148-.819.288-1.516.464-2.091.242-.79.58-1.46 1.189-1.976l.234-.18c.556-.39 1.191-.571 1.905-.66q.088-.012.178-.02L6.77 5.91l.027-.253A5.25 5.25 0 0 1 12 1.1M9.467 8.9c-1.25 0-2.106.002-2.758.083-.547.07-.867.187-1.102.354l-.097.074c-.246.208-.443.515-.63 1.129-.147.478-.27 1.078-.414 1.874l-.153.864-.366 2.072c-.303 1.72-.512 2.917-.543 3.825-.031.884.115 1.326.375 1.64.257.31.655.531 1.513.655.885.127 2.083.13 3.81.13h5.795c1.726 0 2.924-.003 3.81-.13.858-.124 1.256-.345 1.513-.655.259-.314.406-.756.375-1.64-.024-.681-.147-1.524-.335-2.63l-.209-1.195-.365-2.072c-.22-1.246-.372-2.1-.567-2.738-.164-.537-.336-.84-.54-1.046l-.09-.083c-.245-.207-.574-.349-1.2-.428-.651-.082-1.507-.083-2.757-.083zm2.531-6a3.45 3.45 0 0 0-3.417 2.995l-.018.166-.087 1.04q.469-.002.991-.001h5.065q.52 0 .988.002l-.086-1.041a3.447 3.447 0 0 0-3.436-3.16", clipRule: "evenodd" })
+  ] });
+});
+ShoppingBag02.displayName = "ShoppingBag02";
+
+// src/icons/ShoppingBasket.tsx
+var React177 = __toESM(require("react"), 1);
+var import_jsx_runtime177 = require("react/jsx-runtime");
+var ShoppingBasket = React177.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime177.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime177.jsx)("path", { fill: "currentColor", d: "M14.598 2.195a.9.9 0 0 1 1.207.402L18.056 7.1h2.14c.3 0 .57 0 .793.015.227.015.482.051.736.163.415.183.739.466.941.843.195.36.24.737.234 1.05-.006.31-.063.611-.117.855l-.15.639a1.38 1.38 0 0 1-.764.962 1.03 1.03 0 0 0-.59.743l-.593 3.374c-.112.64-.223 1.674-.45 2.56-.236.916-.648 1.934-1.524 2.638l-.003.003c-.66.525-1.429.75-2.322.854-.872.103-1.966.102-3.32.102h-2.134c-1.354 0-2.447 0-3.32-.102-.892-.105-1.662-.329-2.322-.854l-.002-.003c-.876-.704-1.288-1.722-1.524-2.639-.227-.885-.338-1.92-.45-2.56l-.593-3.373a1.03 1.03 0 0 0-.589-.743 1.38 1.38 0 0 1-.764-.962c-.05-.233-.08-.32-.15-.64A4.3 4.3 0 0 1 1.1 9.17c-.006-.312.04-.688.233-1.05.203-.376.527-.66.942-.842l.19-.07c.189-.058.376-.082.546-.093.223-.015.493-.015.792-.015h3.421l1.951-4.46a.9.9 0 0 1 1.649.72l-3.5 8a.9.9 0 1 1-1.649-.72l.761-1.74H3.804c-.325 0-.523 0-.67.01-.136.01-.156.025-.136.016a.3.3 0 0 0-.075.044l-.004.004a.4.4 0 0 0-.018.164c.002.127.027.288.073.495.023.102.049.204.076.316q.017.07.033.145a2.82 2.82 0 0 1 1.412 1.964l.592 3.375c.149.844.214 1.614.421 2.422.2.775.481 1.34.905 1.682l.115.084c.283.188.665.316 1.296.39.742.088 1.712.09 3.11.09h2.134c1.397 0 2.367-.002 3.11-.09.72-.085 1.116-.24 1.41-.474.424-.343.706-.907.905-1.682.207-.808.272-1.578.42-2.422l.593-3.375a2.82 2.82 0 0 1 1.41-1.964l.035-.145c.027-.112.053-.214.076-.316.046-.207.07-.368.073-.495a.6.6 0 0 0-.009-.129l-.01-.035-.003-.004A.3.3 0 0 0 21 8.925c.022.01.003-.006-.134-.015-.147-.01-.346-.01-.67-.01H11.5a.9.9 0 0 1 0-1.8h4.544l-1.848-3.698-.037-.084a.9.9 0 0 1 .44-1.123" }),
+    /* @__PURE__ */ (0, import_jsx_runtime177.jsx)("path", { fill: "currentColor", d: "M14.091 11.104a.901.901 0 0 1 0 1.791L14 12.9h-4a.901.901 0 0 1 0-1.8h4z" })
+  ] });
+});
+ShoppingBasket.displayName = "ShoppingBasket";
+
+// src/icons/ShoppingCart02.tsx
+var React178 = __toESM(require("react"), 1);
+var import_jsx_runtime178 = require("react/jsx-runtime");
+var ShoppingCart02 = React178.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime178.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime178.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2.966 1.1c1.34 0 2.534.888 2.869 2.191L6.301 5.1H22l.092.004a.9.9 0 0 1 0 1.792L22 6.9h-.194l-.548 4.928c-.15 1.351-.393 2.489-1.179 3.253-.687.669-1.649.915-2.786 1.041l-.498.048-8.21.683c-.056.111-.116.22-.188.325l-.096.133-.393.508c.388.34.684.78.848 1.28h5.488a2.9 2.9 0 1 1 0 1.801H8.756a2.9 2.9 0 1 1-2.57-3.794l.69-.894.07-.103c.128-.21.177-.453.144-.69l-.023-.118L4.092 3.739c-.123-.477-.576-.839-1.126-.839H2a.9.9 0 0 1 0-1.8zM6 18.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2m11 0a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2m-8.19-4.047.037.16v.013l7.798-.65.477-.047c1.024-.119 1.459-.301 1.702-.538.278-.27.493-.792.645-2.161l.525-4.73H6.764z", clipRule: "evenodd" }) });
+});
+ShoppingCart02.displayName = "ShoppingCart02";
+
+// src/icons/Shopping.tsx
+var React179 = __toESM(require("react"), 1);
+var import_jsx_runtime179 = require("react/jsx-runtime");
+var Shopping = React179.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime179.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime179.jsx)("path", { fill: "currentColor", d: "M16.9 16.8h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9m0-3h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime179.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1.9 22.8h20c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.1v-9.1c0-2.99-.91-3.9-3.9-3.9h-2.1V4.9c0-2.99-.91-3.9-3.9-3.9h-6C2.91 1 2 1.91 2 4.9V21h-.1c-.5 0-.9.4-.9.9s.4.9.9.9M16.8 21v-2.1c0-.5-.4-.9-.9-.9s-.9.4-.9.9V21h-3.2v-9.1c0-1.98.12-2.1 2.1-2.1h4c1.98 0 2.1.12 2.1 2.1V21zM10 11.9V21H3.8v-6.2h2.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H3.8v-2.2h2.1c.5 0 .9-.4.9-.9S6.4 9 5.9 9H3.8V6.8h2.1c.5 0 .9-.4.9-.9S6.4 5 5.9 5H3.8v-.1c0-1.98.12-2.1 2.1-2.1h6c1.98 0 2.1.12 2.1 2.1V8h-.1c-2.99 0-3.9.91-3.9 3.9", clipRule: "evenodd" })
+  ] });
+});
+Shopping.displayName = "Shopping";
+
+// src/icons/SidebarFold.tsx
+var React180 = __toESM(require("react"), 1);
+var import_jsx_runtime180 = require("react/jsx-runtime");
+var SidebarFold = React180.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime180.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime180.jsx)("path", { fill: "currentColor", d: "M6.592 10.105a.9.9 0 0 1 0 1.79L6.5 11.9H5a.9.9 0 0 1 0-1.8h1.5zm0-4.001a.9.9 0 0 1 0 1.792L6.5 7.9H5a.9.9 0 0 1 0-1.8h1.5z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime180.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13 2.1c1.855 0 3.318-.001 4.48.125 1.178.127 2.152.394 2.988 1.002l.185.14a6 6 0 0 1 1.12 1.165l.11.158c.53.8.773 1.726.892 2.83.126 1.162.125 2.625.125 4.48s.001 3.318-.125 4.48c-.12 1.104-.362 2.03-.892 2.83l-.11.158a6 6 0 0 1-1.12 1.165l-.185.14c-.836.608-1.81.875-2.988 1.002-1.162.126-2.625.125-4.48.125h-2c-1.855 0-3.318.001-4.48-.125-1.104-.12-2.03-.362-2.83-.892l-.158-.11a6 6 0 0 1-1.165-1.12l-.14-.185c-.608-.836-.875-1.81-1.002-2.988C1.099 15.318 1.1 13.855 1.1 12s-.001-3.318.125-4.48c.127-1.178.394-2.152 1.002-2.988l.14-.185a6 6 0 0 1 1.165-1.12l.158-.11c.8-.53 1.726-.773 2.83-.892C7.683 2.099 9.146 2.1 11 2.1zm-2.6 17.999H13c1.895 0 3.244 0 4.286-.113 1.025-.11 1.646-.321 2.124-.669l.253-.2q.369-.315.654-.707l.123-.186c.275-.454.45-1.04.546-1.938.113-1.042.114-2.391.114-4.286s0-3.244-.114-4.286c-.097-.897-.27-1.484-.546-1.938l-.123-.186a4 4 0 0 0-.654-.707l-.253-.2c-.478-.348-1.099-.558-2.124-.67C16.244 3.902 14.895 3.9 13 3.9h-2.6zM8.6 3.914c-.732.014-1.35.042-1.886.1-.897.097-1.484.27-1.938.546l-.186.123q-.393.287-.707.654l-.2.253c-.348.478-.558 1.099-.67 2.124C2.902 8.756 2.9 10.105 2.9 12s0 3.244.114 4.286c.11 1.025.321 1.646.669 2.124l.2.253a4 4 0 0 0 .707.654l.186.123c.454.275 1.04.45 1.938.546.536.058 1.154.085 1.886.099z", clipRule: "evenodd" })
+  ] });
+});
+SidebarFold.displayName = "SidebarFold";
+
+// src/icons/Signature.tsx
+var React181 = __toESM(require("react"), 1);
+var import_jsx_runtime181 = require("react/jsx-runtime");
+var Signature = React181.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime181.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime181.jsx)("path", { fill: "currentColor", d: "M1.9 22.8a.9.9 0 0 1-.67-1.5c1.45-1.62 2.77-3.77 3.82-6.01C1.91 11.22.82 6.96 2.12 3.8c.65-1.6 1.87-2.64 3.25-2.78 1.29-.14 2.54.53 3.43 1.83 1.49 2.18.48 7.32-1.63 12.13.04.02.05.03.05.03.14-.08.61-.74.96-1.23.43-.61.93-1.3 1.56-1.95.73-.75 1.66-.91 2.5-.44.16.09.32.21.47.34.61-.85 1.41-1.52 2.36-1.7 1.29-.25 2.12.75 2.8 1.54.52.61 1.01 1.19 1.57 1.23.48.03 1.12-.29 1.86-.95.37-.33.94-.29 1.27.08s.29.94-.08 1.27c-1.15 1.01-2.19 1.46-3.18 1.39-1.31-.1-2.14-1.08-2.81-1.87-.39-.46-.84-.98-1.08-.94-.53.1-1.12.68-1.59 1.54.43.98.61 2.07.42 2.8-.18.68-.7 1.11-1.35 1.11s-1.38-.41-1.49-1.56c-.06-.59.09-1.43.41-2.27-.13-.19-.28-.35-.44-.45-.1-.06-.15-.09-.34.11-.54.56-.99 1.19-1.39 1.74-.74 1.04-1.39 1.94-2.41 1.98-.31 0-.59-.07-.83-.19-1.12 2.25-2.46 4.34-3.85 5.89-.18.2-.42.3-.67.3zm3.8-20h-.14c-.72.08-1.38.7-1.78 1.67-.77 1.86-.55 5.09 2.1 8.9C7.53 9.24 8.24 5.2 7.32 3.86c-.48-.69-1.04-1.07-1.62-1.07zm13.2 19h-10c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h10c.5 0 .9.4.9.9s-.4.9-.9.9" }) });
+});
+Signature.displayName = "Signature";
+
+// src/icons/SmartphoneLands.tsx
+var React182 = __toESM(require("react"), 1);
+var import_jsx_runtime182 = require("react/jsx-runtime");
+var SmartphoneLands = React182.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime182.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime182.jsx)("path", { fill: "currentColor", d: "M18.9 13.8c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime182.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.9 19.8h-6c-3.43 0-5.32 0-6.61-1.29S1 15.33 1 11.9s0-5.32 1.29-6.61S5.47 4 8.9 4h6c3.43 0 5.32 0 6.61 1.29s1.29 3.18 1.29 6.61 0 5.32-1.29 6.61-3.18 1.29-6.61 1.29m-6-14c-3.05 0-4.58 0-5.34.76-.344.344-.533.847-.636 1.577 1.077.182 1.758.343 2.266.923.6.68.6 1.53.6 2.82s0 2.08-.53 2.74c-.518.645-1.258.82-2.341 1.004.102.751.29 1.266.641 1.616.76.76 2.29.76 5.34.76h6c3.05 0 4.58 0 5.34-.76s.76-2.29.76-5.34 0-4.58-.76-5.34-2.29-.76-5.34-.76zm-6.09 8.03c.535-.095.953-.192 1.06-.33.13-.16.13-.77.13-1.61 0-.78 0-1.46-.15-1.63-.107-.123-.504-.21-1.04-.308-.01.569-.01 1.214-.01 1.948 0 .726 0 1.367.01 1.93", clipRule: "evenodd" })
+  ] });
+});
+SmartphoneLands.displayName = "SmartphoneLands";
+
+// src/icons/Smartphone.tsx
+var React183 = __toESM(require("react"), 1);
+var import_jsx_runtime183 = require("react/jsx-runtime");
+var Smartphone = React183.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime183.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime183.jsx)("path", { fill: "currentColor", d: "M10 18.9c0-.5.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9h-2c-.5 0-.9-.4-.9-.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime183.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.66 4.94c-.14-1.05-.44-1.94-1.15-2.65s-1.6-1.01-2.65-1.15C14.85 1 13.56 1 11.97 1h-.13c-1.6 0-2.89 0-3.9.14-1.05.14-1.94.44-2.65 1.15s-1.01 1.6-1.15 2.65C4 5.95 4 7.24 4 8.83v6.14c0 1.59 0 2.88.14 3.89.14 1.05.44 1.94 1.15 2.65s1.6 1.01 2.65 1.15c1.01.14 2.3.14 3.9.14h.13c1.59 0 2.88 0 3.89-.14 1.05-.14 1.94-.44 2.65-1.15s1.01-1.6 1.15-2.65c.14-1.01.14-2.3.14-3.89V8.83c0-1.59 0-2.88-.14-3.89M18 14.9c0 1.68 0 2.84-.12 3.72-.11.85-.32 1.3-.64 1.62s-.77.53-1.62.64c-.88.12-2.04.12-3.72.12s-2.84 0-3.72-.12c-.85-.11-1.3-.32-1.62-.64s-.52-.77-.64-1.62c-.12-.88-.12-2.04-.12-3.72v-6c0-1.68 0-2.84.12-3.72.12-.85.32-1.3.64-1.62.313-.313.75-.52 1.562-.632.1.786.28 1.672.958 2.272.68.6 1.53.6 2.82.6v.01c1.29 0 2.14 0 2.82-.6.68-.602.859-1.493.96-2.282.811.112 1.247.32 1.56.632.32.32.53.77.64 1.62.12.88.12 2.04.12 3.72zM13.879 2.811c-.06.436-.154.867-.349 1.039-.17.15-.85.15-1.63.15s-1.46 0-1.63-.15c-.193-.178-.287-.606-.347-1.039.57-.011 1.222-.011 1.977-.011s1.408 0 1.979.011", clipRule: "evenodd" })
+  ] });
+});
+Smartphone.displayName = "Smartphone";
+
+// src/icons/Star.tsx
+var React184 = __toESM(require("react"), 1);
+var import_jsx_runtime184 = require("react/jsx-runtime");
+var Star = React184.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime184.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime184.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.56 22.8c-.56 0-1.27-.17-2.14-.7l-2.99-1.79c-.26-.16-.8-.15-1.06 0l-2.98 1.78c-1.83 1.1-2.94.66-3.44.3S3.69 21.1 4.17 19l.71-3.09c.06-.28-.08-.79-.28-.99l-2.48-2.5C.82 11.12.93 9.99 1.11 9.43s.75-1.53 2.54-1.84l3.19-.53c.25-.04.64-.34.75-.56l1.76-3.55C10.2 1.25 11.34 1 11.9 1c.59 0 1.7.26 2.53 1.94l1.76 3.55c.12.24.51.53.76.57l3.19.53c1.8.3 2.37 1.28 2.55 1.84s.29 1.69-1.01 2.99l-2.48 2.5c-.2.2-.34.71-.28 1l.71 3.09c.48 2.11-.28 3.03-.78 3.39-.26.19-.69.4-1.3.4zm-5.66-4.4c.52 0 1.04.12 1.45.37l2.99 1.78c.87.52 1.33.48 1.46.39s.31-.53.08-1.53l-.71-3.09c-.2-.9.12-2.02.76-2.66l2.48-2.5c.44-.44.66-.89.57-1.17s-.52-.51-1.13-.62l-3.19-.53c-.84-.14-1.71-.79-2.08-1.55l-1.76-3.54c-.34-.69-.71-.94-.92-.94s-.58.25-.93.95L9.21 7.31c-.36.74-1.25 1.41-2.06 1.55l-3.19.54c-.61.1-1.04.34-1.13.61-.09.28.13.73.57 1.17l2.48 2.5c.64.64.96 1.76.76 2.65l-.71 3.1c-.23.99-.04 1.43.08 1.53.13.09.6.13 1.46-.38l2.99-1.78c.42-.25.94-.37 1.46-.37z", clipRule: "evenodd" }) });
+});
+Star.displayName = "Star";
+
+// src/icons/StoreFill.tsx
+var React185 = __toESM(require("react"), 1);
+var import_jsx_runtime185 = require("react/jsx-runtime");
+var StoreFill = React185.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime185.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime185.jsx)("path", { fill: "currentColor", d: "M10.9 19.28h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime185.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2 12.12a2.8 2.8 0 0 1-.46-.62c-.76-1.41-.82-2.25.43-4.12.99-1.49.99-2.18.99-2.54 0-.59.23-1.44.88-2.05.39-.38 1.13-.81 2.25-.76L17.67 2c.68-.04 1.73.25 2.46.95.61.59.7 1.39.77 2.02.11.96.42 1.71 1.02 2.48 1.4 1.79.98 3.6 0 4.52l-.12.109v3.831c0 2.98 0 4.62-1.14 5.76s-2.78 1.14-5.76 1.14h-6c-2.98 0-4.62 0-5.76-1.14S2 18.89 2 15.91zm15.62.93c.42.17.86.26 1.3.26h.03q.525 0 1.05-.166v2.766c0 2.75-.03 3.9-.62 4.49-.59.6-1.73.62-4.48.62h-6c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.49v-2.776c.323.092.644.15.94.176 1.11.02 2.06-.35 2.81-1.08.2-.19.37-.41.53-.64 1.59 1.86 4.05 1.85 5.37 1.48.84-.23 1.65-.77 2.27-1.47.42.63 1.03 1.09 1.9 1.45", clipRule: "evenodd" })
+  ] });
+});
+StoreFill.displayName = "StoreFill";
+
+// src/icons/Store.tsx
+var React186 = __toESM(require("react"), 1);
+var import_jsx_runtime186 = require("react/jsx-runtime");
+var Store = React186.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime186.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime186.jsx)("path", { fill: "currentColor", d: "M10.9 19.28h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime186.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M2 12.12a2.8 2.8 0 0 1-.46-.62c-.76-1.41-.82-2.25.43-4.12.99-1.49.99-2.18.99-2.54 0-.59.23-1.44.88-2.05.39-.38 1.13-.81 2.25-.76L17.67 2c.68-.04 1.73.25 2.46.95.61.59.7 1.39.77 2.02.11.96.42 1.71 1.02 2.48 1.4 1.79.98 3.6 0 4.52l-.12.109v3.831c0 2.98 0 4.62-1.14 5.76s-2.78 1.14-5.76 1.14h-6c-2.98 0-4.62 0-5.76-1.14S2 18.89 2 15.91zm15.62.93c.42.17.86.26 1.3.26h.03q.525 0 1.05-.166v2.766c0 2.75-.03 3.9-.62 4.49-.59.6-1.73.62-4.48.62h-6c-2.75 0-3.89-.03-4.48-.62-.6-.59-.62-1.73-.62-4.49v-2.776c.323.092.644.15.94.176 1.11.02 2.06-.35 2.81-1.08.2-.19.37-.41.53-.64 1.59 1.86 4.05 1.85 5.37 1.48.84-.23 1.65-.77 2.27-1.47.42.63 1.03 1.09 1.9 1.45M5.07 4.09c.19-.17.46-.26.84-.26l.02-.01h.13l11.65-.03h.06c.15-.01.73.08 1.11.45.142.132.185.512.232.915l.008.075c.14 1.24.57 2.3 1.38 3.33.8 1.04.49 1.81.18 2.1-.84.79-1.63 1.03-2.36.73-1-.41-1.35-.91-1.48-2.12a.9.9 0 0 0-.84-.8.92.92 0 0 0-.93.7c-.19.82-1.08 1.89-2.09 2.17l-.012.003c-.245.06-3.229.783-4.218-2.253a.902.902 0 0 0-1.76.28c0 .41-.18 1.07-.69 1.57-.4.39-.91.59-1.45.57-.55-.05-1.44-.35-1.72-.87-.45-.83-.52-.96.34-2.26 1.14-1.71 1.29-2.75 1.29-3.54 0-.16.06-.51.31-.75", clipRule: "evenodd" })
+  ] });
+});
+Store.displayName = "Store";
+
+// src/icons/TShirtFill.tsx
+var React187 = __toESM(require("react"), 1);
+var import_jsx_runtime187 = require("react/jsx-runtime");
+var TShirtFill = React187.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime187.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime187.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M5.824 2.281A.75.75 0 0 1 6.41 2h3a.75.75 0 0 1 .75.75 2.25 2.25 0 0 0 4.5 0 .75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .586.281l3.44 4.302a1.75 1.75 0 0 1-.128 2.33l-3.148 3.148v7.689a1.75 1.75 0 0 1-1.75 1.75h-10a1.75 1.75 0 0 1-1.75-1.75v-7.69L2.513 8.914a1.75 1.75 0 0 1-.13-2.33z", clipRule: "evenodd" }) });
+});
+TShirtFill.displayName = "TShirtFill";
+
+// src/icons/TShirt.tsx
+var React188 = __toESM(require("react"), 1);
+var import_jsx_runtime188 = require("react/jsx-runtime");
+var TShirt = React188.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime188.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime188.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m5 12.54-2.69-2.6-.047-.046C1.5 9.15.99 8.654.99 7.87c0-.8.52-1.31 1.32-2.07l2-1.94c.37-.36.6-.58.89-.75.272-.169.553-.259 1-.401l.09-.029 1.64-.53c.33-.11.73-.24 1.16 0 .45.26.53.69.6 1.07.19 1.01 1.12 1.74 2.19 1.74s2-.73 2.19-1.74c.07-.38.15-.81.6-1.06.43-.24.84-.11 1.17 0l1.64.53.12.039c.42.137.695.226.97.391.262.154.467.348.778.643l.102.097 2.01 1.95.02.019c.779.76 1.3 1.267 1.3 2.051 0 .79-.52 1.3-1.31 2.07l-2.67 2.59v4.04c0 2 0 3.1-.86 3.93-.94.9-3.36 1.3-5.81 1.3h-.01c-2.68 0-5.41-.48-6.26-1.3C5 19.68 5 18.58 5 16.58zm0-2.478V8.9c0-.5.4-.9.9-.9s.9.4.9.9v7.68c0 1.58.01 2.35.31 2.63.95.91 8.38 1.15 9.58 0 .3-.28.31-1.05.31-2.63V8.9c0-.5.4-.9.9-.9s.9.4.9.9v1.143l1.42-1.373c.3-.29.64-.62.75-.78-.11-.16-.44-.49-.74-.78l-2-1.94c-.31-.3-.45-.43-.56-.5-.119-.07-.307-.13-.71-.257l-.01-.003-1.2-.39c-.52 1.62-2.07 2.75-3.85 2.75S8.57 5.64 8.05 4.02l-1.2.39c-.42.13-.6.2-.72.26-.11.07-.25.2-.56.5L3.56 7.11c-.3.29-.64.62-.75.78.11.16.45.49.75.78z", clipRule: "evenodd" }) });
+});
+TShirt.displayName = "TShirt";
+
+// src/icons/Table.tsx
+var React189 = __toESM(require("react"), 1);
+var import_jsx_runtime189 = require("react/jsx-runtime");
+var Table = React189.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime189.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime189.jsx)("path", { fill: "currentColor", d: "M20.75 3.25C19.09 1.6 16.73 1.6 12 1.6s-7.09 0-8.75 1.65S1.6 7.28 1.6 12s0 7.09 1.65 8.75C4.9 22.4 7.27 22.4 12 22.4s7.09 0 8.75-1.65c1.65-1.66 1.65-4.03 1.65-8.75s0-7.09-1.65-8.75M12 3.4c4.22 0 6.34 0 7.47 1.13.71.71.97 1.81 1.07 3.57H3.46c.1-1.76.36-2.86 1.07-3.57C5.66 3.4 7.78 3.4 12 3.4m8.6 8.6v.1h-7.7V9.9h7.69V12zM3.4 12V9.9h7.69v2.2H3.4zm7.7 1.9v2.2H3.47c-.04-.64-.06-1.37-.07-2.2zm1.8 0h7.69c0 .83-.03 1.56-.07 2.2h-7.63v-2.2zm-9.17 4h7.37v2.7c-3.62 0-5.53-.08-6.57-1.13-.39-.39-.64-.9-.8-1.57m9.17 2.7v-2.7h7.37c-.17.67-.41 1.18-.8 1.57-1.04 1.04-2.96 1.12-6.57 1.13" }) });
+});
+Table.displayName = "Table";
+
+// src/icons/Tablet.tsx
+var React190 = __toESM(require("react"), 1);
+var import_jsx_runtime190 = require("react/jsx-runtime");
+var Tablet = React190.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime190.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime190.jsx)("path", { fill: "currentColor", d: "M12.01 17.75a1.25 1.25 0 0 1 0 2.5H12a1.25 1.25 0 1 1 0-2.5z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime190.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.5 1.1c1.389 0 2.521-.002 3.412.118.917.123 1.712.39 2.346 1.024.634.635.901 1.43 1.024 2.346.12.89.118 2.023.118 3.412v8c0 1.389.002 2.521-.118 3.412-.123.917-.39 1.712-1.024 2.346s-1.43.9-2.346 1.024c-.89.12-2.023.118-3.412.118h-5c-1.389 0-2.521.002-3.412-.118-.917-.123-1.711-.39-2.346-1.024-.634-.634-.9-1.43-1.024-2.346-.12-.89-.118-2.023-.118-3.412V8c0-1.389-.002-2.521.118-3.412.123-.917.39-1.711 1.024-2.346.635-.634 1.43-.9 2.346-1.024.89-.12 2.023-.118 3.412-.118zm-5 1.8c-1.44 0-2.429.002-3.172.102-.717.096-1.07.268-1.313.513-.245.244-.417.596-.513 1.313C4.402 5.571 4.4 6.56 4.4 8v8c0 1.44.002 2.429.102 3.172.096.717.268 1.07.513 1.313.244.245.596.417 1.313.513.743.1 1.732.102 3.172.102h5c1.44 0 2.429-.002 3.172-.102.717-.096 1.07-.268 1.313-.513.245-.244.417-.596.513-1.313.1-.743.102-1.732.102-3.172V8c0-1.44-.002-2.429-.102-3.172-.096-.717-.268-1.07-.513-1.313-.244-.245-.596-.417-1.313-.513-.743-.1-1.732-.102-3.172-.102z", clipRule: "evenodd" })
+  ] });
+});
+Tablet.displayName = "Tablet";
+
+// src/icons/Target.tsx
+var React191 = __toESM(require("react"), 1);
+var import_jsx_runtime191 = require("react/jsx-runtime");
+var Target = React191.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime191.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime191.jsx)("path", { fill: "currentColor", d: "M11.996 10.75a1.25 1.25 0 1 0 0 2.5h.01a1.25 1.25 0 0 0 0-2.5z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime191.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12 1.1C5.98 1.1 1.1 5.98 1.1 12S5.98 22.9 12 22.9 22.9 18.02 22.9 12 18.02 1.1 12 1.1M2.944 12.9H6a.9.9 0 1 0 0-1.8H2.944A9.1 9.1 0 0 1 11.1 2.944V6a.9.9 0 0 0 1.8 0V2.944a9.1 9.1 0 0 1 8.156 8.156H18a.9.9 0 0 0 0 1.8h3.056a9.1 9.1 0 0 1-8.156 8.156V18a.9.9 0 0 0-1.8 0v3.056A9.1 9.1 0 0 1 2.944 12.9", clipRule: "evenodd" })
+  ] });
+});
+Target.displayName = "Target";
+
+// src/icons/Team.tsx
+var React192 = __toESM(require("react"), 1);
+var import_jsx_runtime192 = require("react/jsx-runtime");
+var Team = React192.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime192.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime192.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M7.5 7.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-1.43 1.17-2.6 2.6-2.6s2.6 1.17 2.6 2.6-1.17 2.6-2.6 2.6-2.6-1.17-2.6-2.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime192.jsx)("path", { fill: "currentColor", d: "M.566 17.36c.316.379 1.199 1.44 2.564 1.44l-.01.01c.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.23 0-.6-.08-1.18-.8-.147-.183-.142-.283-.14-.321v-.009c.048-.358.732-.865 1.094-1.133l.036-.027.25-.19c.55-.42 1.17-.67 1.8-.73.5-.05.86-.48.82-.98a.913.913 0 0 0-.98-.82c-.97.09-1.91.47-2.73 1.1l-.22.16-.033.024C1.204 13.757.167 14.53.02 15.65c-.06.4-.01 1.03.53 1.69zM2 8.4c0 1.87 1.52 3.4 3.4 3.4.5 0 .9-.4.9-.9s-.4-.9-.9-.9c-.88 0-1.6-.72-1.6-1.6s.72-1.6 1.6-1.6c.5 0 .9-.4.9-.9S5.9 5 5.4 5C3.52 5 2 6.53 2 8.4m17.77 9.5c0 .5.4.9.9.9l-.02-.01c1.39 0 2.29-1.1 2.58-1.46.53-.66.58-1.28.53-1.69-.14-1.134-1.199-1.911-1.84-2.382l-.01-.008-.21-.16a5.26 5.26 0 0 0-2.73-1.1.895.895 0 0 0-.98.82.9.9 0 0 0 .82.98c.63.06 1.25.31 1.8.73l.25.19c.35.25 1.08.79 1.13 1.16.01.04.02.13-.14.33-.58.72-.95.8-1.18.8-.5 0-.9.4-.9.9m-2.77-7c0 .5.4.9.9.9 1.88 0 3.4-1.53 3.4-3.4S19.78 5 17.9 5c-.5 0-.9.4-.9.9s.4.9.9.9c.88 0 1.6.72 1.6 1.6s-.72 1.6-1.6 1.6c-.5 0-.9.4-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime192.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.07 20.8H8.71c-1.62 0-2.73-.92-3.43-1.61-.74-.73-.83-1.45-.77-1.92.168-1.345 1.638-2.221 2.628-2.81l.032-.02.33-.2a8.41 8.41 0 0 1 8.78 0l.33.2c.99.58 2.49 1.47 2.66 2.83.06.47-.03 1.19-.77 1.92-.7.69-1.82 1.61-3.43 1.61m-6.61-5.02-.403.24c-.492.293-1.699 1.01-1.757 1.48-.02.14.17.33.25.41.76.76 1.43 1.09 2.17 1.09h6.37c.74 0 1.4-.34 2.17-1.09.08-.08.26-.28.25-.41-.059-.47-1.265-1.187-1.758-1.48l-.402-.24a6.6 6.6 0 0 0-6.88 0z", clipRule: "evenodd" })
+  ] });
+});
+Team.displayName = "Team";
+
+// src/icons/ThumbsDown.tsx
+var React193 = __toESM(require("react"), 1);
+var import_jsx_runtime193 = require("react/jsx-runtime");
+var ThumbsDown = React193.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime193.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime193.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M13.576 2.6c1.163 0 2.099 0 2.86.073.78.075 1.453.232 2.08.592l.167.1q.083.052.163.107l.216.159c.49.385.86.869 1.207 1.452.385.65.772 1.484 1.252 2.517l.37.802c.352.767.638 1.428.81 1.992.218.714.313 1.455-.012 2.157l-.07.14q-.06.106-.127.207l-.143.196c-.522.654-1.282.891-2.08.997-.792.105-1.828.102-3.086.102h-.404a10 10 0 0 0-.805.017 1 1 0 0 0-.123.017l-.006.006q.002.029.013.09c.034.159.1.375.214.744l.267.86c.067.217.11.36.145.5l.051.23a4.7 4.7 0 0 1-.6 3.341l-.29.437q-.052.077-.113.16l-.123.159a1.935 1.935 0 0 1-2.556.295l-.153-.12a2 2 0 0 1-.142-.14l-.134-.146-4.091-4.53c-.934-1.035-1.57-1.718-1.904-2.563-.667.531-1.51.85-2.429.85a2.9 2.9 0 0 1-2.9-2.9v-6A2.9 2.9 0 0 1 4 2.6c1.205 0 2.282.546 2.997 1.405q.12-.15.265-.291c.64-.62 1.439-.88 2.36-1 .896-.116 2.038-.114 3.443-.114zm-.511 1.8c-1.454 0-2.457.002-3.211.1-.731.095-1.091.267-1.34.507-.243.236-.415.574-.511 1.27C7.903 7 7.9 7.964 7.9 9.375v.974c0 1.523.014 2.051.198 2.524.184.475.536.885 1.57 2.031l4.092 4.531.11.12c.022.024.023.024.012.014l.04.024a.14.14 0 0 0 .054.006.12.12 0 0 0 .084-.039l.01-.014.092-.133.233-.348.14-.255a2.9 2.9 0 0 0 .257-1.67l-.055-.284-.118-.397-.267-.86c-.103-.335-.2-.647-.255-.91-.056-.268-.095-.6.01-.952l.057-.16c.149-.368.411-.678.746-.888l.114-.066c.27-.14.549-.186.79-.207.27-.024.602-.023.965-.023h.404c1.31 0 2.204-.002 2.85-.087.637-.085.823-.228.908-.335l.054-.074q.025-.037.046-.076l.04-.102c.033-.13.034-.356-.101-.8-.139-.453-.378-1.01-.718-1.754l-.374-.808c-.495-1.065-.84-1.803-1.167-2.357-.318-.536-.585-.835-.89-1.043l-.21-.13c-.325-.187-.72-.303-1.357-.364-.656-.063-1.491-.064-2.688-.064zM4 4.4a1.1 1.1 0 0 0-1.1 1.1v6A1.1 1.1 0 0 0 4 12.6a2.1 2.1 0 0 0 2.1-2.1v-4A2.1 2.1 0 0 0 4 4.4", clipRule: "evenodd" }) });
+});
+ThumbsDown.displayName = "ThumbsDown";
+
+// src/icons/ThumbsUp.tsx
+var React194 = __toESM(require("react"), 1);
+var import_jsx_runtime194 = require("react/jsx-runtime");
+var ThumbsUp = React194.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime194.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.701 3.072a1.934 1.934 0 0 1 2.708.174v.001c.084.097.167.218.236.319l.29.435v.001l.117.203c.52.962.69 2.069.483 3.14l-.05.228c-.035.14-.08.283-.147.499l-.266.861c-.114.369-.18.586-.214.745q-.011.06-.013.088l.006.006c.019.004.057.013.123.018.171.016.41.017.805.017h.404c1.258 0 2.294-.002 3.086.103.798.105 1.558.343 2.08.997l.143.196q.068.1.126.207l.07.14c.326.701.232 1.443.013 2.157-.172.563-.458 1.225-.81 1.991l-.37.803c-.48 1.032-.867 1.867-1.252 2.516-.346.584-.718 1.067-1.206 1.452l-.217.16-.163.106-.167.1c-.627.36-1.3.518-2.08.593-.761.073-1.697.073-2.86.073h-.511c-1.405 0-2.547.001-3.444-.116-.863-.112-1.619-.346-2.237-.886l-.122-.113a3 3 0 0 1-.265-.292A3.9 3.9 0 0 1 4 21.402a2.9 2.9 0 0 1-2.9-2.9v-6A2.9 2.9 0 0 1 4 9.6a3.88 3.88 0 0 1 2.429.85c.335-.845.97-1.528 1.904-2.562l4.09-4.53.135-.146q.07-.076.143-.14M4 11.4a1.1 1.1 0 0 0-1.1 1.1v6A1.1 1.1 0 0 0 4 19.6a2.1 2.1 0 0 0 2.1-2.1v-4A2.1 2.1 0 0 0 4 11.4m9.923-6.993-.041.022c.01-.01.01-.01-.013.015l-.11.119-4.09 4.531c-1.035 1.146-1.387 1.556-1.571 2.031-.184.473-.198 1.002-.198 2.525v.973c0 1.411.003 2.376.103 3.1.096.695.268 1.033.512 1.27l.098.086c.245.195.601.337 1.24.42.755.099 1.758.1 3.212.1h.511c1.197 0 2.032 0 2.688-.064.637-.06 1.032-.177 1.357-.363l.21-.13.112-.084c.26-.204.5-.49.778-.96.328-.553.672-1.292 1.167-2.357l.374-.808c.34-.743.58-1.301.718-1.754.135-.444.134-.67.101-.8l-.04-.102-.046-.076-.054-.073c-.085-.107-.27-.25-.909-.335-.645-.086-1.538-.087-2.85-.087h-.403c-.363 0-.695 0-.966-.024a2.1 2.1 0 0 1-.789-.207l-.114-.065a1.9 1.9 0 0 1-.746-.888l-.057-.16c-.105-.352-.066-.685-.01-.953.055-.262.152-.574.255-.91l.267-.86.118-.397.055-.283a2.92 2.92 0 0 0-.396-1.926l-.234-.348-.092-.133c-.02-.027-.02-.025-.01-.014a.12.12 0 0 0-.084-.038.14.14 0 0 0-.053.007", clipRule: "evenodd" }) });
+});
+ThumbsUp.displayName = "ThumbsUp";
+
+// src/icons/Ticket02.tsx
+var React195 = __toESM(require("react"), 1);
+var import_jsx_runtime195 = require("react/jsx-runtime");
+var Ticket02 = React195.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime195.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.386 1.127a5 5 0 0 1 1.537.076l.203.047c1.001.26 1.86.9 2.83 1.79l.105.107c.45.514.378 1.235.008 1.688l-.083.092c-.491.491-.518 1.383.093 1.994.61.61 1.502.583 1.993.092l.093-.083c.451-.37 1.173-.442 1.687.008l.107.105.342.382c.767.883 1.301 1.697 1.495 2.65l.04.219c.07.437.082.881.037 1.319l-.028.219c-.128.861-.54 1.589-1.134 2.333-.583.729-1.405 1.55-2.431 2.576l-2.54 2.539c-1.025 1.026-1.846 1.848-2.575 2.43-.652.521-1.29.902-2.017 1.075l-.316.06a5 5 0 0 1-1.539-.01l-.217-.038c-1.09-.223-1.998-.889-3.033-1.838-.564-.517-.51-1.311-.113-1.795l.084-.093c.46-.46.512-1.272.014-1.875l-.108-.118c-.61-.61-1.5-.583-1.992-.093-.47.47-1.337.573-1.888-.028-.89-.971-1.531-1.83-1.79-2.831l-.047-.202a5.1 5.1 0 0 1-.05-1.756l.061-.317c.173-.727.554-1.365 1.075-2.016.582-.73 1.405-1.55 2.43-2.577L7.26 4.72l.732-.73c.698-.692 1.297-1.263 1.844-1.7.743-.595 1.471-1.007 2.332-1.135zM8.531 5.993 5.993 8.53c-1.055 1.055-1.794 1.794-2.3 2.427-.43.54-.64.94-.729 1.315l-.03.16a3.3 3.3 0 0 0 .032 1.131l.057.219c.138.441.438.922 1.023 1.599 1.261-.898 3.025-.699 4.148.423l.113.12c1.022 1.125 1.176 2.81.31 4.027.79.684 1.312.978 1.818 1.08l.285.046q.43.049.847-.013l.16-.03c.374-.088.774-.298 1.315-.73.632-.505 1.371-1.244 2.426-2.299l2.538-2.538.094-.094-9.475-9.476zm4.18-3.088-.279.03c-.422.062-.857.266-1.474.759-.316.252-.657.562-1.051.94l9.459 9.458c.378-.394.687-.735.94-1.05.493-.618.696-1.053.759-1.475l.03-.28a3.3 3.3 0 0 0-.017-.567l-.045-.285c-.103-.505-.397-1.028-1.081-1.818-1.26.897-3.024.698-4.146-.424s-1.322-2.886-.425-4.146c-.677-.586-1.157-.886-1.598-1.024l-.219-.057a3.3 3.3 0 0 0-.853-.061", clipRule: "evenodd" }) });
+});
+Ticket02.displayName = "Ticket02";
+
+// src/icons/TicketStar.tsx
+var React196 = __toESM(require("react"), 1);
+var import_jsx_runtime196 = require("react/jsx-runtime");
+var TicketStar = React196.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime196.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime196.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.5 8.1c.692 0 1.118.517 1.325.933l.457.921.796.134.18.039c.427.112.903.384 1.081.944.204.639-.124 1.196-.457 1.53h.001l-.624.628.176.763.034.18c.068.45.036 1.086-.506 1.484-.623.458-1.341.178-1.73-.054l-.734-.438-.732.437c-.39.235-1.108.511-1.73.053-.618-.454-.574-1.217-.472-1.662l.174-.762-.623-.628V12.6c-.33-.334-.657-.89-.455-1.528.203-.64.794-.907 1.26-.985l.793-.133.457-.922.001-.002.088-.159c.23-.377.634-.772 1.24-.772m-.242 2.79.001.002a1.5 1.5 0 0 1-.45.53 1.5 1.5 0 0 1-.63.28l-.004.001-.356.06.32.321.07.076c.154.182.245.39.295.567.044.154.072.339.058.535l-.03.205-.047.206.257-.152.005-.003.096-.051c.225-.108.46-.146.657-.146.226 0 .503.048.757.2l.257.152-.047-.206v-.006c-.06-.268-.03-.53.027-.734.058-.203.17-.444.368-.643l.317-.321-.355-.06a1.5 1.5 0 0 1-.635-.28 1.5 1.5 0 0 1-.452-.531l-.239-.483z", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime196.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14.008 2.6c1.625 0 2.919-.001 3.948.114 1.05.117 1.93.363 2.69.928l.192.148a5.6 5.6 0 0 1 1.133 1.252l.12.192c.573.974.744 2.137.808 3.606v6.321c-.064 1.468-.235 2.631-.808 3.605l-.12.192a5.6 5.6 0 0 1-1.133 1.252l-.191.148c-.762.565-1.642.811-2.69.928-1.03.115-2.324.114-3.949.114H9.993c-.68 0-1.3-.002-1.869-.01A1 1 0 0 1 8 21.4a1 1 0 0 1-.145-.013c-.68-.014-1.28-.042-1.81-.1-.983-.11-1.819-.334-2.547-.826l-.143-.103a5.6 5.6 0 0 1-1.186-1.2l-.138-.2c-.586-.885-.806-1.929-.897-3.226l-.031-.572c-.036-.843.672-1.404 1.363-1.404l.156-.008c.778-.084 1.454-.793 1.454-1.748 0-1.019-.769-1.756-1.61-1.756-.69 0-1.4-.561-1.363-1.404l.031-.572c.091-1.297.311-2.34.897-3.226l.138-.2a5.5 5.5 0 0 1 1.186-1.2l.143-.103c.728-.493 1.564-.715 2.547-.825.53-.06 1.13-.088 1.81-.102a1 1 0 0 1 .27-.003q.851-.011 1.869-.01zM8.9 4.4V7a.9.9 0 0 1-1.801 0V4.44q-.465.02-.854.063c-.778.087-1.278.24-1.662.477l-.158.108q-.39.29-.699.679l-.195.268c-.343.518-.525 1.208-.607 2.442 1.701.236 2.95 1.763 2.95 3.523s-1.25 3.287-2.95 3.523c.082 1.234.264 1.924.607 2.442l.195.268q.309.39.7.68l.157.107c.384.238.884.39 1.662.477.26.03.543.048.854.063V17a.901.901 0 0 1 1.8 0v2.598l1.094.002h4.015c1.666 0 2.841-.002 3.748-.103.888-.099 1.415-.285 1.82-.585l.25-.204c.243-.215.46-.465.643-.743l.135-.228c.29-.555.438-1.322.496-2.638V8.9c-.067-1.505-.25-2.29-.63-2.865a3.8 3.8 0 0 0-.643-.743l-.251-.204c-.405-.3-.932-.486-1.82-.585-.907-.101-2.082-.103-3.748-.103H9.993z", clipRule: "evenodd" })
+  ] });
+});
+TicketStar.displayName = "TicketStar";
+
+// src/icons/Time.tsx
+var React197 = __toESM(require("react"), 1);
+var import_jsx_runtime197 = require("react/jsx-runtime");
+var Time = React197.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime197.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime197.jsx)("path", { fill: "currentColor", d: "M13.26 14.54c.18.17.41.26.64.26s.46-.08.64-.26a.9.9 0 0 0 0-1.27l-1.74-1.74V7.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v4c0 .24.09.47.26.64z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime197.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1", clipRule: "evenodd" })
+  ] });
+});
+Time.displayName = "Time";
+
+// src/icons/Tools2.tsx
+var React198 = __toESM(require("react"), 1);
+var import_jsx_runtime198 = require("react/jsx-runtime");
+var Tools2 = React198.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime198.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime198.jsx)("path", { fill: "currentColor", d: "M4.5 18.5c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1" }),
+    /* @__PURE__ */ (0, import_jsx_runtime198.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.88 5.34c.43-.43 1.06-.55 1.61-.32h.01c.56.23.91.76.91 1.36v.58c0 4.87 0 5.62-1.41 7.03-1.36 1.36-3.53 1.41-6.78 1.41h-.34l-5.91 5.91a3.73 3.73 0 0 1-2.64 1.09c-1 0-1.94-.38-2.64-1.09a3.736 3.736 0 0 1 0-5.27l5.91-5.92c0-3.44 0-5.72 1.41-7.12s2.17-1.42 7.03-1.4h.59c.59 0 1.13.36 1.35.92.23.55.1 1.18-.32 1.6l-2.71 2.71c-.16.16-.25.38-.25.61s.09.45.25.61c.33.34.88.34 1.22 0zM3.96 20.04c.73.73 2 .73 2.73 0l4.99-4.99a4.94 4.94 0 0 1-2.73-2.73l-4.99 4.99c-.75.76-.75 1.98 0 2.73m10.074-6.44c2.88-.01 4.822-.016 5.686-.88v-.01c.84-.83.88-1.05.88-5.55l-2.15 2.15a2.67 2.67 0 0 1-3.77 0c-.5-.5-.78-1.17-.78-1.88s.28-1.38.78-1.88l2.15-2.15h-.07c-4.43 0-4.65.05-5.48.88-.88.88-.88 2.86-.88 5.85v.37c0 1.71 1.39 3.1 3.1 3.1z", clipRule: "evenodd" })
+  ] });
+});
+Tools2.displayName = "Tools2";
+
+// src/icons/Tools.tsx
+var React199 = __toESM(require("react"), 1);
+var import_jsx_runtime199 = require("react/jsx-runtime");
+var Tools = React199.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime199.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime199.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M17.4 21.8c-1.15 0-2.27-.45-3.11-1.29a4.39 4.39 0 0 1-1.17-4.12l-.87-.87-5.12 5.12c-.42.42-.99.66-1.59.66s-1.17-.23-1.59-.66l-.79-.79c-.42-.42-.66-.99-.66-1.59s.23-1.17.66-1.59l5.12-5.12-.87-.87c-1.47.34-3.03-.09-4.12-1.17a4.4 4.4 0 0 1-.99-4.7c.11-.28.36-.49.65-.56.3-.06.61.03.82.24l1.16 1.16h.73v-.73L4.5 3.76a.87.87 0 0 1-.24-.82c.07-.29.27-.54.56-.65 1.62-.63 3.47-.24 4.7.99a4.39 4.39 0 0 1 1.17 4.12l2.217 2.217 3.716-3.714-.363-.363c-.2-.2-.29-.47-.26-.75.03-.27.19-.52.43-.66l2.5-1.5c.35-.21.81-.16 1.1.13l1 1c.29.29.35.75.14 1.1l-1.5 2.5c-.14.24-.39.4-.66.43h-.11v.01a.9.9 0 0 1-.64-.26l-.364-.364-3.716 3.714 2.22 2.22c1.47-.34 3.04.08 4.12 1.17a4.4 4.4 0 0 1 .99 4.7c-.11.28-.36.49-.65.56-.3.06-.61-.03-.82-.24l-1.16-1.16h-.73v.73l1.16 1.16c.22.22.31.52.24.82-.06.3-.27.54-.56.65q-.78.3-1.59.3m-7.85-8.98-5.12 5.12c-.11.12-.13.25-.13.32s.02.2.13.32l.79.79c.12.12.25.13.32.13s.2-.02.32-.13l5.12-5.12zM7.66 8.76c.23 0 .46.09.64.26l6.47 6.47c.25.25.33.63.2.96-.37.96-.14 2.05.59 2.78.3.3.66.51 1.04.64a.9.9 0 0 1-.26-.63v-2c0-.5.4-.9.9-.9h2c.24 0 .46.09.63.26-.12-.38-.34-.74-.64-1.04-.73-.73-1.82-.96-2.78-.59-.33.12-.71.05-.96-.2L9.02 8.3a.9.9 0 0 1-.2-.96c.37-.96.14-2.05-.59-2.78-.3-.3-.65-.51-1.04-.63.17.17.26.39.26.63v2c0 .5-.4.9-.9.9h-2c-.24 0-.46-.09-.63-.26.12.38.34.74.64 1.04.73.73 1.82.96 2.78.59.11-.04.22-.06.32-.06zm11.06-3.31-.37-.37h.01l.91-.54z", clipRule: "evenodd" }) });
+});
+Tools.displayName = "Tools";
+
+// src/icons/Trash.tsx
+var React200 = __toESM(require("react"), 1);
+var import_jsx_runtime200 = require("react/jsx-runtime");
+var Trash = React200.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime200.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime200.jsx)("path", { fill: "currentColor", d: "M9.4 9.5c-.5 0-.9.4-.9.9v6c0 .5.4.9.9.9s.9-.4.9-.9v-6c0-.5-.4-.9-.9-.9m4.1.9c0-.5.4-.9.9-.9s.9.4.9.9v6c0 .5-.4.9-.9.9s-.9-.4-.9-.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime200.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M20.89 4.5h-4.37l-.44-.91-.026-.055C15.57 2.54 15.3 1.983 14.74 1.57c-.13-.09-.26-.18-.4-.25-.63-.33-1.26-.33-2.41-.33s-1.82 0-2.47.34c-.14.08-.27.16-.4.26-.57.44-.84 1.03-1.33 2.098v.002l-.37.8H2.9c-.5 0-.9.4-.9.9s.4.9.9.9h.65l.55 9.17c.16 2.73.25 4.1 1.03 5.23.39.56.88 1.03 1.47 1.39 1.17.72 2.55.72 5.28.72s4.1 0 5.28-.72c.58-.36 1.08-.82 1.47-1.38.784-1.121.869-2.479 1.036-5.157L20.24 6.3h.65c.5 0 .9-.4.9-.9s-.4-.9-.9-.9M9.38 4.44l.056-.12c.335-.725.525-1.138.734-1.29.05-.04.1-.07.15-.1.24-.13.73-.13 1.62-.13s1.34 0 1.58.12l.15.09c.21.16.42.59.8 1.37l.06.12H9.36l.03-.06zm8.5 10.93-.005.082c-.147 2.335-.22 3.516-.715 4.218-.25.35-.56.65-.93.87-.74.45-1.95.45-4.34.45s-3.6 0-4.34-.45c-.37-.23-.68-.52-.93-.88-.5-.72-.57-1.919-.71-4.305v-.005l-.55-9.06h13.09l-.56 9.07z", clipRule: "evenodd" })
+  ] });
+});
+Trash.displayName = "Trash";
+
+// src/icons/Turnos.tsx
+var React201 = __toESM(require("react"), 1);
+var import_jsx_runtime201 = require("react/jsx-runtime");
+var Turnos = React201.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime201.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime201.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M8.445 2.245C9.922 1.562 10.92 1.1 12 1.1s2.078.462 3.554 1.145l1.955.904c1.253.58 2.286 1.057 2.998 1.52.711.465 1.393 1.1 1.393 2.081s-.682 1.617-1.393 2.08c-.712.464-1.745.942-2.998 1.521l-1.955.904C14.077 11.938 13.079 12.4 12 12.4c-1.08 0-2.078-.462-3.555-1.145L6.49 10.35c-1.253-.58-2.286-1.057-2.997-1.52C2.78 8.367 2.1 7.73 2.1 6.75s.68-1.616 1.393-2.08c.711-.464 1.744-.942 2.997-1.521zM12 2.9c-.635 0-1.252.264-2.98 1.063l-1.705.788c-1.34.62-2.251 1.043-2.84 1.426-.583.38-.576.548-.575.571v.004c-.001.023-.008.19.576.57.588.384 1.499.808 2.84 1.427l1.704.788c1.728.799 2.345 1.063 2.98 1.063s1.251-.264 2.979-1.063l1.705-.788c1.34-.62 2.252-1.043 2.84-1.426.583-.38.576-.548.576-.571v-.004c0-.023.007-.19-.576-.57-.588-.384-1.5-.808-2.84-1.427l-1.705-.788c-1.728-.799-2.345-1.063-2.98-1.063", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime201.jsx)("path", { fill: "currentColor", d: "M20.266 10.364a.9.9 0 0 1 1.255.212c.238.335.379.721.379 1.155 0 .98-.69 1.61-1.398 2.065-.712.457-1.744.927-2.998 1.499l-1.953.89c-1.478.674-2.475 1.128-3.551 1.128s-2.073-.454-3.552-1.128l-1.953-.89c-1.253-.572-2.286-1.042-2.997-1.5-.709-.454-1.398-1.084-1.398-2.064 0-.434.14-.82.378-1.155a.9.9 0 0 1 1.467 1.043c-.044.062-.045.09-.045.112-.001.007-.023.169.57.55.589.379 1.5.796 2.841 1.407l1.705.777c1.726.787 2.346 1.048 2.984 1.048s1.257-.261 2.983-1.048l1.705-.777c1.34-.61 2.252-1.029 2.84-1.407.594-.381.573-.543.572-.55 0-.022-.002-.05-.046-.112a.9.9 0 0 1 .212-1.255" }),
+    /* @__PURE__ */ (0, import_jsx_runtime201.jsx)("path", { fill: "currentColor", d: "M4.184 16.97a.9.9 0 0 0-1.122-1.408c-.524.418-.962.98-.962 1.756 0 .98.69 1.61 1.398 2.064.71.458 1.743.928 2.997 1.499l1.952.89c1.48.674 2.476 1.129 3.553 1.129s2.073-.455 3.552-1.13l1.952-.889c1.254-.571 2.286-1.041 2.998-1.498.708-.456 1.398-1.085 1.398-2.065 0-.776-.439-1.338-.963-1.756a.9.9 0 0 0-1.122 1.408 1.1 1.1 0 0 1 .258.264c.024.04.027.06.027.084 0 .007.022.169-.572.55-.588.378-1.5.796-2.84 1.407l-1.705.777C13.257 20.838 12.637 21.1 12 21.1c-.638 0-1.258-.262-2.984-1.048l-1.705-.777c-1.34-.61-2.252-1.029-2.84-1.407-.594-.381-.572-.543-.571-.55 0-.023.002-.044.027-.085.03-.051.101-.14.257-.263" })
+  ] });
+});
+Turnos.displayName = "Turnos";
+
+// src/icons/University.tsx
+var React202 = __toESM(require("react"), 1);
+var import_jsx_runtime202 = require("react/jsx-runtime");
+var University = React202.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime202.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime202.jsx)("path", { fill: "currentColor", d: "M10.5 11.1a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9m3 0a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9M11.4 16a.9.9 0 1 0-1.8 0v.5a.9.9 0 1 0 1.8 0zm3 0a.9.9 0 1 0-1.8 0v.5a.9.9 0 0 0 1.8 0z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime202.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.9 5.882H16a.9.9 0 0 0 .9-.9c0-.75-.181-1.93-1.208-2.562a15 15 0 0 0-1.747-.935c-.334-.146-.713-.287-1.07-.35-.282-.049-.91-.118-1.367.342-.267.27-.35.587-.382.822-.027.198-.026.43-.026.634V7.1H6.5a.9.9 0 1 0 0 1.8h.1v3.2H2a.9.9 0 1 0 0 1.8h.1v7.2H2a.9.9 0 0 0 0 1.8h19.5a.9.9 0 0 0 .4-1.706V13.9h.1a.9.9 0 1 0 0-1.8h-4.6V8.9h.1a.9.9 0 1 0 0-1.8h-4.6zM12.469 2.9h.026zm.43.105q.147.052.326.13c.562.246 1.173.603 1.523.819a.5.5 0 0 1 .137.13H12.9zm0 18.096V20a.9.9 0 0 0-1.8 0v1.1H8.4V8.9h7.2v12.2zm-9-7.2h2.7v7.2H3.9zm13.5 0h2.7v7.2h-2.7z", clipRule: "evenodd" })
+  ] });
+});
+University.displayName = "University";
+
+// src/icons/Unlink.tsx
+var React203 = __toESM(require("react"), 1);
+var import_jsx_runtime203 = require("react/jsx-runtime");
+var Unlink = React203.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime203.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime203.jsx)("path", { fill: "currentColor", d: "M6.9 4.88c.5 0 .9-.4.9-.9V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.08c0 .5.4.9.9.9m9.21 10.26a.9.9 0 0 1 0-1.27v-.01l2.61-2.61A4.35 4.35 0 0 0 20 8.16c0-1.17-.45-2.26-1.28-3.09a4.364 4.364 0 0 0-6.18 0L9.93 7.68a.9.9 0 0 1-1.27 0 .9.9 0 0 1 0-1.27l2.61-2.61a6.174 6.174 0 0 1 8.73 0 6.1 6.1 0 0 1 1.81 4.36c0 1.65-.64 3.2-1.81 4.37l-2.61 2.61c-.18.17-.41.26-.64.26s-.46-.08-.64-.26m-4.85 3.58 2.61-2.61h.01a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a6.15 6.15 0 0 1-4.37 1.81c-1.64 0-3.19-.64-4.36-1.81A6.1 6.1 0 0 1 2 15.63c0-1.64.64-3.19 1.81-4.36l2.61-2.61a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-2.61 2.61a4.364 4.364 0 0 0 0 6.18A4.35 4.35 0 0 0 8.17 20c1.17 0 2.26-.45 3.09-1.28M21.9 16h-2.08c-.5 0-.9.4-.9.9s.4.9.9.9h2.08c.5 0 .9-.4.9-.9s-.4-.9-.9-.9M16 19.82c0-.5.4-.9.9-.9s.9.4.9.9v2.08c0 .5-.4.9-.9.9s-.9-.4-.9-.9zM3.98 6c.5 0 .9.4.9.9s-.4.9-.9.9H1.9c-.5 0-.9-.4-.9-.9s.4-.9.9-.9z" }) });
+});
+Unlink.displayName = "Unlink";
+
+// src/icons/Upload.tsx
+var React204 = __toESM(require("react"), 1);
+var import_jsx_runtime204 = require("react/jsx-runtime");
+var Upload = React204.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime204.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime204.jsx)("path", { fill: "currentColor", d: "M11.89 14.8h.01-.02zm-.89-.9c0 .497.395.895.89.9a.896.896 0 0 0 .89-.9V5.86q.12.148.219.274l.131.166.131.163c.193.24.356.444.48.567.34.36.91.37 1.27.02a.89.89 0 0 0 .02-1.27 5 5 0 0 1-.31-.372l-.17-.218c-1.03-1.31-1.78-2.18-2.66-2.18s-1.62.86-2.66 2.18l-.172.218a5 5 0 0 1-.309.372.89.89 0 0 0 .02 1.27c.35.35.92.34 1.27-.02.124-.123.287-.327.48-.567l.13-.163c.09-.12.21-.27.35-.44z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime204.jsx)("path", { fill: "currentColor", d: "M10.68 20.8h2.44c2.83 0 4.39 0 5.66-.9s1.79-2.37 2.73-5.04l.23-.66a.907.907 0 0 0-.55-1.15.9.9 0 0 0-1.15.55l-.24.67c-.84 2.39-1.27 3.59-2.07 4.16s-2.08.57-4.62.57h-2.44c-2.54 0-3.81 0-4.62-.57-.793-.565-1.213-1.75-2.049-4.11l-.02-.06-.23-.66a.9.9 0 0 0-1.15-.55c-.47.17-.72.68-.55 1.15l.24.67c.94 2.66 1.46 4.13 2.73 5.03s2.83.9 5.66.9" })
+  ] });
+});
+Upload.displayName = "Upload";
+
+// src/icons/UserAccount.tsx
+var React205 = __toESM(require("react"), 1);
+var import_jsx_runtime205 = require("react/jsx-runtime");
+var UserAccount = React205.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime205.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime205.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9 7.1a2.9 2.9 0 0 1 2.9 2.9c0 .635-.206 1.22-.552 1.697A4.9 4.9 0 0 1 13.9 16a.9.9 0 0 1-1.8 0 3.1 3.1 0 1 0-6.2 0 .9.9 0 0 1-1.8 0 4.9 4.9 0 0 1 2.551-4.303A2.9 2.9 0 0 1 6.1 10 2.9 2.9 0 0 1 9 7.1m0 1.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime205.jsx)("path", { fill: "currentColor", d: "M19.092 11.105a.9.9 0 0 1 0 1.79L19 12.9h-4a.9.9 0 0 1 0-1.8h4zm0-3.001a.9.9 0 0 1 0 1.792L19 9.9h-4a.9.9 0 0 1 0-1.8h4z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime205.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 3.1c1.86 0 3.346-.001 4.509.155 1.189.16 2.175.5 2.956 1.28l.141.149c.682.756.99 1.692 1.14 2.807.155 1.163.154 2.649.154 4.509s.002 3.346-.155 4.509c-.15 1.114-.457 2.051-1.139 2.807l-.141.149c-.781.78-1.767 1.12-2.956 1.28-1.163.156-2.649.155-4.509.155h-4c-1.86 0-3.346.002-4.509-.155-1.115-.15-2.051-.457-2.807-1.139l-.149-.141c-.78-.781-1.12-1.767-1.28-2.956C1.099 15.346 1.1 13.86 1.1 12s-.001-3.346.155-4.509c.16-1.189.5-2.175 1.28-2.956l.149-.141c.756-.682 1.692-.99 2.807-1.14C6.654 3.1 8.14 3.1 10 3.1zm-4 1.8c-1.911 0-3.254.002-4.27.138-.865.116-1.389.32-1.768.63l-.154.14c-.391.39-.637.933-.77 1.922C2.902 8.746 2.9 10.09 2.9 12s.002 3.254.138 4.27c.133.989.379 1.532.77 1.922l.154.14c.379.31.903.514 1.768.63 1.016.136 2.359.138 4.27.138h4c1.911 0 3.254-.002 4.27-.138.989-.133 1.532-.379 1.922-.77l.14-.154c.31-.379.514-.903.63-1.768.136-1.016.138-2.359.138-4.27s-.002-3.254-.138-4.27c-.116-.865-.32-1.389-.63-1.768l-.14-.154c-.39-.391-.933-.637-1.922-.77C17.254 4.902 15.91 4.9 14 4.9z", clipRule: "evenodd" })
+  ] });
+});
+UserAccount.displayName = "UserAccount";
+
+// src/icons/UserAdd.tsx
+var React206 = __toESM(require("react"), 1);
+var import_jsx_runtime206 = require("react/jsx-runtime");
+var UserAdd = React206.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime206.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime206.jsx)("path", { fill: "currentColor", d: "M12.4 22.8H6.49c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56.17-.1.33-.19.46-.27a11.56 11.56 0 0 1 10.22-.76c.46.19.68.71.49 1.17s-.71.68-1.17.49c-.73-.3-1.5-.51-2.29-.62-2.2-.31-4.45.14-6.34 1.26-.15.09-.31.18-.5.29-.82.47-2.54 1.44-2.64 2.22-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9zm-.5-11c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6" }),
+    /* @__PURE__ */ (0, import_jsx_runtime206.jsx)("path", { fill: "currentColor", d: "M18.4 22.8c-.5 0-.9-.4-.9-.9v-2.6h-2.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.6v-2.6c0-.5.4-.9.9-.9s.9.4.9.9v2.6h2.6c.5 0 .9.4.9.9s-.4.9-.9.9h-2.6v2.6c0 .5-.4.9-.9.9" })
+  ] });
+});
+UserAdd.displayName = "UserAdd";
+
+// src/icons/UserBlock.tsx
+var React207 = __toESM(require("react"), 1);
+var import_jsx_runtime207 = require("react/jsx-runtime");
+var UserBlock = React207.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime207.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime207.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime207.jsx)("path", { fill: "currentColor", d: "M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.61.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime207.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M14 18.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0m1.8 0c0-.39.09-.76.24-1.09l3.45 3.45c-.33.15-.7.24-1.09.24-1.43 0-2.6-1.17-2.6-2.6m4.96 1.09-3.45-3.45c.33-.15.7-.24 1.09-.24 1.43 0 2.6 1.17 2.6 2.6 0 .39-.09.76-.24 1.09", clipRule: "evenodd" })
+  ] });
+});
+UserBlock.displayName = "UserBlock";
+
+// src/icons/UserLock.tsx
+var React208 = __toESM(require("react"), 1);
+var import_jsx_runtime208 = require("react/jsx-runtime");
+var UserLock = React208.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime208.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime208.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime208.jsx)("path", { fill: "currentColor", d: "M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.6.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime208.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M18.36 22.8v-.01h1.47c1.9 0 2.59-1.11 2.88-2.17.08-.43.15-2.55-.06-3.37-.31-.95-.94-1.48-1.6-1.72v-.51c0-.41 0-.89-.14-1.26-.35-1.01-1.25-1.68-2.33-1.75a2.61 2.61 0 0 0-2.56 1.45c-.26.483-.26.966-.26 1.359v.701c-.89.3-1.45 1.05-1.64 1.79-.16.66-.14 2.53-.07 3.25l.03.14c.3 1.1 1.05 1.83 2.12 2.06h.1c.33.04 1.13.04 2.06.04m1.02-1.81c-.78.01-2.39.01-2.87-.02h-.01c-.34-.09-.55-.3-.67-.67-.07-.78-.04-2.26.03-2.55.04-.18.21-.58.79-.58h3.51c.577 0 .738.485.77.578v.002c.11.4.08 2.21.04 2.48-.16.58-.43.76-1.11.76zm-.12-5.61h-1.7v-.607c-.001-.197-.002-.367.06-.473.24-.49.71-.5.85-.49.13 0 .58.07.75.56.02.05.04.21.04.64z", clipRule: "evenodd" })
+  ] });
+});
+UserLock.displayName = "UserLock";
+
+// src/icons/UserMinus.tsx
+var React209 = __toESM(require("react"), 1);
+var import_jsx_runtime209 = require("react/jsx-runtime");
+var UserMinus = React209.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime209.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime209.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S7.92 1 10.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime209.jsx)("path", { fill: "currentColor", d: "M12.39 22.8h-5.9c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165a11.56 11.56 0 0 1 10.22-.76c.46.19.68.71.49 1.17s-.71.68-1.17.49c-.73-.3-1.5-.51-2.29-.62-2.2-.31-4.45.14-6.34 1.26q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h5.91c.5 0 .9.4.9.9s-.4.9-.9.9" }),
+    /* @__PURE__ */ (0, import_jsx_runtime209.jsx)("path", { fill: "currentColor", d: "M14.9 19.3h7c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-7c-.5 0-.9.4-.9.9s.4.9.9.9" })
+  ] });
+});
+UserMinus.displayName = "UserMinus";
+
+// src/icons/UserMultiple.tsx
+var React210 = __toESM(require("react"), 1);
+var import_jsx_runtime210 = require("react/jsx-runtime");
+var UserMultiple = React210.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime210.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime210.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M4.5 6.9c0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9S12.1 2 9.4 2 4.5 4.2 4.5 6.9m1.8 0c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1S11.11 10 9.4 10 6.3 8.61 6.3 6.9", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime210.jsx)("path", { fill: "currentColor", d: "M19.51 20.3h-.49c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h.49c.78 0 1.49-.32 2.29-1.03.237-.208.21-.288.2-.32-.3-.78-2.86-1.85-4.09-1.85-.5 0-.9-.4-.9-.9s.4-.9.9-.9c1.41 0 5.06 1.14 5.77 3.01.31.81.06 1.65-.68 2.3-1.14 1.01-2.24 1.48-3.49 1.48zm-2.91-9c-.3 0-.6-.03-.88-.09-.49-.1-.8-.57-.71-1.06a.9.9 0 0 1 1.06-.71c.17.03.35.05.53.05 1.32 0 2.4-.94 2.4-2.1s-1.07-2.1-2.4-2.1c-.18 0-.36.02-.53.05-.48.1-.96-.22-1.06-.71a.9.9 0 0 1 .71-1.06c.29-.06.58-.09.88-.09 2.31 0 4.19 1.75 4.19 3.9s-1.88 3.9-4.19 3.9z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime210.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M5.72 21.3c-1.36 0-2.57-.5-3.82-1.57-.84-.72-.94-1.45-.89-1.93.168-1.397 1.877-2.274 3.027-2.863l.423-.217c3.05-1.63 6.84-1.63 9.89 0l.422.217c1.15.59 2.86 1.466 3.028 2.863.06.48-.05 1.21-.9 1.93-1.25 1.07-2.46 1.57-3.82 1.57zm-.41-5-.42.22c-1.35.69-2.05 1.19-2.09 1.49 0 .02.04.15.28.35.92.79 1.73 1.14 2.65 1.14h7.35c.91 0 1.73-.35 2.65-1.14.24-.21.28-.33.28-.35-.04-.3-.74-.8-2.09-1.49l-.42-.22c-2.49-1.33-5.7-1.33-8.19 0", clipRule: "evenodd" })
+  ] });
+});
+UserMultiple.displayName = "UserMultiple";
+
+// src/icons/UserRemove.tsx
+var React211 = __toESM(require("react"), 1);
+var import_jsx_runtime211 = require("react/jsx-runtime");
+var UserRemove = React211.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime211.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime211.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime211.jsx)("path", { fill: "currentColor", d: "M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105q.154-.088.28-.165c2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.61.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9zm15.405 0h.005-.01zm-.635-.26a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-2.36-2.36 2.36-2.36a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-2.36 2.36-2.36-2.36a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.36 2.36-2.36 2.36a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.36-2.36z" })
+  ] });
+});
+UserRemove.displayName = "UserRemove";
+
+// src/icons/UserSearch.tsx
+var React212 = __toESM(require("react"), 1);
+var import_jsx_runtime212 = require("react/jsx-runtime");
+var UserSearch = React212.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime212.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime212.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.9 11.8c-2.98 0-5.4-2.42-5.4-5.4S7.92 1 10.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime212.jsx)("path", { fill: "currentColor", d: "M12.89 22.8h-6.4c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.673 2.194-2.8 3.514-3.55l.016-.01.18-.105q.154-.088.28-.165c2.07-1.23 4.55-1.78 6.97-1.56.49.05.86.48.81.98-.05.49-.47.87-.98.81-2.05-.19-4.14.27-5.88 1.31q-.15.089-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.35 20.52 5.35 21 6.48 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9m9.005 0h.005-.01z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime212.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M21.26 22.54a.94.94 0 0 0 .635.26.9.9 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-1.28-1.28c.48-.71.75-1.56.75-2.48 0-2.48-2.02-4.5-4.5-4.5s-4.5 2.02-4.5 4.5 2.02 4.5 4.5 4.5c.92 0 1.77-.28 2.48-.75zM14.8 17.5c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7-1.21 2.7-2.7 2.7-2.7-1.21-2.7-2.7", clipRule: "evenodd" })
+  ] });
+});
+UserSearch.displayName = "UserSearch";
+
+// src/icons/User.tsx
+var React213 = __toESM(require("react"), 1);
+var import_jsx_runtime213 = require("react/jsx-runtime");
+var User = React213.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime213.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime213.jsx)("path", { fill: "currentColor", d: "M16.31 22.8H7.49c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56.17-.1.33-.19.46-.27 3.57-2.13 8.19-2.13 11.76 0 .14.08.29.17.46.27 1.33.75 3.33 1.88 3.54 3.56.07.56-.04 1.42-.98 2.31-1.47 1.4-2.9 2.05-4.5 2.05zm-4.41-7.99c-1.73 0-3.45.45-4.96 1.35-.15.09-.31.18-.5.29-.82.47-2.54 1.44-2.64 2.22-.03.22.12.49.43.78 1.13 1.08 2.13 1.56 3.26 1.56h8.82c1.12 0 2.13-.48 3.26-1.55.31-.3.46-.56.43-.78-.1-.78-1.81-1.75-2.64-2.22-.18-.1-.35-.2-.5-.29a9.7 9.7 0 0 0-4.96-1.35zm0-3.01c-2.98 0-5.4-2.42-5.4-5.4S8.92 1 11.9 1s5.4 2.42 5.4 5.4-2.42 5.4-5.4 5.4m0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6" }) });
+});
+User.displayName = "User";
+
+// src/icons/Wallet.tsx
+var React214 = __toESM(require("react"), 1);
+var import_jsx_runtime214 = require("react/jsx-runtime");
+var Wallet = React214.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime214.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime214.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M15.8 8.001V4.51C15.8 3.13 14.67 2 13.29 2c-.4 0-.8.1-1.15.28L3.25 6.85A2.3 2.3 0 0 0 2 8.9v7c0 2.98 0 4.62 1.14 5.76S5.92 22.8 8.9 22.8h6c2.98 0 4.62 0 5.76-1.14s1.14-2.78 1.14-5.76v-1c0-2.98 0-4.62-1.14-5.76-1.02-1.02-2.44-1.127-4.86-1.139M14.9 9.8H3.8v6.1c0 2.75.02 3.89.62 4.48.59.59 1.73.62 4.48.62h6c2.75 0 3.89-.02 4.48-.61s.62-1.73.62-4.49v-1c0-2.75-.02-3.89-.62-4.48-.59-.59-1.73-.62-4.48-.62M14 4.51V8H4.946l8.024-4.12c.43-.23 1.03.13 1.03.63", clipRule: "evenodd" }) });
+});
+Wallet.displayName = "Wallet";
+
+// src/icons/Whatsapp.tsx
+var React215 = __toESM(require("react"), 1);
+var import_jsx_runtime215 = require("react/jsx-runtime");
+var Whatsapp = React215.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime215.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime215.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M12.002 1.248C6.064 1.248 1.25 6.062 1.25 12c0 1.901.415 3.561 1.289 5.113l-1.262 4.692a.75.75 0 0 0 .92.92l4.667-1.253c1.563.884 3.231 1.28 5.138 1.28 5.938 0 10.752-4.814 10.752-10.752S17.94 1.248 12.002 1.248M7 6.25a.75.75 0 0 0-.75.75c0 1.586.407 3.28 1.207 4.846l.004.007a10.94 10.94 0 0 0 3.752 4.196q.255.167.525.32l.022.012A10.7 10.7 0 0 0 17 17.75a.75.75 0 0 0 .75-.75v-2.619a.75.75 0 0 0-.589-.732l-3.265-.719a.75.75 0 0 0-.751.27l-1.204 1.532a9.4 9.4 0 0 1-2.782-2.915l1.665-.864a.75.75 0 0 0 .376-.873l-.949-3.288a.75.75 0 0 0-.72-.542z", clipRule: "evenodd" }) });
+});
+Whatsapp.displayName = "Whatsapp";
+
+// src/icons/ZoomIn.tsx
+var React216 = __toESM(require("react"), 1);
+var import_jsx_runtime216 = require("react/jsx-runtime");
+var ZoomIn = React216.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime216.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime216.jsx)("path", { fill: "currentColor", d: "M10 14.4c0 .5.4.9.9.9s.9-.4.9-.9v-2.6h2.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.6V7.4c0-.5-.4-.9-.9-.9s-.9.4-.9.9V10H7.4c-.5 0-.9.4-.9.9s.4.9.9.9H10z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime216.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M10.9 20.8c-5.46 0-9.9-4.44-9.9-9.9S5.44 1 10.9 1s9.9 4.44 9.9 9.9c0 2.41-.865 4.62-2.3 6.34l4.03 4.03a.9.9 0 0 1 0 1.27.9.9 0 0 1-.635.26.94.94 0 0 1-.635-.26l-4.032-4.032A9.86 9.86 0 0 1 10.9 20.8m0-18c-4.47 0-8.1 3.63-8.1 8.1S6.43 19 10.9 19s8.1-3.63 8.1-8.1-3.63-8.1-8.1-8.1", clipRule: "evenodd" }),
+    /* @__PURE__ */ (0, import_jsx_runtime216.jsx)("path", { fill: "currentColor", d: "M21.895 22.8h.005-.01z" })
+  ] });
+});
+ZoomIn.displayName = "ZoomIn";
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  Activity,
+  Add,
+  AddCircle,
+  AddInvoice,
+  AddMoneyCircle,
+  AddPi,
+  Alert,
+  AlertCircle,
+  AlertFill,
+  AlertInfo,
+  AnalisarNotas,
+  Android,
+  Apple,
+  Apps,
+  Apps2,
+  ArrowDown,
+  ArrowGoBack,
+  ArrowGoForward,
+  ArrowLeft,
+  ArrowLeftDouble,
+  ArrowLeftDown,
+  ArrowMoveUpRight,
+  ArrowRight,
+  ArrowRightDouble,
+  ArrowRightDown,
+  ArrowRightUp,
+  ArrowTurnDown,
+  ArrowUp,
+  ArrowUpSFill,
+  Attachment,
+  Backoffice,
+  BirthdayCake,
+  Briefcase,
+  Calendar2,
+  CalendarEvent,
+  CalendarSchedule2,
+  Call02,
+  Camera,
+  Champion,
+  Change,
+  Chart,
+  ChartUp,
+  Chat,
+  ChatSquare,
+  ChatSquareCheck,
+  Check,
+  CheckDouble,
+  CheckInvoice,
+  CheckList,
+  Checkbox,
+  CheckboxFill,
+  CheckboxIndeterminate,
+  CheckmarkBadge,
+  CheckmarkCircle,
+  CircleArrowMoveDownRight,
+  Close,
+  CloseCircle,
+  Clover,
+  CloverFill,
+  ClubePodi,
+  ClubePodiFill,
+  CodeSSlash,
+  Coffee,
+  Color,
+  Computer,
+  Contract,
+  Copy,
+  CourtLaw,
+  CreditCardAccept,
+  Credits,
+  CreditsSwap,
+  Crmall,
+  Crown03,
+  Cursor,
+  DarkmodeOff,
+  DarkmodeOn,
+  Delete,
+  Descontos,
+  DocumentValidation,
+  Dot,
+  Download,
+  Drag,
+  DragDropVertical,
+  Edit,
+  Emoji,
+  EmojiEmpty,
+  ExpandUpDownFill,
+  ExternalLinkFill,
+  Eye,
+  EyeOff,
+  Female1,
+  FileAdd,
+  FileAttachment,
+  FileDownload,
+  FileExcel,
+  FileSend,
+  FileSync,
+  FileText,
+  FileValidation,
+  Files,
+  Filter,
+  Flash,
+  Folder,
+  FolderFill,
+  FullScreen,
+  Gift,
+  GiftCheck,
+  HandCredit,
+  HelpCircle,
+  Home,
+  Image,
+  ImageAdd,
+  Information,
+  InformationFill,
+  Invoice,
+  Left,
+  Link,
+  Loader,
+  Lock,
+  LockUnlock,
+  Login,
+  Logout,
+  Mail,
+  MailOpen,
+  MailSend,
+  Manager,
+  Map,
+  MapPin,
+  Medal01,
+  Medal02,
+  Meet,
+  Megaphone,
+  Menu,
+  Minus,
+  Mission,
+  Money,
+  MoneyAdd,
+  MoneyReceiveCircle,
+  MoneyReceiveSquare,
+  MoneySecurity,
+  MoneySendSquare,
+  More,
+  MoreH,
+  News,
+  NotaMoney,
+  Notification,
+  NotificationFill,
+  NotificationOff,
+  NumberList,
+  PaintBoard,
+  Pcd,
+  PieChart,
+  PlugSocket,
+  PriceTag,
+  Printer,
+  QrCode,
+  Question,
+  ReceiptPrint,
+  ReceiptSearch,
+  ReceiptWait,
+  ReceiveMoney,
+  Refresh,
+  RemoveCircle,
+  Repeat,
+  Restaurant,
+  Right,
+  RotateLeft,
+  RotateLock,
+  RotateRight,
+  SaveMoneyDollar,
+  Search,
+  Settings,
+  ShakeHands,
+  Share,
+  Shield,
+  Shopping,
+  ShoppingBag02,
+  ShoppingBasket,
+  ShoppingCart02,
+  SidebarFold,
+  Signature,
+  Smartphone,
+  SmartphoneLands,
+  Star,
+  Store,
+  StoreFill,
+  TShirt,
+  TShirtFill,
+  Table,
+  Tablet,
+  Target,
+  Team,
+  ThumbsDown,
+  ThumbsUp,
+  Ticket02,
+  TicketStar,
+  Time,
+  Tools,
+  Tools2,
+  Trash,
+  Turnos,
+  University,
+  Unlink,
+  Upload,
+  User,
+  UserAccount,
+  UserAdd,
+  UserBlock,
+  UserLock,
+  UserMinus,
+  UserMultiple,
+  UserRemove,
+  UserSearch,
+  Wallet,
+  Whatsapp,
+  ZoomIn
+});
 //# sourceMappingURL=index.cjs.map

@@ -1,0 +1,17 @@
+import * as React from 'react';
+const SmartphoneLands = React.forwardRef(function SmartphoneLands(props, ref) {
+  const {
+    size = 24,
+    color = 'currentColor',
+    strokeWidth = 2,
+    absoluteStrokeWidth = false,
+    className,
+    ...rest
+  } = props;
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} fill="none" viewBox="0 0 24 24" role="img" stroke={color} strokeWidth={computedStrokeWidth} className={className} ref={ref} {...props}><path fill="currentColor" d="M18.9 13.8c-.5 0-.9-.4-.9-.9v-2c0-.5.4-.9.9-.9s.9.4.9.9v2c0 .5-.4.9-.9.9" /><path fill="currentColor" fillRule="evenodd" d="M14.9 19.8h-6c-3.43 0-5.32 0-6.61-1.29S1 15.33 1 11.9s0-5.32 1.29-6.61S5.47 4 8.9 4h6c3.43 0 5.32 0 6.61 1.29s1.29 3.18 1.29 6.61 0 5.32-1.29 6.61-3.18 1.29-6.61 1.29m-6-14c-3.05 0-4.58 0-5.34.76-.344.344-.533.847-.636 1.577 1.077.182 1.758.343 2.266.923.6.68.6 1.53.6 2.82s0 2.08-.53 2.74c-.518.645-1.258.82-2.341 1.004.102.751.29 1.266.641 1.616.76.76 2.29.76 5.34.76h6c3.05 0 4.58 0 5.34-.76s.76-2.29.76-5.34 0-4.58-.76-5.34-2.29-.76-5.34-.76zm-6.09 8.03c.535-.095.953-.192 1.06-.33.13-.16.13-.77.13-1.61 0-.78 0-1.46-.15-1.63-.107-.123-.504-.21-1.04-.308-.01.569-.01 1.214-.01 1.948 0 .726 0 1.367.01 1.93" clipRule="evenodd" /></svg>;
+});
+SmartphoneLands.displayName = "SmartphoneLands";
+export { SmartphoneLands };
+export default SmartphoneLands;

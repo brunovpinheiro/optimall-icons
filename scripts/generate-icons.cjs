@@ -42,7 +42,7 @@ async function build() {
 			svgCode,
 			{
 				icon: true,
-				typescript: true,
+				typescript: false,
 				ref: true,
 				expandProps: "end",
 				plugins: [require("@svgr/plugin-svgo"), require("@svgr/plugin-jsx")],
@@ -55,39 +55,30 @@ async function build() {
 				},
 				jsxRuntime: "classic",
 				template: (variables, { tpl }) => {
-					const cn = variables.componentName;
-					const name = cn && typeof cn === "object" && cn.name ? cn.name : cn;
+					const name = variables.componentName && variables.componentName.name
+						? variables.componentName.name
+						: String(variables.componentName || "Icon");
 					const jsx = variables.jsx;
 					return tpl`
 import * as React from 'react';
 
-export interface IconProps extends React.SVGAttributes<SVGElement> {
-  size?: number | string;
-  color?: string;
-  strokeWidth?: number | string;
-  absoluteStrokeWidth?: boolean;
-}
+const ${name} = React.forwardRef(function ${name}(props, ref) {
+  const {
+    size = 24,
+    color = 'currentColor',
+    strokeWidth = 2,
+    absoluteStrokeWidth = false,
+    className,
+    ...rest
+  } = props;
 
-const ${name} = React.forwardRef<SVGSVGElement, IconProps>(
-  (
-    {
-      size = 24,
-      color = 'currentColor',
-      strokeWidth = 2,
-      absoluteStrokeWidth = false,
-      className,
-      ...props
-    },
-    ref
-  ) => {
-    const strokeWidthPx = Number(strokeWidth);
-    const computedStrokeWidth = absoluteStrokeWidth
-      ? (Number(strokeWidthPx) * 24) / Number(size)
-      : strokeWidthPx;
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth
+    ? (Number(strokeWidthPx) * 24) / Number(size)
+    : strokeWidthPx;
 
-    return ${jsx}
-  }
-);
+  return ${jsx}
+});
 
 ${name}.displayName = '${name}';
 
@@ -117,14 +108,14 @@ export default ${name};
 			{ componentName }
 		);
 
-		const outFile = path.join(OUT_DIR, `${componentName}.tsx`);
+		const outFile = path.join(OUT_DIR, `${componentName}.js`);
 		fs.writeFileSync(outFile, code, "utf8");
-		exports.push(`export { ${componentName} } from './${componentName}';`);
+		exports.push(`export { ${componentName} } from './${componentName}.js';`);
 	}
 
-	const indexFile = path.join(OUT_DIR, "index.ts");
+	const indexFile = path.join(OUT_DIR, "index.js");
 	fs.writeFileSync(indexFile, exports.join("\n") + "\n", "utf8");
-	console.log(`Gerados ${exports.length} ícones.`);
+	console.log(`Gerados ${exports.length} ícones (.js).`);
 }
 
 build().catch((err) => {
