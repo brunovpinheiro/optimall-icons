@@ -1,6 +1,6 @@
 {
 	"name": "optimall-icons",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Biblioteca de ícones do Optimall",
 	"main": "dist/index.js",
 	"files": [
@@ -12,8 +12,9 @@
 		"sync:figma": "node scripts/sync-figma-icons.cjs",
 		"prepublishOnly": "npm run build"
 	},
-	"dependencies": {
-		"react": "^17.0.0"
+	"dependencies": {},
+	"peerDependencies": {
+		"react": ">=17 <20"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.24.7",
