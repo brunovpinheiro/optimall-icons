@@ -1,0 +1,57 @@
+"use strict";
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/icons/Apps2.tsx
+var Apps2_exports = {};
+__export(Apps2_exports, {
+  Apps2: () => Apps2,
+  default: () => Apps2_default
+});
+module.exports = __toCommonJS(Apps2_exports);
+var React = __toESM(require("react"), 1);
+var import_jsx_runtime = require("react/jsx-runtime");
+var Apps2 = React.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M9.25 1.48C8.47 1 7.56 1 5.9 1s-2.56 0-3.35.48c-.44.27-.81.64-1.07 1.07C1 3.33 1 4.24 1 5.9s0 2.56.48 3.35c.27.43.64.81 1.07 1.08.78.48 1.69.48 3.35.48s2.56 0 3.35-.48c.44-.27.81-.64 1.07-1.07.48-.78.48-1.69.48-3.35s0-2.56-.48-3.35a3.2 3.2 0 0 0-1.07-1.07zm-.46 6.83c-.12.19-.29.36-.48.48C7.96 9 7.23 9 5.9 9s-2.06 0-2.41-.21a1.6 1.6 0 0 1-.48-.48C2.8 7.96 2.8 7.23 2.8 5.9s0-2.06.21-2.41c.12-.19.28-.36.48-.48.35-.21 1.08-.21 2.41-.21s2.06 0 2.41.21c.19.12.36.29.48.48C9 3.84 9 4.57 9 5.9s0 2.06-.21 2.41M5.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08C1 20.46 1 19.56 1 17.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C3.34 13 4.24 13 5.9 13m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 13c1.66 0 2.57 0 3.35.48v.01c.43.26.8.63 1.07 1.07.48.78.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48s-2.57 0-3.35-.48c-.43-.27-.8-.65-1.07-1.08-.48-.79-.48-1.69-.48-3.35s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07.79-.48 1.69-.48 3.35-.48m2.41 7.79c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21M17.9 10.8c-1.66 0-2.57 0-3.35-.48v.01c-.43-.27-.8-.65-1.07-1.08C13 8.46 13 7.56 13 5.9s0-2.57.48-3.35c.26-.43.63-.8 1.07-1.07C15.34 1 16.24 1 17.9 1s2.57 0 3.35.48c.43.26.8.63 1.07 1.07.48.79.48 1.69.48 3.35s0 2.57-.48 3.35c-.26.43-.63.8-1.07 1.07-.79.48-1.69.48-3.35.48m-2.41-7.79c-.2.12-.36.29-.48.48-.21.35-.21 1.08-.21 2.41s0 2.06.21 2.41c.12.19.29.36.48.48.35.21 1.08.21 2.41.21s2.06 0 2.41-.21c.19-.12.36-.29.48-.48.21-.35.21-1.08.21-2.41s0-2.06-.21-2.41a1.6 1.6 0 0 0-.48-.48c-.35-.21-1.08-.21-2.41-.21s-2.06 0-2.41.21", clipRule: "evenodd" }) });
+});
+Apps2.displayName = "Apps2";
+var Apps2_default = Apps2;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  Apps2
+});
+//# sourceMappingURL=Apps2.cjs.map

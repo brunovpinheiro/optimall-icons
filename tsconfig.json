@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"jsx": "react-jsx",
+		"declaration": true,
+		"emitDeclarationOnly": false,
+		"outDir": "dist/types",
+		"strict": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"types": ["node", "react"],
+		"baseUrl": ".",
+		"paths": {
+			"@optimall-icons/*": ["src/*"]
+		}
+	},
+	"include": ["src", "scripts"],
+	"exclude": ["dist", "node_modules"]
+}

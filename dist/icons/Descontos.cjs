@@ -1,0 +1,60 @@
+"use strict";
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/icons/Descontos.tsx
+var Descontos_exports = {};
+__export(Descontos_exports, {
+  Descontos: () => Descontos,
+  default: () => Descontos_default
+});
+module.exports = __toCommonJS(Descontos_exports);
+var React = __toESM(require("react"), 1);
+var import_jsx_runtime = require("react/jsx-runtime");
+var Descontos = React.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", d: "M15.112 13.905a1.1 1.1 0 0 1 0 2.19L15 16.1h-.01a1.1 1.1 0 1 1 0-2.2H15zm-.749-5.542a.9.9 0 0 1 1.274 1.274l-6 6a.9.9 0 0 1-1.274-1.274zm-5.24-.458a1.1 1.1 0 0 1 0 2.19l-.112.005H9a1.1 1.1 0 1 1 0-2.2h.01z" }),
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "m12.187 1.107.199.025c.454.078.83.3 1.167.563.368.288.773.696 1.238 1.16s.546.528.626.565l.049.02.074.02c.095.017.277.024.769.024h.108c.728 0 1.366-.002 1.875.067.535.072 1.063.236 1.492.665l.149.166c.32.396.453.858.516 1.326.069.51.067 1.147.067 1.875v.108c0 .492.008.674.024.769l.02.074v.002l.02.047.038.066c.056.08.18.212.527.56l.646.656q.296.308.514.582c.3.385.547.82.588 1.366L22.9 12q-.001.094-.008.188c-.041.544-.287.98-.588 1.365-.288.367-.696.773-1.16 1.238l-.001-.001c-.463.463-.527.547-.564.627l-.02.047v.002c-.03.082-.044.187-.044.843v.108c0 .728.002 1.366-.067 1.875-.063.469-.196.931-.516 1.327l-.149.165c-.429.43-.957.593-1.492.665-.51.069-1.147.067-1.875.067h-.108c-.656 0-.76.013-.843.044h-.002l-.048.02h.001c-.08.037-.164.1-.627.564h.001c-.465.465-.87.873-1.238 1.16-.385.302-.821.547-1.366.588q-.187.015-.374 0c-.545-.04-.981-.287-1.366-.587a8 8 0 0 1-.582-.514l-.656-.646c-.347-.348-.48-.471-.56-.527l-.066-.038-.047-.02h-.002c-.082-.03-.187-.044-.842-.044h-.109c-.728 0-1.365.002-1.875-.067-.468-.063-.93-.197-1.326-.516l-.166-.149c-.43-.43-.593-.957-.665-1.492-.069-.51-.066-1.147-.066-1.875v-.108c0-.492-.008-.674-.025-.769l-.02-.074-.02-.049c-.037-.08-.1-.163-.564-.627-.465-.465-.873-.87-1.16-1.237-.264-.337-.485-.713-.564-1.167l-.024-.2a2.5 2.5 0 0 1 0-.373l.024-.199c.079-.454.3-.83.563-1.167.288-.367.696-.773 1.16-1.238l.28-.282c.215-.222.258-.284.285-.344l.02-.049.02-.074c.017-.095.025-.276.025-.769v-.108c0-.728-.003-1.366.066-1.875.072-.535.236-1.063.665-1.492l.166-.149c.396-.32.858-.453 1.326-.516.51-.069 1.147-.067 1.875-.067h.109c.655 0 .76-.013.842-.044l.05-.02.066-.038c.078-.055.211-.179.56-.527l.655-.646q.308-.296.582-.514c.385-.3.822-.547 1.367-.588L12 1.1q.093 0 .187.007m-.239 1.795c-.046.004-.147.02-.391.211a6 6 0 0 0-.45.398l-.624.617c-.325.325-.623.637-.989.846l-.16.083-.174.07c-.455.17-.944.157-1.468.157h-.109c-.78 0-1.274.001-1.636.05-.25.034-.36.082-.417.12l-.04.035c-.04.04-.11.123-.156.458-.048.362-.05.857-.05 1.636v.448c-.002.334-.017.653-.1.957l-.056.172-.071.173c-.152.331-.39.603-.655.875l-.274.274c-.497.497-.81.814-1.015 1.075-.143.183-.189.285-.204.344l-.007.047a1 1 0 0 0 0 .104l.007.047c.015.059.061.161.204.344.103.13.232.276.398.45l.617.625.274.274c.265.272.503.544.655.875l.071.173.056.172c.083.304.098.623.1.957v.448c0 .78.002 1.274.05 1.636.045.334.115.418.154.458h.001l.041.035c.056.038.167.086.417.12.362.049.857.05 1.636.05h.109c.524 0 1.013-.013 1.468.156q.09.033.173.071l.161.083c.366.209.664.521.989.846l.625.617c.174.166.318.296.449.398.243.19.343.207.39.21h.106l.046-.006c.059-.015.161-.06.345-.204.26-.204.577-.518 1.074-1.015l.274-.273c.272-.266.544-.504.875-.656l.173-.07.172-.056c.304-.083.624-.099.958-.101h.447c.78 0 1.274-.001 1.636-.05.334-.045.419-.115.458-.154v-.001l.035-.041c.038-.056.086-.166.12-.417.049-.362.05-.857.05-1.636v-.108c0-.525-.013-1.013.156-1.47q.033-.088.072-.171l.082-.162c.21-.366.521-.663.846-.988l.617-.626c.166-.174.296-.318.398-.449.19-.243.207-.343.21-.39v-.106c-.003-.046-.02-.147-.21-.39a6 6 0 0 0-.398-.449l-.617-.626c-.325-.325-.637-.622-.846-.988l-.082-.161a3 3 0 0 1-.072-.173l-.055-.172c-.11-.406-.101-.837-.101-1.297v-.108c0-.78-.001-1.274-.05-1.636-.045-.334-.115-.418-.154-.458h-.001c-.04-.04-.124-.11-.458-.155-.362-.049-.857-.05-1.636-.05h-.447c-.334-.002-.654-.017-.958-.1l-.172-.056-.173-.071c-.331-.152-.603-.39-.875-.656l-.274-.273c-.497-.497-.814-.81-1.075-1.015-.183-.143-.285-.189-.344-.204l-.047-.007z", clipRule: "evenodd" })
+  ] });
+});
+Descontos.displayName = "Descontos";
+var Descontos_default = Descontos;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  Descontos
+});
+//# sourceMappingURL=Descontos.cjs.map

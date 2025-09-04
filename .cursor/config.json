@@ -1,0 +1,27 @@
+{
+	"mcpServers": {
+		"figma": {
+			"command": "npx",
+			"args": ["-y", "@modelcontextprotocol/server-figma"],
+			"env": {
+				"FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
+			}
+		}
+	},
+	"tasks": [
+		{
+			"name": "sync-icons",
+			"description": "Sincroniza SVGs do Figma e gera componentes",
+			"steps": [
+				{
+					"tool": "shell",
+					"input": "FIGMA_TOKEN=${FIGMA_ACCESS_TOKEN} npm run sync:figma | cat"
+				},
+				{
+					"tool": "shell",
+					"input": "npm run generate | cat"
+				}
+			]
+		}
+	]
+}

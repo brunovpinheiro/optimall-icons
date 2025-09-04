@@ -1,0 +1,57 @@
+"use strict";
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  // If the importer is in node compatibility mode or this is not an ESM
+  // file that has been converted to a CommonJS file using a Babel-
+  // compatible transform (i.e. "__esModule" has not been set), then set
+  // "default" to the CommonJS "module.exports" for node compatibility.
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/icons/Megaphone.tsx
+var Megaphone_exports = {};
+__export(Megaphone_exports, {
+  Megaphone: () => Megaphone,
+  default: () => Megaphone_default
+});
+module.exports = __toCommonJS(Megaphone_exports);
+var React = __toESM(require("react"), 1);
+var import_jsx_runtime = require("react/jsx-runtime");
+var Megaphone = React.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.586 3.1c.274 0 .597-.01.895.063l.126.036.206.083a1.9 1.9 0 0 1 .987 1.11l.037.126c.052.213.062.44.063.65v13.663c-.002.253-.017.527-.1.775v.001a1.9 1.9 0 0 1-1.193 1.193c-.248.084-.522.098-.776.1h-.413a3 3 0 0 1-.185-.01l-.127-.015a1.9 1.9 0 0 1-.8-.332c-.139-.1-.258-.222-.357-.32l-.168-.17c-.73-.73-.994-.986-1.298-1.169l-.02-.011c-.228-.135-.483-.232-1.01-.396l-.632-.191-1.33-.4-1.162 1.742a2.855 2.855 0 0 1-5.215-1.29l-.014-.293V15.97l-.232-.069H6c-.453 0-.839 0-1.155-.021a3.4 3.4 0 0 1-.72-.118l-.234-.082a2.9 2.9 0 0 1-1.448-1.31l-.123-.26a3 3 0 0 1-.199-.954C2.1 12.838 2.1 12.453 2.1 12s0-.84.021-1.156c.022-.324.07-.642.2-.954l.122-.26a2.9 2.9 0 0 1 1.448-1.31l.234-.082c.236-.07.476-.1.72-.117.316-.022.702-.022 1.155-.022h.868l7.953-2.385.632-.192c.529-.164.783-.261 1.01-.396l.021-.012c.304-.183.568-.439 1.297-1.168l.168-.169.163-.16q.09-.084.195-.161a1.9 1.9 0 0 1 .8-.331l.126-.016c.126-.01.248-.01.353-.01M8.9 18.045l.005.107a1.054 1.054 0 0 0 1.926.478l.857-1.286L8.9 16.51zM19.414 4.9h-.016a.1.1 0 0 0-.042.018c.01-.007.01-.008-.011.011l-.122.12-.17.168c-.67.67-1.107 1.117-1.644 1.44h-.002l-.02.013-.002.001c-.404.24-.842.397-1.42.576l-.627.19L7.9 9.668v4.662l7.438 2.231.628.19c.48.15.865.283 1.214.462l.205.114.003.002.02.012h.002l.196.127c.453.311.86.726 1.448 1.313l.169.168.12.12c.022.02.022.019.012.012l.043.017h.016l.172.001c.203 0 .318 0 .402-.005q.037-.002.051-.005a.1.1 0 0 0 .05-.05l.006-.051c.005-.084.005-.2.005-.402V5.414c0-.203 0-.318-.005-.403l-.005-.051a.1.1 0 0 0-.05-.051l-.052-.004a8 8 0 0 0-.402-.005zM6 9.9c-.478 0-.792 0-1.033.017-.117.008-.2.018-.26.03l-.128.036a1.1 1.1 0 0 0-.549.497l-.047.099c-.023.056-.05.155-.066.387A17 17 0 0 0 3.9 12c0 .478 0 .792.017 1.033.016.232.043.332.066.388l.047.098c.12.223.313.4.55.497l.126.036q.088.019.26.03c.242.017.556.017 1.034.017h.1V9.9z", clipRule: "evenodd" }) });
+});
+Megaphone.displayName = "Megaphone";
+var Megaphone_default = Megaphone;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  Megaphone
+});
+//# sourceMappingURL=Megaphone.cjs.map

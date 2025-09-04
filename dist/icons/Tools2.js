@@ -1,0 +1,25 @@
+// src/icons/Tools2.tsx
+import * as React from "react";
+import { jsx, jsxs } from "react/jsx-runtime";
+var Tools2 = React.forwardRef(({
+  size = 24,
+  color = "currentColor",
+  strokeWidth = 2,
+  absoluteStrokeWidth = false,
+  className,
+  ...props
+}, ref) => {
+  const strokeWidthPx = Number(strokeWidth);
+  const computedStrokeWidth = absoluteStrokeWidth ? Number(strokeWidthPx) * 24 / Number(size) : strokeWidthPx;
+  return /* @__PURE__ */ jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", width: size, height: size, fill: "none", viewBox: "0 0 24 24", role: "img", stroke: color, strokeWidth: computedStrokeWidth, className, ref, ...props, children: [
+    /* @__PURE__ */ jsx("path", { fill: "currentColor", d: "M4.5 18.5c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1" }),
+    /* @__PURE__ */ jsx("path", { fill: "currentColor", fillRule: "evenodd", d: "M19.88 5.34c.43-.43 1.06-.55 1.61-.32h.01c.56.23.91.76.91 1.36v.58c0 4.87 0 5.62-1.41 7.03-1.36 1.36-3.53 1.41-6.78 1.41h-.34l-5.91 5.91a3.73 3.73 0 0 1-2.64 1.09c-1 0-1.94-.38-2.64-1.09a3.736 3.736 0 0 1 0-5.27l5.91-5.92c0-3.44 0-5.72 1.41-7.12s2.17-1.42 7.03-1.4h.59c.59 0 1.13.36 1.35.92.23.55.1 1.18-.32 1.6l-2.71 2.71c-.16.16-.25.38-.25.61s.09.45.25.61c.33.34.88.34 1.22 0zM3.96 20.04c.73.73 2 .73 2.73 0l4.99-4.99a4.94 4.94 0 0 1-2.73-2.73l-4.99 4.99c-.75.76-.75 1.98 0 2.73m10.074-6.44c2.88-.01 4.822-.016 5.686-.88v-.01c.84-.83.88-1.05.88-5.55l-2.15 2.15a2.67 2.67 0 0 1-3.77 0c-.5-.5-.78-1.17-.78-1.88s.28-1.38.78-1.88l2.15-2.15h-.07c-4.43 0-4.65.05-5.48.88-.88.88-.88 2.86-.88 5.85v.37c0 1.71 1.39 3.1 3.1 3.1z", clipRule: "evenodd" })
+  ] });
+});
+Tools2.displayName = "Tools2";
+var Tools2_default = Tools2;
+export {
+  Tools2,
+  Tools2_default as default
+};
+//# sourceMappingURL=Tools2.js.map
