@@ -6,19 +6,21 @@ const path = require("path");
 const fg = require("fast-glob");
 
 const SVG_INPUT_DIR = path.resolve(__dirname, "../icons/svg");
-const OUT_DIR = path.resolve(__dirname, "../src/icons");
+const OUT_DIR = path.resolve(__dirname, "../src");
 
-/**
- * Converte nomes de arquivo em nomes de componentes (PascalCase)
- * ex: align-horizontal-distribute-start.svg -> AlignHorizontalDistributeStart
- */
 function toComponentName(fileName) {
 	const noExt = fileName.replace(/\.svg$/i, "");
-	return noExt
+	const base = noExt
 		.split(/[^a-zA-Z0-9]+/)
 		.filter(Boolean)
 		.map((p) => p.charAt(0).toUpperCase() + p.slice(1))
 		.join("");
+	return base.endsWith("Icon") ? base : `${base}Icon`;
+}
+
+function toAriaLabel(fileName) {
+	const noExt = fileName.replace(/\.svg$/i, "");
+	return noExt.replace(/[-_]+/g, ", ");
 }
 
 async function build() {
@@ -31,11 +33,10 @@ async function build() {
 
 	const svgFiles = await fg(["**/*.svg"], { cwd: SVG_INPUT_DIR, absolute: true });
 
-	const exports = [];
-
 	for (const filePath of svgFiles) {
 		const fileName = path.basename(filePath);
 		const componentName = toComponentName(fileName);
+		const ariaDefault = toAriaLabel(fileName);
 		const svgCode = fs.readFileSync(filePath, "utf8");
 
 		const code = await transform(
@@ -55,38 +56,18 @@ async function build() {
 				},
 				jsxRuntime: "classic",
 				template: (variables, { tpl }) => {
-					const name = variables.componentName && variables.componentName.name
-						? variables.componentName.name
-						: String(variables.componentName || "Icon");
+					const name = variables.componentName && variables.componentName.name ? variables.componentName.name : String(variables.componentName || "Icon");
 					const jsx = variables.jsx;
 					return tpl`
-import * as React from 'react';
+import React, { forwardRef } from 'react';
 
-const ${name} = React.forwardRef(function ${name}(props, ref) {
-  const {
-    size = 24,
-    color = 'currentColor',
-    strokeWidth = 2,
-    absoluteStrokeWidth = false,
-    className,
-    ...rest
-  } = props;
+export const ${name} = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
+  ${jsx}
+));
 
-  const strokeWidthPx = Number(strokeWidth);
-  const computedStrokeWidth = absoluteStrokeWidth
-    ? (Number(strokeWidthPx) * 24) / Number(size)
-    : strokeWidthPx;
-
-  return ${jsx}
-});
-
-${name}.displayName = '${name}';
-
-export { ${name} };
 export default ${name};
 `;
 				},
-				// Substituições para stroke/fill
 				replaceAttrValues: {
 					"#000": "currentColor",
 					"#000000": "currentColor",
@@ -94,12 +75,12 @@ export default ${name};
 				},
 				svgProps: {
 					xmlns: "http://www.w3.org/2000/svg",
-					role: "img",
-					width: "{size}",
-					height: "{size}",
-					stroke: "{color}",
-					strokeWidth: "{computedStrokeWidth}",
+					width: "20",
+					height: "20",
+					viewBox: "0 0 20 20",
 					className: "{className}",
+					style: "{style}",
+					"aria-label": `{ariaLabel || "${ariaDefault}"}`,
 					fill: "none",
 				},
 				memo: false,
@@ -110,12 +91,10 @@ export default ${name};
 
 		const outFile = path.join(OUT_DIR, `${componentName}.js`);
 		fs.writeFileSync(outFile, code, "utf8");
-		exports.push(`export { ${componentName} } from './${componentName}.js';`);
+		console.log(`Gerado: ${outFile}`);
 	}
 
-	const indexFile = path.join(OUT_DIR, "index.js");
-	fs.writeFileSync(indexFile, exports.join("\n") + "\n", "utf8");
-	console.log(`Gerados ${exports.length} ícones (.js).`);
+	console.log(`Gerados ${svgFiles.length} ícones (.js) em src/`);
 }
 
 build().catch((err) => {

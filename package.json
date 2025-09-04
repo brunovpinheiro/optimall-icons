@@ -1,71 +1,45 @@
 {
-	"name": "@optimall/icons",
-	"version": "0.1.0",
-	"description": "Biblioteca de ícones React no estilo Lucide, gerada a partir do Figma",
-	"private": false,
-	"type": "module",
-	"main": "dist/index.cjs",
-	"module": "dist/index.mjs",
-	"types": "dist/types/index.d.ts",
-	"exports": {
-		".": {
-			"types": "./dist/types/index.d.ts",
-			"import": "./dist/index.mjs",
-			"require": "./dist/index.cjs"
-		},
-		"./icons/*": {
-			"import": "./dist/icons/*.mjs",
-			"require": "./dist/icons/*.cjs"
-		}
-	},
-	"sideEffects": false,
-	"files": [
-		"dist"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org/"
-	},
+	"name": "optimall-icons",
+	"version": "1.0.0",
+	"description": "Biblioteca de ícones do Optimall",
+	"main": "dist/index.js",
 	"scripts": {
-		"clean": "rm -rf dist .turbo",
-		"build": "tsup src/index.ts --format cjs,esm --dts --sourcemap --out-dir dist --clean && tsup src/icons/*.js --format cjs,esm --sourcemap --out-dir dist/icons --loader:.js=jsx",
-		"dev": "tsup src/index.ts --format cjs,esm --dts --watch --sourcemap --out-dir dist",
+		"build": "babel src --out-dir dist",
 		"generate": "node scripts/generate-icons.cjs",
 		"sync:figma": "node scripts/sync-figma-icons.cjs",
 		"prepublishOnly": "npm run build"
 	},
-	"peerDependencies": {
-		"react": ">=17",
-		"react-dom": ">=17"
+	"dependencies": {
+		"react": "^17.0.0"
 	},
-	"keywords": [
-		"icons",
-		"react",
-		"lucide",
-		"figma",
-		"svgr"
-	],
-	"author": "Bruno Pinheiro",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/SEU_USUARIO/SEU_REPO.git"
-	},
-	"bugs": {
-		"url": "https://github.com/SEU_USUARIO/SEU_REPO/issues"
-	},
-	"homepage": "https://github.com/SEU_USUARIO/SEU_REPO#readme",
 	"devDependencies": {
+		"@babel/cli": "^7.24.7",
+		"@babel/core": "^7.24.7",
+		"@babel/preset-react": "^7.24.7",
 		"@svgr/core": "^8.1.0",
 		"@svgr/plugin-jsx": "^8.1.0",
 		"@svgr/plugin-svgo": "^8.1.0",
-		"@types/node": "^24.3.1",
-		"@types/react": "^19.1.12",
-		"dotenv": "^16.4.5",
+		"dotenv": "^17.2.2",
 		"fast-glob": "^3.3.3",
-		"svgo": "^4.0.0",
-		"tsup": "^8.5.0",
-		"typescript": "^5.9.2",
-		"undici": "^6.19.8"
-	}
+		"undici": "^7.15.0"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brunovpinheiro/optimall-icons.git"
+	},
+	"homepage": "https://www.podiapp.com.br/",
+	"keywords": [
+		"icons",
+		"react",
+		"components",
+		"iconography",
+		"system icons"
+	],
+	"author": "Bruno Pinheiro - UI Designer @ Optimall",
+	"license": "MIT"
 }
