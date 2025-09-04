@@ -7,7 +7,7 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "babel src --out-dir dist",
+		"build": "node scripts/build.cjs",
 		"generate": "node scripts/generate-icons.cjs",
 		"sync:figma": "node scripts/sync-figma-icons.cjs",
 		"prepublishOnly": "npm run build"
