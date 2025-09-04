@@ -1,5 +1,5 @@
 {
-	"name": "optimall-icons",
+	"name": "@optimall/icons",
 	"version": "0.1.0",
 	"description": "Biblioteca de ícones React no estilo Lucide, gerada a partir do Figma",
 	"private": false,
