@@ -23,6 +23,10 @@
 	"files": [
 		"dist"
 	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"scripts": {
 		"clean": "rm -rf dist .turbo",
 		"build": "tsup src/index.ts --format cjs,esm --dts --minify --sourcemap --out-dir dist --clean && tsup src/icons/*.tsx --format cjs,esm --dts --sourcemap --out-dir dist/icons",
@@ -32,8 +36,8 @@
 		"prepublishOnly": "npm run build"
 	},
 	"peerDependencies": {
-		"react": ">=17 || >=18",
-		"react-dom": ">=17 || >=18"
+		"react": ">=17",
+		"react-dom": ">=17"
 	},
 	"keywords": [
 		"icons",

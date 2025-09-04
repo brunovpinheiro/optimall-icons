@@ -2,16 +2,8 @@
 
 Biblioteca de ícones React no estilo Lucide, gerada a partir de SVGs exportados do Figma.
 
-## Instalação
+## Instalação (npm)
 
-- Via GitHub (sem publicar no npm):
-```bash
-npm install github:SEU_USUARIO/SEU_REPO#v0.1.0
-# ou branch main
-npm install github:SEU_USUARIO/SEU_REPO
-```
-
-- (Opcional) Via npm, quando publicar:
 ```bash
 npm install optimall-icons
 ```
@@ -34,16 +26,6 @@ Props suportadas (semelhante ao Lucide):
 - `absoluteStrokeWidth`: boolean
 - Demais props `SVGAttributes<SVGElement>`
 
-## Variáveis de Ambiente (.env)
-
-- Crie um arquivo `.env` na raiz do projeto com uma das chaves abaixo (o script lê automaticamente):
-
-```
-FIGMA_ACCESS_TOKEN=SEU_TOKEN_DO_FIGMA
-# ou
-# FIGMA_TOKEN=SEU_TOKEN_DO_FIGMA
-```
-
 ## Configuração (figma.config.json)
 
 Você pode apontar para IDs específicos (`nodeIds`) ou informar diretamente um link de um frame (`frameUrl`).
@@ -52,8 +34,8 @@ Você pode apontar para IDs específicos (`nodeIds`) ou informar diretamente um 
 
 ```json
 {
-  "frameUrl": "https://www.figma.com/design/FILE_KEY/NOME?node-id=1-2",
-  "scale": 1
+	"frameUrl": "https://www.figma.com/design/FILE_KEY/NOME?node-id=1-2",
+	"scale": 1
 }
 ```
 
@@ -61,9 +43,9 @@ Você pode apontar para IDs específicos (`nodeIds`) ou informar diretamente um 
 
 ```json
 {
-  "fileKey": "SEU_FILE_KEY",
-  "nodeIds": ["1:2", "1:3"],
-  "scale": 1
+	"fileKey": "SEU_FILE_KEY",
+	"nodeIds": ["1:2", "1:3"],
+	"scale": 1
 }
 ```
 
