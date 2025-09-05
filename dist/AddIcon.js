@@ -16,7 +16,6 @@ export const AddIcon = /*#__PURE__*/forwardRef(({
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
-  d: "M13 4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13H11V20C11 20.55 11.45 21 12 21C12.55 21 13 20.55 13 20V13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H13V4Z",
-  fill: "currentColor"
+  d: "M13 4c0-.55-.45-1-1-1s-1 .45-1 1v7H4c-.55 0-1 .45-1 1s.45 1 1 1h7v7c0 .55.45 1 1 1s1-.45 1-1v-7h7c.55 0 1-.45 1-1s-.45-1-1-1h-7V4Z"
 })));
 export default AddIcon;

@@ -16,7 +16,6 @@ export const ExpandUpDownFillIcon = /*#__PURE__*/forwardRef(({
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
-  d: "M18 9L12 3L6 9H18ZM18 15L12 21L6 15H18Z",
-  fill: "currentColor"
+  d: "m18 9-6-6-6 6h12Zm0 6-6 6-6-6h12Z"
 })));
 export default ExpandUpDownFillIcon;
