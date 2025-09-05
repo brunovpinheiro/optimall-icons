@@ -84,8 +84,8 @@ export const ${componentName} = /*#__PURE__*/forwardRef(({
   className: className,
   "aria-label": ariaLabel || "${ariaDefault}",
   style: style,
-  width: "20",
-  height: "20",
+  width: "24",
+  height: "24",
   viewBox: "${viewBox}",
   fill: "none",
   xmlns: "http://www.w3.org/2000/svg"
