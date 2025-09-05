@@ -13,7 +13,7 @@ export const LoginIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M12.598 2.25c-5.67 0-10.35 4.32-10.35 9.75s4.68 9.75 10.35 9.75a11.1 11.1 0 0 0 1.502-.102l-.204-1.486a9.56 9.56 0 0 1-1.298.088c-4.934 0-8.85-3.738-8.85-8.25 0-4.511 3.916-8.25 8.85-8.25.441 0 .875.03 1.298.088l.204-1.486a11.09 11.09 0 0 0-1.502-.102Z"

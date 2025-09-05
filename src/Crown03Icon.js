@@ -13,7 +13,7 @@ export const Crown03Icon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M19.092 19.605a.9.9 0 0 1 0 1.79L19 21.4H5a.9.9 0 0 1 0-1.8h14l.092.005Z"

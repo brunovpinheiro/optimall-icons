@@ -13,7 +13,7 @@ export const AppleIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M16.3 1.9c0 2.37-1.77 4.9-4.4 4.9-.5 0-.9-.4-.9-.9C11 3.53 12.77 1 15.4 1c.5 0 .9.4.9.9Zm-2.04 1.23c-.25.64-.67 1.21-1.23 1.55.25-.64.67-1.21 1.23-1.55Z",

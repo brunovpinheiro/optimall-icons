@@ -13,7 +13,7 @@ export const ActivityIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M13.35 16.8h.05c.34 0 .65-.19.8-.5l1.75-3.5h1.94c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.5c-.34 0-.65.2-.8.5l-1.08 2.15-2.28-6.07a.916.916 0 0 0-.8-.58.905.905 0 0 0-.85.5L7.83 11H5.89c-.5 0-.9.4-.9.9s.4.9.9.9h2.5c.34 0 .65-.2.8-.5l1.08-2.15 2.28 6.07c.13.33.44.56.8.58Z"

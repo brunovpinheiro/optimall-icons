@@ -13,7 +13,7 @@ export const SidebarFoldIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6.592 10.104a.9.9 0 0 1 0 1.792L6.5 11.9H5a.9.9 0 0 1 0-1.8h1.5l.092.005Zm0-4a.9.9 0 0 1 0 1.792L6.5 7.9H5a.9.9 0 0 1 0-1.8h1.5l.092.004Z"

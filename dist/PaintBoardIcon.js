@@ -13,7 +13,7 @@ export const PaintBoardIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6.905 15.8h.005-.01.005Zm.172-.017c-.06.009-.112.017-.172.017a.908.908 0 0 1-.875-.7c-.11-.49.19-.96.68-1.07.48-.11.97.2 1.07.68.11.49-.2.97-.68 1.07l-.023.003Z"

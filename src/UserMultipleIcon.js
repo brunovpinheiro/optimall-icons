@@ -13,7 +13,7 @@ export const UserMultipleIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M4.5 6.9c0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9S12.1 2 9.4 2 4.5 4.2 4.5 6.9Zm1.8 0c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1 0 1.71-1.39 3.1-3.1 3.1-1.71 0-3.1-1.39-3.1-3.1Z",

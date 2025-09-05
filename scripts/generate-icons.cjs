@@ -87,7 +87,7 @@ export const ${componentName} = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "${viewBox}",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), ${pathElements}));
 export default ${componentName};`;

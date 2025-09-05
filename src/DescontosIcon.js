@@ -13,7 +13,7 @@ export const DescontosIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M15.112 13.905a1.1 1.1 0 0 1 0 2.19L15 16.1h-.01a1.1 1.1 0 1 1 0-2.2H15l.112.005Zm-.749-5.542a.9.9 0 0 1 1.274 1.274l-6 6a.9.9 0 0 1-1.274-1.274l6-6Zm-5.24-.458a1.1 1.1 0 0 1 0 2.19l-.112.005H9a1.1 1.1 0 1 1 0-2.2h.01l.112.005Z"

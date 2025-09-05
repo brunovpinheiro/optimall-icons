@@ -13,7 +13,7 @@ export const UserMinusIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.9 11.8c-2.98 0-5.4-2.42-5.4-5.4C5.5 3.42 7.92 1 10.9 1c2.98 0 5.4 2.42 5.4 5.4 0 2.98-2.42 5.4-5.4 5.4Zm0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6Z",

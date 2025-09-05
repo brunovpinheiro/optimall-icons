@@ -13,7 +13,7 @@ export const UniversityIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.5 11.1a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9Zm3 0a.9.9 0 0 1 .9.9v.5a.9.9 0 1 1-1.8 0V12a.9.9 0 0 1 .9-.9ZM11.4 16a.9.9 0 1 0-1.8 0v.5a.9.9 0 1 0 1.8 0V16Zm3 0a.9.9 0 1 0-1.8 0v.5a.9.9 0 0 0 1.8 0V16Z"

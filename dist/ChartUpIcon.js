@@ -13,7 +13,7 @@ export const ChartUpIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M15.6 3a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-.791c-.561.525-1.346 1.2-2.382 1.956-2.385 1.74-6.092 3.908-11.434 5.689a.9.9 0 1 1-.569-1.708c5.16-1.72 8.702-3.8 10.942-5.436a23.462 23.462 0 0 0 2.207-1.81H16.5a.9.9 0 0 1-.9-.9Z"

@@ -13,7 +13,7 @@ export const NewsIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.092 15.104a.9.9 0 0 1 0 1.791L10 16.9H6a.9.9 0 0 1 0-1.8h4l.092.005Zm4-4a.9.9 0 0 1 0 1.792L14 12.9H6a.9.9 0 0 1 0-1.8h8l.092.005Zm0-4a.9.9 0 0 1 0 1.792L14 8.9H6a.9.9 0 0 1 0-1.8h8l.092.004Z"

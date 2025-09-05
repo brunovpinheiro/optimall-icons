@@ -13,7 +13,7 @@ export const FileAttachmentIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6.5 9.17c0 1.45 1.19 2.63 2.65 2.63s2.65-1.18 2.65-2.63V5.36C11.8 2.96 9.83 1 7.4 1 4.97 1 3 2.96 3 5.36v2.77c0 .5.4.9.9.9s.9-.4.9-.9V5.36c0-1.41 1.17-2.56 2.6-2.56 1.43 0 2.6 1.15 2.6 2.56v3.81c0 .46-.38.83-.85.83s-.85-.37-.85-.83V5.36c0-.5-.4-.9-.9-.9s-.9.4-.9.9v3.81Z"

@@ -13,7 +13,7 @@ export const ZoomInIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10 14.4c0 .5.4.9.9.9s.9-.4.9-.9v-2.6h2.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-2.6V7.4c0-.5-.4-.9-.9-.9s-.9.4-.9.9V10H7.4c-.5 0-.9.4-.9.9s.4.9.9.9H10v2.6Z"

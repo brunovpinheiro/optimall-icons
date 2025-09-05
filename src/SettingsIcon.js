@@ -13,7 +13,7 @@ export const SettingsIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M7.21 11.89a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0Zm1.8 0c0-1.43 1.17-2.6 2.6-2.6 1.43 0 2.6 1.17 2.6 2.6 0 1.43-1.17 2.6-2.6 2.6-1.43 0-2.6-1.17-2.6-2.6Z",

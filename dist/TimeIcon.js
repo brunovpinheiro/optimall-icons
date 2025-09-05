@@ -13,7 +13,7 @@ export const TimeIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M13.26 14.54c.18.17.41.26.64.26.23 0 .46-.08.64-.26a.9.9 0 0 0 0-1.27l-1.74-1.74V7.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v4c0 .24.09.47.26.64l2 2Z"

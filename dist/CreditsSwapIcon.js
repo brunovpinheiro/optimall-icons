@@ -13,7 +13,7 @@ export const CreditsSwapIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M8 9.1a6.9 6.9 0 1 1 0 13.8A6.9 6.9 0 0 1 8 9.1Zm0 1.8a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2Z",

@@ -13,7 +13,7 @@ export const UserAccountIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M9 7.1a2.9 2.9 0 0 1 2.9 2.9c0 .635-.206 1.22-.552 1.697A4.9 4.9 0 0 1 13.9 16a.9.9 0 0 1-1.8 0 3.1 3.1 0 1 0-6.2 0 .9.9 0 0 1-1.8 0 4.9 4.9 0 0 1 2.551-4.303A2.884 2.884 0 0 1 6.1 10 2.9 2.9 0 0 1 9 7.1Zm0 1.8a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z",

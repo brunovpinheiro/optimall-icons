@@ -13,7 +13,7 @@ export const HandCreditIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6.25 9a7.75 7.75 0 1 1 14.11 4.43.75.75 0 0 1-1.23-.86 6.25 6.25 0 1 0-10.78-.893.75.75 0 0 1-1.354.645A7.723 7.723 0 0 1 6.25 9Z"

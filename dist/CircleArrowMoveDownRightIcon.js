@@ -13,7 +13,7 @@ export const CircleArrowMoveDownRightIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M9.18 1.471C3.363 3.03-.087 9.006 1.471 14.821c1.558 5.815 7.535 9.266 13.35 7.708 5.814-1.558 9.265-7.535 7.707-13.35-1.558-5.815-7.535-9.266-13.35-7.708ZM3.21 14.355a9.1 9.1 0 1 1 17.58-4.71 9.1 9.1 0 0 1-17.58 4.71Z",

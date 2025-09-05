@@ -13,7 +13,7 @@ export const PrinterIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M17.01 11.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9c-.49 0-.9-.4-.9-.9Z"

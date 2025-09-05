@@ -13,7 +13,7 @@ export const FileAddIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M7 9.9c0 .5.4.9.9.9s.9-.4.9-.9V6.8h3.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H8.8V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9V5H3.9c-.5 0-.9.4-.9.9s.4.9.9.9H7v3.1Z"

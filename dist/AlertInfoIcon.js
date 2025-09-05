@@ -13,7 +13,7 @@ export const AlertInfoIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.242 11.1c.21 0 .46-.002.67.026.205.028.474.096.718.292l.102.092.092.102c.196.244.264.512.292.719.028.21.027.459.027.669v4a.9.9 0 0 1-1.801 0v-4l-.001-.1h-.099a.9.9 0 0 1 0-1.8Zm.758-3a.9.9 0 0 1 0 1.8h-.008a.9.9 0 0 1 0-1.8h.009Z"

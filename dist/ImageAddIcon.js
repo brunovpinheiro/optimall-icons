@@ -13,7 +13,7 @@ export const ImageAddIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M22.65 5.75c0 .41-.34.75-.75.75h-3.25v3.25c0 .41-.34.75-.75.75s-.75-.34-.75-.75V6.5H13.9c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3.25V1.75c0-.41.34-.75.75-.75s.75.34.75.75V5h3.25c.41 0 .75.34.75.75Z"

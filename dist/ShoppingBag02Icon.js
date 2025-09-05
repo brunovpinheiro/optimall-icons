@@ -13,7 +13,7 @@ export const ShoppingBag02Icon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M15.081 10.104a.9.9 0 0 1 .815.978c-.18 1.947-1.94 3.318-3.897 3.318-1.895 0-3.607-1.286-3.875-3.136l-.021-.182-.004-.092a.901.901 0 0 1 1.783-.164l.014.092.023.163c.164.813.979 1.519 2.08 1.519 1.175 0 2.023-.803 2.104-1.682a.901.901 0 0 1 .978-.814Z"

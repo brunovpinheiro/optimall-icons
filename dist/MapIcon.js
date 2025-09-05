@@ -13,7 +13,7 @@ export const MapIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M14.9 16.3c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9Zm0-4c-.5 0-.9-.4-.9-.9v-1c0-.5.4-.9.9-.9s.9.4.9.9v1c0 .5-.4.9-.9.9Zm-7.9.1c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1Zm0-4c0 .5.4.9.9.9s.9-.4.9-.9v-1c0-.5-.4-.9-.9-.9s-.9.4-.9.9v1Z"

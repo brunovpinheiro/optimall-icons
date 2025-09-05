@@ -13,7 +13,7 @@ export const AlertCircleIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 22.8C5.89 22.8 1 17.91 1 11.9 1 5.89 5.89 1 11.9 1c6.01 0 10.9 4.89 10.9 10.9 0 6.01-4.89 10.9-10.9 10.9Zm0-20c-5.02 0-9.1 4.08-9.1 9.1S6.88 21 11.9 21s9.1-4.08 9.1-9.1-4.08-9.1-9.1-9.1Z"

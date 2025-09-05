@@ -13,7 +13,7 @@ export const MoreHIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6 10.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5H6ZM10.746 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25Zm6.004 0c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5H18c-.69 0-1.25-.56-1.25-1.25Z"

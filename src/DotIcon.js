@@ -13,7 +13,7 @@ export const DotIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M1 11.9c0 6.01 4.89 10.9 10.9 10.9 6.01 0 10.9-4.89 10.9-10.9C22.8 5.89 17.91 1 11.9 1 5.89 1 1 5.89 1 11.9Zm1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1Z",

@@ -13,7 +13,7 @@ export const CheckmarkBadgeIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.1 15.07a.9.9 0 0 0 .6.23h.07a.9.9 0 0 0 .62-.32l4.2-5c.32-.38.27-.95-.11-1.27a.903.903 0 0 0-1.27.11l-3.6 4.29-1.11-.99a.9.9 0 0 0-1.2 1.34l1.8 1.61Z"

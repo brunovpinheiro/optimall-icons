@@ -13,7 +13,7 @@ export const SaveMoneyDollarIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M6 8.9C6 4.54 9.54 1 13.9 1v.01c4.36 0 7.9 3.54 7.9 7.9 0 1.62-.49 3.18-1.42 4.51a.894.894 0 0 1-1.25.23c-.4-.28-.5-.84-.22-1.25A6.134 6.134 0 0 0 20 8.91c0-3.36-2.74-6.1-6.1-6.1-3.36 0-6.1 2.74-6.1 6.1 0 .91.2 1.79.59 2.61.21.45.02.99-.43 1.2-.45.21-.99.02-1.2-.43C6.26 11.22 6 10.08 6 8.9Z"

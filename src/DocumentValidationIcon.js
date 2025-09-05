@@ -13,7 +13,7 @@ export const DocumentValidationIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M15.88 9.32h-.05a.925.925 0 0 1-.76-.5c-.42-.84-.83-1.27-.84-1.27a.909.909 0 0 1 .01-1.27.9.9 0 0 1 1.27 0c.03.03.2.2.43.51.67-.84 1.64-1.87 2.64-2.22.47-.17.98.08 1.15.55.17.47-.08.98-.55 1.15-.77.27-1.95 1.7-2.54 2.63-.17.26-.45.42-.76.42Z"

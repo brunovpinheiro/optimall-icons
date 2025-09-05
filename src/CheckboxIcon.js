@@ -13,7 +13,7 @@ export const CheckboxIcon = /*#__PURE__*/forwardRef(({
   width: "24",
   height: "24",
   viewBox: "0 0 24 24",
-  fill: "none",
+  fill: "currentColor",
   xmlns: "http://www.w3.org/2000/svg"
 }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.26 16.04c.17.17.4.26.64.26v.01h.02c.24 0 .47-.11.64-.29l5.5-6A.9.9 0 0 0 17 8.75a.891.891 0 0 0-1.27.05l-4.86 5.31-1.84-1.84a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.5 2.5Z"
