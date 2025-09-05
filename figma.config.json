@@ -1,7 +1,7 @@
 {
-	"frameUrl": "https://www.figma.com/design/D1pusfwJaoh1lRJEBPAogN/Pulse-DS-V2?node-id=19297-1865&t=aNPJuxmHiuGmNJqo-4",
+	"frameUrl": "https://www.figma.com/design/D1pusfwJaoh1lRJEBPAogN/Pulse-DS-V2?node-id=19297-1865&t=HOzawgFciT6Q2iDk-4",
 	"scale": 1,
 	"batchSize": 64,
 	"downloadConcurrency": 6,
-	"onlyNew": true
+	"onlyNew": false
 }

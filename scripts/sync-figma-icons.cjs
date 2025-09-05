@@ -106,6 +106,31 @@ function chunk(array, size) {
 	return out;
 }
 
+function processSvgContent(svgContent) {
+	// Remove cores específicas de fill e substitui por currentColor
+	// Isso inclui cores hexadecimais (#), rgb(), rgba(), hsl(), hsla() e nomes de cores
+	return (
+		svgContent
+			.replace(/fill\s*=\s*["'][^"']*["']/g, (match) => {
+				// Preserva fill="none" e fill="transparent"
+				if (match.includes("none") || match.includes("transparent")) {
+					return match;
+				}
+				// Substitui qualquer outra cor por currentColor
+				return 'fill="currentColor"';
+			})
+			// Também processa atributos de stroke se necessário
+			.replace(/stroke\s*=\s*["'][^"']*["']/g, (match) => {
+				// Preserva stroke="none" e stroke="transparent"
+				if (match.includes("none") || match.includes("transparent")) {
+					return match;
+				}
+				// Substitui qualquer outra cor por currentColor para stroke também
+				return 'stroke="currentColor"';
+			})
+	);
+}
+
 async function runQueue(tasks, concurrency) {
 	const executing = new Set();
 	const results = [];
@@ -185,7 +210,8 @@ async function main() {
 			}
 			tasks.push(async () => {
 				const svg = await fetchTextWithRetry(imageUrl);
-				fs.writeFileSync(outPath, svg, "utf8");
+				const processedSvg = processSvgContent(svg);
+				fs.writeFileSync(outPath, processedSvg, "utf8");
 				console.log(`Baixado: ${outPath}`);
 				// pequeno atraso para aliviar a CDN
 				await sleep(30);
