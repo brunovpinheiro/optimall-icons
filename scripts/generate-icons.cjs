@@ -78,18 +78,24 @@ export const ${componentName} = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "${ariaDefault}",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "${viewBox}",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), ${pathElements}));
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "${ariaDefault}",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "${viewBox}",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), ${pathElements});
+});
 export default ${componentName};`;
 }
 

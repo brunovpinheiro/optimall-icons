@@ -4,18 +4,24 @@ export const MinusIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "minus",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "minus",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "m20 11.1.092.005a.9.9 0 0 1 0 1.79L20 12.9H4a.9.9 0 0 1 0-1.8h16Z"
-})));
+}));
+});
 export default MinusIcon;

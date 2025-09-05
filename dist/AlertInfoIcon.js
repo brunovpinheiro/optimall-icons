@@ -4,22 +4,28 @@ export const AlertInfoIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "alert, info",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "alert, info",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.242 11.1c.21 0 .46-.002.67.026.205.028.474.096.718.292l.102.092.092.102c.196.244.264.512.292.719.028.21.027.459.027.669v4a.9.9 0 0 1-1.801 0v-4l-.001-.1h-.099a.9.9 0 0 1 0-1.8Zm.758-3a.9.9 0 0 1 0 1.8h-.008a.9.9 0 0 1 0-1.8h.009Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M10.314 1.873a5.347 5.347 0 0 1 3.371 0c1.107.367 1.962 1.234 2.803 2.414.845 1.184 1.777 2.836 2.974 4.953 1.197 2.117 2.13 3.768 2.712 5.107.58 1.336.883 2.518.644 3.665l-.049.212a5.554 5.554 0 0 1-1.624 2.747c-.863.794-2.029 1.12-3.456 1.275-1.428.155-3.297.154-5.689.154s-4.26.001-5.69-.154c-1.426-.155-2.592-.481-3.455-1.274a5.559 5.559 0 0 1-1.673-2.96c-.24-1.147.064-2.33.644-3.665.582-1.34 1.515-2.99 2.712-5.107 1.197-2.117 2.13-3.769 2.974-4.953.84-1.18 1.696-2.047 2.802-2.414Zm2.804 1.708a3.544 3.544 0 0 0-1.96-.08l-.276.08c-.55.182-1.126.658-1.905 1.75-.777 1.09-1.655 2.641-2.872 4.795-1.216 2.153-2.093 3.706-2.628 4.937-.535 1.234-.656 1.991-.533 2.583a3.758 3.758 0 0 0 1.13 2.001c.432.397 1.12.666 2.43.809 1.31.142 3.061.143 5.496.143 2.435 0 4.187 0 5.495-.143 1.31-.143 2-.412 2.43-.809a3.76 3.76 0 0 0 1.13-2.002c.124-.592.003-1.348-.533-2.582-.534-1.231-1.41-2.784-2.627-4.937-1.218-2.154-2.095-3.706-2.872-4.794-.681-.956-1.208-1.44-1.697-1.668l-.208-.083Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default AlertInfoIcon;

@@ -4,22 +4,28 @@ export const UserRemoveIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "user, remove",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "user, remove",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4C6.5 3.42 8.92 1 11.9 1c2.98 0 5.4 2.42 5.4 5.4 0 2.98-2.42 5.4-5.4 5.4Zm0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M6.49 22.8c-1.6 0-3.03-.65-4.5-2.05-.93-.89-1.04-1.75-.97-2.31.21-1.68 2.21-2.81 3.54-3.56l.18-.105c.102-.059.197-.114.28-.165 2.55-1.52 5.68-1.99 8.59-1.29.48.12.78.6.67 1.08-.12.48-.61.78-1.08.67-2.46-.59-5.1-.2-7.25 1.08-.101.06-.207.121-.323.188l-.177.102-.052.03c-.838.48-2.49 1.426-2.588 2.19-.03.22.12.49.43.78C4.37 20.52 5.37 21 6.5 21h6.41c.5 0 .9.4.9.9s-.4.9-.9.9H6.49Zm15.405 0h.005-.01.005Zm-.635-.26a.936.936 0 0 0 .635.26.89.89 0 0 0 .635-.26.9.9 0 0 0 0-1.27l-2.36-2.36 2.36-2.36a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0l-2.36 2.36-2.36-2.36a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27l2.36 2.36-2.36 2.36a.9.9 0 0 0 0 1.27.9.9 0 0 0 1.27 0l2.36-2.36 2.36 2.36Z"
-})));
+}));
+});
 export default UserRemoveIcon;

@@ -4,18 +4,23 @@ export const UserBlockIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "user, block",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "user, block",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4C6.5 3.42 8.92 1 11.9 1c2.98 0 5.4 2.42 5.4 5.4 0 2.98-2.42 5.4-5.4 5.4Zm0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const UserBlockIcon = /*#__PURE__*/forwardRef(({
   d: "M14 18.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0Zm1.8 0c0-.39.09-.76.24-1.09l3.45 3.45c-.33.15-.7.24-1.09.24-1.43 0-2.6-1.17-2.6-2.6Zm4.96 1.09-3.45-3.45c.33-.15.7-.24 1.09-.24 1.43 0 2.6 1.17 2.6 2.6 0 .39-.09.76-.24 1.09Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default UserBlockIcon;

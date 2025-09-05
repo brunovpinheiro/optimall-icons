@@ -4,18 +4,23 @@ export const AnalisarNotasIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "analisar, notas",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "analisar, notas",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.91 9.9c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M6.52 9.99c.71-1.01 2.67-3.34 5.38-3.34s4.66 2.34 5.38 3.34l.005.007c.179.248.365.507.365.903s-.186.655-.365.903l-.005.007c-.71 1.01-2.68 3.34-5.38 3.34-2.7 0-4.66-2.34-5.38-3.34l-.005-.007c-.179-.248-.365-.507-.365-.903s.186-.655.365-.903l.005-.007Zm5.38 3.66c2.01 0 3.58-1.9 4.16-2.71.01-.01.03-.03.03-.04-.01-.01-.03-.04-.03-.04-.58-.82-2.15-2.71-4.16-2.71-2.01 0-3.58 1.9-4.16 2.71-.01.01-.03.03-.03.04.005.005.01.012.015.02l.015.02c.58.82 2.15 2.71 4.16 2.71Z",
@@ -25,5 +30,6 @@ export const AnalisarNotasIcon = /*#__PURE__*/forwardRef(({
   d: "M19.66 2.15C18.52 1 16.88 1 13.9 1h-4C6.92 1 5.28 1 4.14 2.15 3 3.3 3 4.96 3 7.95v10.59c0 1.72 0 2.76.88 3.32 1.13.73 2.41-.16 3.17-.69a9.065 9.065 0 0 1 .83-.54c.062.015.23.12.41.231l.16.099 1.92 1.21c.6.38.99.62 1.54.62.545 0 .933-.246 1.525-.62l1.925-1.22c.18-.12.49-.31.53-.33.062.015.23.12.41.231l.16.099c.09.06.19.13.3.21.76.53 2.04 1.42 3.17.69.88-.56.88-1.6.88-3.32V7.95c0-3 0-4.65-1.14-5.8h-.01ZM19 18.55c0 .74 0 1.5-.08 1.79-.29-.04-.9-.47-1.14-.64-.14-.1-.27-.19-.37-.25l-.046-.028c-.534-.335-.898-.563-1.404-.582-.553-.036-.942.207-1.42.506l-.15.094-1.92 1.21-.388.247-.162.103c-.073-.016-.26-.132-.467-.261l-.143-.089-1.91-1.21-.044-.028c-.536-.335-.9-.562-1.406-.572h-.06c-.55 0-.98.27-1.51.61-.053.034-.109.073-.168.114a6.73 6.73 0 0 1-.202.136c-.24.17-.85.59-1.14.64-.08-.29-.08-1.05-.08-1.79V7.95c0-2.78.02-3.93.62-4.53.59-.6 1.73-.62 4.48-.62h4c2.75 0 3.89.02 4.48.62.59.6.62 1.75.62 4.53v10.59l.01.01Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default AnalisarNotasIcon;

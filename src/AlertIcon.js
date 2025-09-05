@@ -4,22 +4,28 @@ export const AlertIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "alert",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "alert",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 17.3c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9Zm-.9-3.9c0 .5.4.9.9.9s.9-.4.9-.9v-4c0-.5-.4-.9-.9-.9s-.9.4-.9.9v4Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 22.8c-5.05 0-7.59 0-9.14-1.43a5.442 5.442 0 0 1-1.67-2.96c-.43-2.07.83-4.31 3.36-8.77 2.51-4.46 3.78-6.71 5.77-7.37 1.1-.37 2.27-.37 3.37 0 1.98.657 3.238 2.879 5.743 7.306l.057.1c2.507 4.436 3.769 6.67 3.34 8.734a5.57 5.57 0 0 1-1.67 2.96c-1.55 1.43-4.09 1.43-9.14 1.43h-.02Zm0-19c-.38 0-.75.06-1.12.18-1.316.435-2.525 2.565-4.712 6.419L6 10.52c-2.23 3.94-3.45 6.11-3.16 7.52.16.78.55 1.47 1.13 2 1.04.95 3.48.95 7.93.95 4.45 0 6.89 0 7.93-.95.58-.53.97-1.22 1.13-2 .29-1.41-.93-3.58-3.16-7.52-2.22-3.94-3.45-6.11-4.78-6.55-.37-.12-.74-.18-1.12-.18v.01Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default AlertIcon;

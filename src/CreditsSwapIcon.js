@@ -4,18 +4,23 @@ export const CreditsSwapIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "credits, swap",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "credits, swap",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M8 9.1a6.9 6.9 0 1 1 0 13.8A6.9 6.9 0 0 1 8 9.1Zm0 1.8a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const CreditsSwapIcon = /*#__PURE__*/forwardRef(({
   d: "M15.957 1.1a6.944 6.944 0 0 1 1.166 13.788l-.15-.888-.15-.888a5.144 5.144 0 1 0-5.935-5.935L10 7.027l-.888-.15A6.945 6.945 0 0 1 15.957 1.1ZM8.116 2.107a.9.9 0 0 1 .689 1.295l-.857 1.715a.9.9 0 0 1-1.61-.805l.08-.162A5.096 5.096 0 0 0 2.9 9a.9.9 0 0 1-1.8 0c0-3.814 3.086-6.9 6.9-6.9l.116.007Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M10.888 7.177a.9.9 0 0 1-1.776-.3l1.776.3Z"
-})));
+}));
+});
 export default CreditsSwapIcon;

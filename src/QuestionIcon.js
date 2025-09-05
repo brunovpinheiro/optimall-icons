@@ -4,22 +4,28 @@ export const QuestionIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "question",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "question",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M15.4 7c-.5 0-.9.4-.9.9s.41.9.9.9c.49 0 .9-.4.9-.9s-.4-.9-.9-.9Zm2.1.9c0-.5.4-.9.9-.9s.9.4.9.9-.41.9-.9.9c-.49 0-.9-.4-.9-.9Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M16.9 2C13.65 2 11 4.55 11 7.68c0 1.45.57 2.83 1.62 3.91-.06.25-.18.49-.34.68a.93.93 0 0 0-.15.88c.1.3.37.52.68.57.25.05.5.07.75.07.68 0 1.35-.17 1.96-.49.035-.02.069-.036.1-.05a1.63 1.63 0 0 0 .04-.02c.024 0 .054.006.09.014l.03.006c.37.07.75.11 1.14.11 3.25 0 5.9-2.55 5.9-5.68S20.15 2 16.9 2Zm0 9.57c-.27 0-.54-.02-.8-.07-.3-.06-.5-.09-.72-.06-.238.03-.417.129-.704.287l-.005.003c-.08.05-.17.09-.26.12.1-.54-.08-1.09-.5-1.51-.71-.72-1.1-1.66-1.1-2.65 0-2.14 1.84-3.88 4.1-3.88s4.1 1.74 4.1 3.88c0 2.14-1.84 3.88-4.1 3.88h-.01ZM7.4 16.5c-1.99 0-4.81 1.03-6.11 2.74-.37.49-.4 1.17-.06 1.67.32.47.93 1.14 2.08 1.63.38.16.82.25 1.3.25h5.57c.48 0 .92-.08 1.3-.25 1.15-.49 1.76-1.16 2.08-1.64.34-.51.31-1.18-.06-1.67-1.29-1.72-4.12-2.75-6.1-2.75v.02Zm3.38 4.4c-.16.07-.35.1-.59.1H4.62c-.24 0-.43-.03-.59-.1-.57-.25-.92-.54-1.13-.77.99-1.09 3.1-1.83 4.5-1.83s3.51.74 4.5 1.83c-.2.23-.55.52-1.13.77h.01Zm.3-8.71a3.681 3.681 0 0 1-7.36 0 3.681 3.681 0 0 1 7.36 0Zm-1.8 0c0-1.03-.84-1.87-1.88-1.87s-1.88.84-1.88 1.87c0 1.03.84 1.87 1.88 1.87s1.88-.84 1.88-1.87Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default QuestionIcon;

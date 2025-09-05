@@ -4,18 +4,23 @@ export const UserLockIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "user, lock",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "user, lock",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 11.8c-2.98 0-5.4-2.42-5.4-5.4C6.5 3.42 8.92 1 11.9 1c2.98 0 5.4 2.42 5.4 5.4 0 2.98-2.42 5.4-5.4 5.4Zm0-9a3.61 3.61 0 0 0-3.6 3.6c0 1.98 1.62 3.6 3.6 3.6s3.6-1.62 3.6-3.6-1.62-3.6-3.6-3.6Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const UserLockIcon = /*#__PURE__*/forwardRef(({
   d: "M18.36 22.8v-.01h1.47c1.9 0 2.59-1.11 2.88-2.17.08-.43.15-2.55-.06-3.37-.31-.95-.94-1.48-1.6-1.72v-.51c0-.41 0-.89-.14-1.26-.35-1.01-1.25-1.68-2.33-1.75a2.61 2.61 0 0 0-2.56 1.45c-.26.483-.26.966-.26 1.359v.701c-.89.3-1.45 1.05-1.64 1.79-.16.66-.14 2.53-.07 3.25l.03.14c.3 1.1 1.05 1.83 2.12 2.06h.1c.33.04 1.13.04 2.06.04Zm1.02-1.81c-.78.01-2.39.01-2.87-.02h-.01c-.34-.09-.55-.3-.67-.67-.07-.78-.04-2.26.03-2.55.04-.18.21-.58.79-.58h3.51c.577 0 .738.485.77.578v.002c.11.4.08 2.21.04 2.48-.16.58-.43.76-1.11.76h-.48Zm-.12-5.61h-1.7v-.607c-.001-.197-.002-.367.06-.473.24-.49.71-.5.85-.49.13 0 .58.07.75.56.02.05.04.21.04.64v.37Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default UserLockIcon;

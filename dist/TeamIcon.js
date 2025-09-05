@@ -4,18 +4,23 @@ export const TeamIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "team",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "team",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M7.5 7.4a4.4 4.4 0 1 0 8.8 0 4.4 4.4 0 0 0-8.8 0Zm1.8 0c0-1.43 1.17-2.6 2.6-2.6 1.43 0 2.6 1.17 2.6 2.6 0 1.43-1.17 2.6-2.6 2.6-1.43 0-2.6-1.17-2.6-2.6Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const TeamIcon = /*#__PURE__*/forwardRef(({
   d: "M15.07 20.8H8.71c-1.62 0-2.73-.92-3.43-1.61-.74-.73-.83-1.45-.77-1.92.168-1.345 1.638-2.221 2.628-2.81l.032-.02.33-.2a8.406 8.406 0 0 1 8.78 0l.33.2c.99.58 2.49 1.47 2.66 2.83.06.47-.03 1.19-.77 1.92-.7.69-1.82 1.61-3.43 1.61Zm-6.61-5.02-.403.24c-.492.293-1.699 1.01-1.757 1.48-.02.14.17.33.25.41.76.76 1.43 1.09 2.17 1.09h6.37c.74 0 1.4-.34 2.17-1.09.08-.08.26-.28.25-.41-.059-.47-1.265-1.188-1.758-1.48l-.402-.24a6.6 6.6 0 0 0-6.88 0h-.01Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default TeamIcon;

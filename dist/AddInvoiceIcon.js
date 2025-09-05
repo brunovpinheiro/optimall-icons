@@ -4,20 +4,26 @@ export const AddInvoiceIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "add, invoice",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "add, invoice",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M10.9 22.8c-.55 0-.94-.25-1.54-.63l-1.91-1.2c-.24-.15-.49-.31-.57-.33l-.52.33c-.09.05-.19.13-.3.21-.76.53-2.04 1.42-3.17.69-.87-.56-.87-1.6-.87-3.32V7.9C2 4.93 2 3.3 3.07 2.16 4.17 1 5.72 1 8.55 1h4.71c2.83 0 4.38 0 5.47 1.16C19.8 3.3 19.8 4.93 19.8 7.9v4c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-4c0-2.51 0-3.89-.58-4.5-.54-.57-1.6-.6-4.16-.6H8.55c-2.56 0-3.63.02-4.17.6-.58.62-.58 2-.58 4.5v10.65c0 .74 0 1.5.08 1.79.29-.04.9-.47 1.14-.64.14-.1.26-.19.37-.25.58-.36.98-.64 1.57-.61.51.02.88.25 1.44.6l1.91 1.21c.24.16.52.33.61.35.03-.02.31-.2.55-.35.42-.26.98-.14 1.24.28.26.42.14.98-.28 1.24-.6.38-.99.63-1.54.63h.01Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M10.9 11.8h-4c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h4c.5 0 .9.4.9.9s-.4.9-.9.9Zm6 11c-.5 0-.9-.4-.9-.9v-3.1h-3.1c-.5 0-.9-.4-.9-.9s.4-.9.9-.9H16v-3.1c0-.5.4-.9.9-.9s.9.4.9.9V17h3.1c.5 0 .9.4.9.9s-.4.9-.9.9h-3.1v3.1c0 .5-.4.9-.9.9Zm-2-15h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9Z"
-})));
+}));
+});
 export default AddInvoiceIcon;

@@ -4,18 +4,23 @@ export const UserMultipleIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "user, multiple",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "user, multiple",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M4.5 6.9c0 2.7 2.2 4.9 4.9 4.9s4.9-2.2 4.9-4.9S12.1 2 9.4 2 4.5 4.2 4.5 6.9Zm1.8 0c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1 0 1.71-1.39 3.1-3.1 3.1-1.71 0-3.1-1.39-3.1-3.1Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const UserMultipleIcon = /*#__PURE__*/forwardRef(({
   d: "M5.72 21.3c-1.36 0-2.57-.5-3.82-1.57-.84-.72-.94-1.45-.89-1.93.168-1.397 1.877-2.274 3.027-2.863l.423-.217c3.05-1.63 6.84-1.63 9.89 0l.422.217c1.15.59 2.86 1.466 3.028 2.863.06.48-.05 1.21-.9 1.93-1.25 1.07-2.46 1.57-3.82 1.57H5.72Zm-.41-5-.42.22c-1.35.69-2.05 1.19-2.09 1.49 0 .02.04.15.28.35.92.79 1.73 1.14 2.65 1.14h7.35c.91 0 1.73-.35 2.65-1.14.24-.21.28-.33.28-.35-.04-.3-.74-.8-2.09-1.49l-.42-.22c-2.49-1.33-5.7-1.33-8.19 0Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default UserMultipleIcon;

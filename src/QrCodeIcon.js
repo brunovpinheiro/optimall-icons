@@ -4,18 +4,23 @@ export const QrCodeIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "qr, code",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "qr, code",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M2.7 2.7C3.41 2 4.34 2 5.9 2c1.56 0 2.5 0 3.2.7.7.7.7 1.64.7 3.2 0 1.56 0 2.5-.7 3.2-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7C2 8.39 2 7.46 2 5.9c0-1.56 0-2.5.7-3.2ZM5.9 8c.97 0 1.74 0 1.92-.18C8 7.65 8 6.87 8 5.9s0-1.75-.18-1.92c-.17-.18-.95-.18-1.92-.18s-1.74 0-1.92.18c-.18.17-.18.95-.18 1.92s.01 1.74.18 1.92C4.15 8 4.93 8 5.9 8Zm-3.2 6.7c.71-.7 1.65-.7 3.2-.7 1.56 0 2.5 0 3.2.7.7.71.7 1.64.7 3.2 0 1.56 0 2.5-.7 3.2-.71.7-1.64.7-3.2.7h-.064c-1.522 0-2.446 0-3.136-.7-.7-.71-.7-1.64-.7-3.2 0-1.56 0-2.5.7-3.2ZM5.9 20c.97 0 1.74 0 1.92-.18v.01c.18-.17.18-.94.18-1.92s0-1.75-.18-1.93c-.17-.17-.95-.17-1.92-.17s-1.74 0-1.92.17c-.18.17-.18.95-.18 1.92s.01 1.74.18 1.92c.17.18.95.18 1.92.18Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -29,5 +34,6 @@ export const QrCodeIcon = /*#__PURE__*/forwardRef(({
   d: "M11 17.67c0-.5.4-.9.9-.9s.9.4.9.9v2.77c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-2.77ZM17.9 14c-.5 0-.9.4-.9.9s.4.9.9.9c.98 0 1.75 0 1.92.17.18.18.18.95.18 1.93s0 1.75-.18 1.93c-.1.1-.39.15-.95.17a.89.89 0 0 0-.87.93c.01.49.41.87.9.87h.03c.77-.02 1.57-.1 2.17-.7.7-.7.7-1.64.7-3.2 0-1.56 0-2.5-.7-3.2-.7-.7-1.64-.7-3.2-.7Zm-3-3h6v.01c.5 0 .9.4.9.9s-.4.9-.9.9h-6c-.97 0-1.74 0-1.92.17-.18.17-.18.94-.18 1.92 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-1.56 0-2.5.7-3.2.71-.7 1.65-.7 3.2-.7Zm1 9h-1c-.5 0-.9.4-.9.9s.4.9.9.9h1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M16.9 17c1.05 0 1.9.85 1.9 1.9 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.06-.04-.1-.1-.1-1.01 0-2.9 0-2.9-2.4v-1.5c0-.5.4-.9.9-.9s.9.4.9.9v1.5c0 .39.08.5.08.5.12.1.77.1 1.02.1Z"
-})));
+}));
+});
 export default QrCodeIcon;

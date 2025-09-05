@@ -4,18 +4,23 @@ export const ContractIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "contract",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "contract",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "M11.91 22.8h-4c-2.98 0-4.62 0-5.76-1.14-1.14-1.14-1.14-2.78-1.14-5.76v-8C1 4.92 1 3.28 2.14 2.14 3.29 1 4.93 1 7.91 1h4c2.98 0 4.62 0 5.76 1.14.87.87 1.07 2.03 1.13 3.73.02.5-.38.91-.87.93-.49 0-.91-.38-.93-.87-.04-1.46-.2-2.11-.6-2.51-.59-.59-1.73-.62-4.49-.62h-4c-2.76 0-3.9.02-4.49.62-.59.59-.62 1.73-.62 4.48v8c0 2.75.02 3.89.62 4.48.6.59 1.73.62 4.49.62h4c2.76 0 3.9-.02 4.49-.62.4-.4.56-1.05.6-2.51.02-.5.44-.87.93-.87.5.01.89.43.87.93-.05 1.7-.25 2.86-1.13 3.73-1.14 1.14-2.78 1.14-5.76 1.14Z"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M11.9 18.8h-.005c.089 0 .187-.02.275-.05l2.98-.99c.13-.05.25-.12.35-.22l6.44-6.44c.32-.32.51-.51.65-.79.26-.53.26-1.16 0-1.68-.122-.263-.315-.456-.595-.735l-.055-.055c-.31-.31-.5-.5-.78-.64-.53-.26-1.15-.26-1.68 0-.28.14-.47.33-.79.65l-6.44 6.44c-.1.1-.18.22-.22.35l-.99 2.98c-.11.32-.02.68.22.92a.935.935 0 0 0 .635.26h-.005.01Zm1.78-3.39-.36 1.07 1.07-.36 4.48-4.48-.71-.71-4.48 4.48Zm5.75-5.75.71.71.54-.54.12-.118c.093-.09.157-.154.2-.212-.053-.115-.137-.199-.266-.327l-.054-.053-.094-.095a1.71 1.71 0 0 0-.246-.225c-.115.053-.198.137-.32.26l-.05.05-.55.55h.01Z",
@@ -23,5 +28,6 @@ export const ContractIcon = /*#__PURE__*/forwardRef(({
   clipRule: "evenodd"
 }), /*#__PURE__*/React.createElement("path", {
   d: "M8.4 19.8h.99c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.44l-1-2c-.31-.61-1.3-.61-1.61 0l-1 2H4.9c-.5 0-.9.4-.9.9s.4.9.9.9h1c.35 0 .66-.2.81-.5l.44-.89.44.89c.16.31.47.5.81.5Zm5.5-13h-8c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h8c.5 0 .9.4.9.9s-.4.9-.9.9Zm-8 4h6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-6c-.5 0-.9.4-.9.9s.4.9.9.9Z"
-})));
+}));
+});
 export default ContractIcon;

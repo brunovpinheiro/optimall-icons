@@ -4,18 +4,23 @@ export const PlugSocketIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
+  size = 24,
+  width,
+  height,
   ...props
-}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
-  ref: ref,
-  className: className,
-  "aria-label": ariaLabel || "plug, socket",
-  style: style,
-  width: "24",
-  height: "24",
-  viewBox: "0 0 24 24",
-  fill: "currentColor",
-  xmlns: "http://www.w3.org/2000/svg"
-}, props), /*#__PURE__*/React.createElement("path", {
+}, ref) => {
+  const iconSize = width || height || size;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    ref: ref,
+    className: className,
+    "aria-label": ariaLabel || "plug, socket",
+    style: style,
+    width: width || iconSize,
+    height: height || iconSize,
+    viewBox: "0 0 24 24",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), /*#__PURE__*/React.createElement("path", {
   d: "m21.26 2.27-1.52 1.52a3.135 3.135 0 0 0-2.56-.75l-.72.12c-1.33.22-2.56.79-3.57 1.65l-1.23 1.05c-.4.34-.63.83-.65 1.36-.03.55.19 1.1.59 1.5l4.48 4.48c.38.39.89.6 1.42.6l.01-.01h.08c.53-.02 1.02-.25 1.36-.65L20 11.91a7.343 7.343 0 0 0 1.65-3.57l.12-.72a3.11 3.11 0 0 0-.76-2.561l1.52-1.519a.9.9 0 0 0 0-1.27.9.9 0 0 0-1.27 0ZM17.51 12l.013.01a.204.204 0 0 1-.153-.07l-4.48-4.48c-.07-.07-.07-.14-.05-.22l1.23-1.05a5.56 5.56 0 0 1 2.7-1.25l.72-.12c.4-.06.82.08 1.13.39l.99.99c.3.31.45.73.38 1.13l-.12.72a5.56 5.56 0 0 1-1.25 2.7l-1.05 1.23.69.58-.737-.55h.007l-.02-.01Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
@@ -25,5 +30,6 @@ export const PlugSocketIcon = /*#__PURE__*/forwardRef(({
   d: "M3.53 22.54a.89.89 0 0 1-.635.26.936.936 0 0 1-.635-.26.9.9 0 0 1 0-1.27l1.534-1.534a3.122 3.122 0 0 1-.754-2.566l.12-.72c.22-1.33.79-2.56 1.65-3.57l1.05-1.23c.34-.4.82-.63 1.36-.66.55-.04 1.1.19 1.5.59l.115.115 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425 1.73 1.73 1.425-1.425a.9.9 0 0 1 1.27 0 .9.9 0 0 1 0 1.27l-1.425 1.425.095.095c.4.4.62.95.59 1.5-.02.53-.25 1.02-.66 1.36l-1.23 1.05a7.343 7.343 0 0 1-3.57 1.65l-.72.12c-.16.03-.33.04-.5.04l.02.02c-.747 0-1.485-.28-2.066-.794L3.53 22.54ZM7.3 12.8l-.06.02-1.05 1.23a5.56 5.56 0 0 0-1.25 2.7l-.12.72c-.07.4.08.82.38 1.13l.99.99c.31.31.73.46 1.13.39l.73-.12a5.56 5.56 0 0 0 2.7-1.25l1.23-1.05c.02-.08.02-.15-.05-.22l-4.48-4.48a.215.215 0 0 0-.15-.07v.01Z",
   fillRule: "evenodd",
   clipRule: "evenodd"
-})));
+}));
+});
 export default PlugSocketIcon;
