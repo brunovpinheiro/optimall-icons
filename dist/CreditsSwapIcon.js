@@ -1,8 +1,39 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const CreditsSwapIcon = forwardRef(({
+export const CreditsSwapIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "credits, swap"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M8 9.1a6.9 6.9 0 1 1 0 13.8A6.9 6.9 0 0 1 8 9.1m0 1.8a5.1 5.1 0 1 0 0 10.2 5.1 5.1 0 0 0 0-10.2" clipRule="evenodd" /><path fill="currentColor" d="M22 14.1a.9.9 0 0 1 .9.9 6.896 6.896 0 0 1-6.544 6.89L16 21.9a.9.9 0 0 1-.805-1.302l.857-1.715.046-.08a.9.9 0 0 1 1.564.886l-.08.16A5.095 5.095 0 0 0 21.1 15a.9.9 0 0 1 .9-.9m-4.877.788a.9.9 0 0 1-.3-1.776z" /><path fill="currentColor" d="M15.957 1.1a6.944 6.944 0 0 1 1.166 13.788l-.15-.888-.15-.888a5.144 5.144 0 1 0-5.935-5.935L10 7.027l-.888-.15A6.945 6.945 0 0 1 15.957 1.1M8.116 2.107a.9.9 0 0 1 .689 1.295l-.857 1.715a.9.9 0 0 1-1.61-.805l.08-.162A5.1 5.1 0 0 0 2.9 9a.9.9 0 0 1-1.8 0c0-3.814 3.086-6.9 6.9-6.9z" /><path fill="currentColor" d="M10.888 7.177a.9.9 0 0 1-1.776-.3z" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "credits, swap",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M8 9.09961C11.8108 9.09961 14.9004 12.1892 14.9004 16C14.9004 19.8108 11.8108 22.9004 8 22.9004C4.18923 22.9004 1.09961 19.8108 1.09961 16C1.09961 12.1892 4.18923 9.09961 8 9.09961ZM8 10.9004C5.18335 10.9004 2.90039 13.1834 2.90039 16C2.90039 18.8166 5.18335 21.0996 8 21.0996C10.8166 21.0996 13.0996 18.8166 13.0996 16C13.0996 13.1834 10.8166 10.9004 8 10.9004Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M22 14.0996C22.4971 14.0996 22.9004 14.5029 22.9004 15C22.9004 18.6949 20.004 21.706 16.3555 21.8906L16 21.9004C15.6884 21.9002 15.3983 21.7387 15.2344 21.4736C15.0705 21.2084 15.056 20.8765 15.1953 20.5977L16.0518 18.8828L16.0977 18.8027C16.3418 18.4178 16.8431 18.2724 17.2598 18.4805C17.7043 18.7028 17.8844 19.2439 17.6621 19.6885L17.5811 19.8486C19.625 19.1841 21.0996 17.2677 21.0996 15C21.0996 14.5031 21.5031 14.0998 22 14.0996Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M17.123 14.8877C16.6332 14.9704 16.169 14.6402 16.0859 14.1504C16.003 13.6603 16.3332 13.1953 16.8232 13.1123L17.123 14.8877Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M15.957 1.09961C19.7913 1.09961 22.9004 4.20874 22.9004 8.04297C22.9002 11.4802 20.4022 14.3327 17.123 14.8877L16.9736 14L16.8232 13.1123C19.2508 12.7013 21.0994 10.5873 21.0996 8.04297C21.0996 5.20284 18.7972 2.90039 15.957 2.90039C13.4127 2.90062 11.2987 4.74918 10.8877 7.17676L10 7.02637L9.1123 6.87695C9.66733 3.59783 12.5198 1.09984 15.957 1.09961Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8.11621 2.10742C8.38255 2.14207 8.6222 2.29452 8.76562 2.52637C8.92961 2.7917 8.94418 3.12335 8.80469 3.40234L7.94824 5.11719C7.7259 5.56165 7.18476 5.74179 6.74023 5.51953C6.29566 5.29724 6.1156 4.7561 6.33789 4.31152L6.41797 4.15039C4.37432 4.81505 2.90039 6.73246 2.90039 9C2.90039 9.49706 2.49706 9.90039 2 9.90039C1.50294 9.90039 1.09961 9.49706 1.09961 9C1.09961 5.1858 4.1858 2.09961 8 2.09961L8.11621 2.10742Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.8877 7.17676C10.8047 7.66684 10.3397 7.99701 9.84961 7.91406C9.35977 7.83104 9.02961 7.36683 9.1123 6.87695L10.8877 7.17676Z",
+  fill: "currentColor"
+})));
 export default CreditsSwapIcon;

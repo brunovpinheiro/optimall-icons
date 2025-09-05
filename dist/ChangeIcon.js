@@ -1,8 +1,25 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const ChangeIcon = forwardRef(({
+export const ChangeIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "change"} ref={ref} {...props}><path fill="currentColor" d="M8.854 5.63a.9.9 0 0 0-1.286-1.26L5.282 6.705c-.32.327-.624.638-.825.91-.19.258-.52.789-.266 1.415.257.635.874.776 1.192.822.332.048.765.048 1.216.048H19a.9.9 0 0 0 0-1.8H6.436l.174-.178zm8.709 10.27-.173.178-2.244 2.292a.9.9 0 1 0 1.286 1.26l2.285-2.335c.32-.327.625-.638.825-.91.19-.258.52-.789.267-1.414-.258-.636-.874-.777-1.192-.823-.333-.048-.765-.048-1.216-.048H5a.9.9 0 1 0 0 1.8z" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "change",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M8.85423 5.62958C9.20193 5.27438 9.19586 4.70456 8.84067 4.35686C8.48547 4.00915 7.91565 4.01522 7.56795 4.37042L5.28214 6.70546C4.9624 7.03196 4.6577 7.34311 4.45737 7.61516C4.26748 7.87305 3.93707 8.4036 4.19085 9.02951C4.44846 9.66488 5.06494 9.80624 5.3829 9.85217C5.71532 9.90019 6.14819 9.9001 6.59887 9.90001L19.0002 9.9C19.4972 9.9 19.9002 9.49706 19.9002 9C19.9002 8.50294 19.4972 8.1 19.0002 8.1L6.43644 8.09985C6.48989 8.04494 6.54753 7.98597 6.60969 7.92247L8.85423 5.62958Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M17.5633 15.9001C17.5099 15.9551 17.4522 16.014 17.3901 16.0775L15.1456 18.3704C14.7979 18.7256 14.8039 19.2954 15.1591 19.6431C15.5143 19.9909 16.0842 19.9848 16.4319 19.6296L18.7174 17.2947C19.0372 16.9682 19.342 16.6569 19.5424 16.3849C19.7322 16.127 20.0627 15.5965 19.809 14.9706C19.5513 14.3353 18.9349 14.1938 18.6169 14.1478C18.2844 14.0998 17.8515 14.0999 17.4009 14.1L4.99961 14.1C4.50255 14.1 4.09961 14.5029 4.09961 15C4.09961 15.4971 4.50255 15.9 4.99961 15.9L17.5633 15.9001Z",
+  fill: "currentColor"
+})));
 export default ChangeIcon;

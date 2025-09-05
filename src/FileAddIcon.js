@@ -1,8 +1,27 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const FileAddIcon = forwardRef(({
+export const FileAddIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "file, add"} ref={ref} {...props}><path fill="currentColor" d="M7 9.9c0 .5.4.9.9.9s.9-.4.9-.9V6.8h3.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H8.8V1.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9V5H3.9c-.5 0-.9.4-.9.9s.4.9.9.9H7z" /><path fill="currentColor" fillRule="evenodd" d="M4.83 21.71c1.34 1.09 3.08 1.09 6.53 1.09l-.02.01c.78 0 1.22 0 1.68-.17.09-.03.19-.07.29-.12.44-.21.76-.53 1.3-1.07l4.74-4.74c.65-.64 1-1 1.22-1.53.22-.54.22-1.03.22-1.94V9.9c0-4.01 0-6.02-1.44-7.46-1.35-1.35-3.33-1.42-6.43-1.43-.5 0-.9.4-.9.9 0 .49.4.9.9.9 2.9.01 4.35.11 5.16.91.91.91.91 2.67.91 6.19v4.1h-.09c-2.98 0-4.62 0-5.76 1.14S12 17.93 12 20.91V21h-.64c-3.03 0-4.55 0-5.4-.69-.17-.14-.33-.3-.47-.47-.69-.85-.69-2.37-.69-5.4v-2.55c0-.5-.4-.9-.9-.9s-.9.4-.9.9v2.55c0 3.45 0 5.18 1.09 6.53.22.27.47.52.74.74m9.58-5.3c.5-.5 1.39-.59 3.31-.61l-3.92 3.92c.02-1.92.11-2.81.61-3.31" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "file, add",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M7 9.9C7 10.4 7.4 10.8 7.9 10.8C8.4 10.8 8.8 10.4 8.8 9.9V6.8H11.9C12.4 6.8 12.8 6.4 12.8 5.9C12.8 5.4 12.4 5 11.9 5H8.8V1.9C8.8 1.4 8.4 1 7.9 1C7.4 1 7 1.4 7 1.9V5H3.9C3.4 5 3 5.4 3 5.9C3 6.4 3.4 6.8 3.9 6.8H7V9.9Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M4.83 21.71C6.17 22.8 7.91 22.8 11.36 22.8L11.34 22.81C12.12 22.81 12.56 22.81 13.02 22.64C13.11 22.61 13.21 22.57 13.31 22.52C13.75 22.31 14.07 21.99 14.61 21.45L19.35 16.71C20 16.07 20.35 15.71 20.57 15.18C20.79 14.64 20.79 14.15 20.79 13.24V9.9C20.79 5.89 20.79 3.88 19.35 2.44C18 1.09 16.02 1.02 12.92 1.01C12.42 1.01 12.02 1.41 12.02 1.91C12.02 2.4 12.42 2.81 12.92 2.81C15.82 2.82 17.27 2.92 18.08 3.72C18.99 4.63 18.99 6.39 18.99 9.91V14.01H18.9C15.92 14.01 14.28 14.01 13.14 15.15C12 16.29 12 17.93 12 20.91V21H11.36C8.33 21 6.81 21 5.96 20.31C5.79 20.17 5.63 20.01 5.49 19.84C4.8 18.99 4.8 17.47 4.8 14.44V11.89C4.8 11.39 4.4 10.99 3.9 10.99C3.4 10.99 3 11.39 3 11.89V14.44C3 17.89 3 19.62 4.09 20.97C4.31 21.24 4.56 21.49 4.83 21.71ZM14.41 16.41C14.91 15.91 15.8 15.82 17.72 15.8L13.8 19.72C13.82 17.8 13.91 16.91 14.41 16.41Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default FileAddIcon;

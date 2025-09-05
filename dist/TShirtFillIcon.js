@@ -1,8 +1,24 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const TShirtFillIcon = forwardRef(({
+export const TShirtFillIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "t, shirt, fill"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M5.824 2.281A.75.75 0 0 1 6.41 2h3a.75.75 0 0 1 .75.75 2.25 2.25 0 0 0 4.5 0 .75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .586.281l3.44 4.302a1.75 1.75 0 0 1-.128 2.33l-3.148 3.148v7.689a1.75 1.75 0 0 1-1.75 1.75h-10a1.75 1.75 0 0 1-1.75-1.75v-7.69L2.513 8.914a1.75 1.75 0 0 1-.13-2.33z" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "t, shirt, fill",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M5.82436 2.28148C5.96669 2.10357 6.18218 2 6.41002 2H9.41002C9.82423 2 10.16 2.33579 10.16 2.75C10.16 3.99264 11.1674 5 12.41 5C13.6527 5 14.66 3.99264 14.66 2.75C14.66 2.33579 14.9958 2 15.41 2H18.41C18.6379 2 18.8533 2.10357 18.9957 2.28148L22.4365 6.58257C22.9936 7.27888 22.938 8.28268 22.3075 8.91322L19.16 12.0607V19.75C19.16 20.7165 18.3765 21.5 17.41 21.5H7.41002C6.44352 21.5 5.66001 20.7165 5.66001 19.75V12.0607L2.51258 8.91322C1.88204 8.28268 1.82645 7.27888 2.38349 6.58257L5.82436 2.28148Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default TShirtFillIcon;

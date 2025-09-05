@@ -1,8 +1,22 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const DarkmodeOnIcon = forwardRef(({
+export const DarkmodeOnIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "darkmode, on"} ref={ref} {...props}><path fill="currentColor" d="M12.53 22.8C6.72 22.8 2 18.08 2 12.27c0-4.91 3.34-9.13 8.12-10.25a.9.9 0 0 1 1 1.3c-.59 1.1-.9 2.35-.9 3.6 0 4.22 3.43 7.66 7.66 7.66 1.26 0 2.5-.31 3.6-.9a.88.88 0 0 1 .97.08c.28.22.41.58.33.92a10.48 10.48 0 0 1-10.25 8.12M8.76 4.39a8.7 8.7 0 0 0-4.96 7.88c0 4.81 3.92 8.73 8.73 8.73 3.44 0 6.46-1.97 7.88-4.96-.82.23-1.68.35-2.53.35-5.21 0-9.46-4.24-9.46-9.46 0-.86.12-1.71.35-2.53z" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "darkmode, on",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M12.53 22.8C6.72 22.8 2 18.08 2 12.27C2 7.35999 5.34 3.13999 10.12 2.01999C10.46 1.93999 10.82 2.06999 11.04 2.34999C11.25 2.62999 11.29 3.00999 11.12 3.31999C10.53 4.41999 10.22 5.66999 10.22 6.91999C10.22 11.14 13.65 14.58 17.88 14.58C19.14 14.58 20.38 14.27 21.48 13.68C21.79 13.51 22.17 13.54 22.45 13.76C22.73 13.98 22.86 14.34 22.78 14.68C21.66 19.46 17.45 22.8 12.53 22.8ZM8.76 4.38999C5.77 5.80999 3.8 8.83999 3.8 12.27C3.8 17.08 7.72 21 12.53 21C15.97 21 18.99 19.03 20.41 16.04C19.59 16.27 18.73 16.39 17.88 16.39C12.67 16.39 8.42 12.15 8.42 6.92999C8.42 6.06999 8.54 5.21999 8.77 4.39999L8.76 4.38999Z",
+  fill: "currentColor"
+})));
 export default DarkmodeOnIcon;

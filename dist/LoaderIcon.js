@@ -1,8 +1,59 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const LoaderIcon = forwardRef(({
+export const LoaderIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "loader"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.1a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0V3a.9.9 0 0 1 .9-.9m0 15a.9.9 0 0 1 .9.9v3a.9.9 0 1 1-1.8 0v-3a.9.9 0 0 1 .9-.9m5.1-5.1a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8h-3a.9.9 0 0 1-.9-.9m-15 0a.9.9 0 0 1 .9-.9h3a.9.9 0 0 1 0 1.8H3a.9.9 0 0 1-.9-.9M19 5a.9.9 0 0 1 0 1.273l-2.122 2.121a.9.9 0 0 1-1.273-1.272L17.727 5A.9.9 0 0 1 19 5M8.394 15.606a.9.9 0 0 1 0 1.273l-2.121 2.12A.9.9 0 1 1 5 17.728l2.121-2.121a.9.9 0 0 1 1.273 0m7.211-.001a.9.9 0 0 1 1.273 0L19 17.727A.9.9 0 1 1 17.727 19l-2.122-2.121a.9.9 0 0 1 0-1.273M5 5a.9.9 0 0 1 1.273 0l2.121 2.122a.9.9 0 1 1-1.273 1.272L5 6.274A.9.9 0 0 1 5 5" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "loader",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M11.9996 2.10001C12.4967 2.10001 12.8996 2.50295 12.8996 3.00001V6.00001C12.8996 6.49706 12.4967 6.90001 11.9996 6.90001C11.5026 6.90001 11.0996 6.49706 11.0996 6.00001V3.00001C11.0996 2.50295 11.5026 2.10001 11.9996 2.10001Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M11.9996 17.1C12.4967 17.1 12.8996 17.503 12.8996 18V21C12.8996 21.4971 12.4967 21.9 11.9996 21.9C11.5026 21.9 11.0996 21.4971 11.0996 21V18C11.0996 17.503 11.5026 17.1 11.9996 17.1Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M17.0996 12C17.0996 11.503 17.5026 11.1 17.9996 11.1H20.9996C21.4967 11.1 21.8996 11.503 21.8996 12C21.8996 12.4971 21.4967 12.9 20.9996 12.9H17.9996C17.5026 12.9 17.0996 12.4971 17.0996 12Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M2.09961 12C2.09961 11.503 2.50255 11.1 2.99961 11.1H5.99961C6.49667 11.1 6.89961 11.503 6.89961 12C6.89961 12.4971 6.49667 12.9 5.99961 12.9H2.99961C2.50255 12.9 2.09961 12.4971 2.09961 12Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M18.9995 5.00033C19.351 5.3518 19.351 5.92165 18.9995 6.27312L16.8782 8.39444C16.5267 8.74591 15.9569 8.74592 15.6054 8.39444C15.2539 8.04297 15.2539 7.47313 15.6054 7.12165L17.7267 5.00033C18.0782 4.64886 18.648 4.64886 18.9995 5.00033Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M8.39405 15.6058C8.74552 15.9573 8.74552 16.5271 8.39404 16.8786L6.27272 18.9999C5.92125 19.3514 5.3514 19.3514 4.99993 18.9999C4.64846 18.6484 4.64846 18.0786 4.99994 17.7271L7.12126 15.6058C7.47273 15.2543 8.04258 15.2543 8.39405 15.6058Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M15.6054 15.6058C15.9569 15.2543 16.5267 15.2543 16.8782 15.6058L18.9995 17.7271C19.351 18.0786 19.351 18.6484 18.9995 18.9999C18.648 19.3514 18.0782 19.3514 17.7267 18.9999L15.6054 16.8786C15.2539 16.5271 15.2539 15.9573 15.6054 15.6058Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M4.99993 5.00033C5.35141 4.64886 5.92125 4.64886 6.27273 5.00033L8.39405 7.12165C8.74552 7.47312 8.74552 8.04297 8.39405 8.39444C8.04257 8.74591 7.47272 8.74591 7.12125 8.39444L4.99993 6.27312C4.64846 5.92165 4.64846 5.3518 4.99993 5.00033Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default LoaderIcon;

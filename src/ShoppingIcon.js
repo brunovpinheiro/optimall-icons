@@ -1,8 +1,30 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const ShoppingIcon = forwardRef(({
+export const ShoppingIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "shopping"} ref={ref} {...props}><path fill="currentColor" d="M16.9 16.8h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9m0-3h-2c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2c.5 0 .9.4.9.9s-.4.9-.9.9" /><path fill="currentColor" fillRule="evenodd" d="M1.9 22.8h20c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-.1v-9.1c0-2.99-.91-3.9-3.9-3.9h-2.1V4.9c0-2.99-.91-3.9-3.9-3.9h-6C2.91 1 2 1.91 2 4.9V21h-.1c-.5 0-.9.4-.9.9s.4.9.9.9M16.8 21v-2.1c0-.5-.4-.9-.9-.9s-.9.4-.9.9V21h-3.2v-9.1c0-1.98.12-2.1 2.1-2.1h4c1.98 0 2.1.12 2.1 2.1V21zM10 11.9V21H3.8v-6.2h2.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H3.8v-2.2h2.1c.5 0 .9-.4.9-.9S6.4 9 5.9 9H3.8V6.8h2.1c.5 0 .9-.4.9-.9S6.4 5 5.9 5H3.8v-.1c0-1.98.12-2.1 2.1-2.1h6c1.98 0 2.1.12 2.1 2.1V8h-.1c-2.99 0-3.9.91-3.9 3.9" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "shopping",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M16.9 16.8H14.9C14.4 16.8 14 16.4 14 15.9C14 15.4 14.4 15 14.9 15H16.9C17.4 15 17.8 15.4 17.8 15.9C17.8 16.4 17.4 16.8 16.9 16.8Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M16.9 13.8H14.9C14.4 13.8 14 13.4 14 12.9C14 12.4 14.4 12 14.9 12H16.9C17.4 12 17.8 12.4 17.8 12.9C17.8 13.4 17.4 13.8 16.9 13.8Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M1.9 22.8H21.9C22.4 22.8 22.8 22.4 22.8 21.9C22.8 21.4 22.4 21 21.9 21H21.8V11.9C21.8 8.91 20.89 8 17.9 8H15.8V4.9C15.8 1.91 14.89 1 11.9 1H5.9C2.91 1 2 1.91 2 4.9V21H1.9C1.4 21 1 21.4 1 21.9C1 22.4 1.4 22.8 1.9 22.8ZM16.8 21V18.9C16.8 18.4 16.4 18 15.9 18C15.4 18 15 18.4 15 18.9V21H11.8V11.9C11.8 9.92 11.92 9.8 13.9 9.8H17.9C19.88 9.8 20 9.92 20 11.9V21H16.8ZM10 11.9V21H3.8V14.8H5.9C6.4 14.8 6.8 14.4 6.8 13.9C6.8 13.4 6.4 13 5.9 13H3.8V10.8H5.9C6.4 10.8 6.8 10.4 6.8 9.9C6.8 9.4 6.4 9 5.9 9H3.8V6.8H5.9C6.4 6.8 6.8 6.4 6.8 5.9C6.8 5.4 6.4 5 5.9 5H3.8V4.9C3.8 2.92 3.92 2.8 5.9 2.8H11.9C13.88 2.8 14 2.92 14 4.9V8H13.9C10.91 8 10 8.91 10 11.9Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default ShoppingIcon;

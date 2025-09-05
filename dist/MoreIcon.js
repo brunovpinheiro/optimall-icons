@@ -1,8 +1,28 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const MoreIcon = forwardRef(({
+export const MoreIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "more"} ref={ref} {...props}><path fill="currentColor" d="M12 4.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zM10.742 12c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m-.008 6c0-.69.56-1.25 1.25-1.25h.01a1.25 1.25 0 0 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "more",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M12 4.75C11.3096 4.75 10.75 5.30964 10.75 6C10.75 6.69036 11.3096 7.25 12 7.25H12.009C12.6994 7.25 13.259 6.69036 13.259 6C13.259 5.30964 12.6994 4.75 12.009 4.75H12Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.7422 12C10.7422 11.3096 11.3018 10.75 11.9922 10.75H12.0012C12.6915 10.75 13.2512 11.3096 13.2512 12C13.2512 12.6904 12.6915 13.25 12.0012 13.25H11.9922C11.3018 13.25 10.7422 12.6904 10.7422 12Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.7344 18C10.7344 17.3096 11.294 16.75 11.9844 16.75H11.9934C12.6837 16.75 13.2434 17.3096 13.2434 18C13.2434 18.6904 12.6837 19.25 11.9934 19.25H11.9844C11.294 19.25 10.7344 18.6904 10.7344 18Z",
+  fill: "currentColor"
+})));
 export default MoreIcon;

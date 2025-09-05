@@ -1,8 +1,24 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const RefreshIcon = forwardRef(({
+export const RefreshIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "refresh"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M1.1 12C1.1 5.98 5.98 1.1 12 1.1c2.72 0 5.2.99 7.11 2.64V2c0-.5.4-.9.9-.9s.9.4.9.9v3.13c0 1.13-1.4 1.64-2.13.79A9.07 9.07 0 0 0 12 2.89C6.97 2.9 2.9 6.97 2.9 12s4.07 9.1 9.1 9.1 9.1-4.07 9.1-9.1c0-.5.4-.9.9-.9s.9.4.9.9c0 6.02-4.88 10.9-10.9 10.9S1.1 18.02 1.1 12" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "refresh",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M1.09961 12C1.09961 5.98001 5.97961 1.10001 11.9996 1.10001C14.7196 1.10001 17.1996 2.09001 19.1096 3.74001V2.00001C19.1096 1.50001 19.5096 1.10001 20.0096 1.10001C20.5096 1.10001 20.9096 1.50001 20.9096 2.00001V5.13001C20.9096 6.26001 19.5096 6.77001 18.7796 5.92001C17.1096 4.06001 14.6996 2.89001 11.9996 2.89001C6.96961 2.90001 2.89961 6.97001 2.89961 12C2.89961 17.03 6.96961 21.1 11.9996 21.1C17.0296 21.1 21.0996 17.03 21.0996 12C21.0996 11.5 21.4996 11.1 21.9996 11.1C22.4996 11.1 22.8996 11.5 22.8996 12C22.8996 18.02 18.0196 22.9 11.9996 22.9C5.97961 22.9 1.09961 18.02 1.09961 12Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default RefreshIcon;

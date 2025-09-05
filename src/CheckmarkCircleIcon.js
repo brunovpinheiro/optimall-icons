@@ -1,8 +1,27 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const CheckmarkCircleIcon = forwardRef(({
+export const CheckmarkCircleIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "checkmark, circle"} ref={ref} {...props}><path fill="currentColor" d="M9.76 15.54c.17.17.4.26.64.26l-.01-.01h.02c.24 0 .47-.11.64-.29l5.5-6c.34-.36.32-.93-.05-1.27a.9.9 0 0 0-1.27.06l-4.87 5.31-1.83-1.83a.9.9 0 0 0-1.27 0 .9.9 0 0 0 0 1.27z" /><path fill="currentColor" fillRule="evenodd" d="M1 11.9c0 6.01 4.89 10.9 10.9 10.9s10.9-4.89 10.9-10.9S17.91 1 11.9 1 1 5.89 1 11.9m1.8 0c0-5.02 4.08-9.1 9.1-9.1S21 6.88 21 11.9 16.92 21 11.9 21s-9.1-4.08-9.1-9.1" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "checkmark, circle",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M9.76 15.54C9.93 15.71 10.16 15.8 10.4 15.8L10.39 15.79H10.41C10.65 15.79 10.88 15.68 11.05 15.5L16.55 9.5C16.89 9.14 16.87 8.57 16.5 8.23C16.14 7.9 15.56 7.92 15.23 8.29L10.36 13.6L8.53 11.77C8.18 11.42 7.61 11.42 7.26 11.77C6.91 12.12 6.91 12.69 7.26 13.04L9.76 15.54Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M1 11.9C1 17.91 5.89 22.8 11.9 22.8C17.91 22.8 22.8 17.91 22.8 11.9C22.8 5.89 17.91 1 11.9 1C5.89 1 1 5.89 1 11.9ZM2.8 11.9C2.8 6.88 6.88 2.8 11.9 2.8C16.92 2.8 21 6.88 21 11.9C21 16.92 16.92 21 11.9 21C6.88 21 2.8 16.92 2.8 11.9Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default CheckmarkCircleIcon;

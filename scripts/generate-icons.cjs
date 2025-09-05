@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 /* eslint-disable */
-const { transform } = require("@svgr/core");
 const fs = require("fs");
 const path = require("path");
 const fg = require("fast-glob");
@@ -23,6 +22,77 @@ function toAriaLabel(fileName) {
 	return noExt.replace(/[-_]+/g, ", ");
 }
 
+function parseSVG(svgContent) {
+	// Extract viewBox
+	const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
+	const viewBox = viewBoxMatch ? viewBoxMatch[1] : "0 0 24 24";
+
+	// Extract paths
+	const pathMatches = svgContent.match(/<path[^>]*>/g) || [];
+	const paths = pathMatches.map((pathTag) => {
+		const dMatch = pathTag.match(/d="([^"]+)"/);
+		const fillMatch = pathTag.match(/fill="([^"]+)"/);
+		const strokeMatch = pathTag.match(/stroke="([^"]+)"/);
+		const strokeWidthMatch = pathTag.match(/stroke-width="([^"]+)"/);
+		const strokeLinecapMatch = pathTag.match(/stroke-linecap="([^"]+)"/);
+		const strokeLinejoinMatch = pathTag.match(/stroke-linejoin="([^"]+)"/);
+		const fillRuleMatch = pathTag.match(/fill-rule="([^"]+)"/);
+		const clipRuleMatch = pathTag.match(/clip-rule="([^"]+)"/);
+
+		const attrs = {};
+		if (dMatch) attrs.d = dMatch[1];
+		if (fillMatch && fillMatch[1] !== "none") {
+			attrs.fill = fillMatch[1] === "#181D27" || fillMatch[1] === "#000" || fillMatch[1] === "#000000" || fillMatch[1] === "black" ? "currentColor" : fillMatch[1];
+		}
+		if (strokeMatch) {
+			attrs.stroke = strokeMatch[1] === "#181D27" || strokeMatch[1] === "#000" || strokeMatch[1] === "#000000" || strokeMatch[1] === "black" ? "currentColor" : strokeMatch[1];
+		}
+		if (strokeWidthMatch) attrs.strokeWidth = strokeWidthMatch[1];
+		if (strokeLinecapMatch) attrs.strokeLinecap = strokeLinecapMatch[1];
+		if (strokeLinejoinMatch) attrs.strokeLinejoin = strokeLinejoinMatch[1];
+		if (fillRuleMatch) attrs.fillRule = fillRuleMatch[1];
+		if (clipRuleMatch) attrs.clipRule = clipRuleMatch[1];
+
+		return attrs;
+	});
+
+	return { viewBox, paths };
+}
+
+function generateReactComponent(componentName, ariaDefault, svgData) {
+	const { viewBox, paths } = svgData;
+
+	// Generate path elements
+	const pathElements = paths
+		.map((pathAttrs) => {
+			const attrs = Object.entries(pathAttrs)
+				.map(([key, value]) => `${key}: "${value}"`)
+				.join(",\n  ");
+			return `/*#__PURE__*/React.createElement("path", {\n  ${attrs}\n})`;
+		})
+		.join(", ");
+
+	return `function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import React, { forwardRef } from 'react';
+export const ${componentName} = /*#__PURE__*/forwardRef(({
+  className,
+  style,
+  ariaLabel,
+  ...props
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "${ariaDefault}",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "${viewBox}",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), ${pathElements}));
+export default ${componentName};`;
+}
+
 async function build() {
 	if (!fs.existsSync(SVG_INPUT_DIR)) {
 		fs.mkdirSync(SVG_INPUT_DIR, { recursive: true });
@@ -37,57 +107,10 @@ async function build() {
 		const fileName = path.basename(filePath);
 		const componentName = toComponentName(fileName);
 		const ariaDefault = toAriaLabel(fileName);
-		const svgCode = fs.readFileSync(filePath, "utf8");
+		const svgContent = fs.readFileSync(filePath, "utf8");
 
-		const code = await transform(
-			svgCode,
-			{
-				icon: true,
-				typescript: false,
-				ref: true,
-				expandProps: "end",
-				plugins: [require("@svgr/plugin-svgo"), require("@svgr/plugin-jsx")],
-				svgoConfig: {
-					multipass: true,
-					plugins: [
-						{ name: "preset-default", params: { overrides: { removeViewBox: false } } },
-						{ name: "convertColors", params: { currentColor: true } },
-					],
-				},
-				jsxRuntime: "classic",
-				template: (variables, { tpl }) => {
-					const name = variables.componentName && variables.componentName.name ? variables.componentName.name : String(variables.componentName || "Icon");
-					const jsx = variables.jsx;
-					return tpl`
-import React, { forwardRef } from 'react';
-
-export const ${name} = forwardRef(({ className, style, ariaLabel, ...props }, ref) => (
-  ${jsx}
-));
-
-export default ${name};
-`;
-				},
-				replaceAttrValues: {
-					"#000": "currentColor",
-					"#000000": "currentColor",
-					black: "currentColor",
-				},
-				svgProps: {
-					xmlns: "http://www.w3.org/2000/svg",
-					width: "20",
-					height: "20",
-					viewBox: "0 0 20 20",
-					className: "{className}",
-					style: "{style}",
-					"aria-label": `{ariaLabel || "${ariaDefault}"}`,
-					fill: "none",
-				},
-				memo: false,
-				prettier: true,
-			},
-			{ componentName }
-		);
+		const svgData = parseSVG(svgContent);
+		const code = generateReactComponent(componentName, ariaDefault, svgData);
 
 		const outFile = path.join(OUT_DIR, `${componentName}.js`);
 		fs.writeFileSync(outFile, code, "utf8");

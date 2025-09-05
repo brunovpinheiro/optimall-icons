@@ -1,8 +1,24 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const FolderIcon = forwardRef(({
+export const FolderIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "folder"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M13.15 21.8H11.9c-4.96 0-7.44 0-9.17-1.73S1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4c.35-.63.87-1.15 1.51-1.51C3.89 2 4.88 2 6.84 2c1.23 0 1.91 0 2.57.25 1.44.54 2.05 1.76 2.58 2.83l.46.92h4.19c2.29 0 3.43 0 4.42.66.42.28.79.64 1.07 1.07.66.99.66 2.13.66 4.42 0 3.69 0 5.54-.99 7.03-.43.65-.98 1.2-1.63 1.63-1.49 1-3.34 1-7.03 1zm-6.31-18c-1.61 0-2.49 0-2.97.27-.34.19-.62.47-.81.81-.27.48-.27 1.36-.27 2.97v3.06c0 4.46 0 6.7 1.2 7.9s3.44 1.2 7.9 1.2h1.25c3.32 0 4.99 0 6.03-.69.45-.3.83-.68 1.13-1.13.69-1.03.69-2.7.69-6.03 0-1.86 0-2.89-.35-3.42-.15-.23-.35-.43-.58-.58-.53-.36-1.56-.36-3.42-.36H7.89c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.54l-.06-.12c-.51-1.03-.86-1.67-1.6-1.95-.36-.13-.89-.13-1.94-.13z" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "folder",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M13.15 21.8H11.9C6.94 21.8 4.46 21.8 2.73 20.07C1 18.34 1 15.86 1 10.9V7.84C1 5.87 1 4.88 1.49 4C1.84 3.37 2.36 2.85 3 2.49C3.89 2 4.88 2 6.84 2C8.07 2 8.75 2 9.41 2.25C10.85 2.79 11.46 4.01 11.99 5.08L12.45 6H16.64C18.93 6 20.07 6 21.06 6.66C21.48 6.94 21.85 7.3 22.13 7.73C22.79 8.72 22.79 9.86 22.79 12.15C22.79 15.84 22.79 17.69 21.8 19.18C21.37 19.83 20.82 20.38 20.17 20.81C18.68 21.81 16.83 21.81 13.14 21.81L13.15 21.8ZM6.84 3.8C5.23 3.8 4.35 3.8 3.87 4.07C3.53 4.26 3.25 4.54 3.06 4.88C2.79 5.36 2.79 6.24 2.79 7.85V10.91C2.79 15.37 2.79 17.61 3.99 18.81C5.19 20.01 7.43 20.01 11.89 20.01H13.14C16.46 20.01 18.13 20.01 19.17 19.32C19.62 19.02 20 18.64 20.3 18.19C20.99 17.16 20.99 15.49 20.99 12.16C20.99 10.3 20.99 9.27 20.64 8.74C20.49 8.51 20.29 8.31 20.06 8.16C19.53 7.8 18.5 7.8 16.64 7.8H11.91C11.91 7.8 11.89 7.8 11.87 7.8H7.89C7.39 7.8 6.99 7.4 6.99 6.9C6.99 6.4 7.39 6 7.89 6H10.43L10.37 5.88C9.86 4.85 9.51 4.21 8.77 3.93C8.41 3.8 7.88 3.8 6.83 3.8H6.84Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default FolderIcon;

@@ -1,8 +1,25 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const AddPiIcon = forwardRef(({
+export const AddPiIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "add, pi"} ref={ref} {...props}><path fill="currentColor" d="M5 3.4a2.1 2.1 0 0 0-2.1 2.1v10c0 1.16.94 2.1 2.1 2.1h14a2.1 2.1 0 0 0 2.1-2.1v-3a.9.9 0 0 1 1.8 0v3a3.9 3.9 0 0 1-3.9 3.9h-6.1v2.1a.9.9 0 1 1-1.8 0v-2.1H5a3.9 3.9 0 0 1-3.9-3.9v-10A3.9 3.9 0 0 1 5 1.6h6a.9.9 0 1 1 0 1.8z" /><path fill="currentColor" d="M18.9 2.5a.9.9 0 1 0-1.8 0v3.1H14a.9.9 0 0 0 0 1.8h3.1v3.1a.9.9 0 0 0 1.8 0V7.4H22a.9.9 0 1 0 0-1.8h-3.1z" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "add, pi",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M4.99961 3.40001C3.83982 3.40001 2.89961 4.34021 2.89961 5.50001V15.5C2.89961 16.6598 3.83981 17.6 4.99961 17.6H18.9996C20.1595 17.6 21.0996 16.6598 21.0996 15.5V12.5C21.0996 12.0029 21.5026 11.6 21.9996 11.6C22.4967 11.6 22.8996 12.0029 22.8996 12.5V15.5C22.8996 17.654 21.1536 19.4 18.9996 19.4H12.8996V21.5C12.8996 21.9971 12.4967 22.4 11.9996 22.4C11.5026 22.4 11.0996 21.9971 11.0996 21.5V19.4H4.99961C2.84571 19.4 1.09961 17.654 1.09961 15.5V5.50001C1.09961 3.3461 2.8457 1.60001 4.99961 1.60001H10.9996C11.4967 1.60001 11.8996 2.00295 11.8996 2.50001C11.8996 2.99706 11.4967 3.40001 10.9996 3.40001H4.99961Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M18.8996 2.50001C18.8996 2.00295 18.4967 1.60001 17.9996 1.60001C17.5026 1.60001 17.0996 2.00295 17.0996 2.50001V5.60001H13.9996C13.5026 5.60001 13.0996 6.00295 13.0996 6.50001C13.0996 6.99706 13.5026 7.40001 13.9996 7.40001H17.0996V10.5C17.0996 10.9971 17.5026 11.4 17.9996 11.4C18.4967 11.4 18.8996 10.9971 18.8996 10.5V7.40001H21.9996C22.4967 7.40001 22.8996 6.99706 22.8996 6.50001C22.8996 6.00295 22.4967 5.60001 21.9996 5.60001H18.8996V2.50001Z",
+  fill: "currentColor"
+})));
 export default AddPiIcon;

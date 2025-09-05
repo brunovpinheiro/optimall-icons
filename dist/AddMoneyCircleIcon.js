@@ -1,8 +1,28 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const AddMoneyCircleIcon = forwardRef(({
+export const AddMoneyCircleIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "add, money, circle"} ref={ref} {...props}><path fill="currentColor" d="M10.9 18.8c-.5 0-.9-.4-.9-.9v-.6h-.6c-1.32 0-2.4-1.08-2.4-2.4 0-.5.4-.9.9-.9s.9.4.9.9c0 .33.27.6.6.6h3c.33 0 .6-.27.6-.6v-.5c0-.33-.27-.6-.6-.6h-3c-1.32 0-2.4-1.08-2.4-2.4v-.5c0-1.32 1.08-2.4 2.4-2.4h.6v-.6c0-.5.4-.9.9-.9s.9.4.9.9v.6h.6c1.32 0 2.4 1.08 2.4 2.4 0 .5-.4.9-.9.9s-.9-.4-.9-.9c0-.33-.27-.6-.6-.6h-3c-.33 0-.6.27-.6.6v.5c0 .33.27.6.6.6h3c1.32 0 2.4 1.08 2.4 2.4v.5c0 1.32-1.08 2.4-2.4 2.4h-.6v.6c0 .5-.4.9-.9.9" /><path fill="currentColor" d="M10.9 22.8c-5.46 0-9.9-4.44-9.9-9.9S5.44 3 10.9 3a10 10 0 0 1 1.1.06c.49.06.85.5.79.99s-.49.85-.99.79c-.3-.03-.6-.05-.9-.05-4.47.01-8.1 3.64-8.1 8.11S6.43 21 10.9 21a8.104 8.104 0 0 0 8.05-9c-.05-.49.3-.94.8-.99.48-.06.94.3.99.8.04.36.06.73.06 1.1 0 5.46-4.44 9.9-9.9 9.9z" /><path fill="currentColor" d="M18.4 9.8c-.5 0-.9-.4-.9-.9V6.3h-2.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9h2.6V1.9c0-.5.4-.9.9-.9s.9.4.9.9v2.6h2.6c.5 0 .9.4.9.9s-.4.9-.9.9h-2.6v2.6c0 .5-.4.9-.9.9" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "add, money, circle",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M10.9 18.8C10.4 18.8 10 18.4 10 17.9V17.3H9.4C8.08 17.3 7 16.22 7 14.9C7 14.4 7.4 14 7.9 14C8.4 14 8.8 14.4 8.8 14.9C8.8 15.23 9.07 15.5 9.4 15.5H12.4C12.73 15.5 13 15.23 13 14.9V14.4C13 14.07 12.73 13.8 12.4 13.8H9.4C8.08 13.8 7 12.72 7 11.4V10.9C7 9.58 8.08 8.5 9.4 8.5H10V7.9C10 7.4 10.4 7 10.9 7C11.4 7 11.8 7.4 11.8 7.9V8.5H12.4C13.72 8.5 14.8 9.58 14.8 10.9C14.8 11.4 14.4 11.8 13.9 11.8C13.4 11.8 13 11.4 13 10.9C13 10.57 12.73 10.3 12.4 10.3H9.4C9.07 10.3 8.8 10.57 8.8 10.9V11.4C8.8 11.73 9.07 12 9.4 12H12.4C13.72 12 14.8 13.08 14.8 14.4V14.9C14.8 16.22 13.72 17.3 12.4 17.3H11.8V17.9C11.8 18.4 11.4 18.8 10.9 18.8Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M10.9 22.8C5.44 22.8 1 18.36 1 12.9C1 7.44 5.44 3 10.9 3C11.27 3 11.64 3.02 12 3.06C12.49 3.12 12.85 3.56 12.79 4.05C12.73 4.54 12.3 4.9 11.8 4.84C11.5 4.81 11.2 4.79 10.9 4.79C6.43 4.8 2.8 8.43 2.8 12.9C2.8 17.37 6.43 21 10.9 21C15.37 21 19 17.37 19 12.9C19 12.6 18.98 12.29 18.95 12C18.9 11.51 19.25 11.06 19.75 11.01C20.23 10.95 20.69 11.31 20.74 11.81C20.78 12.17 20.8 12.54 20.8 12.91C20.8 18.37 16.36 22.81 10.9 22.81V22.8Z",
+  fill: "currentColor"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M18.4 9.8C17.9 9.8 17.5 9.4 17.5 8.9V6.3H14.9C14.4 6.3 14 5.9 14 5.4C14 4.9 14.4 4.5 14.9 4.5H17.5V1.9C17.5 1.4 17.9 1 18.4 1C18.9 1 19.3 1.4 19.3 1.9V4.5H21.9C22.4 4.5 22.8 4.9 22.8 5.4C22.8 5.9 22.4 6.3 21.9 6.3H19.3V8.9C19.3 9.4 18.9 9.8 18.4 9.8Z",
+  fill: "currentColor"
+})));
 export default AddMoneyCircleIcon;

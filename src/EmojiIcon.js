@@ -1,8 +1,34 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const EmojiIcon = forwardRef(({
+export const EmojiIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "emoji"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M12 2.9a9.1 9.1 0 1 0 0 18.2 9.1 9.1 0 0 0 0-18.2M1.1 12C1.1 5.98 5.98 1.1 12 1.1S22.9 5.98 22.9 12 18.02 22.9 12 22.9 1.1 18.02 1.1 12" clipRule="evenodd" /><path fill="currentColor" fillRule="evenodd" d="M16.54 14.28a.9.9 0 0 1 .18 1.26A5.9 5.9 0 0 1 12 17.9a5.9 5.9 0 0 1-4.72-2.36.9.9 0 1 1 1.44-1.08c.749.997 1.939 1.64 3.28 1.64s2.53-.643 3.28-1.64a.9.9 0 0 1 1.26-.18M6.75 9c0-.69.56-1.25 1.25-1.25h.009a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25m7.99 0c0-.69.56-1.25 1.25-1.25H16a1.25 1.25 0 1 1 0 2.5h-.01c-.69 0-1.25-.56-1.25-1.25" clipRule="evenodd" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "emoji",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M11.9996 2.90001C6.97382 2.90001 2.89961 6.97421 2.89961 12C2.89961 17.0258 6.97382 21.1 11.9996 21.1C17.0254 21.1 21.0996 17.0258 21.0996 12C21.0996 6.97421 17.0254 2.90001 11.9996 2.90001ZM1.09961 12C1.09961 5.9801 5.9797 1.10001 11.9996 1.10001C18.0195 1.10001 22.8996 5.9801 22.8996 12C22.8996 18.0199 18.0195 22.9 11.9996 22.9C5.9797 22.9 1.09961 18.0199 1.09961 12Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M16.5401 14.2804C16.9375 14.5789 17.0177 15.1431 16.7192 15.5405C15.6445 16.9715 13.9304 17.9 11.9996 17.9C10.0688 17.9 8.35475 16.9715 7.27998 15.5405C6.98147 15.1431 7.06167 14.5789 7.45911 14.2804C7.85655 13.9819 8.42072 14.0621 8.71923 14.4595C9.46871 15.4574 10.659 16.1 11.9996 16.1C13.3402 16.1 14.5305 15.4574 15.28 14.4595C15.5785 14.0621 16.1427 13.9819 16.5401 14.2804Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M6.74961 9.00001C6.74961 8.30965 7.30925 7.75001 7.99961 7.75001H8.00858C8.69894 7.75001 9.25858 8.30965 9.25858 9.00001C9.25858 9.69036 8.69894 10.25 8.00858 10.25H7.99961C7.30925 10.25 6.74961 9.69036 6.74961 9.00001ZM14.7406 9.00001C14.7406 8.30965 15.3003 7.75001 15.9906 7.75001H15.9996C16.69 7.75001 17.2496 8.30965 17.2496 9.00001C17.2496 9.69036 16.69 10.25 15.9996 10.25H15.9906C15.3003 10.25 14.7406 9.69036 14.7406 9.00001Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+})));
 export default EmojiIcon;

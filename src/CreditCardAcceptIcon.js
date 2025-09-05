@@ -1,8 +1,27 @@
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 import React, { forwardRef } from 'react';
-export const CreditCardAcceptIcon = forwardRef(({
+export const CreditCardAcceptIcon = /*#__PURE__*/forwardRef(({
   className,
   style,
   ariaLabel,
   ...props
-}, ref) => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20" className={className} style={style} aria-label={ariaLabel || "credit, card, accept"} ref={ref} {...props}><path fill="currentColor" fillRule="evenodd" d="M10.9 20.8h-.5c-3.96 0-5.95 0-7.45-1.19-.24-.19-.46-.4-.67-.63C1 17.54 1 15.65 1 11.89s0-5.64 1.28-7.08c.2-.23.43-.44.67-.63C4.45 3 6.44 3 10.4 3h3c3.96 0 5.95 0 7.45 1.19.24.19.46.4.67.63 1.2 1.35 1.27 3.19 1.28 6.08 0 .5-.4.9-.9.9s-.9-.4-.9-.9q0-.59-.007-1.1H2.82c-.011.617-.011 1.316-.011 2.11 0 3.31 0 4.96.82 5.89.13.15.28.29.44.41 1.01.8 2.79.8 6.34.8h.5c.5 0 .9.4.9.9s-.4.9-.9.9zM2.92 8h17.977c-.106-.92-.314-1.537-.717-1.99-.13-.15-.28-.29-.44-.41-1.01-.8-2.79-.8-6.34-.8h-3c-3.55 0-5.33 0-6.33.8-.16.13-.31.27-.44.42-.4.449-.605 1.074-.71 1.98" clipRule="evenodd" /><path fill="currentColor" d="M15.85 20.8h.05l-.01-.01c.31 0 .59-.16.76-.42.84-1.31 3.47-4.9 5.54-5.63.47-.17.72-.68.55-1.15a.9.9 0 0 0-1.15-.55c-2.23.79-4.5 3.58-5.67 5.21-.94-1.18-1.83-1.26-2.03-1.26-.5 0-.94.4-.94.9s.36.9.86.9c.01 0 .6.14 1.28 1.51.15.29.44.48.76.5" /></svg>);
+}, ref) => /*#__PURE__*/React.createElement("svg", _extends({
+  ref: ref,
+  className: className,
+  "aria-label": ariaLabel || "credit, card, accept",
+  style: style,
+  width: "20",
+  height: "20",
+  viewBox: "0 0 24 24",
+  fill: "none",
+  xmlns: "http://www.w3.org/2000/svg"
+}, props), /*#__PURE__*/React.createElement("path", {
+  d: "M10.9 20.8H10.4C6.44001 20.8 4.45 20.8 2.95 19.61C2.71 19.42 2.49 19.21 2.28 18.98C1 17.54 1 15.65 1 11.89C1 8.13 1 6.25 2.28 4.81C2.48 4.58 2.71 4.37 2.95 4.18C4.45 3 6.44 3 10.4 3H13.4C17.36 3 19.35 3 20.85 4.19C21.09 4.38 21.31 4.59 21.52 4.82C22.72 6.17 22.79 8.01 22.8 10.9C22.8 11.4 22.4 11.8 21.9 11.8C21.4 11.8 21 11.4 21 10.9C21 10.5056 20.9981 10.1397 20.9926 9.8H2.82132C2.81 10.4167 2.81 11.1159 2.81 11.91C2.81 15.22 2.81 16.87 3.63 17.8C3.76 17.95 3.91 18.09 4.07 18.21C5.08 19.01 6.86 19.01 10.41 19.01H10.91C11.41 19.01 11.81 19.41 11.81 19.91C11.81 20.41 11.41 20.81 10.91 20.81L10.9 20.8ZM2.92021 8H20.8966C20.7912 7.08082 20.5833 6.463 20.18 6.01C20.05 5.86 19.9 5.72 19.74 5.6C18.73 4.8 16.95 4.8 13.4 4.8H10.4C6.85 4.8 5.07 4.8 4.07 5.6C3.91 5.73 3.76 5.87 3.63 6.02C3.23003 6.46874 3.02516 7.09354 2.92021 8Z",
+  fill: "currentColor",
+  fillRule: "evenodd",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React.createElement("path", {
+  d: "M15.85 20.8H15.9L15.89 20.79C16.2 20.79 16.48 20.63 16.65 20.37C17.49 19.06 20.12 15.47 22.19 14.74C22.66 14.57 22.91 14.06 22.74 13.59C22.57 13.12 22.06 12.87 21.59 13.04C19.36 13.83 17.09 16.62 15.92 18.25C14.98 17.07 14.09 16.99 13.89 16.99C13.39 16.99 12.95 17.39 12.95 17.89C12.95 18.39 13.31 18.79 13.81 18.79C13.82 18.79 14.41 18.93 15.09 20.3C15.24 20.59 15.53 20.78 15.85 20.8Z",
+  fill: "currentColor"
+})));
 export default CreditCardAcceptIcon;
