@@ -32,10 +32,6 @@
 			"@babel/preset-react"
 		]
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/brunovpinheiro/optimall-icons.git"
-	},
 	"homepage": "https://www.podiapp.com.br/",
 	"keywords": [
 		"icons",
