@@ -1,6 +1,6 @@
 {
 	"name": "optimall-icons",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Biblioteca de ícones do Optimall",
 	"main": "dist/index.js",
 	"files": [
